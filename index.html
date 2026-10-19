@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f4f6ef">
+	<title>Characteristics of living organisms | Biology quiz</title>
+	<style>
+		:root {
+			color-scheme: light;
+			--ink: #193b34;
+			--muted: #61766c;
+			--green: #1e654f;
+			--green-dark: #174a3b;
+			--paper: #f4f6ef;
+			--line: #dce4d8;
+			--white: #fffefa;
+			--red-pale: #fff0ed;
+			--green-pale: #eaf4e8;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			min-height: 100vh;
+			margin: 0;
+			color: var(--ink);
+			background:
+				radial-gradient(ellipse at 93% 8%, rgba(216, 233, 120, .28), transparent 26rem),
+				linear-gradient(135deg, #f4f6ef 0%, #edf2e8 100%);
+			font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+		}
+
+		.page {
+			width: min(100% - 40px, 1320px);
+			margin: 0 auto;
+			padding: 30px 0 48px;
+		}
+
+		.topbar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 20px;
+			padding-bottom: 22px;
+			border-bottom: 1px solid rgba(25, 59, 52, .15);
+		}
+
+		.brand {
+			display: flex;
+			align-items: center;
+			gap: 11px;
+			font-size: 14px;
+			font-weight: 750;
+		}
+
+		.brand-mark {
+			display: grid;
+			width: 34px;
+			height: 34px;
+			place-items: center;
+			border-radius: 10px;
+			color: var(--white);
+			background: var(--green);
+		}
+
+		.brand-mark svg { width: 20px; height: 20px; }
+
+		.topic {
+			color: var(--muted);
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: .08em;
+			text-transform: uppercase;
+		}
+
+		main {
+			padding: clamp(36px, 7vh, 68px) 0 0;
+		}
+
+		.quiz-layout {
+			display: grid;
+			grid-template-columns: 136px minmax(0, 1fr);
+			gap: clamp(18px, 2.5vw, 32px);
+			align-items: start;
+		}
+
+		.question-navigator {
+			position: sticky;
+			top: 24px;
+			padding-right: 10px;
+			border-right: 1px solid var(--line);
+		}
+
+		.question-nav-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+
+		.question-nav-item {
+			display: grid;
+			width: 100%;
+			min-height: 54px;
+			place-items: center;
+			padding: 7px;
+			border: 1px solid transparent;
+			border-radius: 6px;
+			color: var(--ink);
+			background: transparent;
+			text-align: center;
+			font-size: 13px;
+		}
+
+		.question-nav-item:not(:disabled):hover { border-color: var(--line); color: var(--ink); background: rgba(255, 254, 250, .7); transform: none; }
+		.question-nav-item[aria-current="step"] { border-color: #bdd0be; background: #eaf2e7; }
+		.question-nav-item.is-correct { border-color: #c6dfc9; background: #eaf4e8; }
+		.question-nav-item.is-wrong { border-color: #e8c4be; background: #fff0ed; }
+		.question-nav-number { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 6px; color: var(--green-dark); background: #e9eee1; font-weight: 800; }
+		.question-nav-item[aria-current="step"] .question-nav-number { color: white; background: var(--green); }
+		.question-nav-item.is-correct .question-nav-number { color: white; background: #24563c; }
+		.question-nav-item.is-wrong .question-nav-number { color: white; background: #a63d38; }
+		.quiz-layout.navigator-hidden { grid-template-columns: minmax(0, 1fr); }
+		.quiz-layout.navigator-hidden .question-navigator { display: none; }
+
+		.quiz {
+			width: 100%;
+			font-size: calc(16px * var(--quiz-scale, 1));
+		}
+
+		.question-meta {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 16px;
+			margin-bottom: 14px;
+			color: var(--muted);
+			font-size: .8125em;
+			font-weight: 700;
+		}
+
+		.panel-toggle {
+			min-height: 34px;
+			margin-left: auto;
+			padding: 0 10px;
+			border: 1px solid var(--line);
+			color: var(--green-dark);
+			background: var(--white);
+			font-size: .9em;
+			white-space: nowrap;
+		}
+
+		.panel-toggle:not(:disabled):hover { color: white; background: var(--green-dark); }
+
+		.question-context:empty { display: none; }
+
+		.comparison-table {
+			width: 100%;
+			margin: 0 0 24px;
+			border-collapse: collapse;
+			background: rgba(255, 254, 250, .72);
+			font-size: .9em;
+			text-align: center;
+			table-layout: fixed;
+		}
+
+		.comparison-table caption {
+			padding: 0 0 9px;
+			color: var(--muted);
+			text-align: left;
+		}
+
+		.comparison-table th,
+		.comparison-table td {
+			padding: 9px 7px;
+			border: 1px solid var(--line);
+			overflow-wrap: anywhere;
+		}
+
+		.comparison-table thead th { color: var(--ink); font-weight: 700; }
+		.comparison-table th:first-child { width: 54px; }
+		.comparison-table tbody th { color: var(--green-dark); }
+		.comparison-table.leg-count-table th:first-child { width: 34%; }
+		.comparison-table.statement-table th:first-child { width: 22%; }
+		.comparison-table.light-intensity-table th:first-child { width: 50%; }
+		.comparison-table.light-intensity-table th,
+		.comparison-table.light-intensity-table td { overflow-wrap: break-word; }
+		.key-table { text-align: left; }
+		.key-table th:first-child { width: 54px; }
+		.key-table td:last-child { text-align: right; white-space: nowrap; }
+		.table-key { margin: -14px 0 22px; color: var(--muted); font-size: .85em; }
+		.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+		.statement-list { display: grid; gap: 8px; margin: 0 0 20px; padding-left: 1.5em; }
+		.explanation-photo { margin: 16px 0; }
+		.explanation-photo img { display: block; width: min(100%, 700px); height: auto; border-radius: 6px; }
+		.explanation-photo figcaption { margin-top: 6px; color: var(--muted); font-size: .8em; }
+		.explanation-photo a { color: inherit; }
+		.plant-diagram { max-width: 700px; margin: 0 auto 18px; }
+		.plant-diagram svg { display: block; width: 100%; height: auto; }
+		.plant-diagram figcaption { margin-top: 5px; color: var(--muted); font-size: .8em; }
+		.translocation-flow { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.2fr) auto minmax(0, 1fr); gap: 10px; align-items: center; margin: 18px 0; }
+		.flow-step { display: grid; gap: 4px; min-width: 0; padding: 12px; border-top: 2px solid var(--green); background: rgba(255, 254, 250, .75); }
+		.flow-step span { color: var(--muted); font-size: .8em; }
+		.flow-arrow { color: var(--green); font-size: 1.5em; font-weight: 700; }
+		.interactive-graph { margin: 16px 0 20px; padding: 14px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 254, 250, .82); }
+		.rate-chart { display: block; width: 100%; height: auto; }
+		.rate-chart text { fill: var(--muted); font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; font-size: 13px; }
+		.rate-chart .axis-label { fill: var(--ink); font-size: 14px; font-weight: 700; }
+		.rate-chart .gridline { stroke: #dce4d8; stroke-width: 1; }
+		.rate-chart .axis { stroke: #61766c; stroke-width: 1.5; }
+		.rate-chart .curve { fill: none; stroke: #1e654f; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+		.rate-chart .data-point { fill: #fffefa; stroke: #1e654f; stroke-width: 3; }
+		.rate-chart .plateau-zone { fill: #eaf4e8; }
+		.rate-chart .plateau-label { fill: #24563c; font-weight: 700; }
+		.rate-chart .active-line { stroke: #a63d38; stroke-width: 2; stroke-dasharray: 5 5; }
+		.rate-chart .active-point { fill: #a63d38; stroke: white; stroke-width: 3; }
+		.enzyme-chart { max-width: 680px; margin: 10px auto 20px; }
+		.enzyme-chart svg { display: block; width: 100%; height: auto; }
+		.enzyme-chart text { fill: var(--ink); font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; font-size: 15px; }
+		.enzyme-chart .axis { stroke: #193b34; stroke-width: 2; }
+		.enzyme-chart .tick { stroke: #61766c; stroke-width: 1.5; }
+		.enzyme-chart .curve { fill: none; stroke: #1e654f; stroke-width: 4; stroke-linecap: round; }
+		.enzyme-chart .point-label { fill: #1e654f; font-weight: 800; }
+		.graph-controls { display: grid; gap: 8px; margin-top: 8px; }
+		.graph-controls label { color: var(--ink); font-size: .88em; font-weight: 700; }
+		.graph-controls input { width: 100%; accent-color: var(--green); }
+		.graph-output { display: block; min-height: 1.5em; color: var(--green-dark); font-size: .88em; font-weight: 750; }
+		.species-photo-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+		.species-photo { min-width: 0; margin: 0; }
+		.species-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; border-radius: 5px; background: var(--white); }
+		.species-photo figcaption { margin-top: 5px; color: var(--muted); font-size: .72em; line-height: 1.4; }
+		.species-photo a { color: inherit; }
+
+		.text-size-controls {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			gap: 8px;
+			margin: 14px 0 0;
+			color: var(--muted);
+			font-size: 13px;
+		}
+
+		.text-size-controls button {
+			min-width: 36px;
+			min-height: 34px;
+			padding: 0 9px;
+			border: 1px solid var(--line);
+			color: var(--green-dark);
+			background: var(--white);
+			font-size: 13px;
+		}
+
+		.text-size-controls button:not(:disabled):hover { color: white; background: var(--green-dark); }
+		.text-size-controls output { min-width: 42px; text-align: center; font-variant-numeric: tabular-nums; }
+
+		.progress-track {
+			height: 4px;
+			overflow: hidden;
+			border-radius: 5px;
+			background: #dfe7da;
+		}
+
+		.progress-value {
+			width: 100%;
+			height: 100%;
+			border-radius: inherit;
+			background: var(--green);
+		}
+
+		h2 {
+			margin: 30px 0 25px;
+			font-size: 1.65em;
+			font-weight: 650;
+			line-height: 1.4;
+		}
+
+		fieldset { margin: 0; padding: 0; border: 0; }
+		.answer-options { display: grid; gap: 10px; }
+		legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
+
+		.answer {
+			position: relative;
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			min-height: 62px;
+			padding: 11px 16px;
+			border: 1px solid var(--line);
+			border-radius: 8px;
+			background: rgba(255, 254, 250, .82);
+			cursor: pointer;
+			transition: border-color 150ms ease, background-color 150ms ease, transform 150ms ease;
+		}
+
+		.answer:hover { border-color: #8da99a; transform: translateY(-1px); }
+
+		.answer:has(input:checked) {
+			border-color: var(--green);
+			background: #edf4e9;
+			box-shadow: 0 0 0 1px var(--green);
+		}
+
+		.answer input {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			opacity: 0;
+		}
+
+		.answer:has(input:focus-visible) { outline: 3px solid #91a944; outline-offset: 3px; }
+
+		.letter {
+			display: grid;
+			flex: 0 0 32px;
+			width: 32px;
+			height: 32px;
+			place-items: center;
+			border-radius: 7px;
+			color: var(--green-dark);
+			background: #e9eee1;
+			font-size: .8125em;
+			font-weight: 800;
+		}
+
+		.answer-text { font-size: .9375em; font-weight: 600; }
+
+		.actions {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 16px;
+			margin-top: 20px;
+		}
+
+		button {
+			min-height: 46px;
+			padding: 0 21px;
+			border: 0;
+			border-radius: 7px;
+			color: white;
+			background: var(--green);
+			font: inherit;
+			font-size: .875em;
+			font-weight: 750;
+			cursor: pointer;
+			transition: background-color 150ms ease, transform 150ms ease;
+		}
+
+		button:not(:disabled):hover { background: var(--green-dark); transform: translateY(-1px); }
+		button:focus-visible { outline: 3px solid #91a944; outline-offset: 3px; }
+		button:disabled { color: #8c9a90; background: #e0e6dd; cursor: not-allowed; }
+
+		.hint { color: var(--muted); font-size: .75em; }
+
+		.feedback {
+			display: none;
+			margin-top: 18px;
+			padding: 18px;
+			border-radius: 7px;
+			font-size: .875em;
+			line-height: 1.55;
+		}
+
+		.feedback.visible { display: block; animation: appear 180ms ease-out; }
+		.feedback.correct { color: #24563c; background: var(--green-pale); }
+		.feedback.incorrect { color: #873a34; background: var(--red-pale); }
+		.feedback-title { display: block; margin-bottom: 8px; font-size: 1.14em; }
+		.feedback p { margin: 0 0 12px; }
+		.feedback .definition { color: var(--ink); }
+		.feedback h3 { margin: 17px 0 8px; color: var(--ink); font-size: .93em; }
+		.option-explanations { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+		.option-explanations li { padding: 7px 0; border-top: 1px solid rgba(25, 59, 52, .12); color: var(--ink); }
+		.option-explanations strong { display: inline; }
+		.exam-tip { margin: 15px 0 0 !important; padding-top: 12px; border-top: 1px solid rgba(25, 59, 52, .18); color: var(--ink); }
+		.relationship { margin-top: 8px !important; font-weight: 800; }
+
+		@keyframes appear {
+			from { opacity: 0; transform: translateY(5px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+
+		@media (max-width: 680px) {
+			.page { width: min(100% - 32px, 520px); padding-top: 20px; }
+			.topbar { padding-bottom: 17px; }
+			.topic { max-width: 130px; text-align: right; line-height: 1.4; }
+			main { padding-top: 36px; }
+			.quiz-layout { grid-template-columns: 1fr; gap: 22px; }
+			.species-photo-grid { grid-template-columns: 1fr; }
+			.species-photo img { aspect-ratio: 16 / 9; }
+			.question-navigator { position: static; padding: 0 0 14px; border-right: 0; border-bottom: 1px solid var(--line); }
+			.question-nav-list { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
+			.question-nav-item { min-height: 46px; padding: 4px 2px; }
+			.question-nav-number { width: 24px; height: 24px; }
+			.translocation-flow { grid-template-columns: 1fr; gap: 6px; }
+			.flow-arrow { transform: rotate(90deg); justify-self: center; }
+			h2 { margin-top: 24px; }
+			.quiz h2 { font-size: 1.3125em; }
+		}
+
+		@media (prefers-reduced-motion: reduce) {
+			*, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<header class="topbar">
+			<div class="brand">
+				<span class="brand-mark" aria-hidden="true">
+					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M19.5 4.5C12.1 4.7 6 6.2 5 11.1c-.6 2.8 1.4 4.7 4 4.2 4.4-.9 7.4-5.8 10.5-10.8Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M4 20c2.5-5 5.7-7.6 10.3-9.7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+					</svg>
+				</span>
+				<span>Fieldnotes Biology</span>
+			</div>
+			<span class="topic">IGCSE · Living organisms</span>
+		</header>
+
+		<main>
+			<div class="quiz-layout" id="quiz-layout">
+				<aside class="question-navigator" id="question-navigator" aria-label="Question navigator">
+					<nav aria-label="Quiz questions">
+						<div class="question-nav-list" id="question-nav-list"></div>
+					</nav>
+				</aside>
+
+				<section class="quiz" aria-labelledby="question-title">
+				<div class="question-meta">
+					<span id="question-count">Question 1 of 9</span>
+					<span>Choose one answer</span>
+					<button class="panel-toggle" id="toggle-navigator" type="button" aria-controls="question-navigator" aria-expanded="true">Hide questions</button>
+				</div>
+				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="9" aria-valuenow="1">
+					<div class="progress-value" id="progress-value" style="width: 11.11%"></div>
+				</div>
+				<div class="text-size-controls" role="group" aria-label="Quiz text size">
+					<span>Text size</span>
+					<button id="decrease-text" type="button" aria-label="Decrease quiz text size">A−</button>
+					<output id="text-size-value" aria-live="polite">100%</output>
+					<button id="increase-text" type="button" aria-label="Increase quiz text size">A+</button>
+					<button id="reset-text" type="button">Reset</button>
+				</div>
+
+				<h2 id="question-title" tabindex="-1"></h2>
+				<div id="question-context" class="question-context"></div>
+
+				<form id="quiz-form">
+					<fieldset>
+						<legend id="question-legend"></legend>
+						<div id="answer-options" class="answer-options"></div>
+					</fieldset>
+
+					<div class="actions">
+						<button id="check-button" type="submit" disabled>Check answer</button>
+						<span class="hint" id="selection-hint">Select an option to continue</span>
+						<button id="next-question-button" type="button" hidden>Next question</button>
+					</div>
+					<div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+				</form>
+				</section>
+			</div>
+		</main>
+	</div>
+
+	<script>
+		const form = document.querySelector("#quiz-form");
+		const checkButton = document.querySelector("#check-button");
+		const selectionHint = document.querySelector("#selection-hint");
+		const feedback = document.querySelector("#feedback");
+		const quiz = document.querySelector(".quiz");
+		const questionCount = document.querySelector("#question-count");
+		const quizLayout = document.querySelector("#quiz-layout");
+		const questionNavList = document.querySelector("#question-nav-list");
+		const navigatorToggle = document.querySelector("#toggle-navigator");
+		const progressTrack = document.querySelector("#progress-track");
+		const progressValue = document.querySelector("#progress-value");
+		const questionTitle = document.querySelector("#question-title");
+		const questionContext = document.querySelector("#question-context");
+		const questionLegend = document.querySelector("#question-legend");
+		const answerOptions = document.querySelector("#answer-options");
+		const nextQuestionButton = document.querySelector("#next-question-button");
+		const graphMeasurements = [
+			{ intensity: 1, oxygen: 2.5, x: 135, y: 234 },
+			{ intensity: 4, oxygen: 7, x: 277, y: 126 },
+			{ intensity: 8, oxygen: 9, x: 466, y: 78 },
+			{ intensity: 11, oxygen: 9, x: 608, y: 78 }
+		];
+		const decreaseTextButton = document.querySelector("#decrease-text");
+		const increaseTextButton = document.querySelector("#increase-text");
+		const resetTextButton = document.querySelector("#reset-text");
+		const textSizeValue = document.querySelector("#text-size-value");
+		const defaultTextScale = 1;
+		let textScale = defaultTextScale;
+		let currentQuestionIndex = 0;
+
+		const questions = [
+			{
+				title: "Earthworms come to the soil surface after heavy rain. Which characteristic of living organisms does this show?",
+				legend: "Choose the characteristic shown by the earthworms",
+				options: ["Reproduction", "Sensitivity", "Nutrition", "Growth"],
+				correct: "B",
+				answer: "B. Sensitivity",
+				explanation: `
+					<p class="definition">Sensitivity is the ability of an organism to detect a stimulus (a change in its internal or external environment) and make an appropriate response.</p>
+					<p><strong>In this example:</strong></p>
+					<ul class="option-explanations">
+						<li><strong>Stimulus:</strong> Heavy rainfall can waterlog the soil and reduce the oxygen available to earthworms.</li>
+						<li><strong>Response:</strong> The earthworms move towards the soil surface.</li>
+					</ul>
+					<figure class="explanation-photo">
+						<img src="earthworm.jpg" alt="An earthworm on damp soil" loading="lazy" decoding="async">
+						<figcaption>Earthworm on damp soil. Photo by Jochem Kühnen via <a href="https://commons.wikimedia.org/wiki/File:Aporrectodea_rosea_(Gelderland,_Netherlands).jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY 4.0.</figcaption>
+					</figure>
+					<p class="relationship">Stimulus &rarr; Detection &rarr; Response</p>
+					<h3>Why the other options do not fit</h3>
+					<ul class="option-explanations">
+						<li><strong>A. Reproduction:</strong> Producing offspring of the same kind.</li>
+						<li><strong>B. Sensitivity:</strong> Detecting and responding to a stimulus. <strong>That is what happens here.</strong></li>
+						<li><strong>C. Nutrition:</strong> Taking in materials for energy, growth and development.</li>
+						<li><strong>D. Growth:</strong> A permanent increase in size and dry mass.</li>
+					</ul>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> When a question describes an organism responding to an environmental change, look for sensitivity rather than simply movement.</p>
+				`
+			},
+			{
+				title: "Which species can breed with <i>Prunella vulgaris</i> to produce fertile offspring?",
+				legend: "Choose the option showing which species can breed with Prunella vulgaris to produce fertile offspring",
+				context: `
+					<table class="comparison-table">
+						<caption>For each option, decide whether the named species can produce fertile offspring with <i>Prunella vulgaris</i>.</caption>
+						<thead>
+							<tr><th scope="col">Option</th><th scope="col"><i>Prunella modularis</i></th><th scope="col"><i>Vespula vulgaris</i></th></tr>
+						</thead>
+						<tbody>
+							<tr><th scope="row">A</th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
+							<tr><th scope="row">B</th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
+							<tr><th scope="row">C</th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
+							<tr><th scope="row">D</th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
+						</tbody>
+					</table>
+					<p class="table-key"><strong>Key:</strong> ✓ = yes; ✗ = no</p>
+				`,
+				options: ["Option A", "Option B", "Option C", "Option D"],
+				correct: "D",
+				answer: "D. Neither species",
+				explanation: `
+					<p class="definition">According to the biological species concept, a species is a group of organisms that can reproduce with each other to produce fertile offspring.</p>
+					<h3>Compare the scientific names</h3>
+					<ul class="option-explanations">
+						<li><strong>First word:</strong> The genus.</li>
+						<li><strong>Second word:</strong> The specific name (species epithet).</li>
+						<li><strong><i>Prunella modularis</i>:</strong> It shares the genus <i>Prunella</i> with <i>Prunella vulgaris</i>, but the species epithet is different. They are different species.</li>
+						<li><strong><i>Vespula vulgaris</i>:</strong> It shares the epithet <i>vulgaris</i>, but its genus is <i>Vespula</i>, not <i>Prunella</i>. They are different species.</li>
+					</ul>
+					<p>Neither candidate is the same species as <i>Prunella vulgaris</i>, so neither can produce fertile offspring with it. The correct combination is <strong>no, no</strong>.</p>
+					<div class="species-photo-grid" aria-label="Photographs of the three named organisms">
+						<figure class="species-photo">
+							<img src="prunella-vulgaris.jpg" alt="Flowering Prunella vulgaris plant" loading="lazy" decoding="async">
+							<figcaption><i>Prunella vulgaris</i>. Photo by H. Zell via <a href="https://commons.wikimedia.org/wiki/File:Prunella_vulgaris_003.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, CC BY-SA 3.0.</figcaption>
+						</figure>
+						<figure class="species-photo">
+							<img src="dunnock.jpg" alt="Dunnock, Prunella modularis" loading="lazy" decoding="async">
+							<figcaption><i>Prunella modularis</i>. Photo by Hobbyfotowiki via <a href="https://commons.wikimedia.org/wiki/File:The_dunnock_(Prunella_modularis).jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, CC0.</figcaption>
+						</figure>
+						<figure class="species-photo">
+							<img src="vespula-vulgaris.jpg" alt="Common wasp, Vespula vulgaris" loading="lazy" decoding="async">
+							<figcaption><i>Vespula vulgaris</i>. Photo by Soebe via <a href="https://commons.wikimedia.org/wiki/File:Vespula_vulgaris.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, CC BY-SA 3.0.</figcaption>
+						</figure>
+					</div>
+					<p class="relationship">Same genus &ne; same species<br>Same species epithet &ne; same species</p>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> To identify the same species from binomial names, both words must match. A shared genus or a shared species epithet alone is not enough.</p>
+				`
+			},
+			{
+				title: "What is the correct order of arthropod groups, from those with the most legs to those with the fewest legs?",
+				legend: "Choose the order of arthropod groups from the most legs to the fewest legs",
+				options: [
+					"Arachnids → Crustaceans → Insects → Myriapods",
+					"Arachnids → Insects → Myriapods → Crustaceans",
+					"Myriapods → Crustaceans → Arachnids → Insects",
+					"Myriapods → Insects → Arachnids → Crustaceans"
+				],
+				correct: "C",
+				answer: "C. Myriapods → Crustaceans → Arachnids → Insects",
+				explanation: `
+					<p class="definition">Arrange the four arthropod groups from the greatest number of legs to the fewest.</p>
+					<figure class="explanation-photo">
+						<img src="myriapod.jpg" alt="A millipede with many pairs of legs, an example of a myriapod" loading="lazy" decoding="async">
+						<figcaption>A millipede, an example of a myriapod. Photo by Medsile via <a href="https://commons.wikimedia.org/wiki/File:Close-up_photo_of_a_centipede_-_02.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY-SA 4.0.</figcaption>
+					</figure>
+					<table class="comparison-table leg-count-table">
+						<caption>Typical leg counts, ordered from most to fewest</caption>
+						<thead><tr><th scope="col">Arthropod group</th><th scope="col">Number of legs</th><th scope="col">Example</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Myriapods</th><td>Many pairs</td><td>Centipede, millipede</td></tr>
+							<tr><th scope="row">Crustaceans</th><td>Usually 5 or more pairs</td><td>Crab, lobster</td></tr>
+							<tr><th scope="row">Arachnids</th><td>4 pairs (8 legs)</td><td>Spider, scorpion</td></tr>
+							<tr><th scope="row">Insects</th><td>3 pairs (6 legs)</td><td>Ant, butterfly</td></tr>
+						</tbody>
+					</table>
+					<h3>IGCSE exam tip</h3>
+					<ul class="option-explanations">
+						<li><strong>Insects:</strong> 3 pairs of legs and 1 pair of antennae.</li>
+						<li><strong>Arachnids:</strong> 4 pairs of legs and no antennae.</li>
+						<li><strong>Crustaceans:</strong> More than 4 pairs of legs and 2 pairs of antennae.</li>
+						<li><strong>Myriapods:</strong> Many body segments and many pairs of legs.</li>
+					</ul>
+					<p class="relationship">Myriapods → Crustaceans → Arachnids → Insects</p>
+				`
+			},
+			{
+				title: "Which statements describe features of osmosis?",
+				legend: "Choose the pair of statements that describe features of osmosis",
+				context: `
+					<ol class="statement-list">
+						<li>A partially permeable membrane</li>
+						<li>The movement of any liquid</li>
+						<li>Using energy from respiration</li>
+						<li>Water molecules moving by diffusion</li>
+					</ol>
+				`,
+				options: ["1 and 2", "1 and 4", "2 and 3", "3 and 4"],
+				correct: "B",
+				answer: "B. Statements 1 and 4",
+				explanation: `
+					<table class="comparison-table statement-table">
+						<caption>Check each statement against the definition of osmosis</caption>
+						<thead><tr><th scope="col">Statement</th><th scope="col">Correct?</th><th scope="col">Explanation</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">1. Partially permeable membrane</th><td>Yes</td><td>Osmosis requires a partially permeable membrane.</td></tr>
+							<tr><th scope="row">2. Movement of any liquid</th><td>No</td><td>Osmosis involves water molecules, not any liquid.</td></tr>
+							<tr><th scope="row">3. Energy from respiration</th><td>No</td><td>Osmosis is passive and does not require energy from respiration.</td></tr>
+							<tr><th scope="row">4. Water moving by diffusion</th><td>Yes</td><td>Osmosis is the net movement of water molecules by diffusion through a partially permeable membrane.</td></tr>
+						</tbody>
+					</table>
+					<h3>Cambridge IGCSE definition</h3>
+					<p class="definition">Osmosis is the net movement of water molecules from a region of higher water potential to a region of lower water potential, through a partially permeable membrane.</p>
+					<figure class="explanation-photo">
+						<img src="onion-plasmolysis.jpg" alt="Microscope view of red onion cells showing plasmolysis" loading="lazy" decoding="async">
+						<figcaption>Plasmolysed red onion cells after water leaves by osmosis. Photo by Trương Minh Khải via <a href="https://commons.wikimedia.org/wiki/File:Plasmolysis_of_red_onion_(Allium_cepa)_cells.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY 4.0.</figcaption>
+					</figure>
+					<h3>IGCSE exam tip</h3>
+					<p>Remember the three essential ideas: <strong>water molecules</strong>, a <strong>water potential gradient</strong>, and a <strong>partially permeable membrane</strong>.</p>
+					<p class="exam-tip"><strong>Do not confuse osmosis with active transport:</strong> active transport requires energy from respiration, but osmosis is passive.</p>
+				`
+			},
+			{
+				title: "The diagram shows an animal. Using the key, what is the identity of the animal?",
+				legend: "Use the dichotomous key to identify the animal",
+				context: `
+					<figure class="explanation-photo">
+						<img src="cricket.jpg" alt="Field cricket with six jointed legs and long antennae" loading="lazy" decoding="async">
+						<figcaption>Field cricket (<i>Gryllus campestris</i>). Photo by Roberto Zanon via <a href="https://commons.wikimedia.org/wiki/File:Gryllus_campestris_3.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY-SA 3.0.</figcaption>
+					</figure>
+					<table class="comparison-table key-table">
+						<caption>Dichotomous key</caption>
+						<thead><tr><th scope="col">Step</th><th scope="col">Feature</th><th scope="col">Follow</th></tr></thead>
+						<tbody>
+							<tr><th rowspan="2" scope="rowgroup">1</th><td>Has six jointed legs</td><td>Go to 2</td></tr>
+							<tr><td>Has eight jointed legs</td><td>Go to 3</td></tr>
+							<tr><th rowspan="2" scope="rowgroup">2</th><td>Antennae longer than its body</td><td>A. <i>Gryllus</i></td></tr>
+							<tr><td>Antennae shorter than its body</td><td>B. <i>Musca</i></td></tr>
+							<tr><th rowspan="2" scope="rowgroup">3</th><td>Has stripes on its legs</td><td>C. <i>Araneus</i></td></tr>
+							<tr><td>Has no stripes on its legs</td><td>D. <i>Pisaurina</i></td></tr>
+						</tbody>
+					</table>
+				`,
+				options: ["A. Gryllus (cricket)", "B. Musca (fly)", "C. Araneus (spider)", "D. Pisaurina (spider)"],
+				correct: "A",
+				answer: "A. Gryllus (cricket)",
+				explanation: `
+					<p class="definition">Follow the dichotomous key one choice at a time:</p>
+					<ol class="statement-list">
+						<li><strong>Count the jointed legs:</strong> The animal has six (three pairs), so follow the key to step 2.</li>
+						<li><strong>Compare the antennae with the body:</strong> They are longer than the body, identifying the animal as <i>Gryllus</i>.</li>
+					</ol>
+					<figure class="explanation-photo">
+						<img src="cricket.jpg" alt="Field cricket with long antennae" loading="lazy" decoding="async">
+						<figcaption>The long antennae are visible on this field cricket. Photo by Roberto Zanon via <a href="https://commons.wikimedia.org/wiki/File:Gryllus_campestris_3.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY-SA 3.0.</figcaption>
+					</figure>
+					<p class="relationship">6 jointed legs &rarr; antennae longer than body &rarr; <i>Gryllus</i></p>
+					<h3>IGCSE exam tip</h3>
+					<p>A dichotomous key identifies organisms through a series of two contrasting choices. Insects have three pairs of jointed legs; arachnids have four pairs. Antennae length can help distinguish insect groups.</p>
+				`
+			},
+			{
+				title: "A drawing of a plant cell was measured as 7 cm. The magnification of the drawing was ×500. What was the actual size of the plant cell in micrometres?",
+				legend: "Calculate the actual size of the plant cell in micrometres",
+				options: ["140 µm", "0.14 µm", "3,500,000 µm", "35,000,000 µm"],
+				correct: "A",
+				answer: "A. 140 µm",
+				explanation: `
+					<p class="definition">Use the magnification formula, making sure the image size and actual size are in the same units.</p>
+					<p class="relationship">Magnification = Image size ÷ Actual size</p>
+					<p>Rearrange the formula:</p>
+					<p class="relationship">Actual size = Image size ÷ Magnification</p>
+					<h3>1. Convert centimetres to micrometres</h3>
+					<p>1 cm = 10 mm, and 1 mm = 1000 µm, so 1 cm = 10,000 µm.</p>
+					<p><strong>7 cm × 10,000 = 70,000 µm</strong></p>
+					<h3>2. Calculate the actual size</h3>
+					<p><strong>70,000 µm ÷ 500 = 140 µm</strong></p>
+					<p class="relationship">Actual plant cell size = 140 µm</p>
+					<figure class="explanation-photo">
+						<img src="plant-cells.jpg" alt="Microscope view of plant leaf epidermis and stomata" loading="lazy" decoding="async">
+						<figcaption>Plant leaf epidermis seen under a microscope. Photo by Emilio Ermini via <a href="https://commons.wikimedia.org/wiki/File:Leaf_epithelium,_stomata.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY 4.0.</figcaption>
+					</figure>
+					<h3>IGCSE exam tip</h3>
+					<p>Useful conversions: 1 cm = 10 mm; 1 mm = 1000 µm; 1 cm = 10,000 µm; and 1 µm = 1000 nm.</p>
+					<p class="exam-tip"><strong>Common mistake:</strong> Convert the image size and actual size to the same units before using the magnification formula.</p>
+				`
+			},
+			{
+				title: "The diagram shows a potato plant. Which statement describes the movement of substances produced in photosynthesis?",
+				legend: "Choose the statement that correctly describes transport from X to storage organ Y",
+				context: `
+					<figure class="plant-diagram">
+						<svg viewBox="0 0 700 300" role="img" aria-labelledby="potato-diagram-title potato-diagram-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="potato-diagram-title">Potato plant with leaf X and storage organ Y</title>
+							<desc id="potato-diagram-desc">A leafy potato plant above the soil and roots with potato tubers below. X points to a leaf and Y points to a tuber.</desc>
+							<g fill="none" stroke="#386b50" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M355 214 C353 180 359 147 355 110 C352 87 357 59 357 35" stroke-width="5"/>
+								<path d="M355 146 C333 126 310 118 291 116 M356 122 C376 101 395 89 420 82 M354 93 C333 74 324 61 315 46 M357 69 C378 55 390 42 401 25" stroke-width="2.5"/>
+								<path d="M355 214 C338 238 327 260 322 282 M356 215 C376 243 392 267 396 290 M356 224 C347 251 350 269 354 292 M354 230 C337 244 307 252 291 268 M360 225 C383 237 414 244 438 261" stroke="#897e61" stroke-width="1.7"/>
+								<path d="M293 116 C271 96 250 96 234 107 C248 126 272 129 293 116Z M296 116 C273 117 257 112 242 105 M420 82 C438 61 461 59 479 69 C466 88 443 92 420 82Z M422 81 C443 80 459 75 474 68 M315 46 C295 29 280 31 269 41 C282 56 298 57 315 46Z M316 46 C299 45 287 41 276 38 M401 25 C414 7 431 7 445 15 C435 31 418 34 401 25Z M402 25 C418 24 431 20 442 15" stroke-width="1.8"/>
+								<path d="M228 220 H488" stroke="#a6a087" stroke-width="1.5"/>
+							</g>
+							<g fill="#dce2d5" stroke="#7d816b" stroke-width="2">
+								<ellipse cx="309" cy="247" rx="24" ry="15" transform="rotate(-20 309 247)"/>
+								<ellipse cx="390" cy="253" rx="27" ry="17" transform="rotate(14 390 253)"/>
+								<ellipse cx="354" cy="273" rx="22" ry="14" transform="rotate(-7 354 273)"/>
+								<ellipse cx="425" cy="279" rx="17" ry="12" transform="rotate(19 425 279)"/>
+							</g>
+							<g fill="none" stroke="#65736a" stroke-width="1.5">
+								<path d="M64 95 L237 108 M492 275 L415 258"/>
+							</g>
+							<g fill="#193b34" font-family="Avenir Next, Avenir, Segoe UI, sans-serif" font-size="22" font-weight="700">
+								<text x="39" y="101">X</text>
+								<text x="500" y="282">Storage organ Y</text>
+							</g>
+						</svg>
+						<figcaption>X marks a leaf; Y marks a potato tuber.</figcaption>
+					</figure>
+				`,
+				options: [
+					"Glucose is converted to starch and then transported from X to Y. X is the source and Y is the sink.",
+					"Glucose is converted to starch and then transported from X to Y. X is the sink and Y is the source.",
+					"Glucose is converted to sucrose and then transported from X to Y. X is the source and Y is the sink.",
+					"Glucose is converted to sucrose and then transported from X to Y. X is the sink and Y is the source."
+				],
+				correct: "C",
+				answer: "C. Sucrose moves from source X to sink Y",
+				explanation: `
+					<p class="definition"><strong>Glucose is converted into sucrose</strong> for transport from X to Y in the phloem. X is the source and Y is the sink.</p>
+					<h3>Follow the translocation pathway</h3>
+					<div class="translocation-flow" role="img" aria-label="Leaf source produces glucose, converts it to sucrose, and translocates it through phloem to the potato tuber sink, where it is stored as starch">
+						<div class="flow-step"><strong>X · Leaf</strong><span>Source: photosynthesis produces glucose</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Sucrose in phloem</strong><span>Glucose is converted to sucrose and transported by translocation</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Y · Potato tuber</strong><span>Sink: sucrose can be converted to starch for storage</span></div>
+					</div>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A:</strong> Starch is not the main substance transported in phloem.</li>
+						<li><strong>B:</strong> It uses the wrong transported substance and reverses source and sink.</li>
+						<li><strong>C:</strong> Correct: sucrose moves from the source leaf X to the sink tuber Y.</li>
+						<li><strong>D:</strong> Sucrose is correct, but source and sink are reversed.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<p><strong>Phloem</strong> transports sucrose and amino acids by translocation. A <strong>source</strong> supplies sucrose, such as a photosynthesising leaf; a <strong>sink</strong> uses or stores it, such as a growing tuber. Starch is an insoluble storage carbohydrate, not the usual transport form.</p>
+				`
+			},
+			{
+				title: "The table shows the results of an experiment to investigate the effect of light intensity on the rate of photosynthesis. At which light intensity does a factor other than light begin to limit the rate?",
+				legend: "Choose the light intensity at which another factor begins to limit photosynthesis",
+				context: `
+					<table class="comparison-table light-intensity-table">
+						<caption>Oxygen produced at different light intensities</caption>
+						<thead><tr><th scope="col">Light intensity<br>(arbitrary units)</th><th scope="col">Oxygen produced<br>(mm³/hour)</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">1.0</th><td>2.5</td></tr>
+							<tr><th scope="row">4.0</th><td>7.0</td></tr>
+							<tr><th scope="row">8.0</th><td>9.0</td></tr>
+							<tr><th scope="row">11.0</th><td>9.0</td></tr>
+						</tbody>
+					</table>
+				`,
+				options: ["1.0 arbitrary units", "4.0 arbitrary units", "8.0 arbitrary units", "11.0 arbitrary units"],
+				correct: "C",
+				answer: "C. 8.0 arbitrary units",
+				explanation: `
+					<p class="definition">Oxygen production shows the rate of photosynthesis. The rate rises with light intensity until the graph levels off.</p>
+					<div class="interactive-graph">
+						<svg class="rate-chart" viewBox="0 0 720 360" role="img" aria-labelledby="rate-chart-title rate-chart-description">
+							<title id="rate-chart-title">Light intensity and oxygen production graph</title>
+							<desc id="rate-chart-description">Oxygen production rises from 2.5 at light intensity 1, to 7 at 4, then 9 at 8. It remains at 9 at intensity 11, forming a plateau.</desc>
+							<rect class="plateau-zone" x="468" y="48" width="150" height="246" rx="4"/>
+							<g class="gridline">
+								<line x1="88" y1="294" x2="656" y2="294"/><line x1="88" y1="246" x2="656" y2="246"/>
+								<line x1="88" y1="198" x2="656" y2="198"/><line x1="88" y1="150" x2="656" y2="150"/>
+								<line x1="88" y1="102" x2="656" y2="102"/><line x1="88" y1="54" x2="656" y2="54"/>
+							</g>
+							<g class="axis">
+								<line x1="88" y1="54" x2="88" y2="294"/><line x1="88" y1="294" x2="656" y2="294"/>
+							</g>
+							<g text-anchor="end">
+								<text x="76" y="299">0</text><text x="76" y="251">2</text><text x="76" y="203">4</text>
+								<text x="76" y="155">6</text><text x="76" y="107">8</text><text x="76" y="59">10</text>
+							</g>
+							<g text-anchor="middle">
+								<text x="135" y="316">1.0</text><text x="277" y="316">4.0</text><text x="466" y="316">8.0</text><text x="608" y="316">11.0</text>
+								<text class="axis-label" x="370" y="349">Light intensity (arbitrary units)</text>
+							</g>
+							<text class="axis-label" x="19" y="175" transform="rotate(-90 19 175)" text-anchor="middle">Oxygen produced (mm³/hour)</text>
+							<text class="plateau-label" x="543" y="73" text-anchor="middle">Plateau</text>
+							<path class="curve" d="M135 234 L277 126 L466 78 L608 78"/>
+							<line id="graph-active-line" class="active-line" x1="135" y1="54" x2="135" y2="294"/>
+							<g class="data-point">
+								<circle cx="135" cy="234" r="6"/><circle cx="277" cy="126" r="6"/>
+								<circle cx="466" cy="78" r="6"/><circle cx="608" cy="78" r="6"/>
+							</g>
+							<circle id="graph-active-point" class="active-point" cx="135" cy="234" r="9"/>
+						</svg>
+						<div class="graph-controls">
+							<label for="light-intensity-slider">Light intensity</label>
+							<input id="light-intensity-slider" type="range" min="0" max="3" step="1" value="0" aria-valuetext="1.0 arbitrary units; oxygen production 2.5 cubic millimetres per hour">
+							<output class="graph-output" id="graph-output" aria-live="polite">1.0 units · 2.5 mm³/hour</output>
+						</div>
+					</div>
+					<p>From 1.0 to 8.0 units, oxygen production rises from 2.5 to 9.0 mm³/hour. From 8.0 to 11.0 units, it stays at 9.0 mm³/hour.</p>
+					<p>At <strong>8.0 arbitrary units</strong>, the rate first reaches its plateau. Increasing light no longer increases photosynthesis, so another factor, such as carbon dioxide concentration or temperature, is limiting.</p>
+					<h3>IGCSE exam tip</h3>
+					<p>A <strong>limiting factor</strong> is the factor in shortest supply that restricts a process. A rising graph means the factor is increasing the rate; a plateau means another factor is limiting.</p>
+				`
+			},
+			{
+				title: "The diagram shows the effect of temperature on the rate of an enzyme reaction. Which statement is correct?",
+				legend: "Choose the correct statement about temperature and enzyme activity",
+				context: `
+					<figure class="enzyme-chart">
+						<svg viewBox="0 0 700 380" role="img" aria-labelledby="enzyme-chart-title enzyme-chart-description" xmlns="http://www.w3.org/2000/svg">
+							<title id="enzyme-chart-title">Effect of temperature on enzyme reaction rate</title>
+							<desc id="enzyme-chart-description">A curve rises from low rate at P to its maximum at R, then falls steeply to zero at S as the enzyme denatures. Temperature increases from P through Q and R to S.</desc>
+							<defs>
+								<marker id="enzyme-axis-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L6,3 z" fill="#193b34"/></marker>
+							</defs>
+							<g class="axis" fill="none" marker-end="url(#enzyme-axis-arrow)">
+								<line x1="105" y1="300" x2="635" y2="300"/><line x1="105" y1="300" x2="105" y2="45"/>
+							</g>
+							<g class="tick">
+								<line x1="105" y1="300" x2="105" y2="312"/><line x1="245" y1="300" x2="245" y2="312"/>
+								<line x1="345" y1="300" x2="345" y2="312"/><line x1="505" y1="300" x2="505" y2="312"/>
+							</g>
+							<path class="curve" d="M105 282 C150 258 197 206 245 172 C281 133 304 66 345 66 C397 66 397 218 505 300"/>
+							<g class="point-label" text-anchor="middle">
+								<text x="105" y="338">P</text><text x="245" y="338">Q</text><text x="345" y="338">R</text><text x="505" y="338">S</text>
+							</g>
+							<g text-anchor="middle">
+								<text x="375" y="372">Temperature</text>
+							</g>
+							<text x="35" y="175" transform="rotate(-90 35 175)" text-anchor="middle">Rate of reaction</text>
+						</svg>
+					</figure>
+				`,
+				options: [
+					"The enzyme molecules are denatured at P.",
+					"The greatest amount of kinetic energy is available at R.",
+					"The greatest number of collisions between enzyme and substrate molecules occur at S.",
+					"The optimum rate of reaction occurs at Q."
+				],
+				correct: "C",
+				answer: "C. The greatest number of collisions occur at S",
+				explanation: `
+					<p class="definition">Temperature increases molecular kinetic energy, so molecules move faster and collide more frequently. At very high temperature, however, the enzyme is denatured and the reaction rate falls.</p>
+					<table class="comparison-table">
+						<caption>Interpreting each point on the graph</caption>
+						<thead><tr><th scope="col">Point</th><th scope="col">Temperature</th><th scope="col">What happens</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">P</th><td>Low</td><td>Low kinetic energy means fewer collisions and a low reaction rate; the enzyme is not denatured.</td></tr>
+							<tr><th scope="row">Q</th><td>Increasing</td><td>Kinetic energy and successful collision frequency increase, so the rate rises.</td></tr>
+							<tr><th scope="row">R</th><td>Optimum</td><td>The reaction rate and enzyme activity reach their maximum.</td></tr>
+							<tr><th scope="row">S</th><td>Highest</td><td>Kinetic energy and collision frequency are greatest, but the enzyme is denatured, so collisions are not productive and the reaction stops.</td></tr>
+						</tbody>
+					</table>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A:</strong> Low temperature at P reduces activity but does not denature the enzyme.</li>
+						<li><strong>B:</strong> Kinetic energy is greatest at S, the highest temperature.</li>
+						<li><strong>C:</strong> Correct. Molecules move fastest and collide most frequently at S, even though denaturation prevents successful enzyme-substrate reactions.</li>
+						<li><strong>D:</strong> The optimum rate occurs at R, where the curve reaches its peak.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<p><strong>Collision frequency is not the same as successful collisions.</strong> Above the optimum, heat changes the enzyme’s active site. Substrates no longer fit effectively, so the rate falls rapidly even as molecular kinetic energy increases.</p>
+					<p class="relationship">R = optimum activity · S = highest temperature and kinetic energy</p>
+				`
+			}
+		];
+		const questionStates = questions.map(() => ({ selected: null, checked: false }));
+
+		function renderQuestionNavigator() {
+			questionNavList.innerHTML = questions.map((question, index) => {
+				const state = questionStates[index];
+				const status = state.checked
+					? state.selected === question.correct ? "Correct" : "Wrong"
+					: state.selected ? "Selected" : "Not started";
+				const resultClass = state.checked ? state.selected === question.correct ? " is-correct" : " is-wrong" : "";
+				return `<button class="question-nav-item${resultClass}" type="button" data-question-index="${index}" aria-label="Question ${index + 1}: ${status}" title="Question ${index + 1}: ${status}"${index === currentQuestionIndex ? ' aria-current="step"' : ""}>
+					<span class="question-nav-number" aria-hidden="true">${index + 1}</span>
+				</button>`;
+			}).join("");
+		}
+
+		function showQuestionFeedback(question, state) {
+			const isCorrect = state.selected === question.correct;
+			feedback.className = `feedback visible ${isCorrect ? "correct" : "incorrect"}`;
+			feedback.innerHTML = `<strong class="feedback-title">${isCorrect ? `Correct: ${question.answer}` : `Not quite. The correct answer is ${question.answer}.`}</strong>${question.explanation}`;
+		}
+
+		function renderQuestion() {
+			const question = questions[currentQuestionIndex];
+			const state = questionStates[currentQuestionIndex];
+			questionCount.textContent = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+			progressTrack.setAttribute("aria-valuemax", questions.length);
+			progressTrack.setAttribute("aria-valuenow", currentQuestionIndex + 1);
+			progressValue.style.width = `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
+			questionTitle.innerHTML = question.title;
+			questionContext.innerHTML = question.context || "";
+			questionLegend.textContent = question.legend;
+			answerOptions.innerHTML = question.options.map((option, index) => {
+				const letter = String.fromCharCode(65 + index);
+				return `<label class="answer">
+					<input type="radio" name="answer" value="${letter}"${state.selected === letter ? " checked" : ""}>
+					<span class="letter" aria-hidden="true">${letter}</span>
+					<span class="answer-text">${option}</span>
+				</label>`;
+			}).join("");
+			checkButton.disabled = !state.selected || state.checked;
+			selectionHint.textContent = state.checked ? "Answer checked" : state.selected ? "Ready to check" : "Select an option to continue";
+			if (state.checked) {
+				showQuestionFeedback(question, state);
+			} else {
+				feedback.className = "feedback";
+				feedback.textContent = "";
+			}
+			nextQuestionButton.hidden = !state.checked;
+			nextQuestionButton.textContent = currentQuestionIndex === questions.length - 1
+				? (questionStates.every((item) => item.checked) ? "Restart quiz" : "Review unanswered")
+				: "Next question";
+			renderQuestionNavigator();
+		}
+
+		function updateTextSize() {
+			quiz.style.setProperty("--quiz-scale", textScale);
+			textSizeValue.value = `${Math.round(textScale * 100)}%`;
+			decreaseTextButton.disabled = textScale <= 0.8;
+			increaseTextButton.disabled = textScale >= 2;
+		}
+
+		decreaseTextButton.addEventListener("click", () => {
+			textScale = Math.max(0.8, Math.round((textScale - 0.1) * 10) / 10);
+			updateTextSize();
+		});
+
+		increaseTextButton.addEventListener("click", () => {
+			textScale = Math.min(2, Math.round((textScale + 0.1) * 10) / 10);
+			updateTextSize();
+		});
+
+		resetTextButton.addEventListener("click", () => {
+			textScale = defaultTextScale;
+			updateTextSize();
+		});
+
+		updateTextSize();
+		renderQuestion();
+
+		navigatorToggle.addEventListener("click", () => {
+			const isExpanded = navigatorToggle.getAttribute("aria-expanded") === "true";
+			quizLayout.classList.toggle("navigator-hidden", isExpanded);
+			navigatorToggle.setAttribute("aria-expanded", String(!isExpanded));
+			navigatorToggle.textContent = isExpanded ? "Show questions" : "Hide questions";
+		});
+
+		questionNavList.addEventListener("click", (event) => {
+			const button = event.target.closest("[data-question-index]");
+			if (!button) return;
+			currentQuestionIndex = Number(button.dataset.questionIndex);
+			renderQuestion();
+			questionTitle.focus();
+		});
+
+		form.addEventListener("change", (event) => {
+			if (!event.target.matches('input[name="answer"]')) return;
+			questionStates[currentQuestionIndex].selected = new FormData(form).get("answer");
+			questionStates[currentQuestionIndex].checked = false;
+			checkButton.disabled = false;
+			selectionHint.textContent = "Ready to check";
+			feedback.className = "feedback";
+			feedback.textContent = "";
+			nextQuestionButton.hidden = true;
+			renderQuestionNavigator();
+		});
+
+		form.addEventListener("submit", (event) => {
+			event.preventDefault();
+			const selected = new FormData(form).get("answer");
+			if (!selected) return;
+
+			const question = questions[currentQuestionIndex];
+			const state = questionStates[currentQuestionIndex];
+			state.selected = selected;
+			state.checked = true;
+			showQuestionFeedback(question, state);
+			selectionHint.textContent = questionStates.every((item) => item.checked) ? "Quiz complete" : "Answer checked";
+			checkButton.disabled = true;
+			nextQuestionButton.hidden = false;
+			nextQuestionButton.textContent = currentQuestionIndex === questions.length - 1
+				? (questionStates.every((item) => item.checked) ? "Restart quiz" : "Review unanswered")
+				: "Next question";
+			renderQuestionNavigator();
+		});
+
+		feedback.addEventListener("input", (event) => {
+			if (event.target.id !== "light-intensity-slider") return;
+			const measurement = graphMeasurements[Number(event.target.value)];
+			const activeLine = feedback.querySelector("#graph-active-line");
+			const activePoint = feedback.querySelector("#graph-active-point");
+			const graphOutput = feedback.querySelector("#graph-output");
+			if (!activeLine || !activePoint || !graphOutput) return;
+
+			activeLine.setAttribute("x1", measurement.x);
+			activeLine.setAttribute("x2", measurement.x);
+			activePoint.setAttribute("cx", measurement.x);
+			activePoint.setAttribute("cy", measurement.y);
+			graphOutput.textContent = `${measurement.intensity.toFixed(1)} units · ${measurement.oxygen.toFixed(1)} mm³/hour`;
+			event.target.setAttribute("aria-valuetext", `${measurement.intensity.toFixed(1)} arbitrary units; oxygen production ${measurement.oxygen.toFixed(1)} cubic millimetres per hour`);
+		});
+
+		nextQuestionButton.addEventListener("click", () => {
+			if (questionStates.every((state) => state.checked)) {
+				questionStates.forEach((state) => {
+					state.selected = null;
+					state.checked = false;
+				});
+				currentQuestionIndex = 0;
+			} else if (currentQuestionIndex === questions.length - 1) {
+				currentQuestionIndex = questionStates.findIndex((state) => !state.checked);
+			} else {
+				currentQuestionIndex += 1;
+			}
+			renderQuestion();
+			questionTitle.focus();
+		});
+	</script>
+</body>
+</html>

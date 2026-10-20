@@ -24,6 +24,7 @@
 		body {
 			min-height: 100vh;
 			margin: 0;
+			padding-bottom: 88px;
 			color: var(--ink);
 			background:
 				radial-gradient(ellipse at 93% 8%, rgba(216, 233, 120, .28), transparent 26rem),
@@ -32,7 +33,7 @@
 		}
 
 		.page {
-			width: min(100% - 40px, 1320px);
+			width: min(100% - 24px, 1600px);
 			margin: 0 auto;
 			padding: 30px 0 48px;
 		}
@@ -54,17 +55,50 @@
 			font-weight: 750;
 		}
 
-		.brand-mark {
-			display: grid;
-			width: 34px;
-			height: 34px;
-			place-items: center;
-			border-radius: 10px;
-			color: var(--white);
-			background: var(--green);
+		.brand-logo {
+			display: block;
+			width: 96px;
+			height: 96px;
+			flex: 0 0 96px;
+			border-radius: 50%;
+			background: white;
+			object-fit: contain;
 		}
 
-		.brand-mark svg { width: 20px; height: 20px; }
+		.teacher-badge {
+			position: fixed;
+			right: max(14px, env(safe-area-inset-right));
+			bottom: max(14px, env(safe-area-inset-bottom));
+			z-index: 20;
+			display: flex;
+			align-items: center;
+			gap: 11px;
+			padding: 10px 18px;
+			border: 2px solid #078b9a;
+			border-radius: 999px;
+			color: #164f56;
+			background: #effcff;
+			box-shadow: 0 8px 24px rgba(7, 139, 154, .15);
+			font-size: 20px;
+			font-weight: 750;
+			transform: scale(.7);
+			transform-origin: bottom right;
+		}
+
+		.teacher-badge-dot {
+			width: 20px;
+			height: 20px;
+			flex: 0 0 20px;
+			border-radius: 50%;
+			background: #4edcf0;
+			box-shadow: 0 0 0 0 rgba(78, 220, 240, .55);
+			animation: badge-pulse 1.2s ease-in-out infinite;
+		}
+
+		@keyframes badge-pulse {
+			0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(78, 220, 240, .45); }
+			50% { opacity: .55; transform: scale(.88); box-shadow: 0 0 0 8px rgba(78, 220, 240, 0); }
+		}
 
 		.topic {
 			color: var(--muted);
@@ -80,16 +114,18 @@
 
 		.quiz-layout {
 			display: grid;
-			grid-template-columns: 136px minmax(0, 1fr);
+			grid-template-columns: minmax(0, 1fr) 136px;
+			grid-template-areas: "quiz navigator";
 			gap: clamp(18px, 2.5vw, 32px);
 			align-items: start;
 		}
 
 		.question-navigator {
+			grid-area: navigator;
 			position: sticky;
 			top: 24px;
-			padding-right: 10px;
-			border-right: 1px solid var(--line);
+			padding-left: 10px;
+			border-left: 1px solid var(--line);
 		}
 
 		.question-nav-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
@@ -116,10 +152,11 @@
 		.question-nav-item[aria-current="step"] .question-nav-number { color: white; background: var(--green); }
 		.question-nav-item.is-correct .question-nav-number { color: white; background: #24563c; }
 		.question-nav-item.is-wrong .question-nav-number { color: white; background: #a63d38; }
-		.quiz-layout.navigator-hidden { grid-template-columns: minmax(0, 1fr); }
+		.quiz-layout.navigator-hidden { grid-template-columns: minmax(0, 1fr); grid-template-areas: "quiz"; }
 		.quiz-layout.navigator-hidden .question-navigator { display: none; }
 
 		.quiz {
+			grid-area: quiz;
 			width: 100%;
 			font-size: calc(16px * var(--quiz-scale, 1));
 		}
@@ -136,15 +173,19 @@
 		}
 
 		.panel-toggle {
+			display: grid;
+			width: 36px;
+			min-width: 36px;
 			min-height: 34px;
 			margin-left: auto;
-			padding: 0 10px;
+			place-items: center;
+			padding: 0;
 			border: 1px solid var(--line);
 			color: var(--green-dark);
 			background: var(--white);
-			font-size: .9em;
-			white-space: nowrap;
 		}
+
+		.panel-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-width: 2; }
 
 		.panel-toggle:not(:disabled):hover { color: white; background: var(--green-dark); }
 
@@ -157,7 +198,7 @@
 			background: rgba(255, 254, 250, .72);
 			font-size: .9em;
 			text-align: center;
-			table-layout: fixed;
+			table-layout: auto;
 		}
 
 		.comparison-table caption {
@@ -170,15 +211,21 @@
 		.comparison-table td {
 			padding: 9px 7px;
 			border: 1px solid var(--line);
-			overflow-wrap: anywhere;
+			overflow-wrap: break-word;
 		}
 
 		.comparison-table thead th { color: var(--ink); font-weight: 700; }
-		.comparison-table th:first-child { width: 54px; }
 		.comparison-table tbody th { color: var(--green-dark); }
 		.comparison-table.leg-count-table th:first-child { width: 34%; }
-		.comparison-table.statement-table th:first-child { width: 22%; }
-		.comparison-table.light-intensity-table th:first-child { width: 50%; }
+		.comparison-table.statement-table th:first-child { width: 30%; }
+		.comparison-table.answer-selection-table.statement-table th:first-child { width: 70px; }
+		.comparison-table.villus-choice-table th:first-child { width: 70px; }
+		.answer-selection-table tbody tr { cursor: pointer; transition: background-color 120ms ease; }
+		.answer-selection-table tbody tr:hover { background: #f0f4eb; }
+		.answer-selection-table tbody tr.is-selected { background: #eaf2e7; box-shadow: inset 3px 0 var(--green); }
+		.answer-table-choice { min-width: 34px; min-height: 34px; padding: 3px 8px; border: 1px solid var(--line); color: var(--green-dark); background: var(--white); }
+		.answer-table-choice[aria-pressed="true"] { border-color: var(--green); color: white; background: var(--green); }
+		.comparison-table.light-intensity-table th:first-child { width: 70px; }
 		.comparison-table.light-intensity-table th,
 		.comparison-table.light-intensity-table td { overflow-wrap: break-word; }
 		.key-table { text-align: left; }
@@ -217,6 +264,46 @@
 		.enzyme-chart .tick { stroke: #61766c; stroke-width: 1.5; }
 		.enzyme-chart .curve { fill: none; stroke: #1e654f; stroke-width: 4; stroke-linecap: round; }
 		.enzyme-chart .point-label { fill: #1e654f; font-weight: 800; }
+		.enzyme-stage-flow { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); gap: 10px; align-items: center; margin: 16px 0 22px; }
+		.enzyme-stage { min-width: 0; margin: 0; padding: 10px; border-top: 2px solid var(--green); background: rgba(255, 254, 250, .72); text-align: center; }
+		.enzyme-stage svg { display: block; width: 100%; height: 125px; }
+		.enzyme-stage figcaption { color: var(--ink); font-size: .82em; font-weight: 700; }
+		.enzyme-shape { fill: #a5a7a8; stroke: #4f5557; stroke-width: 3; stroke-linejoin: round; }
+		.substrate-shape { fill: #d9dcde; stroke: #4f5557; stroke-width: 2.5; }
+		.enzyme-stage-arrow { align-self: center; color: var(--green); font-size: 1.4em; font-weight: 800; }
+		.blood-components-figure,
+		.phagocytosis-figure { max-width: 760px; margin: 16px auto 20px; }
+		.blood-components-figure svg,
+		.phagocytosis-figure svg { display: block; width: 100%; height: auto; }
+		.blood-components-figure figcaption,
+		.phagocytosis-figure figcaption { margin-top: 5px; color: var(--muted); font-size: .8em; }
+		.blood-components-figure text,
+		.phagocytosis-figure text { fill: var(--ink); font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; }
+		.blood-cell-outline { stroke: #66736d; stroke-width: 2; }
+		.digestive-diagram { max-width: 700px; margin: 8px auto 20px; }
+		.digestive-diagram img { display: block; width: min(100%, 560px); height: auto; margin: 0 auto; }
+		.circulation-diagram { max-width: 860px; margin: 8px auto 20px; }
+		.circulation-diagram img { display: block; width: 100%; height: auto; }
+		.root-hair-diagram { max-width: 700px; margin: 12px auto 20px; }
+		.root-hair-diagram svg { display: block; width: 100%; height: auto; }
+		.root-hair-diagram figcaption { margin-top: 5px; color: var(--muted); font-size: .8em; }
+		.root-hair-diagram text { fill: var(--ink); font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; font-size: 16px; }
+		.root-hair-diagram .cell { fill: #eaf2e7; stroke: #1e654f; stroke-width: 3; }
+		.root-hair-diagram .wall { stroke: #1e654f; stroke-width: 3; }
+		.root-hair-diagram .water { stroke: #4389ad; stroke-width: 4; }
+		.root-hair-diagram .ions { stroke: #b86b39; stroke-width: 4; }
+		.root-hair-diagram .leader { stroke: #61766c; stroke-width: 1.5; }
+		.comparison-table.root-uptake-table th:first-child { width: 30%; }
+		.comparison-table.transpiration-table th:first-child { width: 30%; }
+		.water-potential-diagram { max-width: 720px; margin: 14px auto 20px; }
+		.water-potential-diagram svg { display: block; width: 100%; height: auto; }
+		.water-potential-diagram figcaption { margin-top: 5px; color: var(--muted); font-size: .8em; }
+		.water-potential-diagram text { fill: var(--ink); font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; }
+		.water-potential-diagram .cell-box { fill: var(--white); stroke: #526c62; stroke-width: 2.5; }
+		.water-potential-diagram .cell-name { font-size: 20px; font-weight: 800; }
+		.water-potential-diagram .cell-value { font-size: 18px; }
+		.water-potential-diagram .water-flow-arrow { fill: none; stroke: #4389ad; stroke-width: 4; stroke-dasharray: 9 10; marker-end: url(#water-potential-arrow); animation: water-flow 1.2s linear infinite; }
+		@keyframes water-flow { to { stroke-dashoffset: -38; } }
 		.graph-controls { display: grid; gap: 8px; margin-top: 8px; }
 		.graph-controls label { color: var(--ink); font-size: .88em; font-weight: 700; }
 		.graph-controls input { width: 100%; accent-color: var(--green); }
@@ -249,6 +336,22 @@
 
 		.text-size-controls button:not(:disabled):hover { color: white; background: var(--green-dark); }
 		.text-size-controls output { min-width: 42px; text-align: center; font-variant-numeric: tabular-nums; }
+		.question-navigator .text-size-controls {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			grid-template-areas: "label label label" "decrease value increase" "reset reset reset";
+			gap: 6px;
+			justify-content: stretch;
+			margin-top: 12px;
+			padding-top: 12px;
+			border-top: 1px solid var(--line);
+			font-size: 11px;
+		}
+		.question-navigator .text-size-controls > span { grid-area: label; }
+		.question-navigator #decrease-text { grid-area: decrease; min-width: 0; padding: 0; }
+		.question-navigator #text-size-value { grid-area: value; min-width: 0; }
+		.question-navigator #increase-text { grid-area: increase; min-width: 0; padding: 0; }
+		.question-navigator #reset-text { grid-area: reset; width: 100%; min-width: 0; min-height: 32px; padding: 0 6px; }
 
 		.progress-track {
 			height: 4px;
@@ -273,6 +376,7 @@
 
 		fieldset { margin: 0; padding: 0; border: 0; }
 		.answer-options { display: grid; gap: 10px; }
+		.answer-options[hidden] { display: none; }
 		legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
 
 		.answer {
@@ -377,18 +481,31 @@
 		}
 
 		@media (max-width: 680px) {
-			.page { width: min(100% - 32px, 520px); padding-top: 20px; }
+			.page { width: min(100% - 20px, 760px); padding-top: 20px; }
+			.topbar { flex-wrap: wrap; gap: 12px; }
+			.teacher-badge { right: max(10px, env(safe-area-inset-right)); bottom: max(10px, env(safe-area-inset-bottom)); gap: 8px; padding: 8px 13px; font-size: 16px; }
+			.teacher-badge-dot { width: 16px; height: 16px; flex-basis: 16px; }
+			.question-navigator .text-size-controls {
+				grid-template-columns: auto 36px 42px 36px auto;
+				grid-template-areas: "label decrease value increase reset";
+				align-items: center;
+			}
+			.question-navigator #reset-text { width: auto; }
 			.topbar { padding-bottom: 17px; }
 			.topic { max-width: 130px; text-align: right; line-height: 1.4; }
 			main { padding-top: 36px; }
-			.quiz-layout { grid-template-columns: 1fr; gap: 22px; }
+			.quiz-layout { grid-template-columns: 1fr; grid-template-areas: "navigator" "quiz"; gap: 22px; }
 			.species-photo-grid { grid-template-columns: 1fr; }
 			.species-photo img { aspect-ratio: 16 / 9; }
-			.question-navigator { position: static; padding: 0 0 14px; border-right: 0; border-bottom: 1px solid var(--line); }
+			.question-navigator { position: static; padding: 0 0 14px; border-left: 0; border-bottom: 1px solid var(--line); }
 			.question-nav-list { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
 			.question-nav-item { min-height: 46px; padding: 4px 2px; }
 			.question-nav-number { width: 24px; height: 24px; }
 			.translocation-flow { grid-template-columns: 1fr; gap: 6px; }
+			.enzyme-stage-flow { grid-template-columns: 1fr; gap: 6px; }
+			.enzyme-stage { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 8px; text-align: left; }
+			.enzyme-stage svg { height: 95px; }
+			.enzyme-stage-arrow { transform: rotate(90deg); justify-self: center; }
 			.flow-arrow { transform: rotate(90deg); justify-self: center; }
 			h2 { margin-top: 24px; }
 			.quiz h2 { font-size: 1.3125em; }
@@ -396,6 +513,8 @@
 
 		@media (prefers-reduced-motion: reduce) {
 			*, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+			.water-potential-diagram .water-flow-arrow { animation: none; stroke-dashoffset: 0; }
+			.teacher-badge-dot { animation: none; }
 		}
 	</style>
 </head>
@@ -403,15 +522,10 @@
 	<div class="page">
 		<header class="topbar">
 			<div class="brand">
-				<span class="brand-mark" aria-hidden="true">
-					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M19.5 4.5C12.1 4.7 6 6.2 5 11.1c-.6 2.8 1.4 4.7 4 4.2 4.4-.9 7.4-5.8 10.5-10.8Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M4 20c2.5-5 5.7-7.6 10.3-9.7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
-					</svg>
-				</span>
-				<span>Fieldnotes Biology</span>
+				<img class="brand-logo" src="dr-king-wunna-logo.png" alt="Dr King Wunna logo">
+				<span>IGCSE Biology 0610</span>
 			</div>
-			<span class="topic">IGCSE · Living organisms</span>
+			<span class="topic">Paper 2 Practice</span>
 		</header>
 
 		<main>
@@ -420,25 +534,26 @@
 					<nav aria-label="Quiz questions">
 						<div class="question-nav-list" id="question-nav-list"></div>
 					</nav>
+					<div class="text-size-controls" role="group" aria-label="Quiz text size">
+						<span>Text size</span>
+						<button id="decrease-text" type="button" aria-label="Decrease quiz text size">A−</button>
+						<output id="text-size-value" aria-live="polite">100%</output>
+						<button id="increase-text" type="button" aria-label="Increase quiz text size">A+</button>
+						<button id="reset-text" type="button">Reset</button>
+					</div>
 				</aside>
 
 				<section class="quiz" aria-labelledby="question-title">
 				<div class="question-meta">
-					<span id="question-count">Question 1 of 9</span>
+					<span id="question-count">Question 1 of 21</span>
 					<span>Choose one answer</span>
-					<button class="panel-toggle" id="toggle-navigator" type="button" aria-controls="question-navigator" aria-expanded="true">Hide questions</button>
+					<button class="panel-toggle" id="toggle-navigator" type="button" aria-label="Hide questions" title="Hide questions" aria-controls="question-navigator" aria-expanded="true">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+					</button>
 				</div>
-				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="9" aria-valuenow="1">
-					<div class="progress-value" id="progress-value" style="width: 11.11%"></div>
+				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="21" aria-valuenow="1">
+					<div class="progress-value" id="progress-value" style="width: 4.76%"></div>
 				</div>
-				<div class="text-size-controls" role="group" aria-label="Quiz text size">
-					<span>Text size</span>
-					<button id="decrease-text" type="button" aria-label="Decrease quiz text size">A−</button>
-					<output id="text-size-value" aria-live="polite">100%</output>
-					<button id="increase-text" type="button" aria-label="Increase quiz text size">A+</button>
-					<button id="reset-text" type="button">Reset</button>
-				</div>
-
 				<h2 id="question-title" tabindex="-1"></h2>
 				<div id="question-context" class="question-context"></div>
 
@@ -458,6 +573,10 @@
 				</section>
 			</div>
 		</main>
+	</div>
+	<div class="teacher-badge" role="note" aria-label="Dr King Wunna">
+		<span class="teacher-badge-dot" aria-hidden="true"></span>
+		<span>Dr King Wunna</span>
 	</div>
 
 	<script>
@@ -524,21 +643,22 @@
 				title: "Which species can breed with <i>Prunella vulgaris</i> to produce fertile offspring?",
 				legend: "Choose the option showing which species can breed with Prunella vulgaris to produce fertile offspring",
 				context: `
-					<table class="comparison-table">
+					<table class="comparison-table answer-selection-table">
 						<caption>For each option, decide whether the named species can produce fertile offspring with <i>Prunella vulgaris</i>.</caption>
 						<thead>
 							<tr><th scope="col">Option</th><th scope="col"><i>Prunella modularis</i></th><th scope="col"><i>Vespula vulgaris</i></th></tr>
 						</thead>
 						<tbody>
-							<tr><th scope="row">A</th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
-							<tr><th scope="row">B</th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
-							<tr><th scope="row">C</th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
-							<tr><th scope="row">D</th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✓</span><span class="visually-hidden">Yes</span></td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td><td><span aria-hidden="true">✗</span><span class="visually-hidden">No</span></td></tr>
 						</tbody>
 					</table>
 					<p class="table-key"><strong>Key:</strong> ✓ = yes; ✗ = no</p>
 				`,
 				options: ["Option A", "Option B", "Option C", "Option D"],
+				hideAnswerOptions: true,
 				correct: "D",
 				answer: "D. Neither species",
 				explanation: `
@@ -650,20 +770,21 @@
 						<img src="cricket.jpg" alt="Field cricket with six jointed legs and long antennae" loading="lazy" decoding="async">
 						<figcaption>Field cricket (<i>Gryllus campestris</i>). Photo by Roberto Zanon via <a href="https://commons.wikimedia.org/wiki/File:Gryllus_campestris_3.jpg" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY-SA 3.0.</figcaption>
 					</figure>
-					<table class="comparison-table key-table">
+					<table class="comparison-table key-table answer-selection-table">
 						<caption>Dichotomous key</caption>
 						<thead><tr><th scope="col">Step</th><th scope="col">Feature</th><th scope="col">Follow</th></tr></thead>
 						<tbody>
 							<tr><th rowspan="2" scope="rowgroup">1</th><td>Has six jointed legs</td><td>Go to 2</td></tr>
 							<tr><td>Has eight jointed legs</td><td>Go to 3</td></tr>
-							<tr><th rowspan="2" scope="rowgroup">2</th><td>Antennae longer than its body</td><td>A. <i>Gryllus</i></td></tr>
-							<tr><td>Antennae shorter than its body</td><td>B. <i>Musca</i></td></tr>
-							<tr><th rowspan="2" scope="rowgroup">3</th><td>Has stripes on its legs</td><td>C. <i>Araneus</i></td></tr>
-							<tr><td>Has no stripes on its legs</td><td>D. <i>Pisaurina</i></td></tr>
+							<tr data-answer-choice="A"><th rowspan="2" scope="rowgroup">2</th><td>Antennae longer than its body</td><td><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select A, Gryllus" aria-pressed="false">A. <i>Gryllus</i></button></td></tr>
+							<tr data-answer-choice="B"><td>Antennae shorter than its body</td><td><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select B, Musca" aria-pressed="false">B. <i>Musca</i></button></td></tr>
+							<tr data-answer-choice="C"><th rowspan="2" scope="rowgroup">3</th><td>Has stripes on its legs</td><td><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select C, Araneus" aria-pressed="false">C. <i>Araneus</i></button></td></tr>
+							<tr data-answer-choice="D"><td>Has no stripes on its legs</td><td><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select D, Pisaurina" aria-pressed="false">D. <i>Pisaurina</i></button></td></tr>
 						</tbody>
 					</table>
 				`,
 				options: ["A. Gryllus (cricket)", "B. Musca (fly)", "C. Araneus (spider)", "D. Pisaurina (spider)"],
+				hideAnswerOptions: true,
 				correct: "A",
 				answer: "A. Gryllus (cricket)",
 				explanation: `
@@ -772,18 +893,19 @@
 				title: "The table shows the results of an experiment to investigate the effect of light intensity on the rate of photosynthesis. At which light intensity does a factor other than light begin to limit the rate?",
 				legend: "Choose the light intensity at which another factor begins to limit photosynthesis",
 				context: `
-					<table class="comparison-table light-intensity-table">
+					<table class="comparison-table light-intensity-table answer-selection-table">
 						<caption>Oxygen produced at different light intensities</caption>
-						<thead><tr><th scope="col">Light intensity<br>(arbitrary units)</th><th scope="col">Oxygen produced<br>(mm³/hour)</th></tr></thead>
+						<thead><tr><th scope="col">Option</th><th scope="col">Light intensity<br>(arbitrary units)</th><th scope="col">Oxygen produced<br>(mm³/hour)</th></tr></thead>
 						<tbody>
-							<tr><th scope="row">1.0</th><td>2.5</td></tr>
-							<tr><th scope="row">4.0</th><td>7.0</td></tr>
-							<tr><th scope="row">8.0</th><td>9.0</td></tr>
-							<tr><th scope="row">11.0</th><td>9.0</td></tr>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td>1.0</td><td>2.5</td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td>4.0</td><td>7.0</td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td>8.0</td><td>9.0</td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td>11.0</td><td>9.0</td></tr>
 						</tbody>
 					</table>
 				`,
 				options: ["1.0 arbitrary units", "4.0 arbitrary units", "8.0 arbitrary units", "11.0 arbitrary units"],
+				hideAnswerOptions: true,
 				correct: "C",
 				answer: "C. 8.0 arbitrary units",
 				explanation: `
@@ -891,6 +1013,586 @@
 					<p><strong>Collision frequency is not the same as successful collisions.</strong> Above the optimum, heat changes the enzyme’s active site. Substrates no longer fit effectively, so the rate falls rapidly even as molecular kinetic energy increases.</p>
 					<p class="relationship">R = optimum activity · S = highest temperature and kinetic energy</p>
 				`
+			},
+			{
+				title: "Starch in food is digested in two stages. In which parts of the alimentary canal do the two stages occur?",
+				legend: "Choose the locations of starch digestion to maltose and maltose digestion to glucose",
+				context: `
+					<table class="comparison-table statement-table answer-selection-table">
+						<caption>Choose where each digestion stage occurs</caption>
+						<thead><tr><th scope="col">Option</th><th scope="col">Starch into maltose</th><th scope="col">Maltose into glucose</th></tr></thead>
+						<tbody>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td>Duodenum</td><td>Stomach</td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td>Lining of small intestine</td><td>Mouth</td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td>Mouth</td><td>Lining of small intestine</td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td>Stomach</td><td>Duodenum</td></tr>
+						</tbody>
+					</table>
+				`,
+				options: [
+					"Duodenum → Stomach",
+					"Lining of small intestine → Mouth",
+					"Mouth → Lining of small intestine",
+					"Stomach → Duodenum"
+				],
+				hideAnswerOptions: true,
+				correct: "C",
+				answer: "C. Mouth → Lining of small intestine",
+				explanation: `
+					<p class="definition">Starch digestion occurs in two stages, using two different enzymes.</p>
+					<div class="translocation-flow" role="img" aria-label="Starch is broken down by amylase in the mouth and duodenum into maltose. Maltase in the lining of the small intestine breaks maltose into glucose, which is absorbed into the blood">
+						<div class="flow-step"><strong>Starch</strong><span>Amylase in the mouth begins digestion; pancreatic amylase continues it in the duodenum.</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Maltose</strong><span>Maltase in the lining of the small intestine digests maltose.</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Glucose</strong><span>Glucose is absorbed into the blood through the villi.</span></div>
+					</div>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A:</strong> Maltose is not normally digested into glucose in the stomach.</li>
+						<li><strong>B:</strong> The locations are reversed; maltase acts in the small intestine, not the mouth.</li>
+						<li><strong>C:</strong> Correct: amylase starts starch digestion in the mouth, and maltase completes digestion in the small intestine lining.</li>
+						<li><strong>D:</strong> Starch digestion does not begin in the stomach.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<table class="comparison-table">
+						<caption>Enzyme–substrate relationships</caption>
+						<thead><tr><th scope="col">Enzyme</th><th scope="col">Substrate</th><th scope="col">Product</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Amylase</th><td>Starch</td><td>Maltose</td></tr>
+							<tr><th scope="row">Maltase</th><td>Maltose</td><td>Glucose</td></tr>
+						</tbody>
+					</table>
+					<p>Amylase is secreted by the salivary glands and pancreas. Maltase is associated with the lining of the small intestine.</p>
+				`
+			},
+			{
+				title: "The diagram shows part of the alimentary canal. Which structure produces lipase?",
+				legend: "Choose the structure that produces lipase",
+				context: `
+					<figure class="digestive-diagram">
+						<img src="question-11.png" alt="Digestive-system diagram: A labels the liver, B the gall bladder, C the pancreas, and D the large intestine" loading="lazy" decoding="async">
+					</figure>
+				`,
+				options: ["A. Liver", "B. Gall bladder", "C. Pancreas", "D. Large intestine"],
+				correct: "C",
+				answer: "C. Pancreas",
+				explanation: `
+					<p class="definition">Structure <strong>C is the pancreas</strong>, which produces digestive enzymes, including lipase.</p>
+					<table class="comparison-table">
+						<caption>Identify each labelled structure</caption>
+						<thead><tr><th scope="col">Label</th><th scope="col">Structure</th><th scope="col">Function</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">A</th><td>Liver</td><td>Produces bile to emulsify fats.</td></tr>
+							<tr><th scope="row">B</th><td>Gall bladder</td><td>Stores and releases bile.</td></tr>
+							<tr><th scope="row">C</th><td>Pancreas</td><td>Produces lipase, amylase and proteases.</td></tr>
+							<tr><th scope="row">D</th><td>Large intestine</td><td>Absorbs water and mineral ions.</td></tr>
+						</tbody>
+					</table>
+					<h3>How lipase works</h3>
+					<div class="translocation-flow" role="img" aria-label="Lipase digests lipids into fatty acids and glycerol">
+						<div class="flow-step"><strong>Lipids (fats)</strong><span>Substrate</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Lipase</strong><span>Enzyme produced by the pancreas</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Fatty acids + glycerol</strong><span>Products</span></div>
+					</div>
+					<h3>IGCSE exam tip: bile and lipase</h3>
+					<ul class="option-explanations">
+						<li><strong>Bile:</strong> Made by the liver; emulsifies fats into smaller droplets. It is not an enzyme.</li>
+						<li><strong>Lipase:</strong> Made by the pancreas and small intestine; digests fats into fatty acids and glycerol.</li>
+						<li><strong>Pancreatic lipase:</strong> Released into the duodenum, where it acts on fats.</li>
+					</ul>
+				`
+			},
+			{
+				title: "Which statements about root hairs are correct?",
+				legend: "Choose the correct statements about root hairs",
+				context: `
+					<ol class="statement-list">
+						<li>Root hairs allow water to be absorbed by active transport.</li>
+						<li>Root hairs increase the surface area available for absorption.</li>
+						<li>The rate of absorption of water and ions is increased by root hairs.</li>
+					</ol>
+				`,
+				options: ["1, 2 and 3", "1 and 2 only", "2 and 3 only", "3 only"],
+				correct: "C",
+				answer: "C. Statements 2 and 3 only",
+				explanation: `
+					<table class="comparison-table statement-table">
+						<caption>Evaluate each statement</caption>
+						<thead><tr><th scope="col">Statement</th><th scope="col">Correct?</th><th scope="col">Explanation</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">1</th><td>No</td><td>Water enters root-hair cells by osmosis, not active transport.</td></tr>
+							<tr><th scope="row">2</th><td>Yes</td><td>The long, thin extensions provide a large surface area for absorption.</td></tr>
+							<tr><th scope="row">3</th><td>Yes</td><td>The increased surface area allows water and mineral ions to be absorbed more rapidly.</td></tr>
+						</tbody>
+					</table>
+					<figure class="explanation-photo">
+						<img src="root-hairs.jpg" alt="Fluorescence microscope image of a growing root hair" loading="lazy" decoding="async">
+						<figcaption>Root hair tip imaged using fluorescence microscopy. Image by Qu H, Xing W, Wu F and Wang Y via <a href="https://commons.wikimedia.org/wiki/File:Rapid-and-Inexpensive-Method-of-Loading-Fluorescent-Dye-into-Pollen-Tubes-and-Root-Hairs-pone.0152320.s007.ogv" target="_blank" rel="noreferrer">Wikimedia Commons</a>, licensed under CC BY 4.0.</figcaption>
+					</figure>
+					<h3>How root hair cells absorb substances</h3>
+					<figure class="root-hair-diagram">
+						<svg viewBox="0 0 700 270" role="img" aria-labelledby="root-uptake-title root-uptake-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="root-uptake-title">Water and mineral-ion uptake by a root hair cell</title>
+							<desc id="root-uptake-desc">Water moves from the soil into a root hair cell by osmosis. Mineral ions enter by active transport, which can use energy from respiration.</desc>
+							<defs>
+								<marker id="water-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#4389ad"/></marker>
+								<marker id="ion-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#b86b39"/></marker>
+							</defs>
+							<text x="38" y="42">Soil solution</text>
+							<path class="cell" d="M288 90 H632 V205 H288 C246 205 202 191 146 171 C202 151 246 90 288 90Z"/>
+							<path class="wall" d="M288 90 C246 90 202 151 146 171 C202 191 246 205 288 205" fill="none"/>
+							<text x="405" y="151">Root-hair cell</text>
+							<path class="water" d="M66 118 C106 118 137 130 170 150" fill="none" marker-end="url(#water-arrow)"/>
+							<path class="ions" d="M66 220 C111 220 141 205 174 190" fill="none" marker-end="url(#ion-arrow)"/>
+							<text x="70" y="101" fill="#4389ad">Water: osmosis</text>
+							<text x="70" y="252" fill="#b86b39">Mineral ions: active transport</text>
+							<path class="leader" d="M191 57 L232 119" fill="none"/>
+							<text x="244" y="50">Long extension increases surface area</text>
+						</svg>
+						<figcaption>Water enters by osmosis; mineral ions may be taken up by active transport.</figcaption>
+					</figure>
+					<table class="comparison-table root-uptake-table">
+						<caption>Osmosis and active transport</caption>
+						<thead><tr><th scope="col">Feature</th><th scope="col">Osmosis</th><th scope="col">Active transport</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Substance</th><td>Water</td><td>Mineral ions</td></tr>
+							<tr><th scope="row">Direction</th><td>Down a water-potential gradient</td><td>Against a concentration gradient</td></tr>
+							<tr><th scope="row">Energy</th><td>Not required</td><td>Required from respiration</td></tr>
+							<tr><th scope="row">Membrane proteins</th><td>May use aquaporins</td><td>Uses carrier proteins or pumps</td></tr>
+						</tbody>
+					</table>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> Root hairs are long extensions of root epidermal cells. Their large surface area makes absorption of water and mineral ions more efficient.</p>
+				`
+			},
+			{
+				title: "The diagram shows the water potential of three plant cells. The more negative the value, the higher the solute concentration. What is the immediate movement of water between the cells?",
+				legend: "Choose the directions of net water movement between cells P, Q and R",
+				context: `
+					<figure class="water-potential-diagram">
+						<svg viewBox="0 0 720 310" role="img" aria-labelledby="water-potential-prompt-title water-potential-prompt-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="water-potential-prompt-title">Water potentials in plant cells P, Q and R</title>
+							<desc id="water-potential-prompt-desc">Cell P has a water potential of minus 360 kilopascals, Q has minus 400 kilopascals, and R has minus 340 kilopascals.</desc>
+							<g text-anchor="middle">
+								<rect class="cell-box" x="90" y="34" width="210" height="100" rx="18"/>
+								<text class="cell-name" x="195" y="64">P</text><text class="cell-value" x="195" y="105">−360 kPa</text>
+								<rect class="cell-box" x="420" y="34" width="210" height="100" rx="18"/>
+								<text class="cell-name" x="525" y="64">Q</text><text class="cell-value" x="525" y="105">−400 kPa</text>
+								<rect class="cell-box" x="255" y="174" width="210" height="100" rx="18"/>
+								<text class="cell-name" x="360" y="204">R</text><text class="cell-value" x="360" y="245">−340 kPa</text>
+							</g>
+						</svg>
+						<figcaption>The more negative the value, the higher the solute concentration.</figcaption>
+					</figure>
+				`,
+				options: [
+					"From P to Q, and from R to P and Q",
+					"From Q to P and R only",
+					"From Q to P and R, and from P to R",
+					"From R to Q only"
+				],
+				correct: "A",
+				answer: "A. From P to Q, and from R to P and Q",
+				explanation: `
+					<p class="definition">Water moves by osmosis from a region of higher water potential (less negative) to a region of lower water potential (more negative).</p>
+					<p class="relationship">−340 kPa (R) &gt; −360 kPa (P) &gt; −400 kPa (Q)</p>
+					<figure class="water-potential-diagram">
+						<svg viewBox="0 0 720 410" role="img" aria-labelledby="water-potential-title water-potential-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="water-potential-title">Animated net water movement between cells P, Q and R</title>
+							<desc id="water-potential-desc">Water moves from R at minus 340 kilopascals to P at minus 360 and to Q at minus 400. It also moves from P to Q.</desc>
+							<defs><marker id="water-potential-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#4389ad"/></marker></defs>
+							<path class="water-flow-arrow" d="M258 97 C316 72 402 72 460 97"/>
+							<path class="water-flow-arrow" d="M298 282 C260 237 224 198 198 157"/>
+							<path class="water-flow-arrow" d="M422 282 C460 237 496 198 522 157"/>
+							<g text-anchor="middle">
+								<rect class="cell-box" x="70" y="48" width="190" height="100" rx="18"/>
+								<text class="cell-name" x="165" y="78">P</text><text class="cell-value" x="165" y="119">−360 kPa</text>
+								<rect class="cell-box" x="460" y="48" width="190" height="100" rx="18"/>
+								<text class="cell-name" x="555" y="78">Q</text><text class="cell-value" x="555" y="119">−400 kPa</text>
+								<rect class="cell-box" x="265" y="282" width="190" height="100" rx="18"/>
+								<text class="cell-name" x="360" y="312">R</text><text class="cell-value" x="360" y="353">−340 kPa</text>
+							</g>
+						</svg>
+						<figcaption>Animated arrows show net water movement toward the more negative water potential.</figcaption>
+					</figure>
+					<h3>Check the options</h3>
+					<ul class="option-explanations">
+						<li><strong>A:</strong> Correct. P → Q, R → P and R → Q all move from higher to lower water potential.</li>
+						<li><strong>B:</strong> Reverses the movement between Q and the other cells.</li>
+						<li><strong>C:</strong> Reverses all three directions.</li>
+						<li><strong>D:</strong> Includes R → Q but misses R → P and P → Q.</li>
+					</ul>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> More negative water potential means lower water potential. Net water moves toward the more negative value.</p>
+				`
+			},
+			{
+				title: "Which conditions lead to the lowest rate of transpiration in a plant?",
+				legend: "Choose the conditions that produce the lowest rate of transpiration",
+				options: ["Cool and high humidity", "Cool and windy", "Warm and low humidity", "Warm and windy"],
+				correct: "A",
+				answer: "A. Cool and high humidity",
+				explanation: `
+					<p class="definition">Transpiration is the loss of water vapour from a plant, mainly through the stomata.</p>
+					<p>The lowest rate occurs in <strong>cool, humid conditions</strong> because both conditions slow water loss from leaves.</p>
+					<table class="comparison-table transpiration-table">
+						<caption>How environmental conditions affect transpiration</caption>
+						<thead><tr><th scope="col">Condition</th><th scope="col">Effect on transpiration</th><th scope="col">Why</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Cool</th><td>Decreases</td><td>Water molecules have less kinetic energy, so evaporation from mesophyll surfaces is slower.</td></tr>
+							<tr><th scope="row">High humidity</th><td>Decreases</td><td>The air already contains water vapour, reducing the concentration gradient from leaf to air.</td></tr>
+							<tr><th scope="row">Windy</th><td>Usually increases</td><td>Moving air removes the moist layer around the leaf.</td></tr>
+							<tr><th scope="row">Warm and dry</th><td>Increases</td><td>Faster evaporation and a steeper water-vapour gradient promote water loss.</td></tr>
+						</tbody>
+					</table>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A:</strong> Correct. Cool temperatures slow evaporation, while high humidity reduces the water-vapour gradient.</li>
+						<li><strong>B:</strong> Wind removes humid air around the leaf and tends to increase transpiration.</li>
+						<li><strong>C:</strong> Warm, low-humidity air promotes evaporation and diffusion of water vapour.</li>
+						<li><strong>D:</strong> Warmth and wind both generally increase transpiration.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<p>Rising temperature and wind speed generally increase transpiration. Rising humidity decreases it by reducing the water-vapour concentration gradient between the leaf and the air.</p>
+				`
+			},
+			{
+				title: "The diagram shows the steps in an enzyme-controlled reaction. What describes the part labelled X?",
+				legend: "Choose the name for the enzyme and substrate joined at X",
+				context: `
+					<figure class="explanation-photo">
+						<img src="question-15.png" alt="Diagram showing a substrate binding to an enzyme, the enzyme–substrate complex labelled X, and products leaving the enzyme" loading="lazy" decoding="async">
+					</figure>
+				`,
+				options: ["Active site", "Substrate", "Product", "Enzyme–substrate complex"],
+				correct: "D",
+				answer: "D. Enzyme–substrate complex",
+				explanation: `
+					<p class="definition">X is the temporary complex formed when the substrate binds to the enzyme’s active site.</p>
+					<h3>Reaction pathway</h3>
+					<div class="enzyme-stage-flow" role="img" aria-label="The substrate binds at the enzyme active site, forms the enzyme-substrate complex, and is converted into products that leave the unchanged enzyme.">
+						<figure class="enzyme-stage">
+							<svg viewBox="0 0 210 145" aria-hidden="true"><path class="enzyme-shape" d="M20 45 C20 28 29 20 44 20 L68 20 C74 20 78 25 82 34 L91 55 C96 67 114 67 119 55 L128 34 C132 25 136 20 144 20 L168 20 C183 20 192 29 192 45 L192 88 C192 115 158 130 106 130 C54 130 20 115 20 88Z"/><polygon class="substrate-shape" points="60,3 77,-7 94,3 94,23 77,33 60,23"/><polygon class="substrate-shape" points="94,3 111,-7 128,3 128,23 111,33 94,23"/></svg>
+							<figcaption>1. Substrate binds at the active site</figcaption>
+						</figure>
+						<span class="enzyme-stage-arrow" aria-hidden="true">→</span>
+						<figure class="enzyme-stage">
+							<svg viewBox="0 0 230 145" aria-hidden="true"><path class="enzyme-shape" d="M20 45 C20 28 29 20 44 20 L68 20 C74 20 78 25 82 34 L91 55 C96 67 114 67 119 55 L128 34 C132 25 136 20 144 20 L168 20 C183 20 192 29 192 45 L192 88 C192 115 158 130 106 130 C54 130 20 115 20 88Z"/><polygon class="substrate-shape" points="60,3 77,-7 94,3 94,23 77,33 60,23"/><polygon class="substrate-shape" points="94,3 111,-7 128,3 128,23 111,33 94,23"/><path d="M202 14 V52 M194 14 H202 M194 52 H202" fill="none" stroke="#193b34" stroke-width="2"/><text x="205" y="37" font-size="16" font-weight="700">X</text></svg>
+							<figcaption>2. Enzyme–substrate complex forms</figcaption>
+						</figure>
+						<span class="enzyme-stage-arrow" aria-hidden="true">→</span>
+						<figure class="enzyme-stage">
+							<svg viewBox="0 0 210 145" aria-hidden="true"><path class="enzyme-shape" d="M20 45 C20 28 29 20 44 20 L68 20 C74 20 78 25 82 34 L91 55 C96 67 114 67 119 55 L128 34 C132 25 136 20 144 20 L168 20 C183 20 192 29 192 45 L192 88 C192 115 158 130 106 130 C54 130 20 115 20 88Z"/><polygon class="substrate-shape" points="35,3 52,-7 69,3 69,23 52,33 35,23"/><polygon class="substrate-shape" points="143,3 160,-7 177,3 177,23 160,33 143,23"/></svg>
+							<figcaption>3. Products leave; enzyme can be reused</figcaption>
+						</figure>
+					</div>
+					<table class="comparison-table">
+						<caption>Key enzyme definitions</caption>
+						<thead><tr><th scope="col">Term</th><th scope="col">Meaning</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Active site</th><td>Region where a substrate binds and the reaction is catalysed.</td></tr>
+							<tr><th scope="row">Substrate</th><td>Molecule on which the enzyme acts.</td></tr>
+							<tr><th scope="row">Enzyme–substrate complex</th><td>Temporary structure formed when the substrate binds to the enzyme.</td></tr>
+							<tr><th scope="row">Product</th><td>Substance formed by the enzyme-controlled reaction.</td></tr>
+						</tbody>
+					</table>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A. Active site:</strong> This is only the specific region of the enzyme where the substrate binds, not the whole joined structure.</li>
+						<li><strong>B. Substrate:</strong> The substrate is the molecule approaching the enzyme before binding.</li>
+						<li><strong>C. Product:</strong> Products are released after the reaction, shown leaving on the right.</li>
+						<li><strong>D. Enzyme–substrate complex:</strong> Correct. The substrate is temporarily bound to the enzyme at X.</li>
+					</ul>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> Enzymes are not used up. After products leave, the enzyme can bind another substrate.</p>
+				`
+			},
+			{
+				title: "Which components of a balanced diet are needed to make haemoglobin and to prevent scurvy and rickets?",
+				legend: "Choose the pair of nutrient groups needed to make haemoglobin and prevent scurvy and rickets",
+				options: [
+					"Carbohydrates and mineral ions",
+					"Carbohydrates and proteins",
+					"Mineral ions and vitamins",
+					"Vitamins and fibre"
+				],
+				correct: "C",
+				answer: "C. Mineral ions and vitamins",
+				explanation: `
+					<p class="definition">The question combines nutrients needed for making haemoglobin and preventing two deficiency diseases.</p>
+					<table class="comparison-table">
+						<caption>Nutrients and their roles</caption>
+						<thead><tr><th scope="col">Function or deficiency</th><th scope="col">Required nutrient</th><th scope="col">Importance</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Make haemoglobin</th><td>Iron (mineral ion)</td><td>Needed to make haemoglobin in red blood cells for oxygen transport.</td></tr>
+							<tr><th scope="row">Prevent scurvy</th><td>Vitamin C</td><td>Needed for collagen formation and healthy connective tissue.</td></tr>
+							<tr><th scope="row">Prevent rickets</th><td>Vitamin D and calcium</td><td>Needed for strong, properly mineralised bones.</td></tr>
+						</tbody>
+					</table>
+					<p>These nutrients belong to two groups: <strong>mineral ions and vitamins</strong>.</p>
+					<h3>Why the other options are incorrect</h3>
+					<ul class="option-explanations">
+						<li><strong>A. Carbohydrates and mineral ions:</strong> Does not include vitamins C and D.</li>
+						<li><strong>B. Carbohydrates and proteins:</strong> Does not include the necessary mineral ions and vitamins.</li>
+						<li><strong>C. Mineral ions and vitamins:</strong> Correct. This includes iron, calcium, vitamins C and D.</li>
+						<li><strong>D. Vitamins and fibre:</strong> Does not include the mineral ions iron and calcium.</li>
+					</ul>
+					<h3>IGCSE exam tip: common deficiency diseases</h3>
+					<table class="comparison-table">
+						<thead><tr><th scope="col">Nutrient deficiency</th><th scope="col">Possible result</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">Iron</th><td>Anaemia</td></tr>
+							<tr><th scope="row">Vitamin C</th><td>Scurvy</td></tr>
+							<tr><th scope="row">Vitamin D</th><td>Rickets in children</td></tr>
+							<tr><th scope="row">Calcium</th><td>Weak bones and teeth</td></tr>
+						</tbody>
+					</table>
+					<p>Vitamin D helps the body absorb calcium, which is essential for healthy bone development.</p>
+				`
+			},
+			{
+				title: "The diagram shows a villus. Which parts transport glucose and fatty acids away from the villus?",
+				legend: "Choose the labels for the structures that transport glucose and fatty acids away from the villus",
+				context: `
+					<figure class="digestive-diagram">
+						<img src="question-17.png" alt="Villus diagram labelled 1 to 4, showing blood capillaries, a central lacteal and vessels at the base" loading="lazy" decoding="async">
+					</figure>
+					<table class="comparison-table answer-selection-table villus-choice-table">
+						<caption>Choose the labelled structures that transport each nutrient away from the villus</caption>
+						<thead><tr><th scope="col">Option</th><th scope="col">Glucose</th><th scope="col">Fatty acids</th></tr></thead>
+						<tbody>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td>3</td><td>1</td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td>3</td><td>2</td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td>4</td><td>3</td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td>4</td><td>4</td></tr>
+						</tbody>
+					</table>
+				`,
+				options: ["Glucose 3, fatty acids 1", "Glucose 3, fatty acids 2", "Glucose 4, fatty acids 3", "Glucose 4, fatty acids 4"],
+				hideAnswerOptions: true,
+				correct: "C",
+				answer: "C. Glucose (4), fatty acids (3)",
+				explanation: `
+					<p class="definition">Glucose enters the blood capillaries and is carried away in the bloodstream. Fatty acids and glycerol enter the lacteal and travel through the lymphatic system.</p>
+					<table class="comparison-table">
+						<caption>Identify the transport structures</caption>
+						<thead><tr><th scope="col">Label</th><th scope="col">Structure</th><th scope="col">What it transports</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">3</th><td>Lacteal</td><td>Absorbed fats, including fatty acids and glycerol</td></tr>
+							<tr><th scope="row">4</th><td>Blood vessel</td><td>Glucose and other water-soluble nutrients</td></tr>
+						</tbody>
+					</table>
+					<p><strong>Therefore:</strong> glucose is transported by 4, and fatty acids by 3.</p>
+					<h3>IGCSE exam tip</h3>
+					<ul class="option-explanations">
+						<li><strong>Blood capillaries:</strong> Carry glucose and amino acids into the blood circulation.</li>
+						<li><strong>Lacteals:</strong> Absorb and transport fats through the lymphatic system.</li>
+						<li><strong>Villi and microvilli:</strong> Increase the surface area for absorption; the thin epithelium gives a short diffusion distance.</li>
+					</ul>
+				`
+			},
+			{
+				title: "The diagram shows part of the circulatory system. Which row identifies S and T?",
+				legend: "Choose the correct identities of blood vessels S and T",
+				context: `
+					<figure class="digestive-diagram">
+						<img src="question-18.png" alt="Diagram showing blood flow between the intestine, liver and heart, labelled S and T" loading="lazy" decoding="async">
+					</figure>
+					<table class="comparison-table answer-selection-table statement-table">
+						<caption>Identify blood vessels S and T</caption>
+						<thead><tr><th scope="col">Option</th><th scope="col">S</th><th scope="col">T</th></tr></thead>
+						<tbody>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td>Hepatic artery</td><td>Hepatic portal vein</td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td>Hepatic artery</td><td>Hepatic vein</td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td>Hepatic portal vein</td><td>Hepatic artery</td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td>Hepatic portal vein</td><td>Hepatic vein</td></tr>
+						</tbody>
+					</table>
+				`,
+				options: [
+					"S: hepatic artery; T: hepatic portal vein",
+					"S: hepatic artery; T: hepatic vein",
+					"S: hepatic portal vein; T: hepatic artery",
+					"S: hepatic portal vein; T: hepatic vein"
+				],
+				hideAnswerOptions: true,
+				correct: "D",
+				answer: "D. S: hepatic portal vein; T: hepatic vein",
+				explanation: `
+					<p class="definition">Blood flows from the intestine to the liver through S, then leaves the liver toward the heart through T.</p>
+					<table class="comparison-table">
+						<caption>Trace the blood vessels</caption>
+						<thead><tr><th scope="col">Label</th><th scope="col">Vessel</th><th scope="col">Direction and role</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">S</th><td>Hepatic portal vein</td><td>Intestine → liver; carries absorbed nutrients, including glucose and amino acids.</td></tr>
+							<tr><th scope="row">T</th><td>Hepatic vein</td><td>Liver → vena cava → heart.</td></tr>
+						</tbody>
+					</table>
+					<h3>Why option D is correct</h3>
+					<p>The hepatic portal vein carries nutrient-rich blood from the intestine to the liver. The hepatic vein carries blood away from the liver and toward the heart.</p>
+					<h3>IGCSE exam tip: liver blood vessels</h3>
+					<ul class="option-explanations">
+						<li><strong>Hepatic artery:</strong> Heart → liver.</li>
+						<li><strong>Hepatic portal vein:</strong> Intestine → liver.</li>
+						<li><strong>Hepatic vein:</strong> Liver → heart.</li>
+					</ul>
+					<p>The hepatic portal vein is unusual because it carries blood between capillary networks in the digestive organs and the liver.</p>
+				`
+			},
+			{
+				title: "The diagrams show the single circulation of a fish and the double circulation of a mammal. Which letters represent areas of oxygenated blood?",
+				legend: "Choose the pair of labels that contain oxygenated blood",
+				context: `
+					<figure class="circulation-diagram">
+						<img src="question-19.png" alt="Fish single-circulation diagram labelled R, S and T, and mammal double-circulation diagram labelled X, Y and Z" loading="lazy" decoding="async">
+					</figure>
+					<table class="comparison-table answer-selection-table statement-table">
+						<caption>Choose the oxygenated-blood labels</caption>
+						<thead><tr><th scope="col">Option</th><th scope="col">Fish</th><th scope="col">Mammal</th></tr></thead>
+						<tbody>
+							<tr data-answer-choice="A"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="A" aria-label="Select option A" aria-pressed="false">A</button></th><td>R</td><td>X</td></tr>
+							<tr data-answer-choice="B"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="B" aria-label="Select option B" aria-pressed="false">B</button></th><td>S</td><td>Y</td></tr>
+							<tr data-answer-choice="C"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="C" aria-label="Select option C" aria-pressed="false">C</button></th><td>T</td><td>Y</td></tr>
+							<tr data-answer-choice="D"><th scope="row"><button class="answer-table-choice" type="button" data-answer-choice="D" aria-label="Select option D" aria-pressed="false">D</button></th><td>T</td><td>Z</td></tr>
+						</tbody>
+					</table>
+				`,
+				options: ["R and X", "S and Y", "T and Y", "T and Z"],
+				hideAnswerOptions: true,
+				correct: "B",
+				answer: "B. S and Y",
+				explanation: `
+					<p class="definition">Oxygenated blood has a high oxygen concentration. It is carried away from the gas-exchange surface toward the body or heart.</p>
+					<table class="comparison-table">
+						<caption>Follow the blood flow at each label</caption>
+						<thead><tr><th scope="col">Label</th><th scope="col">Blood flow</th><th scope="col">Oxygen status</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">R</th><td>Fish: heart → gills</td><td>Deoxygenated</td></tr>
+							<tr><th scope="row">S</th><td>Fish: gills → body</td><td>Oxygenated</td></tr>
+							<tr><th scope="row">T</th><td>Fish: body → heart</td><td>Deoxygenated</td></tr>
+							<tr><th scope="row">X</th><td>Mammal: heart → lungs</td><td>Deoxygenated</td></tr>
+							<tr><th scope="row">Y</th><td>Mammal: lungs → heart</td><td>Oxygenated</td></tr>
+							<tr><th scope="row">Z</th><td>Mammal: body → heart</td><td>Deoxygenated</td></tr>
+						</tbody>
+					</table>
+					<p><strong>Therefore, S and Y contain oxygenated blood.</strong> In fish, blood gains oxygen at the gills before flowing to the body. In mammals, blood gains oxygen at the lungs before returning to the heart.</p>
+					<h3>Check the options</h3>
+					<ul class="option-explanations">
+						<li><strong>A. R and X:</strong> Both labels carry deoxygenated blood toward the gills or lungs.</li>
+						<li><strong>B. S and Y:</strong> Correct. S carries blood from the fish gills to the body; Y returns blood from the mammal lungs to the heart.</li>
+						<li><strong>C. T and Y:</strong> T carries deoxygenated blood from the fish body to the heart.</li>
+						<li><strong>D. T and Z:</strong> Both carry deoxygenated blood from the body toward the heart.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<p>Fish have single circulation: blood passes through the heart once per circuit. Mammals have double circulation: blood passes through the heart twice per circuit. Pulmonary arteries carry deoxygenated blood, while pulmonary veins carry oxygenated blood. Arteries carry blood away from the heart; veins carry it toward the heart.</p>
+				`
+			},
+			{
+				title: "The photomicrograph shows human blood. Which blood component can carry out the process of phagocytosis?",
+				legend: "Choose the blood component that carries out phagocytosis",
+				context: `
+					<figure class="explanation-photo">
+						<img src="question-20.png" alt="Photomicrograph of human blood labelled A to D" loading="lazy" decoding="async">
+					</figure>
+				`,
+				options: ["A. Phagocyte (neutrophil)", "B. Lymphocyte", "C. Red blood cell", "D. Plasma"],
+				letterOnlyOptions: true,
+				correct: "A",
+				answer: "A. Phagocyte (neutrophil)",
+				explanation: `
+					<p class="definition">Phagocytosis is the process by which certain white blood cells engulf and digest pathogens such as bacteria.</p>
+					<h3>Identify the labelled blood components</h3>
+					<figure class="blood-components-figure">
+						<svg viewBox="0 0 800 225" role="img" aria-labelledby="blood-components-title blood-components-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="blood-components-title">Blood components and their functions</title>
+							<desc id="blood-components-desc">A is a neutrophil phagocyte with a multi-lobed nucleus; B is a lymphocyte with a large round nucleus; C is a red blood cell; D is plasma.</desc>
+							<g class="blood-cell-outline">
+								<circle cx="100" cy="85" r="42" fill="#f4f6ef"/>
+								<path d="M76 77 C68 60 91 55 100 70 C111 52 132 66 118 80 C133 98 111 109 101 94 C86 111 69 96 82 84Z" fill="#72787c"/>
+								<circle cx="300" cy="85" r="42" fill="#f4f6ef"/><circle cx="300" cy="85" r="29" fill="#72787c"/>
+								<ellipse cx="500" cy="85" rx="48" ry="34" fill="#d9827b"/><ellipse cx="500" cy="85" rx="23" ry="13" fill="#efb5ac" stroke="none"/>
+								<path d="M700 42 C689 63 667 84 667 102 A33 33 0 0 0 733 102 C733 84 711 63 700 42Z" fill="#e8d7a5"/>
+							</g>
+							<g text-anchor="middle" font-size="16">
+								<text x="100" y="155" font-weight="700">A · Neutrophil</text><text x="100" y="178">Phagocytosis</text>
+								<text x="300" y="155" font-weight="700">B · Lymphocyte</text><text x="300" y="178">Antibodies</text>
+								<text x="500" y="155" font-weight="700">C · Red blood cell</text><text x="500" y="178">Oxygen transport</text>
+								<text x="700" y="155" font-weight="700">D · Plasma</text><text x="700" y="178">Dissolved substances</text>
+							</g>
+						</svg>
+						<figcaption>The multilobed nucleus is characteristic of a neutrophil, a type of phagocyte.</figcaption>
+					</figure>
+					<table class="comparison-table">
+						<caption>Blood components and their roles</caption>
+						<thead><tr><th scope="col">Label</th><th scope="col">Component</th><th scope="col">Function</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">A</th><td>Phagocyte (neutrophil)</td><td>Engulfs and digests pathogens by phagocytosis.</td></tr>
+							<tr><th scope="row">B</th><td>Lymphocyte</td><td>Produces antibodies as part of the immune response.</td></tr>
+							<tr><th scope="row">C</th><td>Red blood cell</td><td>Transports oxygen using haemoglobin.</td></tr>
+							<tr><th scope="row">D</th><td>Plasma</td><td>Transports dissolved substances, including nutrients, hormones and urea.</td></tr>
+						</tbody>
+					</table>
+					<h3>Stages of phagocytosis</h3>
+					<figure class="phagocytosis-figure">
+						<svg viewBox="0 0 760 230" role="img" aria-labelledby="phagocytosis-title phagocytosis-desc" xmlns="http://www.w3.org/2000/svg">
+							<title id="phagocytosis-title">Three stages of phagocytosis</title>
+							<desc id="phagocytosis-desc">A phagocyte recognizes a pathogen, engulfs it, and digests it with enzymes.</desc>
+							<defs><marker id="phagocytosis-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#1e654f"/></marker></defs>
+							<g class="blood-cell-outline">
+								<circle cx="105" cy="88" r="50" fill="#eaf2e7"/><circle cx="143" cy="54" r="13" fill="#a63d38"/>
+								<circle cx="380" cy="88" r="50" fill="#eaf2e7"/><circle cx="380" cy="75" r="16" fill="#a63d38"/>
+								<circle cx="655" cy="88" r="50" fill="#eaf2e7"/><circle cx="655" cy="88" r="12" fill="#a63d38"/><circle cx="639" cy="103" r="4" fill="#a63d38"/><circle cx="668" cy="104" r="4" fill="#a63d38"/>
+							</g>
+							<path d="M190 88 H280 M465 88 H555" fill="none" stroke="#1e654f" stroke-width="3" marker-end="url(#phagocytosis-arrow)"/>
+							<g text-anchor="middle" fill="#193b34" font-family="Avenir Next, Avenir, Segoe UI, sans-serif" font-size="16" font-weight="700">
+								<text x="120" y="175">1. Recognize pathogen</text><text x="380" y="175">2. Engulf pathogen</text><text x="640" y="175">3. Digest with enzymes</text>
+							</g>
+						</svg>
+						<figcaption>Engulf → digest → destroy the pathogen.</figcaption>
+					</figure>
+					<p class="exam-tip"><strong>IGCSE exam tip:</strong> Phagocytes often have a lobed nucleus and carry out a non-specific defence. Lymphocytes have a large, round nucleus and produce specific antibodies.</p>
+				`
+			},
+			{
+				title: "The diagrams show four different stages in one heartbeat. What is the correct order for the stages after stage P?",
+				legend: "Choose the correct order of the heart-cycle stages after P",
+				context: `
+					<figure class="circulation-diagram">
+						<img src="question-21.png" alt="Four heart diagrams labelled P, Q, R and S showing blood-flow directions during one heartbeat" loading="lazy" decoding="async">
+					</figure>
+				`,
+				options: ["Q → R → S", "R → Q → S", "R → S → Q", "S → R → Q"],
+				correct: "B",
+				answer: "B. R → Q → S",
+				explanation: `
+					<p class="definition">The cardiac cycle is the sequence of events during one heartbeat.</p>
+					<table class="comparison-table">
+						<caption>Identify each stage</caption>
+						<thead><tr><th scope="col">Stage</th><th scope="col">What happens?</th></tr></thead>
+						<tbody>
+							<tr><th scope="row">P</th><td>Blood returns through the veins and enters the atria.</td></tr>
+							<tr><th scope="row">R</th><td>The atria contract and push blood into the ventricles (atrial systole).</td></tr>
+							<tr><th scope="row">Q</th><td>The ventricles contract and pump blood into the pulmonary artery and aorta (ventricular systole).</td></tr>
+							<tr><th scope="row">S</th><td>Blood continues through the arteries while the atria receive blood from the veins.</td></tr>
+						</tbody>
+					</table>
+					<div class="translocation-flow" role="img" aria-label="After P, the atria contract at R, then ventricles contract at Q, then blood continues flowing at S">
+						<div class="flow-step"><strong>R · Atrial systole</strong><span>Atria push blood into ventricles</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>Q · Ventricular systole</strong><span>Ventricles pump blood into arteries</span></div>
+						<span class="flow-arrow" aria-hidden="true">→</span>
+						<div class="flow-step"><strong>S · Continuing flow</strong><span>Blood moves through arteries as atria refill</span></div>
+					</div>
+					<h3>Check the options</h3>
+					<ul class="option-explanations">
+						<li><strong>A. Q → R → S:</strong> Places ventricular contraction before atrial contraction.</li>
+						<li><strong>B. R → Q → S:</strong> Correct. The atria contract first, then the ventricles, followed by continuing blood flow.</li>
+						<li><strong>C. R → S → Q:</strong> Places continuing flow before ventricular contraction.</li>
+						<li><strong>D. S → R → Q:</strong> Starts with continuing flow instead of the atria contracting after P.</li>
+					</ul>
+					<h3>IGCSE exam tip</h3>
+					<p><strong>Systole</strong> means contraction, which raises pressure and pushes blood out of a chamber. The atria contract before the ventricles, so the ventricles fill before pumping blood away from the heart.</p>
+				`
 			}
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));
@@ -914,6 +1616,15 @@
 			feedback.innerHTML = `<strong class="feedback-title">${isCorrect ? `Correct: ${question.answer}` : `Not quite. The correct answer is ${question.answer}.`}</strong>${question.explanation}`;
 		}
 
+		function syncAnswerTableSelection() {
+			const selected = questionStates[currentQuestionIndex].selected;
+			questionContext.querySelectorAll("tr[data-answer-choice]").forEach((row) => {
+				const isSelected = row.dataset.answerChoice === selected;
+				row.classList.toggle("is-selected", isSelected);
+				row.querySelector("button[data-answer-choice]")?.setAttribute("aria-pressed", String(isSelected));
+			});
+		}
+
 		function renderQuestion() {
 			const question = questions[currentQuestionIndex];
 			const state = questionStates[currentQuestionIndex];
@@ -923,13 +1634,15 @@
 			progressValue.style.width = `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
 			questionTitle.innerHTML = question.title;
 			questionContext.innerHTML = question.context || "";
+			syncAnswerTableSelection();
 			questionLegend.textContent = question.legend;
+			answerOptions.hidden = Boolean(question.hideAnswerOptions);
 			answerOptions.innerHTML = question.options.map((option, index) => {
 				const letter = String.fromCharCode(65 + index);
 				return `<label class="answer">
 					<input type="radio" name="answer" value="${letter}"${state.selected === letter ? " checked" : ""}>
 					<span class="letter" aria-hidden="true">${letter}</span>
-					<span class="answer-text">${option}</span>
+					<span class="answer-text${question.letterOnlyOptions ? " visually-hidden" : ""}">${option}</span>
 				</label>`;
 			}).join("");
 			checkButton.disabled = !state.selected || state.checked;
@@ -976,7 +1689,8 @@
 			const isExpanded = navigatorToggle.getAttribute("aria-expanded") === "true";
 			quizLayout.classList.toggle("navigator-hidden", isExpanded);
 			navigatorToggle.setAttribute("aria-expanded", String(!isExpanded));
-			navigatorToggle.textContent = isExpanded ? "Show questions" : "Hide questions";
+			navigatorToggle.setAttribute("aria-label", isExpanded ? "Show questions" : "Hide questions");
+			navigatorToggle.title = isExpanded ? "Show questions" : "Hide questions";
 		});
 
 		questionNavList.addEventListener("click", (event) => {
@@ -985,6 +1699,15 @@
 			currentQuestionIndex = Number(button.dataset.questionIndex);
 			renderQuestion();
 			questionTitle.focus();
+		});
+
+		questionContext.addEventListener("click", (event) => {
+			const row = event.target.closest("tr[data-answer-choice]");
+			if (!row) return;
+			const radio = form.querySelector(`input[name="answer"][value="${row.dataset.answerChoice}"]`);
+			if (!radio) return;
+			radio.checked = true;
+			radio.dispatchEvent(new Event("change", { bubbles: true }));
 		});
 
 		form.addEventListener("change", (event) => {
@@ -996,6 +1719,7 @@
 			feedback.className = "feedback";
 			feedback.textContent = "";
 			nextQuestionButton.hidden = true;
+			syncAnswerTableSelection();
 			renderQuestionNavigator();
 		});
 

@@ -310,3 +310,16 @@ All included explanation image files are JPG or PNG, downloaded from the sources
 - Downloaded source paper was rasterised at 3× and cropped to the four graphs from the question supplied by the user. Original labels, scales and watermarks are retained.
 - Answer C is confirmed by the [mark scheme, question 8](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_ms_21.pdf).
 - Question 61 also reuses `images/online-enzyme-reaction.png`, credited above (domdomegg, CC BY 4.0).
+
+## images/online-abo-codominance.png
+- Author: YassineMrabet, based on an NIH illustration.
+- Licence: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/).
+- [Source page](https://commons.wikimedia.org/wiki/File:ABO_system_codominance.svg).
+- [Downloaded PNG](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/ABO_system_codominance.svg/960px-ABO_system_codominance.svg.png).
+- A published PNG rendering downloaded online. The illustration shows possible AO × BO offspring outcomes; four children are not guaranteed to have one of each group.
+
+## images/question-62-family.png
+- Author/rightsholder: Cambridge Assessment International Education, © UCLES 2022. All rights reserved; no Creative Commons licence is claimed.
+- [Source question paper, 0610/23/O/N/22, question 32, page 12](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w22_qp_23.pdf).
+- The original family diagram from the question supplied by the user was cropped from the downloaded paper and rasterised at 4× as a 1100 × 336 PNG.
+- [Mark scheme confirms answer D](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w22_ms_23.pdf).

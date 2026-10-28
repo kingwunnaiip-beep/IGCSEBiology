@@ -5204,6 +5204,100 @@
         </ul>
         <p class="relationship">Final answer: C.</p>
     `
+},
+{
+    title: '<span style="overflow-wrap:anywhere">A man and a woman have four children. The diagram shows the blood groups of the children. What are the possible genotypes of the father and mother?</span>',
+    paperCode: "0610/23/O/N/22",
+    paperSession: "Oct/Nov 2022",
+    legend: "Choose the parental genotypes that can produce these children",
+    context: `
+        <figure class="abo62-family">
+            <img src="images/question-62-family.png" width="1100" height="336" alt="A father and mother have four children: child 1 has blood group A, child 2 has AB, and children 3 and 4 each have O." decoding="async">
+            <figcaption>Children’s blood groups: A, AB, O and O.</figcaption>
+        </figure>
+    `,
+    options: [
+        `<span class="abo62-genotype">I<sup>A</sup>I<sup>A</sup></span> and <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span>`,
+        `<span class="abo62-genotype">I<sup>A</sup>I<sup>B</sup></span> and <span class="abo62-genotype">I<sup>o</sup>I<sup>o</sup></span>`,
+        `<span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> and <span class="abo62-genotype">I<sup>B</sup>I<sup>B</sup></span>`,
+        `<span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> and <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span>`
+    ],
+    correct: "D",
+    answer: "D. IᴬIᵒ and IᴮIᵒ",
+    explanation: `
+        <p class="definition"><strong>D is correct:</strong> one parent is <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> and the other is <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span>. An AB child needs an A allele from one parent and a B allele from the other. An O child needs an O allele from <strong>both</strong> parents.</p>
+
+        <h3>Step 1: Understand the ABO alleles</h3>
+        <p>The paper writes the recessive O allele as <span class="abo62-genotype">I<sup>o</sup></span>.</p>
+        <ul class="option-explanations">
+            <li><span class="abo62-genotype">I<sup>A</sup></span> leads to A antigen on red blood cells.</li>
+            <li><span class="abo62-genotype">I<sup>B</sup></span> leads to B antigen on red blood cells.</li>
+            <li><span class="abo62-genotype">I<sup>o</sup></span> is recessive and leads to neither A nor B antigen.</li>
+        </ul>
+        <p><span class="abo62-genotype">I<sup>A</sup></span> and <span class="abo62-genotype">I<sup>B</sup></span> are <strong>codominant</strong>: both are expressed in group AB. Each is dominant to <span class="abo62-genotype">I<sup>o</sup></span>.</p>
+        <table class="comparison-table" style="table-layout:fixed">
+            <caption>ABO blood groups and their possible genotypes</caption>
+            <colgroup><col style="width:28%"><col></colgroup>
+            <thead><tr><th scope="col">Blood group</th><th scope="col">Possible genotypes</th></tr></thead>
+            <tbody>
+                <tr><th scope="row">A</th><td><span class="abo62-genotype">I<sup>A</sup>I<sup>A</sup></span> or <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span></td></tr>
+                <tr><th scope="row">B</th><td><span class="abo62-genotype">I<sup>B</sup>I<sup>B</sup></span> or <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span></td></tr>
+                <tr><th scope="row">AB</th><td><span class="abo62-genotype">I<sup>A</sup>I<sup>B</sup></span></td></tr>
+                <tr><th scope="row">O</th><td><span class="abo62-genotype">I<sup>o</sup>I<sup>o</sup></span></td></tr>
+            </tbody>
+        </table>
+
+        <h3>Step 2: Use the children’s blood groups</h3>
+        <p>The <strong>AB child</strong> has genotype <span class="abo62-genotype">I<sup>A</sup>I<sup>B</sup></span>. Therefore, one parent must supply <span class="abo62-genotype">I<sup>A</sup></span> and the other must supply <span class="abo62-genotype">I<sup>B</sup></span>.</p>
+        <p>The <strong>O children</strong> have genotype <span class="abo62-genotype">I<sup>o</sup>I<sup>o</sup></span>. Therefore, <strong>each parent must carry <span class="abo62-genotype">I<sup>o</sup></span></strong>.</p>
+        <p>Combining these clues gives <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> × <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span>. Either parent could be the group-A parent or the group-B parent.</p>
+
+        <h3>Step 3: Draw the Punnett square</h3>
+        <figure class="abo62-square" aria-labelledby="abo62-square-title">
+            <figcaption id="abo62-square-title">A group-A parent and a group-B parent, both carrying O</figcaption>
+            <p class="abo62-parents"><span>Parent 1: <strong class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></strong></span><span aria-hidden="true">×</span><span>Parent 2: <strong class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></strong></span></p>
+            <p id="abo62-square-axes" class="abo62-axes"><strong>Rows:</strong> parent 1’s gametes, <span class="abo62-genotype">I<sup>A</sup></span> or <span class="abo62-genotype">I<sup>o</sup></span>.<br><strong>Columns:</strong> parent 2’s gametes, <span class="abo62-genotype">I<sup>B</sup></span> or <span class="abo62-genotype">I<sup>o</sup></span>.<span class="abo62-scroll-hint">Scroll the square sideways if needed.</span></p>
+            <div class="abo62-scroll" tabindex="0" role="region" aria-label="ABO Punnett square; scroll horizontally if needed" aria-describedby="abo62-square-axes">
+                <table class="abo62-table">
+                    <caption class="visually-hidden">Four equally likely blood-group outcomes from I superscript A I superscript o crossed with I superscript B I superscript o</caption>
+                    <colgroup><col style="width:20%"><col><col></colgroup>
+                    <thead><tr><th scope="col" class="abo62-corner">Gametes ↓</th><th scope="col"><span class="abo62-genotype">I<sup>B</sup></span></th><th scope="col"><span class="abo62-genotype">I<sup>o</sup></span></th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row"><span class="abo62-genotype">I<sup>A</sup></span></th>
+                            <td class="abo62-ab"><strong class="abo62-genotype">I<sup>A</sup>I<sup>B</sup></strong><span class="abo62-outcome">Group AB</span><span class="abo62-probability">25%</span></td>
+                            <td class="abo62-a"><strong class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></strong><span class="abo62-outcome">Group A</span><span class="abo62-probability">25%</span></td>
+                        </tr>
+                        <tr><th scope="row"><span class="abo62-genotype">I<sup>o</sup></span></th>
+                            <td class="abo62-b"><strong class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></strong><span class="abo62-outcome">Group B</span><span class="abo62-probability">25%</span></td>
+                            <td class="abo62-o"><strong class="abo62-genotype">I<sup>o</sup>I<sup>o</sup></strong><span class="abo62-outcome">Group O</span><span class="abo62-probability">25%</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="abo62-per-child"><strong>Each blood group has a 1 in 4 = 25% chance for each child.</strong> All four groups are possible, even though no group-B child is shown in this family.</p>
+        </figure>
+
+        <h3>Step 4: Check the options</h3>
+        <ul class="option-explanations">
+            <li><strong>A:</strong> <span class="abo62-genotype">I<sup>A</sup>I<sup>A</sup></span> × <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span> produces A or AB. It <strong>cannot produce O</strong>.</li>
+            <li><strong>B:</strong> <span class="abo62-genotype">I<sup>A</sup>I<sup>B</sup></span> × <span class="abo62-genotype">I<sup>o</sup>I<sup>o</sup></span> produces A or B. It <strong>cannot produce AB or O</strong>.</li>
+            <li><strong>C:</strong> <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> × <span class="abo62-genotype">I<sup>B</sup>I<sup>B</sup></span> produces AB or B. It <strong>cannot produce O</strong> or A.</li>
+            <li><strong>D:</strong> <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> × <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span> can produce <strong>A, B, AB and O</strong>, matching the family.</li>
+        </ul>
+
+        <h3>Published visual guide to ABO inheritance</h3>
+        <figure class="explanation-photo explanation-visual" data-explanation-visual="62">
+            <a href="images/online-abo-codominance.png" target="_blank" rel="noreferrer" aria-label="Open the downloaded ABO inheritance image at full size">
+                <img src="images/online-abo-codominance.png" width="960" height="956" alt="Published ABO inheritance diagram: a group-A parent carrying A and O alleles and a group-B parent carrying B and O alleles can have children with blood groups A, AB, B or O." loading="lazy" decoding="async">
+            </a>
+            <figcaption>A parent carrying A and O crossed with a parent carrying B and O can produce all four ABO groups. The four figures are possible offspring outcomes, not a guaranteed set of four children. This illustration uses the allele labels A, B and O; the square above uses the paper’s I-superscript notation. Image: YassineMrabet, based on an NIH illustration, via <a href="https://commons.wikimedia.org/wiki/File:ABO_system_codominance.svg" target="_blank" rel="noreferrer">source</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noreferrer">public domain</a>.</figcaption>
+        </figure>
+
+        <h3>IGCSE exam tip</h3>
+        <p class="relationship">AB child → an A allele from one parent and a B allele from the other.<br>O child → an O allele from both parents.</p>
+        <p class="exam-tip"><strong>Observed numbers are not guaranteed ratios.</strong> Two O children in this family do not make the chance of O 50%. Each pregnancy is independent, and this cross gives a <strong>25% chance of group O for each child</strong>. Four children do not have to include one child of each blood group.</p>
+        <p class="relationship">Final answer: D — <span class="abo62-genotype">I<sup>A</sup>I<sup>o</sup></span> and <span class="abo62-genotype">I<sup>B</sup>I<sup>o</sup></span>.</p>
+    `
 }
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));

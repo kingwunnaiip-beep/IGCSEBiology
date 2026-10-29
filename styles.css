@@ -1674,3 +1674,19 @@
 .dna72-graph img { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 .dna72-graph figcaption { margin-top: .5em; color: var(--muted); font-size: .9em; line-height: 1.5; overflow-wrap: anywhere; }
 .dna72-graph a { color: inherit; }
+
+/* Q80: independent four-question practice inside answer feedback. */
+.practice80 { min-width: 0; margin-top: 26px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,254,250,.75); }
+.practice80 fieldset { min-width: 0; margin: 0 0 22px; padding: 0; border: 0; }
+.practice80 legend { position: static; width: auto; height: auto; max-width: 100%; margin-bottom: 10px; padding: 0; overflow: visible; clip: auto; font-size: 1em; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.practice80-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.practice80-choice { display: flex; align-items: flex-start; gap: .6em; min-width: 0; padding: .65em; border: 1px solid var(--line); border-radius: 7px; color: var(--ink); background: var(--white); line-height: 1.5; overflow-wrap: anywhere; cursor: pointer; }
+.practice80-choice input { flex: 0 0 auto; width: 1.1em; height: 1.1em; margin: .2em 0 0; accent-color: var(--green); }
+.practice80-choice span { min-width: 0; }
+.practice80-choice:focus-within { outline: 3px solid #357ca2; outline-offset: 2px; }
+.practice80-choice[data-result="correct"] { border-color: #1e654f; background: #eaf4e8; }
+.practice80-choice[data-result="incorrect"] { border-color: #a63d38; background: #fff0ed; }
+.practice80-result { margin: 8px 0 0; font-size: .9em; line-height: 1.5; overflow-wrap: anywhere; }
+.practice80-result[hidden] { display: none; }
+.practice80-score { font-weight: 700; }
+@media (max-width: 680px) { .practice80 { padding: 12px; } .practice80-options { grid-template-columns: minmax(0,1fr); } }

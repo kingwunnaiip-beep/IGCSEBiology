@@ -6257,6 +6257,68 @@
     "explanation": "<h3>1. Read the direction of the curve</h3><p>X is on a <strong>falling</strong> section: lung volume is decreasing. Air is leaving the lungs, so the person is <strong>breathing out (expiration)</strong>.</p><h3>2. Explain quiet expiration</h3><p>The diaphragm <strong>relaxes</strong> and returns towards its dome shape. The external intercostal muscles <strong>relax</strong>; the ribs move downwards and inwards. Elastic recoil helps reduce thorax and lung volume.</p><p>Pressure inside the lungs rises <strong>above atmospheric pressure</strong>, so air moves out.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-76-lung-volume.png\" alt=\"Lung volume varies with time during breathing at rest; X marks a point on a falling section.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>3. Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> both the diaphragm and external intercostal muscles relax.</li><li><strong>B and C:</strong> diaphragm contraction is associated with inspiration.</li><li><strong>D:</strong> external intercostal contraction raises the ribs during inspiration.</li></ul><h3>IGCSE exam tip</h3><p class=\"exam-tip\"><strong>Rising lung volume → inspiration; falling lung volume → expiration.</strong> This is breathing at rest: quiet expiration is mainly passive. Active contraction of the internal intercostal muscles is associated with forced expiration.</p><p class=\"relationship\">Final answer: A — both muscles relax.</p>",
     "paperCode": "0610/21/M/J/25",
     "paperSession": "May/June 2025"
+},
+{
+    "title": "A person looks at a distant object in a dark area, then moves to a bright area and looks at a near object. Which statement describes the changes in the eyes?",
+    "legend": "Select an answer.",
+    "options": [
+        "The circular muscles of the iris contract, the pupil constricts, the ciliary muscles relax and the lens gets thicker.",
+        "The radial muscles of the iris relax, the circular muscles of the iris contract, the pupil constricts and the lens gets thinner.",
+        "The radial muscles of the iris relax, the pupil constricts, the ciliary muscles contract and the lens gets thicker.",
+        "The radial muscles of the iris relax, the pupil dilates, the ciliary muscles relax and the lens gets thicker."
+    ],
+    "correct": "C",
+    "answer": "C. Radial muscles relax; pupil constricts; ciliary muscles contract; lens gets thicker",
+    "explanation": "<h3>1. Separate the two responses</h3><p>Moving from <strong>dark to bright</strong> triggers the pupil reflex. Changing focus from <strong>distant to near</strong> requires accommodation. These involve different muscles.</p><h3>2. Respond to bright light</h3><p>The <strong>circular muscles of the iris contract</strong> and the <strong>radial muscles relax</strong>. The pupil <strong>constricts</strong>, reducing the light entering the eye and helping protect the retina.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-pupil-constriction-dilation.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-pupil-constriction-dilation.jpg\" alt=\"Photographs compare a constricted pupil and a larger pupil during the pupillary light response.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Pupils change diameter in response to light. Photo: Rapidreflex, <a href=\"https://commons.wikimedia.org/wiki/File:Pupillary_light_reflex.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Image unchanged. This illustrates the pupil response; lens accommodation is a separate process. <a href=\"images/online-pupil-constriction-dilation.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>3. Focus on the near object</h3><p>The <strong>ciliary muscles contract</strong> → the <strong>suspensory ligaments slacken</strong> → the lens becomes <strong>thicker and more convex</strong>. It refracts light more strongly, bringing light from the near object into focus on the retina.</p><table class=\"comparison-table\"><caption>Accommodation</caption><thead><tr><th scope=\"col\">Structure</th><th scope=\"col\">Near object</th><th scope=\"col\">Distant object</th></tr></thead><tbody><tr><th scope=\"row\">Ciliary muscles</th><td>Contract</td><td>Relax</td></tr><tr><th scope=\"row\">Suspensory ligaments</th><td>Slacken</td><td>Tighten</td></tr><tr><th scope=\"row\">Lens</th><td>Thicker</td><td>Thinner</td></tr><tr><th scope=\"row\">Refraction</th><td>Greater</td><td>Less</td></tr></tbody></table><h3>4. Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> ciliary muscles should contract for near focus.</li><li><strong>B:</strong> the lens should become thicker.</li><li><strong>C — correct:</strong> all the listed changes match.</li><li><strong>D:</strong> the pupil should constrict; the ciliary muscles should contract.</li></ul><p class=\"exam-tip\"><strong>Bright light:</strong> circular iris muscles contract. <strong>Near focus:</strong> ciliary muscles contract. Suspensory ligaments become slack; they do not actively contract.</p><p class=\"relationship\">Final answer: C.</p>",
+    "paperCode": "0610/22/O/N/25",
+    "paperSession": "Oct/Nov 2025"
+},
+{
+    "title": "The diagram shows an experiment using wheat shoots X and Y. Which statement is supported by the evidence?",
+    "legend": "Select an answer.",
+    "context": "<figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-78-wheat-shoots.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-78-wheat-shoots.png\" alt=\"Wheat shoots X and Y before and after two days in even light. X has an intact tip; Y has its tip removed.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/25</a>. <a href=\"images/question-78-wheat-shoots.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "options": [
+        "Auxin moves through the plant by osmosis.",
+        "Auxin is made in the shoot tip.",
+        "Auxin is unequally distributed in response to light.",
+        "Auxin inhibits cell elongation."
+    ],
+    "correct": "B",
+    "answer": "B. Auxin is made in the shoot tip",
+    "explanation": "<h3>1. Compare the shoots</h3><p><strong>X</strong> retains its shoot tip and grows taller. <strong>Y</strong> has its tip removed and shows no increase in height in the diagram. Both receive the same <strong>even light</strong> for two days.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-78-wheat-shoots.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-78-wheat-shoots.png\" alt=\"Wheat shoots X and Y before and after two days in even light. X has an intact tip; Y has its tip removed.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/25</a>. <a href=\"images/question-78-wheat-shoots.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>2. Link the tip to elongation</h3><p>Auxin is produced mainly in growing shoot tips. It moves to the region of elongation and <strong>stimulates cell elongation in shoots</strong>. Removing the tip removes the main source and greatly reduces this growth response.</p><p><strong>Shoot tip → auxin → cell elongation → shoot growth.</strong> The results support the tip as the source of auxin; they do not by themselves establish every detail of auxin transport.</p><h3>3. Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> osmosis is the movement of water, not auxin.</li><li><strong>B — correct:</strong> the evidence supports auxin production in the shoot tip.</li><li><strong>C:</strong> even light does not test redistribution under one-sided light.</li><li><strong>D:</strong> auxin generally stimulates shoot cell elongation.</li></ul><p class=\"exam-tip\">In shoots, auxin stimulates elongation. In phototropism, unequal auxin distribution causes unequal growth and bending; this experiment shows growth under <strong>even light</strong>. High auxin concentrations can inhibit elongation in roots.</p><p class=\"relationship\">Final answer: B.</p>",
+    "paperCode": "0610/22/O/N/25",
+    "paperSession": "Oct/Nov 2025"
+},
+{
+    "title": "Pollen transfers between flowers on two plants of the same species. Which arrows show cross-pollination, and which transfer produces the most variation?",
+    "legend": "Select an answer.",
+    "context": "<figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-79-pollination.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-79-pollination.png\" alt=\"Two separate plants of the same species, each with two flowers. Arrow P transfers pollen between plants; arrow Q transfers it between flowers on plant 1.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/25</a>. <a href=\"images/question-79-pollination.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "options": [
+        "Cross-pollination: P only; most variation: P.",
+        "Cross-pollination: P only; most variation: Q.",
+        "Cross-pollination: P and Q; most variation: P.",
+        "Cross-pollination: P and Q; most variation: Q."
+    ],
+    "correct": "A",
+    "answer": "A. P only is cross-pollination; P produces the most variation",
+    "explanation": "<h3>1. Follow the pollen transfers</h3><p><strong>P</strong> carries pollen from plant 1 to plant 2. <strong>Q</strong> carries pollen between two flowers on plant 1.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-79-pollination.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-79-pollination.png\" alt=\"Two separate plants of the same species, each with two flowers. Arrow P transfers pollen between plants; arrow Q transfers it between flowers on plant 1.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/25</a>. <a href=\"images/question-79-pollination.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>2. Apply the definitions</h3><p><strong>Cross-pollination:</strong> pollen is transferred from an anther to the stigma of a flower on a <strong>different plant of the same species</strong>. Therefore, P is cross-pollination.</p><p><strong>Self-pollination</strong> includes transfer to another flower on the <strong>same plant</strong>. Therefore, Q is self-pollination.</p><h3>3. Compare genetic variation</h3><p>Cross-pollination generally produces greater genetic variation because pollen and ovules come from different plants. Fertilisation can combine different parental alleles. Self-pollination can still produce variation, but it generally produces less.</p><h3>4. Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> P only is cross-pollination and P gives the most variation.</li><li><strong>B:</strong> P generally produces greater variation than Q.</li><li><strong>C and D:</strong> Q is self-pollination.</li></ul><p class=\"exam-tip\"><strong>Both self-pollination and cross-pollination are associated with sexual reproduction.</strong> Self-pollination is not asexual reproduction. Pollination is pollen transfer; fertilisation is the later fusion of gametes.</p><p class=\"relationship\">Final answer: A.</p>",
+    "paperCode": "0610/22/O/N/25",
+    "paperSession": "Oct/Nov 2025"
+},
+{
+    "title": "Why are lymphocytes the only cells that produce antibody proteins?",
+    "legend": "Select an answer.",
+    "options": [
+        "Lymphocytes express all the genes in the nucleus.",
+        "Lymphocytes have twice as many genes as other cells.",
+        "Other cells do not have the genes for antibodies.",
+        "The genes for antibodies are only expressed in lymphocytes."
+    ],
+    "correct": "D",
+    "answer": "D. The genes for antibodies are only expressed in lymphocytes",
+    "explanation": "<h3>1. Understand gene expression</h3><p>A gene is <strong>expressed</strong> when its information is used to make a functional product, such as a protein. Most nucleated body cells have essentially the same genetic information, but specialised cells express different sets of genes.</p><h3>2. Identify the antibody-producing cells</h3><p><strong>B lymphocytes</strong> can be activated and develop into <strong>plasma cells</strong>, which produce and secrete large quantities of specific antibodies. This is the precise cell lineage behind the question’s use of “lymphocytes”; not every lymphocyte secretes antibodies.</p><h3>3. Follow protein synthesis</h3><p><strong>DNA → transcription → mRNA → translation at ribosomes → antibody protein.</strong> Expression of the relevant genes allows these cells to make antibodies.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-protein-synthesis.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-protein-synthesis.jpg\" alt=\"A published diagram shows transcription from DNA to messenger RNA and translation at ribosomes.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>General protein synthesis, rather than an antibody-specific gene diagram. Image: OpenStax (2016), <a href=\"https://commons.wikimedia.org/wiki/File:0328_Transcription-translation_Summary.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>. Image unchanged. <a href=\"images/online-protein-synthesis.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>4. Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> specialised cells do not express every gene.</li><li><strong>B:</strong> lymphocytes do not have twice as many genes as other cells.</li><li><strong>C:</strong> at IGCSE level, the key distinction is which genes are expressed, rather than other nucleated cells lacking the genetic information.</li><li><strong>D — correct:</strong> antibody gene expression accounts for the specialised protein production.</li></ul><table class=\"comparison-table\"><caption>Examples of specialised protein production</caption><thead><tr><th scope=\"col\">Cell</th><th scope=\"col\">Example protein</th></tr></thead><tbody><tr><th scope=\"row\">B-cell-derived plasma cell</th><td>Antibodies</td></tr><tr><th scope=\"row\">Pancreatic beta cell</th><td>Insulin</td></tr><tr><th scope=\"row\">Muscle cell</th><td>Actin and myosin</td></tr></tbody></table><p class=\"exam-tip\"><strong>Different genes expressed → different proteins → specialised functions.</strong></p><p class=\"relationship\">Final answer: D.</p><section class=\"practice80\" id=\"practice80\" aria-labelledby=\"practice80-title\"><h3 id=\"practice80-title\">Test your understanding</h3><p>Try these four short checks. Your practice score is separate from your quiz answer.</p><fieldset data-practice80-question=\"1\" data-correct=\"B\"><legend>1. When focusing on a near object, what happens to the suspensory ligaments?</legend><div class=\"practice80-options\"><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-1\" value=\"A\" data-practice80-answer aria-describedby=\"practice80-result-1\"><span>They tighten</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-1\" value=\"B\" data-practice80-answer aria-describedby=\"practice80-result-1\"><span>They slacken</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-1\" value=\"C\" data-practice80-answer aria-describedby=\"practice80-result-1\"><span>They contract</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-1\" value=\"D\" data-practice80-answer aria-describedby=\"practice80-result-1\"><span>They become thicker</span></label></div><p class=\"practice80-result\" id=\"practice80-result-1\" data-practice80-result hidden></p></fieldset><fieldset data-practice80-question=\"2\" data-correct=\"C\"><legend>2. Removing a shoot tip mainly removes the source of which hormone?</legend><div class=\"practice80-options\"><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-2\" value=\"A\" data-practice80-answer aria-describedby=\"practice80-result-2\"><span>Adrenaline</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-2\" value=\"B\" data-practice80-answer aria-describedby=\"practice80-result-2\"><span>Insulin</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-2\" value=\"C\" data-practice80-answer aria-describedby=\"practice80-result-2\"><span>Auxin</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-2\" value=\"D\" data-practice80-answer aria-describedby=\"practice80-result-2\"><span>Progesterone</span></label></div><p class=\"practice80-result\" id=\"practice80-result-2\" data-practice80-result hidden></p></fieldset><fieldset data-practice80-question=\"3\" data-correct=\"B\"><legend>3. Pollen moves between two flowers on the same plant. What is this?</legend><div class=\"practice80-options\"><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-3\" value=\"A\" data-practice80-answer aria-describedby=\"practice80-result-3\"><span>Cross-pollination</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-3\" value=\"B\" data-practice80-answer aria-describedby=\"practice80-result-3\"><span>Self-pollination</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-3\" value=\"C\" data-practice80-answer aria-describedby=\"practice80-result-3\"><span>Asexual reproduction</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-3\" value=\"D\" data-practice80-answer aria-describedby=\"practice80-result-3\"><span>Vegetative propagation</span></label></div><p class=\"practice80-result\" id=\"practice80-result-3\" data-practice80-result hidden></p></fieldset><fieldset data-practice80-question=\"4\" data-correct=\"D\"><legend>4. Why can specialised cells produce different proteins?</legend><div class=\"practice80-options\"><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-4\" value=\"A\" data-practice80-answer aria-describedby=\"practice80-result-4\"><span>They all express every gene</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-4\" value=\"B\" data-practice80-answer aria-describedby=\"practice80-result-4\"><span>They contain twice as much DNA</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-4\" value=\"C\" data-practice80-answer aria-describedby=\"practice80-result-4\"><span>They have no chromosomes</span></label><label class=\"practice80-choice\"><input type=\"radio\" name=\"practice80-4\" value=\"D\" data-practice80-answer aria-describedby=\"practice80-result-4\"><span>Different genes are expressed</span></label></div><p class=\"practice80-result\" id=\"practice80-result-4\" data-practice80-result hidden></p></fieldset><p class=\"practice80-score\"><output data-practice80-score aria-live=\"polite\" aria-atomic=\"true\">Score: 0 / 4. 0 of 4 answered.</output></p><button type=\"button\" data-practice80-reset>Try again</button></section>",
+    "paperCode": "0610/22/O/N/25",
+    "paperSession": "Oct/Nov 2025"
 }
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));
@@ -6354,7 +6416,11 @@
             "73": "Hydra budding: asexual reproduction",
             "74": "The glomerulus filters small molecules",
             "75": "Chemical transmission across a synapse",
-            "76": "At X, the person is breathing out"
+            "76": "At X, the person is breathing out",
+            "77": "Two separate eye responses",
+            "78": "The shoot tip supports growth",
+            "79": "Pollen transfer: self or cross?",
+            "80": "Which cells make antibodies?"
 };
 
         function addExplanationDiagram(questionNumber) {
@@ -7112,3 +7178,39 @@ feedback.addEventListener("click", (event) => {
 })();
 
 	
+// Q80 practice checks use separate radio names and never change the quiz answer.
+(() => {
+    function updatePractice(panel) {
+        let score = 0, answered = 0;
+        panel.querySelectorAll("fieldset[data-practice80-question]").forEach((group) => {
+            const selected = group.querySelector("input:checked");
+            const correct = group.dataset.correct;
+            const result = group.querySelector("[data-practice80-result]");
+            group.querySelectorAll(".practice80-choice").forEach((label) => {
+                const radio = label.querySelector("input");
+                label.dataset.result = radio.checked ? (radio.value === correct ? "correct" : "incorrect") : "";
+            });
+            result.hidden = !selected;
+            if (!selected) { result.textContent = ""; return; }
+            answered += 1;
+            const isCorrect = selected.value === correct;
+            if (isCorrect) score += 1;
+            const correctText = group.querySelector(`input[value="${correct}"]`).nextElementSibling.textContent;
+            result.textContent = isCorrect ? "✓ Correct." : `✕ Not quite. Correct answer: ${correctText}.`;
+        });
+        panel.querySelector("[data-practice80-score]").textContent = `Score: ${score} / 4. ${answered} of 4 answered.`;
+    }
+    feedback.addEventListener("change", (event) => {
+        const input = event.target.closest?.("input[data-practice80-answer]");
+        const panel = input?.closest("#practice80");
+        if (panel && feedback.contains(panel)) updatePractice(panel);
+    });
+    feedback.addEventListener("click", (event) => {
+        const button = event.target.closest?.("button[data-practice80-reset]");
+        const panel = button?.closest("#practice80");
+        if (!panel || !feedback.contains(panel)) return;
+        panel.querySelectorAll("input[data-practice80-answer]").forEach((input) => { input.checked = false; });
+        updatePractice(panel);
+        panel.querySelector("input[data-practice80-answer]").focus();
+    });
+})();

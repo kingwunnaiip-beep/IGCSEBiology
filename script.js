@@ -6194,6 +6194,69 @@
         <p>The horizontal axis is time in hours, but no numerical times are supplied. Identify the stages from the <strong>rise, plateau and drop</strong> rather than calculating a duration.</p>
         <p class="relationship">Final answer: D — two daughter cells are formed.</p>
     `
+},
+{
+    "title": "A Hydra grows and releases an offspring from the side of its body. Which statement correctly describes the parent and offspring?",
+    "legend": "Select an answer.",
+    "context": "<p>The diagram shows one parent <i>Hydra</i> growing and releasing an offspring.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-73-hydra-budding.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-73-hydra-budding.png\" alt=\"Three stages show a Hydra forming and releasing offspring from the side of its body.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-73-hydra-budding.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "options": [
+        "Genetically identical: yes; asexual reproduction: yes.",
+        "Genetically identical: yes; asexual reproduction: no.",
+        "Genetically identical: no; asexual reproduction: yes.",
+        "Genetically identical: no; asexual reproduction: no."
+    ],
+    "correct": "A",
+    "answer": "A. Genetically identical: yes; asexual reproduction: yes",
+    "explanation": "<h3>1. Identify budding</h3><p>The new <i>Hydra</i> develops as an outgrowth on the parent. This process is <strong>budding</strong>, a form of asexual reproduction.</p><h3>2. Follow the process</h3><p>Cells divide by <strong>mitosis</strong> → a bud grows → it develops tentacles → the offspring detaches. Only one parent is involved, with <strong>no fusion of gametes</strong>.</p><h3>3. Compare the genetic information</h3><p>Mitosis produces genetically identical cells. The offspring is therefore a <strong>clone</strong> of the parent, except for mutations that may occur.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-73-hydra-budding.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-73-hydra-budding.png\" alt=\"Three stages show a Hydra forming and releasing offspring from the side of its body.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-73-hydra-budding.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>4. Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> both statements are true.</li><li><strong>B:</strong> budding is asexual.</li><li><strong>C:</strong> the offspring is genetically identical, apart from possible mutations.</li><li><strong>D:</strong> both statements are incorrect.</li></ul><h3>IGCSE exam tip</h3><p class=\"exam-tip\"><strong>One parent + mitosis + no gamete fusion → genetically identical offspring.</strong> Hydra and yeast can reproduce by budding; potatoes can reproduce vegetatively using tubers. Bacteria divide by binary fission, rather than mitosis.</p><p class=\"relationship\">Final answer: A — yes, yes.</p>",
+    "paperCode": "0610/21/M/J/25",
+    "paperSession": "May/June 2025"
+},
+{
+    "title": "What is a role of the glomerulus?",
+    "legend": "Select an answer.",
+    "options": [
+        "Assembling amino acids into proteins.",
+        "Filtration of water, glucose, urea and ions from the blood.",
+        "Reabsorption of glucose, ions and water back into the blood.",
+        "Removal of the nitrogen-containing part of amino acids to form urea."
+    ],
+    "correct": "B",
+    "answer": "B. Filtration of water, glucose, urea and ions from the blood",
+    "explanation": "<h3>1. Locate the glomerulus</h3><p>The <strong>glomerulus</strong> is a network of capillaries inside <strong>Bowman’s capsule</strong>, at the start of a kidney nephron.</p><h3>2. Explain ultrafiltration</h3><p>Blood enters through the afferent arteriole. <strong>High hydrostatic pressure</strong> forces water and small dissolved molecules across the filtration barrier into Bowman’s capsule.</p><ul class=\"option-explanations\"><li><strong>Pass into the filtrate:</strong> water, glucose, urea and mineral ions.</li><li><strong>Remain in the blood:</strong> blood cells and most plasma proteins.</li></ul><p>The fluid entering the capsule is the <strong>glomerular filtrate</strong>. It then flows into the kidney tubule.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-glomerulus.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-glomerulus.jpg\" alt=\"Labelled light micrograph of a glomerulus and nearby kidney tubules.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Glomerulus anatomy. Image: OpenStax Anatomy and Physiology, <a href=\"https://commons.wikimedia.org/wiki/File:2616_Glomerulus.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>. Image unchanged. <a href=\"images/online-glomerulus.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>3. Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> protein synthesis occurs at ribosomes.</li><li><strong>B — correct:</strong> the glomerulus filters small molecules from blood.</li><li><strong>C:</strong> selective reabsorption returns useful substances from the kidney tubule to blood; it is a different process.</li><li><strong>D:</strong> deamination occurs in the liver.</li></ul><h3>IGCSE exam tip</h3><p class=\"exam-tip\"><strong>Filtration:</strong> blood → Bowman’s capsule. <strong>Reabsorption:</strong> kidney tubule → blood. Glucose enters the filtrate and is normally reabsorbed later.</p><p class=\"relationship\">Final answer: B — filtration.</p>",
+    "paperCode": "0610/21/M/J/25",
+    "paperSession": "May/June 2025"
+},
+{
+    "title": "The diagram shows a synapse. What are the labelled parts P, Q, R and S?",
+    "legend": "Select an answer.",
+    "context": "<figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-75-synapse.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-75-synapse.png\" alt=\"A synapse between neurones 1 and 2, with structures labelled P, Q, R and S.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-75-synapse.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "options": [
+        "P: synaptic gap; Q: neurotransmitter; R: vesicle; S: receptor.",
+        "P: synaptic gap; Q: receptor; R: vesicle; S: neurotransmitter.",
+        "P: vesicle; Q: neurotransmitter; R: synaptic gap; S: receptor.",
+        "P: vesicle; Q: receptor; R: synaptic gap; S: neurotransmitter."
+    ],
+    "correct": "C",
+    "answer": "C. P vesicle; Q neurotransmitter; R synaptic gap; S receptor",
+    "explanation": "<h3>1. Identify the structures</h3><ul class=\"option-explanations\"><li><strong>P — vesicle:</strong> a membrane-bound sac that stores neurotransmitter.</li><li><strong>Q — neurotransmitter:</strong> the chemical signalling molecules being released.</li><li><strong>R — synaptic gap (cleft):</strong> the small space between the neurones.</li><li><strong>S — receptor:</strong> a specific binding protein on the membrane of neurone 2.</li></ul><h3>2. Follow the signal</h3><p>Electrical impulse arrives at neurone 1 → vesicles release neurotransmitter → it <strong>diffuses</strong> across the cleft → it binds to receptors on neurone 2 → a new electrical impulse <strong>may</strong> be generated.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-75-synapse.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-75-synapse.png\" alt=\"A synapse between neurones 1 and 2, with structures labelled P, Q, R and S.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-75-synapse.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>3. Check the options</h3><p><strong>C</strong> matches all four labels. A and B incorrectly identify P as the gap and R as a vesicle. D swaps the neurotransmitter and receptor.</p><h3>IGCSE exam tip</h3><p class=\"exam-tip\">Transmission across this chemical synapse is <strong>one-way</strong>: neurotransmitter is released from the presynaptic neurone and receptors are on the postsynaptic membrane. The impulse is electrical within a neurone; transmission across the cleft is chemical.</p><p class=\"relationship\">Final answer: C.</p>",
+    "paperCode": "0610/21/M/J/25",
+    "paperSession": "May/June 2025"
+},
+{
+    "title": "The graph shows lung volume during breathing at rest. Which processes are occurring at X?",
+    "legend": "Select an answer.",
+    "context": "<figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-76-lung-volume.png\" alt=\"Lung volume varies with time during breathing at rest; X marks a point on a falling section.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "options": [
+        "The diaphragm is relaxing and the external intercostal muscles are relaxing.",
+        "The diaphragm is contracting and the internal intercostal muscles are contracting.",
+        "The diaphragm is contracting and the internal intercostal muscles are relaxing.",
+        "The diaphragm is relaxing and the external intercostal muscles are contracting."
+    ],
+    "correct": "A",
+    "answer": "A. The diaphragm and external intercostal muscles are relaxing",
+    "explanation": "<h3>1. Read the direction of the curve</h3><p>X is on a <strong>falling</strong> section: lung volume is decreasing. Air is leaving the lungs, so the person is <strong>breathing out (expiration)</strong>.</p><h3>2. Explain quiet expiration</h3><p>The diaphragm <strong>relaxes</strong> and returns towards its dome shape. The external intercostal muscles <strong>relax</strong>; the ribs move downwards and inwards. Elastic recoil helps reduce thorax and lung volume.</p><p>Pressure inside the lungs rises <strong>above atmospheric pressure</strong>, so air moves out.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-76-lung-volume.png\" alt=\"Lung volume varies with time during breathing at rest; X marks a point on a falling section.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original question diagram: © UCLES 2025, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/25</a>. <a href=\"images/question-76-lung-volume.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>3. Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> both the diaphragm and external intercostal muscles relax.</li><li><strong>B and C:</strong> diaphragm contraction is associated with inspiration.</li><li><strong>D:</strong> external intercostal contraction raises the ribs during inspiration.</li></ul><h3>IGCSE exam tip</h3><p class=\"exam-tip\"><strong>Rising lung volume → inspiration; falling lung volume → expiration.</strong> This is breathing at rest: quiet expiration is mainly passive. Active contraction of the internal intercostal muscles is associated with forced expiration.</p><p class=\"relationship\">Final answer: A — both muscles relax.</p>",
+    "paperCode": "0610/21/M/J/25",
+    "paperSession": "May/June 2025"
 }
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));
@@ -6216,11 +6279,18 @@
         // Your explanation SVGs belong in images/, named q07-explanation.svg, etc.
         // These are quiz question numbers, separate from printed past-paper numbers.
         const explanationDiagramTitles = {
+            "1": "Sensitivity: detect and respond",
+            "2": "Both words identify the species",
+            "3": "Order the groups by leg number",
+            "4": "Osmosis is the net movement of water",
+            "5": "Follow the key to Gryllus",
+            "6": "Magnification: use the same units",
             "7": "Phloem translocation from a leaf to a potato tuber",
             "8": "Photosynthesis rate reaches a plateau at light intensity 8",
             "9": "High temperature increases collisions but can denature an enzyme",
             "10": "Two stages of starch digestion",
             "11": "Pancreatic lipase digests fats in the small intestine",
+            "12": "Root hairs increase absorbing surface area",
             "13": "Immediate osmosis between cells P, Q and R",
             "14": "Cool and humid conditions reduce transpiration",
             "15": "Substrate binding forms the enzyme–substrate complex",
@@ -6238,7 +6308,17 @@
             "27": "Warming increases enzyme collisions",
             "28": "Light distance and photosynthesis",
             "29": "Fish: one complete circuit",
+            "30": "Which structure has a nucleus?",
+            "31": "Glucose units build polysaccharides",
+            "32": "Enzymes can build up and break down",
+            "33": "Osmosis through potato cells",
+            "34": "Photosynthesis attracts bacteria",
+            "35": "Limiting factors at point P",
+            "36": "Keep plant size and time constant",
+            "37": "Plasmolysis in a plant cell",
+            "38": "Oxygenated blood in double circulation",
             "39": "Calculate the actual cell diameter",
+            "40": "Where is most water absorbed?",
             "41": "Photosynthesis is nutrition",
             "42": "Four DNA differences",
             "43": "A protein catalyst is reused",
@@ -6257,7 +6337,24 @@
             "56": "Bronchi contain cartilage; bronchioles lead to alveoli",
             "57": "A competing toxin occupies receptors on the motor neurone",
             "58": "Adrenaline increases pulse rate and blood glucose",
-            "59": "Adrenal glands release adrenaline, which widens pupils"
+            "59": "Adrenal glands release adrenaline, which widens pupils",
+            "60": "X-linked recessive inheritance",
+            "61": "One substrate, two products",
+            "62": "ABO blood-group inheritance",
+            "63": "How could the drug reduce protein production?",
+            "64": "Compare the initial reaction rates",
+            "65": "Breathing muscles change thorax volume",
+            "66": "Urea: made in the liver, removed by kidneys",
+            "67": "Three parallel rounds produce eight cells",
+            "68": "Six cats must be heterozygous",
+            "69": "Orange eyes are recessive",
+            "70": "Genes and environment influence phenotype",
+            "71": "Plants respire by day and night",
+            "72": "DNA doubles, then is shared at D",
+            "73": "Hydra budding: asexual reproduction",
+            "74": "The glomerulus filters small molecules",
+            "75": "Chemical transmission across a synapse",
+            "76": "At X, the person is breathing out"
 };
 
         function addExplanationDiagram(questionNumber) {

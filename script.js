@@ -19,6 +19,10 @@
 		const questionLegend = document.querySelector("#question-legend");
 		const answerOptions = document.querySelector("#answer-options");
 		const nextQuestionButton = document.querySelector("#next-question-button");
+        const chapterFilterPanel = document.querySelector("#chapter-filter-panel");
+        const chapterFilter = document.querySelector("#chapter-filter");
+        const chapterFilterSummary = document.querySelector("#chapter-filter-summary");
+        const questionChapter = document.querySelector("#question-chapter");
 		const graphMeasurements = [
 			{ intensity: 1, oxygen: 2.5, x: 135, y: 234 },
 			{ intensity: 4, oxygen: 7, x: 277, y: 126 },
@@ -11119,8 +11123,1231 @@
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));
 
+        // Chapter IDs follow the supplied 20-chapter book guide.
+        // Global quiz IDs stay stable; mixed questions can belong to two chapters.
+        const quizChapters = [
+    {
+        "id": 1,
+        "title": "Characteristics and Classification of Living Organisms"
+    },
+    {
+        "id": 2,
+        "title": "Cells"
+    },
+    {
+        "id": 3,
+        "title": "Movement into and out of Cells"
+    },
+    {
+        "id": 4,
+        "title": "Biological Molecules"
+    },
+    {
+        "id": 5,
+        "title": "Enzymes"
+    },
+    {
+        "id": 6,
+        "title": "Plant Nutrition"
+    },
+    {
+        "id": 7,
+        "title": "Human Nutrition"
+    },
+    {
+        "id": 8,
+        "title": "Transport in Plants"
+    },
+    {
+        "id": 9,
+        "title": "Transport in Animals"
+    },
+    {
+        "id": 10,
+        "title": "Diseases and Immunity"
+    },
+    {
+        "id": 11,
+        "title": "Respiration and Gas Exchange"
+    },
+    {
+        "id": 12,
+        "title": "Coordination and Response"
+    },
+    {
+        "id": 13,
+        "title": "Excretion and Homeostasis"
+    },
+    {
+        "id": 14,
+        "title": "Reproduction in Plants"
+    },
+    {
+        "id": 15,
+        "title": "Reproduction in Humans"
+    },
+    {
+        "id": 16,
+        "title": "Chromosomes, Genes and Proteins"
+    },
+    {
+        "id": 17,
+        "title": "Variation and Selection"
+    },
+    {
+        "id": 18,
+        "title": "Organisms and Their Environment"
+    },
+    {
+        "id": 19,
+        "title": "Human Influences on Ecosystems"
+    },
+    {
+        "id": 20,
+        "title": "Biotechnology and Genetic Modification"
+    }
+];
+        const questionChapterMap = {
+    "1": [
+        1
+    ],
+    "2": [
+        1
+    ],
+    "3": [
+        1
+    ],
+    "4": [
+        3
+    ],
+    "5": [
+        1
+    ],
+    "6": [
+        2
+    ],
+    "7": [
+        8
+    ],
+    "8": [
+        6
+    ],
+    "9": [
+        5
+    ],
+    "10": [
+        7
+    ],
+    "11": [
+        7
+    ],
+    "12": [
+        8,
+        3
+    ],
+    "13": [
+        3
+    ],
+    "14": [
+        8
+    ],
+    "15": [
+        5
+    ],
+    "16": [
+        7
+    ],
+    "17": [
+        7
+    ],
+    "18": [
+        9
+    ],
+    "19": [
+        9
+    ],
+    "20": [
+        10
+    ],
+    "21": [
+        9
+    ],
+    "22": [
+        9
+    ],
+    "23": [
+        8
+    ],
+    "24": [
+        8
+    ],
+    "25": [
+        5
+    ],
+    "26": [
+        8
+    ],
+    "27": [
+        5
+    ],
+    "28": [
+        6
+    ],
+    "29": [
+        9
+    ],
+    "30": [
+        2
+    ],
+    "31": [
+        4
+    ],
+    "32": [
+        5
+    ],
+    "33": [
+        3
+    ],
+    "34": [
+        6
+    ],
+    "35": [
+        6
+    ],
+    "36": [
+        6
+    ],
+    "37": [
+        3
+    ],
+    "38": [
+        9
+    ],
+    "39": [
+        2
+    ],
+    "40": [
+        7
+    ],
+    "41": [
+        1
+    ],
+    "42": [
+        1
+    ],
+    "43": [
+        5
+    ],
+    "44": [
+        16
+    ],
+    "45": [
+        6
+    ],
+    "46": [
+        10
+    ],
+    "47": [
+        8
+    ],
+    "48": [
+        15
+    ],
+    "49": [
+        5
+    ],
+    "50": [
+        15
+    ],
+    "51": [
+        12
+    ],
+    "52": [
+        18
+    ],
+    "53": [
+        5,
+        7
+    ],
+    "54": [
+        12
+    ],
+    "55": [
+        11
+    ],
+    "56": [
+        11
+    ],
+    "57": [
+        12
+    ],
+    "58": [
+        12
+    ],
+    "59": [
+        12
+    ],
+    "60": [
+        16
+    ],
+    "61": [
+        5
+    ],
+    "62": [
+        16
+    ],
+    "63": [
+        16
+    ],
+    "64": [
+        5
+    ],
+    "65": [
+        11
+    ],
+    "66": [
+        13
+    ],
+    "67": [
+        16
+    ],
+    "68": [
+        16
+    ],
+    "69": [
+        16
+    ],
+    "70": [
+        17
+    ],
+    "71": [
+        6,
+        11
+    ],
+    "72": [
+        16
+    ],
+    "73": [
+        14,
+        16
+    ],
+    "74": [
+        13
+    ],
+    "75": [
+        12
+    ],
+    "76": [
+        11
+    ],
+    "77": [
+        12
+    ],
+    "78": [
+        12
+    ],
+    "79": [
+        14,
+        17
+    ],
+    "80": [
+        16
+    ],
+    "81": [
+        3
+    ],
+    "82": [
+        8
+    ],
+    "83": [
+        11
+    ],
+    "84": [
+        18
+    ],
+    "85": [
+        19
+    ],
+    "86": [
+        16
+    ],
+    "87": [
+        16
+    ],
+    "88": [
+        13,
+        11
+    ],
+    "89": [
+        10
+    ],
+    "90": [
+        11
+    ],
+    "91": [
+        13
+    ],
+    "92": [
+        13
+    ],
+    "93": [
+        15
+    ],
+    "94": [
+        14
+    ],
+    "95": [
+        14
+    ],
+    "96": [
+        10
+    ],
+    "97": [
+        17
+    ],
+    "98": [
+        20
+    ],
+    "99": [
+        20,
+        5
+    ],
+    "100": [
+        18
+    ],
+    "101": [
+        3
+    ],
+    "102": [
+        4
+    ],
+    "103": [
+        3,
+        10
+    ],
+    "104": [
+        12
+    ],
+    "105": [
+        13
+    ],
+    "106": [
+        16
+    ],
+    "107": [
+        18
+    ],
+    "108": [
+        19
+    ],
+    "109": [
+        18
+    ],
+    "110": [
+        18
+    ],
+    "111": [
+        7
+    ],
+    "112": [
+        11
+    ],
+    "113": [
+        16
+    ],
+    "114": [
+        10
+    ],
+    "115": [
+        16
+    ],
+    "116": [
+        15
+    ],
+    "117": [
+        14,
+        16
+    ],
+    "118": [
+        19
+    ],
+    "119": [
+        19
+    ],
+    "120": [
+        15
+    ],
+    "121": [
+        10
+    ],
+    "122": [
+        11,
+        10
+    ],
+    "123": [
+        9
+    ],
+    "124": [
+        2
+    ],
+    "125": [
+        7
+    ],
+    "126": [
+        20
+    ],
+    "127": [
+        20
+    ],
+    "128": [
+        19
+    ],
+    "129": [
+        19
+    ],
+    "130": [
+        14
+    ],
+    "131": [
+        1
+    ],
+    "132": [
+        4
+    ],
+    "133": [
+        3,
+        11
+    ],
+    "134": [
+        9
+    ],
+    "135": [
+        6
+    ],
+    "136": [
+        16
+    ],
+    "137": [
+        16
+    ],
+    "138": [
+        18
+    ],
+    "139": [
+        18
+    ],
+    "140": [
+        18
+    ],
+    "141": [
+        16
+    ],
+    "142": [
+        8
+    ],
+    "143": [
+        11,
+        12
+    ],
+    "144": [
+        13,
+        11
+    ],
+    "145": [
+        12,
+        3
+    ],
+    "146": [
+        17
+    ],
+    "147": [
+        14
+    ],
+    "148": [
+        6
+    ],
+    "149": [
+        19
+    ],
+    "150": [
+        20
+    ],
+    "151": [
+        7
+    ],
+    "152": [
+        7
+    ],
+    "153": [
+        9
+    ],
+    "154": [
+        11
+    ],
+    "155": [
+        12
+    ],
+    "156": [
+        8
+    ],
+    "157": [
+        18
+    ],
+    "158": [
+        2,
+        16
+    ],
+    "159": [
+        17
+    ],
+    "160": [
+        19
+    ],
+    "161": [
+        2
+    ],
+    "162": [
+        4
+    ],
+    "163": [
+        10
+    ],
+    "164": [
+        13
+    ],
+    "165": [
+        12
+    ],
+    "166": [
+        8
+    ],
+    "167": [
+        17
+    ],
+    "168": [
+        1
+    ],
+    "169": [
+        16
+    ],
+    "170": [
+        19
+    ],
+    "171": [
+        8
+    ],
+    "172": [
+        12
+    ],
+    "173": [
+        10
+    ],
+    "174": [
+        7
+    ],
+    "175": [
+        18
+    ],
+    "176": [
+        16
+    ],
+    "177": [
+        15
+    ],
+    "178": [
+        18
+    ],
+    "179": [
+        20
+    ],
+    "180": [
+        20
+    ],
+    "181": [
+        1
+    ],
+    "182": [
+        16
+    ],
+    "183": [
+        8
+    ],
+    "184": [
+        16
+    ],
+    "185": [
+        7
+    ],
+    "186": [
+        11
+    ],
+    "187": [
+        12
+    ],
+    "188": [
+        15
+    ],
+    "189": [
+        15
+    ],
+    "190": [
+        19
+    ],
+    "191": [
+        1
+    ],
+    "192": [
+        2
+    ],
+    "193": [
+        7,
+        5
+    ],
+    "194": [
+        5
+    ],
+    "195": [
+        7
+    ],
+    "196": [
+        7
+    ],
+    "197": [
+        9
+    ],
+    "198": [
+        11
+    ],
+    "199": [
+        13
+    ],
+    "200": [
+        20
+    ],
+    "201": [
+        1
+    ],
+    "202": [
+        7
+    ],
+    "203": [
+        8
+    ],
+    "204": [
+        15
+    ],
+    "205": [
+        13
+    ],
+    "206": [
+        17
+    ],
+    "207": [
+        17
+    ],
+    "208": [
+        18
+    ],
+    "209": [
+        18
+    ],
+    "210": [
+        20
+    ],
+    "211": [
+        3
+    ],
+    "212": [
+        8
+    ],
+    "213": [
+        13
+    ],
+    "214": [
+        12
+    ],
+    "215": [
+        17
+    ],
+    "216": [
+        15
+    ],
+    "217": [
+        16
+    ],
+    "218": [
+        12
+    ],
+    "219": [
+        10,
+        17
+    ],
+    "220": [
+        18
+    ],
+    "221": [
+        2
+    ],
+    "222": [
+        11
+    ],
+    "223": [
+        7
+    ],
+    "224": [
+        15
+    ],
+    "225": [
+        12
+    ],
+    "226": [
+        13
+    ],
+    "227": [
+        13
+    ],
+    "228": [
+        16
+    ],
+    "229": [
+        18
+    ],
+    "230": [
+        20,
+        5
+    ],
+    "231": [
+        1
+    ],
+    "232": [
+        2
+    ],
+    "233": [
+        4
+    ],
+    "234": [
+        5
+    ],
+    "235": [
+        6
+    ],
+    "236": [
+        9,
+        11
+    ],
+    "237": [
+        11
+    ],
+    "238": [
+        12
+    ],
+    "239": [
+        14
+    ],
+    "240": [
+        17
+    ],
+    "241": [
+        19
+    ],
+    "242": [
+        19
+    ],
+    "243": [
+        19
+    ],
+    "244": [
+        20,
+        16
+    ],
+    "245": [
+        9,
+        11
+    ],
+    "246": [
+        18
+    ],
+    "247": [
+        18
+    ],
+    "248": [
+        12
+    ],
+    "249": [
+        3
+    ],
+    "250": [
+        5
+    ],
+    "251": [
+        11
+    ],
+    "252": [
+        19
+    ],
+    "253": [
+        3
+    ],
+    "254": [
+        18
+    ],
+    "255": [
+        20
+    ],
+    "256": [
+        2
+    ],
+    "257": [
+        3
+    ],
+    "258": [
+        6
+    ],
+    "259": [
+        7
+    ],
+    "260": [
+        9
+    ],
+    "261": [
+        2
+    ],
+    "262": [
+        15
+    ],
+    "263": [
+        17
+    ],
+    "264": [
+        18
+    ],
+    "265": [
+        1
+    ],
+    "266": [
+        4
+    ],
+    "267": [
+        7
+    ],
+    "268": [
+        8
+    ],
+    "269": [
+        1
+    ],
+    "270": [
+        10
+    ],
+    "271": [
+        11,
+        12
+    ],
+    "272": [
+        14
+    ],
+    "273": [
+        14,
+        17
+    ],
+    "274": [
+        16,
+        17
+    ],
+    "275": [
+        1
+    ],
+    "276": [
+        2
+    ],
+    "277": [
+        3
+    ],
+    "278": [
+        6
+    ],
+    "279": [
+        8
+    ],
+    "280": [
+        11
+    ],
+    "281": [
+        19
+    ],
+    "282": [
+        15
+    ],
+    "283": [
+        17
+    ],
+    "284": [
+        16
+    ],
+    "285": [
+        1
+    ],
+    "286": [
+        2
+    ],
+    "287": [
+        5
+    ],
+    "288": [
+        6,
+        11
+    ],
+    "289": [
+        8
+    ],
+    "290": [
+        13
+    ],
+    "291": [
+        14
+    ],
+    "292": [
+        10
+    ],
+    "293": [
+        3
+    ],
+    "294": [
+        20
+    ],
+    "295": [
+        1
+    ],
+    "296": [
+        2
+    ],
+    "297": [
+        5
+    ],
+    "298": [
+        18
+    ],
+    "299": [
+        8
+    ],
+    "300": [
+        9
+    ],
+    "301": [
+        11
+    ],
+    "302": [
+        12
+    ],
+    "303": [
+        16
+    ],
+    "304": [
+        19
+    ],
+    "305": [
+        2
+    ],
+    "306": [
+        3
+    ],
+    "307": [
+        4
+    ],
+    "308": [
+        6
+    ],
+    "309": [
+        9
+    ],
+    "310": [
+        12
+    ],
+    "311": [
+        16
+    ],
+    "312": [
+        17
+    ],
+    "313": [
+        8
+    ],
+    "314": [
+        18
+    ],
+    "315": [
+        1
+    ],
+    "316": [
+        1
+    ],
+    "317": [
+        5,
+        7
+    ],
+    "318": [
+        6
+    ],
+    "319": [
+        8
+    ],
+    "320": [
+        11
+    ],
+    "321": [
+        11
+    ],
+    "322": [
+        16
+    ],
+    "323": [
+        16
+    ],
+    "324": [
+        18
+    ],
+    "325": [
+        1
+    ],
+    "326": [
+        2
+    ],
+    "327": [
+        7
+    ],
+    "328": [
+        8
+    ],
+    "329": [
+        9
+    ],
+    "330": [
+        11
+    ],
+    "331": [
+        11,
+        3
+    ],
+    "332": [
+        14
+    ],
+    "333": [
+        5
+    ],
+    "334": [
+        18
+    ],
+    "335": [
+        5,
+        7
+    ],
+    "336": [
+        7
+    ],
+    "337": [
+        3,
+        5
+    ],
+    "338": [
+        8
+    ],
+    "339": [
+        7,
+        9
+    ],
+    "340": [
+        11
+    ],
+    "341": [
+        13
+    ],
+    "342": [
+        15
+    ],
+    "343": [
+        16
+    ],
+    "344": [
+        16,
+        17
+    ],
+    "345": [
+        1
+    ],
+    "346": [
+        8
+    ],
+    "347": [
+        20
+    ],
+    "348": [
+        9
+    ],
+    "349": [
+        11
+    ],
+    "350": [
+        6
+    ],
+    "351": [
+        16
+    ],
+    "352": [
+        16,
+        17
+    ],
+    "353": [
+        20
+    ],
+    "354": [
+        19
+    ]
+};
+        let selectedChapter = "all";
+
+        function getFilteredQuestionIndexes() {
+            return questions.reduce((indexes, question, index) => {
+                if (selectedChapter === "all" || (questionChapterMap[index + 1] || []).includes(Number(selectedChapter))) indexes.push(index);
+                return indexes;
+            }, []);
+        }
+
+        function isCurrentScopeComplete(indexes = getFilteredQuestionIndexes()) {
+            return indexes.every((index) => questionStates[index].checked);
+        }
+
+        function renderChapterFilter() {
+            chapterFilter.innerHTML = `<option value="all">All chapters (${questions.length})</option>` + quizChapters.map((chapter) => {
+                const count = Object.values(questionChapterMap).filter((ids) => ids.includes(chapter.id)).length;
+                return `<option value="${chapter.id}"${count ? "" : " disabled"}>${chapter.id}. ${chapter.title} (${count})</option>`;
+            }).join("");
+        }
+
+        function updateChapterFilterSummary(indexes = getFilteredQuestionIndexes()) {
+            const position = indexes.indexOf(currentQuestionIndex) + 1;
+            const answered = indexes.filter((index) => questionStates[index].checked).length;
+            const scope = selectedChapter === "all" ? "questions" : "in this chapter";
+            chapterFilterSummary.textContent = `${position} of ${indexes.length} ${scope} · ${answered} answered`;
+            questionChapter.textContent = (questionChapterMap[currentQuestionIndex + 1] || []).map((id) => {
+                const chapter = quizChapters.find((item) => item.id === id);
+                return `Chapter ${id}: ${chapter.title}`;
+            }).join(" · ");
+        }
+
+        function updateNextQuestionLabel() {
+            const indexes = getFilteredQuestionIndexes();
+            const isLast = currentQuestionIndex === indexes[indexes.length - 1];
+            nextQuestionButton.textContent = isLast
+                ? (isCurrentScopeComplete(indexes) ? (selectedChapter === "all" ? "Restart quiz" : "Restart chapter") : "Review unanswered")
+                : "Next question";
+        }
+
+
 		function renderQuestionNavigator() {
-			questionNavList.innerHTML = questions.map((question, index) => {
+            const indexes = getFilteredQuestionIndexes();
+            updateChapterFilterSummary(indexes);
+			questionNavList.innerHTML = indexes.map((index) => {
+                const question = questions[index];
 				const state = questionStates[index];
 				const status = state.checked
 					? state.selected === question.correct ? "Correct" : "Incorrect"
@@ -11615,9 +12842,13 @@
 			} else {
 				questionTitle.removeAttribute("aria-describedby");
 			}
-			progressTrack.setAttribute("aria-valuemax", questions.length);
-			progressTrack.setAttribute("aria-valuenow", currentQuestionIndex + 1);
-			progressValue.style.width = `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
+            const filteredIndexes = getFilteredQuestionIndexes();
+            const filteredPosition = filteredIndexes.indexOf(currentQuestionIndex) + 1;
+            progressTrack.setAttribute("aria-label", selectedChapter === "all" ? "Quiz progress" : "Chapter progress");
+            progressTrack.setAttribute("aria-valuemax", filteredIndexes.length);
+            progressTrack.setAttribute("aria-valuenow", filteredPosition);
+            progressTrack.setAttribute("aria-valuetext", `${filteredPosition} of ${filteredIndexes.length}${selectedChapter === "all" ? " questions" : " in this chapter"}; quiz question ${currentQuestionIndex + 1} of ${questions.length}`);
+            progressValue.style.width = `${(filteredPosition / filteredIndexes.length) * 100}%`;
 			questionTitle.innerHTML = question.title;
 			questionContext.innerHTML = question.context || "";
 			syncAnswerTableSelection();
@@ -11641,14 +12872,13 @@
 				feedback.textContent = "";
 			}
 			nextQuestionButton.hidden = !state.checked;
-			nextQuestionButton.textContent = currentQuestionIndex === questions.length - 1
-				? (questionStates.every((item) => item.checked) ? "Restart quiz" : "Review unanswered")
-				: "Next question";
+            updateNextQuestionLabel();
 			renderQuestionNavigator();
 		}
 
 		function updateTextSize() {
 			quiz.style.setProperty("--quiz-scale", textScale);
+            chapterFilterPanel.style.setProperty("--quiz-scale", textScale);
 			textSizeValue.value = `${Math.round(textScale * 100)}%`;
 			decreaseTextButton.disabled = textScale <= 0.8;
 			increaseTextButton.disabled = textScale >= 2;
@@ -11669,8 +12899,22 @@
 			updateTextSize();
 		});
 
+        renderChapterFilter();
 		updateTextSize();
 		renderQuestion();
+
+        chapterFilter.addEventListener("change", () => {
+            selectedChapter = chapterFilter.value;
+            let indexes = getFilteredQuestionIndexes();
+            if (!indexes.length) {
+                selectedChapter = "all";
+                chapterFilter.value = "all";
+                indexes = getFilteredQuestionIndexes();
+            }
+            currentQuestionIndex = indexes[0];
+            questionNavList.parentElement.scrollTop = 0;
+            renderQuestion();
+        });
 
 		navigatorToggle.addEventListener("click", () => {
 			const isExpanded = navigatorToggle.getAttribute("aria-expanded") === "true";
@@ -11728,13 +12972,11 @@
 			showQuestionFeedback(question, state);
 			const isCorrect = selected === question.correct;
 			answerAnnouncement.textContent = `${isCorrect ? "Correct." : "Incorrect."} ${feedback.querySelector(".feedback-answer-line").textContent}`;
-			if (questionStates.every((item) => item.checked)) selectionHint.textContent = `Quiz complete · ${isCorrect ? "✓ Correct" : "✕ Incorrect"}`;
+            if (isCurrentScopeComplete()) selectionHint.textContent = `${selectedChapter === "all" ? "Quiz" : "Chapter"} complete · ${isCorrect ? "✓ Correct" : "✕ Incorrect"}`;
 			showAnswerCue(isCorrect);
 			checkButton.disabled = true;
 			nextQuestionButton.hidden = false;
-			nextQuestionButton.textContent = currentQuestionIndex === questions.length - 1
-				? (questionStates.every((item) => item.checked) ? "Restart quiz" : "Review unanswered")
-				: "Next question";
+            updateNextQuestionLabel();
 			renderQuestionNavigator();
 		});
 
@@ -11754,21 +12996,25 @@
 			event.target.setAttribute("aria-valuetext", `${measurement.intensity.toFixed(1)} arbitrary units; oxygen production ${measurement.oxygen.toFixed(1)} cubic millimetres per hour`);
 		});
 
-		nextQuestionButton.addEventListener("click", () => {
-			if (currentQuestionIndex === questions.length - 1 && questionStates.every((state) => state.checked)) {
-				questionStates.forEach((state) => {
-					state.selected = null;
-					state.checked = false;
-				});
-				currentQuestionIndex = 0;
-			} else if (currentQuestionIndex === questions.length - 1) {
-				currentQuestionIndex = questionStates.findIndex((state) => !state.checked);
-			} else {
-				currentQuestionIndex += 1;
-			}
-			renderQuestion();
-			questionTitle.focus();
-		});
+        nextQuestionButton.addEventListener("click", () => {
+            const indexes = getFilteredQuestionIndexes();
+            const position = indexes.indexOf(currentQuestionIndex);
+            if (position === indexes.length - 1) {
+                if (isCurrentScopeComplete(indexes)) {
+                    indexes.forEach((index) => {
+                        questionStates[index].selected = null;
+                        questionStates[index].checked = false;
+                    });
+                    currentQuestionIndex = indexes[0];
+                } else {
+                    currentQuestionIndex = indexes.find((index) => !questionStates[index].checked);
+                }
+            } else {
+                currentQuestionIndex = indexes[position + 1];
+            }
+            renderQuestion();
+            questionTitle.focus();
+        });
 // Question 25: delegated controls keep working when feedback is recreated.
 const catalaseMeasurements = [
     { temperature: 15, bubbles: 96, note: "At 15°C, 96 bubbles per minute were recorded, only two fewer than at 25°C. The difference is small; further measurements would help locate the optimum." },

@@ -20,6 +20,14 @@
 		<main>
 			<div class="quiz-layout" id="quiz-layout">
 				<aside class="question-navigator" id="question-navigator" aria-label="Question navigator">
+            <section class="chapter-filter-panel" id="chapter-filter-panel" aria-label="Chapter practice filter">
+                <label for="chapter-filter">Practise by chapter</label>
+                <select id="chapter-filter" aria-describedby="chapter-filter-summary chapter-filter-note">
+                    <option value="all">All chapters (354)</option>
+                </select>
+                <p id="chapter-filter-summary" class="chapter-filter-summary" role="status" aria-live="polite">1 of 354 questions · 0 answered</p>
+                <p id="chapter-filter-note" class="chapter-filter-note">Mixed-topic questions appear in each relevant chapter.</p>
+            </section>
 					<div class="text-size-controls" role="group" aria-label="Quiz text size">
 						<span>Text size</span>
 						<button id="decrease-text" type="button" aria-label="Decrease quiz text size">A−</button>
@@ -50,6 +58,7 @@
 				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="354" aria-valuenow="1">
 					<div class="progress-value" id="progress-value" style="width: 0.28%"></div>
 				</div>
+				<p class="question-chapter" id="question-chapter"></p>
 				<h2 id="question-title" tabindex="-1"></h2>
 				<div id="question-context" class="question-context"></div>
 

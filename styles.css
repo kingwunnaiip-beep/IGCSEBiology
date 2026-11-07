@@ -128,7 +128,7 @@
 			border-left: 1px solid var(--line);
 		}
 
-		.question-nav-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+		.question-nav-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
 
 		.question-nav-item {
 			display: grid;
@@ -1707,3 +1707,76 @@
         overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
     }
 }
+
+
+/* Chapter practice controls live inside the question sidebar. */
+.chapter-filter-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: center;
+    gap: .65em 1.25em;
+    min-width: 0;
+    margin: 0 0 22px;
+    padding: 1em 1.25em;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: rgba(255, 254, 250, .82);
+    font-size: calc(14px * var(--quiz-scale, 1));
+}
+.chapter-filter-panel label {
+    grid-column: 1 / -1;
+    color: var(--green-dark);
+    font-weight: 750;
+}
+.chapter-filter-panel select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    padding: .65em 2em .65em .75em;
+    border: 1px solid #b6cbb9;
+    border-radius: 8px;
+    color: var(--ink);
+    background: var(--white);
+    font: inherit;
+    text-overflow: ellipsis;
+}
+.chapter-filter-panel select:focus-visible {
+    outline: 3px solid #438c7c;
+    outline-offset: 3px;
+}
+.chapter-filter-summary, .chapter-filter-note {
+    margin: 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+.chapter-filter-summary { color: var(--green-dark); font-weight: 650; }
+.chapter-filter-note { grid-column: 1 / -1; color: var(--muted); font-size: .85em; }
+.question-chapter {
+    margin: 0 0 1em;
+    color: var(--muted);
+    font-size: .75em;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 780px) {
+    .chapter-filter-panel { grid-template-columns: minmax(0, 1fr); padding: 1em; }
+}
+
+
+/* Keep the chapter dropdown usable alongside the independently scrolling list. */
+@media (min-width: 681px) {
+    .quiz-layout:not(.navigator-hidden) { grid-template-columns: minmax(0, 1fr) 260px; }
+}
+.question-navigator { min-width: 0; overflow-y: auto; }
+.question-navigator > .chapter-filter-panel {
+    flex: 0 0 auto;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    margin: 0 0 14px;
+    padding: 12px;
+    gap: .5em;
+    font-size: calc(13px * var(--quiz-scale, 1));
+}
+.question-navigator > nav { min-height: 6rem; }

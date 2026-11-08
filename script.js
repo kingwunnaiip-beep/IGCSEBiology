@@ -12844,6 +12844,866 @@
     "paperQuestion": 36,
     "context": "",
     "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Build from a population</h3><p>A population consists of organisms of one species living in the same area. The populations of all the different species together form the <strong>community</strong>.</p><h3>2. Separate the other terms</h3><p>A habitat is the place where an organism lives. A trophic level is a feeding position, and the environment includes the surrounding conditions. The complete living community interacting with non-living surroundings forms an ecosystem.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-coral-reef-community.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-coral-reef-community.jpg\" width=\"898\" height=\"698\" alt=\"Fish and corals living in a reef community.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Different species have populations in a reef. Together all the populations form its community; this photograph is an example rather than an exhaustive species survey. Dr James P. McVey / NOAA Sea Grant Program, <a href=\"https://commons.wikimedia.org/wiki/File:Reef_with_Forcipiger_and_Siganus.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://commons.wikimedia.org/wiki/Commons:Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain US federal government work</a>. Existing credited image reused unchanged. <a href=\"images/online-coral-reef-community.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> A community includes all the populations of different species in the ecosystem.</li><li><strong>B:</strong> The environment includes surrounding physical and biological conditions; it is not this specific collection of populations.</li><li><strong>C:</strong> A habitat is the place where an organism lives.</li><li><strong>D:</strong> A trophic level groups organisms by feeding position, not all populations in an ecosystem.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Population = one species; community = all populations; ecosystem = community plus its non-living surroundings and their interactions.</p><p class=\"relationship\">Final answer: A. community</p></div>"
+},
+{
+    "title": "What is a characteristic of both insects and arachnids?",
+    "legend": "Select an answer.",
+    "options": [
+        "eight legs",
+        "exoskeleton",
+        "three pairs of legs",
+        "wings"
+    ],
+    "correct": "B",
+    "answer": "B. exoskeleton",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 3,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Find the shared arthropod feature</h3><p>Insects and arachnids are both arthropods. They have a hard external skeleton, an <strong>exoskeleton</strong>, which protects the body and provides attachment for muscles.</p><h3>2. Separate shared traits from group traits</h3><p>Insects have three pairs of legs. Adult arachnids have four pairs. Wings occur in many insects but are absent from arachnids; they are not shared by both groups.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-adult-deer-tick.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-adult-deer-tick.jpg\" alt=\"Adult deer tick with four pairs of jointed legs.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>A tick is an arachnid with an external skeleton. Its four pairs of legs distinguish it from insects. Scott Bauer / USDA ARS, <a href=\"https://commons.wikimedia.org/wiki/File:K8002-1_(8456915056).jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">public domain</a>. Existing credited raster reused unchanged. <a href=\"images/online-adult-deer-tick.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Eight legs characterises adult arachnids; insects have six.</li><li><strong>B — correct:</strong> Both groups have an exoskeleton.</li><li><strong>C:</strong> Three pairs of legs characterises insects, whereas adult arachnids have four pairs.</li><li><strong>D:</strong> Arachnids have no wings; some insects also lack them.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Check that a proposed feature applies to both named groups.</p><p class=\"relationship\">Final answer: B. exoskeleton</p></div>"
+},
+{
+    "title": "What is the magnification of the diagram?",
+    "legend": "Select an answer.",
+    "options": [
+        "×0.025",
+        "×25",
+        "×100",
+        "×100 000"
+    ],
+    "correct": "B",
+    "answer": "B. ×25",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 5,
+    "context": "<p>The actual thickness of the leaf shown in the diagram is 2000 µm, but its thickness in the diagram is 50 mm.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-456-leaf.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-456-leaf.png\" alt=\"Complete leaf cross-section drawing with epidermis, mesophyll cells and vascular bundle.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The original leaf drawing. Calculate using the supplied 50 mm image thickness, since on-screen display size varies. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q5, printed page 3</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-456-leaf.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Convert to matching units</h3><p>The actual thickness is <strong>2000 µm ÷ 1000 = 2 mm</strong>. Both image size and actual size are now in millimetres.</p><h3>2. Divide image size by actual size</h3><p>Magnification = image size ÷ actual size = <strong>50 mm ÷ 2 mm = ×25</strong>. The matching units cancel; magnification is a ratio.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-456-leaf.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-456-leaf.png\" alt=\"Complete leaf cross-section drawing with epidermis, mesophyll cells and vascular bundle.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The original leaf drawing. Calculate using the supplied 50 mm image thickness, since on-screen display size varies. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q5, printed page 3</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-456-leaf.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> 0.025 results from dividing 50 by 2000 without first matching the units.</li><li><strong>B — correct:</strong> The correct ratio is 50 ÷ 2 = 25.</li><li><strong>C:</strong> 100 does not equal the ratio of the two supplied thicknesses.</li><li><strong>D:</strong> 100 000 is the product 50 × 2000; magnification requires division in matching units.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Use the stated image measurement, not a measurement of the resized screen image.</p><p class=\"relationship\">Final answer: B. ×25</p></div>"
+},
+{
+    "title": "In which tissue is this cell found?",
+    "legend": "Select an answer.",
+    "options": [
+        "leaf epidermis",
+        "palisade mesophyll",
+        "root epidermis",
+        "xylem"
+    ],
+    "correct": "B",
+    "answer": "B. palisade mesophyll",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 13,
+    "context": "<p>The diagram shows a type of plant cell.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-457-palisade-cell.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-457-palisade-cell.png\" alt=\"Elongated plant cell with cytoplasm, nucleus, vacuole and numerous chloroplasts labelled.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The complete original cell and all four labelled leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q13, printed page 6</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-457-palisade-cell.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Read the cell features</h3><p>The cell is elongated and contains many labelled <strong>chloroplasts</strong>. Chloroplasts contain chlorophyll, which absorbs light for photosynthesis.</p><h3>2. Match structure to tissue</h3><p>Palisade mesophyll cells have many chloroplasts and lie near the upper surface of a typical leaf. Their shape and position help the leaf absorb light efficiently.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-457-palisade-cell.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-457-palisade-cell.png\" alt=\"Elongated plant cell with cytoplasm, nucleus, vacuole and numerous chloroplasts labelled.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The complete original cell and all four labelled leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q13, printed page 6</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-457-palisade-cell.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Typical leaf epidermal cells are transparent and lack chloroplasts; guard cells are an exception.</li><li><strong>B — correct:</strong> An elongated, chloroplast-rich cell is characteristic of palisade mesophyll.</li><li><strong>C:</strong> Root epidermal cells absorb water and ions and normally lack chloroplasts.</li><li><strong>D:</strong> Mature xylem vessels are dead, hollow structures without a nucleus or chloroplasts.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Identify a tissue using several structural features together.</p><p class=\"relationship\">Final answer: B. palisade mesophyll</p></div>"
+},
+{
+    "title": "Which problems can be caused by malnutrition?",
+    "legend": "Select an answer.",
+    "options": [
+        "1, 2 and 3",
+        "1 and 3 only",
+        "2, 3 and 4",
+        "2 and 4 only"
+    ],
+    "correct": "C",
+    "answer": "C. 2, 3 and 4",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 14,
+    "context": "<p>The list shows some human health problems.</p><ol><li>chronic obstructive pulmonary disease</li><li>constipation</li><li>coronary heart disease</li><li>obesity</li></ol>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Interpret malnutrition broadly</h3><p>Malnutrition means an unbalanced diet. Too little dietary fibre can contribute to <strong>constipation (2)</strong>. Energy intake exceeding energy use over time can cause <strong>obesity (4)</strong>.</p><h3>2. Include diet-related heart disease</h3><p>A diet high in saturated fat can increase the risk of <strong>coronary heart disease (3)</strong>. Chronic obstructive pulmonary disease (1) is associated particularly with smoking and harmful inhaled substances, rather than malnutrition.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-balanced-diet.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-balanced-diet.jpg\" alt=\"Display of varied foods, including fruit, vegetables, grains and animal products.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Plant foods can supply fibre; diet quality and energy balance affect health. The photograph provides food context, not measured nutrient amounts. National Cancer Institute / NIH, <a href=\"https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">public domain</a>. Existing credited raster reused unchanged. <a href=\"images/online-balanced-diet.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Includes 1, which is not the dietary condition here, and omits obesity (4).</li><li><strong>B:</strong> Includes 1 and leaves out constipation and obesity.</li><li><strong>C — correct:</strong> Includes all three problems that malnutrition can cause: 2, 3 and 4.</li><li><strong>D:</strong> Leaves out coronary heart disease (3), which also has dietary risk factors.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Malnutrition includes too much as well as too little of dietary components.</p><p class=\"relationship\">Final answer: C. 2, 3 and 4</p></div>"
+},
+{
+    "title": "Which shows the correct sequence for the movement of blood in a mammal?",
+    "legend": "Select an answer.",
+    "options": [
+        "body → heart → lungs → heart",
+        "body → lungs → body → heart",
+        "heart → lungs → body → heart",
+        "heart → body → lungs → heart"
+    ],
+    "correct": "A",
+    "answer": "A. body → heart → lungs → heart",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 19,
+    "context": "<p>Mammals have a double circulation.</p>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Follow blood returning from the body</h3><p>Blood from body tissues returns to the right side of the <strong>heart</strong>. The heart pumps it to the <strong>lungs</strong>, where it gains oxygen and loses carbon dioxide.</p><h3>2. Return to the heart before the body</h3><p>From the lungs, blood returns to the left side of the <strong>heart</strong> before being pumped to the body. Thus the part of the cycle beginning at the body is body → heart → lungs → heart.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-38-double-circulation.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-38-double-circulation.jpg\" alt=\"Complete labelled illustration of blood flow through the heart, lungs and body.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Blood returns to the heart between the pulmonary and systemic circuits. OpenStax College, <a href=\"https://commons.wikimedia.org/wiki/File:2101_Blood_Flow_Through_the_Heart.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/question-38-double-circulation.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> Correctly follows body to heart, heart to lungs, and lungs back to heart.</li><li><strong>B:</strong> Misses the heart between body and lungs and again between lungs and body.</li><li><strong>C:</strong> Misses the heart between lungs and body.</li><li><strong>D:</strong> Misses the heart between body and lungs.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> In double circulation, insert the heart between the lungs and body in either direction.</p><p class=\"relationship\">Final answer: A. body → heart → lungs → heart</p></div>"
+},
+{
+    "title": "Which give active immunity?",
+    "legend": "Select an answer.",
+    "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+    ],
+    "correct": "C",
+    "answer": "C. 2 and 3 only",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 21,
+    "context": "<p>The antibodies that give immunity to a disease can be acquired in the following different ways.</p><ol><li>feeding on breast milk</li><li>infection by disease</li><li>vaccination</li></ol>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Decide who makes the antibodies</h3><p>In <strong>active immunity</strong>, a person’s own lymphocytes respond to antigens, make antibodies and form memory cells. Infection (2) and vaccination (3) can both stimulate this response.</p><h3>2. Identify passive transfer</h3><p>Breast milk (1) supplies antibodies made by the mother. The infant receives ready-made antibodies: this is <strong>passive immunity</strong>, so 1 must be excluded.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-active-passive-immunity.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-active-passive-immunity.png\" alt=\"Chart classifying active and passive immunity, each with natural and artificial routes.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Infection and vaccination stimulate active immunity. Maternal antibodies are transferred passively. User:DO11.10, <a href=\"https://commons.wikimedia.org/wiki/File:Immunity.png\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY 2.5</a>. Existing credited raster reused unchanged. <a href=\"images/online-active-passive-immunity.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Includes passive route 1 and leaves out active route 3.</li><li><strong>B:</strong> Includes passive route 1 and leaves out active route 2.</li><li><strong>C — correct:</strong> Both infection and vaccination can stimulate the person’s own antibody production.</li><li><strong>D:</strong> Incorrectly includes breast milk as an active route.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Ask whether antibodies are made by the recipient or received ready-made.</p><p class=\"relationship\">Final answer: C. 2 and 3 only</p></div>"
+},
+{
+    "title": "How many molecules of ethanol are released from the anaerobic respiration of one molecule of glucose?",
+    "legend": "Select an answer.",
+    "options": [
+        "1",
+        "2",
+        "4",
+        "6"
+    ],
+    "correct": "B",
+    "answer": "B. 2",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 24,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Recall the yeast reaction</h3><p>Anaerobic respiration in yeast breaks down glucose into <strong>ethanol and carbon dioxide</strong>, releasing energy. Its balanced equation is C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.</p><h3>2. Read the coefficient</h3><p>The coefficient <strong>2</strong> before ethanol means that one glucose molecule produces <strong>two ethanol molecules</strong>. Four carbon atoms enter ethanol, and the remaining two enter carbon dioxide.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-yeast-sem.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-yeast-sem.jpg\" alt=\"Scanning electron micrograph of yeast cells, retaining the original 5 micrometre scale bar.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Yeast can respire anaerobically, producing ethanol and carbon dioxide. This image shows cells rather than chemical quantities. Mogana Das Murtey and Patchamuthu Ramasamy, <a href=\"https://commons.wikimedia.org/wiki/File:Saccharomyces_cerevisiae_SEM.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-yeast-sem.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> One ethanol molecule would account for only two of the four carbon atoms allocated to ethanol.</li><li><strong>B — correct:</strong> The balanced equation produces two ethanol molecules per glucose.</li><li><strong>C:</strong> Four is the total number of carbon atoms in the two ethanol molecules, not their molecule count.</li><li><strong>D:</strong> Six is the number of carbon atoms in glucose, not the number of ethanol molecules.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Read the coefficient before a formula to count molecules; subscripts count atoms within each molecule.</p><p class=\"relationship\">Final answer: B. 2</p></div>"
+},
+{
+    "title": "What is the order of statements that correctly describes how a protein is made?",
+    "legend": "Select an answer.",
+    "options": [
+        "2 → 1 → 3 → 4",
+        "2 → 3 → 4 → 1",
+        "3 → 1 → 2 → 4",
+        "3 → 2 → 1 → 4"
+    ],
+    "correct": "D",
+    "answer": "D. 3 → 2 → 1 → 4",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 32,
+    "context": "<p>The statements describe how a protein is made.</p><ol><li>mRNA passes through a ribosome.</li><li>mRNA molecules carry a copy of the gene to the cytoplasm.</li><li>The gene coding for the protein is copied in the nucleus.</li><li>Ribosomes assemble amino acids into proteins.</li></ol>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Start with the gene in the nucleus</h3><p>The gene is copied into mRNA in the nucleus: <strong>statement 3</strong>. The mRNA then carries that copy into the cytoplasm: <strong>statement 2</strong>.</p><h3>2. Continue at the ribosome</h3><p>The ribosome reads the mRNA as it passes through: <strong>statement 1</strong>. It links amino acids into the protein: <strong>statement 4</strong>. The required order is 3 → 2 → 1 → 4; reading and assembly are coupled during translation.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-protein-synthesis.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-protein-synthesis.jpg\" alt=\"Transcription and translation summary shows DNA, mRNA, ribosome and a growing amino acid chain.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Transcription copies the gene into mRNA; translation assembles the protein in the cytoplasm. OpenStax, Anatomy and Physiology (2016), <a href=\"https://commons.wikimedia.org/wiki/File:0328_Transcription-translation_Summary.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-protein-synthesis.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Places export before the gene is copied.</li><li><strong>B:</strong> Places export before copying and assembly before the ribosome reads the mRNA.</li><li><strong>C:</strong> Places mRNA at a cytoplasmic ribosome before its movement into the cytoplasm.</li><li><strong>D — correct:</strong> Correctly orders copying, export, ribosome reading and protein assembly.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Locate each stage first: transcription in the nucleus, translation at ribosomes.</p><p class=\"relationship\">Final answer: D. 3 → 2 → 1 → 4</p></div>"
+},
+{
+    "title": "What are the possible genotype combinations of this person?",
+    "legend": "Select an answer.",
+    "options": [
+        "Hb<sup>S</sup>Hb<sup>A</sup> or Hb<sup>S</sup>Hb<sup>S</sup>",
+        "Hb<sup>S</sup>Hb<sup>A</sup> or Hb<sup>A</sup>Hb<sup>A</sup>",
+        "Hb<sup>A</sup>Hb<sup>A</sup> only",
+        "Hb<sup>S</sup>Hb<sup>S</sup> or Hb<sup>A</sup>Hb<sup>A</sup>"
+    ],
+    "correct": "A",
+    "answer": "A. Hb<sup>S</sup>Hb<sup>A</sup> or Hb<sup>S</sup>Hb<sup>S</sup>",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 35,
+    "context": "<p>The photomicrograph shows some red blood cells.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-463-sickle-cells.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-463-sickle-cells.png\" alt=\"Original red blood cell photomicrograph with a leader identifying the sickle-shaped red blood cell.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The whole original micrograph, label and leader. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q35, printed page 12</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-463-sickle-cells.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify what the cell shape implies</h3><p>The labelled cell is sickle-shaped. Sickling involves haemoglobin S, so this person must carry at least one <strong>Hb<sup>S</sup></strong> allele.</p><h3>2. Keep both compatible genotypes</h3><p>Hb<sup>S</sup>Hb<sup>S</sup> causes sickle-cell disease. Hb<sup>S</sup>Hb<sup>A</sup> is sickle-cell trait; sickling can occur under sufficiently low oxygen. A picture showing a sickled cell does not distinguish these two genotypes. Hb<sup>A</sup>Hb<sup>A</sup> lacks the S allele and is excluded.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-463-sickle-cells.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-463-sickle-cells.png\" alt=\"Original red blood cell photomicrograph with a leader identifying the sickle-shaped red blood cell.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The whole original micrograph, label and leader. The image establishes the presence of sickling; it does not uniquely identify one of the two possible genotypes. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q35, printed page 12</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-463-sickle-cells.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> Both listed genotypes contain an S allele and can produce sickling.</li><li><strong>B:</strong> Includes HbᴬHbᴬ, which has no S allele, and omits HbˢHbˢ.</li><li><strong>C:</strong> HbᴬHbᴬ has no S allele and cannot explain the labelled sickle cell.</li><li><strong>D:</strong> Includes the incompatible HbᴬHbᴬ genotype and omits the possible heterozygote.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> A phenotype may narrow the possibilities without uniquely identifying the genotype.</p><p class=\"relationship\">Final answer: A. Hb<sup>S</sup>Hb<sup>A</sup> or Hb<sup>S</sup>Hb<sup>S</sup></p></div>"
+},
+{
+    "title": "Which terms describe the position of the owl in this food chain?",
+    "legend": "Select an answer.",
+    "options": [
+        "secondary; second",
+        "secondary; third",
+        "tertiary; second",
+        "tertiary; third"
+    ],
+    "correct": "B",
+    "answer": "B. secondary; third",
+    "paperCode": "0610/22/F/M/20",
+    "paperSession": "February/March 2020",
+    "paperQuestion": 38,
+    "context": "<p>The diagram shows a food chain.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-464-food-chain.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-464-food-chain.png\" alt=\"Original food chain: grass arrow mouse arrow owl.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original chain; arrows show transfer of food energy from food to consumer. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q38, printed page 13</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-464-food-chain.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 464 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">consumer</th><th scope=\"col\">trophic level</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: consumer: secondary; trophic level: second\" aria-pressed=\"false\">A</button></th><td>secondary</td><td>second</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: consumer: secondary; trophic level: third\" aria-pressed=\"false\">B</button></th><td>secondary</td><td>third</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: consumer: tertiary; trophic level: second\" aria-pressed=\"false\">C</button></th><td>tertiary</td><td>second</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: consumer: tertiary; trophic level: third\" aria-pressed=\"false\">D</button></th><td>tertiary</td><td>third</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Number the trophic levels</h3><p>Grass is the producer at <strong>trophic level 1</strong>. The mouse eats the grass and is at level 2. The owl eats the mouse and is at <strong>level 3</strong>.</p><h3>2. Name the consumer order</h3><p>The mouse is the primary consumer because it feeds on a producer. The owl eats that primary consumer, so it is a <strong>secondary consumer</strong>. Producer is a trophic level but is not a consumer.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-464-food-chain.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-464-food-chain.png\" alt=\"Original food chain: grass arrow mouse arrow owl.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original chain; arrows show transfer of food energy from food to consumer. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m20_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/F/M/20, Q38, printed page 13</a>. © UCLES 2020; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-464-food-chain.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Secondary consumer is right, but the owl is at trophic level three.</li><li><strong>B — correct:</strong> The owl is a secondary consumer at the third trophic level.</li><li><strong>C:</strong> The owl is not a tertiary consumer, and the second trophic level belongs to the mouse.</li><li><strong>D:</strong> The third trophic level is right, but the owl is a secondary consumer.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Start trophic-level numbering with the producer at 1; start consumer numbering with the herbivore.</p><p class=\"relationship\">Final answer: B. secondary; third</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "What will be present at X?",
+    "legend": "Select an answer.",
+    "options": [
+        "one cell membrane",
+        "one cell wall",
+        "two cell membranes",
+        "two cell walls"
+    ],
+    "correct": "C",
+    "answer": "C. two cell membranes",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 2,
+    "context": "<p>The diagram shows some animal cells, as seen under the microscope.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-465-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-465-source.png\" alt=\"Original chain of four animal cells; X points to the contact between two neighbouring cells.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q2, printed page 2</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-465-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Count the cells at the boundary</h3><p>X points to the contact between <strong>two animal cells</strong>. Each cell is enclosed by its own cell membrane.</p><h3>2. Count membranes, then rule out walls</h3><p>The two cells therefore contribute <strong>two separate membranes</strong> at X. Animal cells do not have cell walls; adjacent cells do not share a single membrane.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-465-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-465-source.png\" alt=\"Original chain of four animal cells; X points to the contact between two neighbouring cells.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q2, printed page 2</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-465-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A counts only one of the two cells’ membranes.</li><li><strong>B:</strong> B proposes a cell wall, which animal cells lack.</li><li><strong>C:</strong> C is correct: one membrane belongs to each neighbouring cell.</li><li><strong>D:</strong> D proposes two cell walls, but animal cells have no cell walls.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> At a boundary between cells, count how many cells contribute a membrane. A drawn contact line can represent two very close membranes.</p><p class=\"relationship\">Final answer: C. two cell membranes</p></div>"
+},
+{
+    "title": "Which is from a prokaryote?",
+    "legend": "Select an answer.",
+    "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "correct": "C",
+    "answer": "C. C",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 3,
+    "context": "<p>Each of the diagrams shows an area of cytoplasm.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-466-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-466-source.png\" alt=\"Original A–D cytoplasm drawings. A contains folded membranes; B contains mitochondria; C contains a tangled DNA loop and small dots; D contains chloroplast-like organelles.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q3, printed page 2</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-466-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Look for free DNA and ribosomes</h3><p>In C, the large tangled loop represents DNA lying in the cytoplasm, while the small dots represent ribosomes. Prokaryotic DNA is not enclosed in a nucleus.</p><h3>2. Exclude membrane-bound organelles</h3><p>A shows a membrane network, B shows mitochondria and D shows chloroplasts. Prokaryotes have ribosomes but lack these membrane-bound organelles.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-466-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-466-source.png\" alt=\"Original A–D cytoplasm drawings. A contains folded membranes; B contains mitochondria; C contains a tangled DNA loop and small dots; D contains chloroplast-like organelles.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q3, printed page 2</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-466-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A contains a folded membrane network characteristic of eukaryotic cytoplasm.</li><li><strong>B:</strong> B contains mitochondria, which are absent from prokaryotes.</li><li><strong>C:</strong> C is correct: free DNA and ribosomes fit a prokaryote.</li><li><strong>D:</strong> D contains chloroplasts, which are membrane-bound organelles absent from prokaryotes.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Ribosomes occur in both prokaryotes and eukaryotes. Use the free DNA and absence of membrane-bound organelles together.</p><p class=\"relationship\">Final answer: C. C</p></div>"
+},
+{
+    "title": "What are the levels of organisation of the labelled structures?",
+    "legend": "Select an answer.",
+    "options": [
+        "P; Q; R",
+        "P; R; Q",
+        "Q; R; P",
+        "R; Q; P"
+    ],
+    "correct": "B",
+    "answer": "B. P; R; Q",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 4,
+    "context": "<p>The diagram shows a section through a root.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-467-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-467-source.png\" alt=\"Original root section: P points to one outer cell, Q to the region inside the outer layer, and R brackets the root.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q4, printed page 3</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-467-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"energy52-options-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 467 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table energy52-answer-table\" style=\"min-width:40em\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">cell</th><th scope=\"col\">organ</th><th scope=\"col\">tissue</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: cell: P; organ: Q; tissue: R\" aria-pressed=\"false\">A</button></th><td>P</td><td>Q</td><td>R</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: cell: P; organ: R; tissue: Q\" aria-pressed=\"false\">B</button></th><td>P</td><td>R</td><td>Q</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: cell: Q; organ: R; tissue: P\" aria-pressed=\"false\">C</button></th><td>Q</td><td>R</td><td>P</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: cell: R; organ: Q; tissue: P\" aria-pressed=\"false\">D</button></th><td>R</td><td>Q</td><td>P</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the smallest labelled unit</h3><p>P points to one cell in the outer layer. A cell is the basic structural unit of a living organism.</p><h3>2. Distinguish tissue from the whole root</h3><p>Q indicates a region of root tissue: cells working together. R brackets the root, an <strong>organ</strong> made of several tissues. The requested order is cell P, organ R, tissue Q.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-467-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-467-source.png\" alt=\"Original root section: P points to one outer cell, Q to the region inside the outer layer, and R brackets the root.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q4, printed page 3</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-467-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A identifies cell P correctly but swaps tissue Q and organ R.</li><li><strong>B:</strong> B is correct: P is a cell, R the organ and Q a tissue.</li><li><strong>C:</strong> C assigns Q to cell and P to tissue, so those two levels are reversed.</li><li><strong>D:</strong> D misidentifies every level: R is an organ, Q a tissue, and P a cell.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Follow the leader or bracket and use scale: one cell → a group of cells (tissue) → several tissues working together (organ).</p><p class=\"relationship\">Final answer: B. P; R; Q</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "Which characteristics are correct for both osmosis and diffusion?",
+    "legend": "Select an answer.",
+    "options": [
+        "✓; ✓; ✗",
+        "✓; ✗; ✓",
+        "✗; ✓; ✗",
+        "✗; ✗; ✓"
+    ],
+    "correct": "C",
+    "answer": "C. ✗; ✓; ✗",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 5,
+    "context": "<p><strong>Key:</strong> ✓ = yes; ✗ = no.</p><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"energy52-options-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 468 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table energy52-answer-table\" style=\"min-width:40em\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">require a partially permeable membrane</th><th scope=\"col\">require a concentration gradient</th><th scope=\"col\">are energy consuming processes</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: require a partially permeable membrane: ✓; require a concentration gradient: ✓; are energy consuming processes: ✗\" aria-pressed=\"false\">A</button></th><td>✓</td><td>✓</td><td>✗</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: require a partially permeable membrane: ✓; require a concentration gradient: ✗; are energy consuming processes: ✓\" aria-pressed=\"false\">B</button></th><td>✓</td><td>✗</td><td>✓</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: require a partially permeable membrane: ✗; require a concentration gradient: ✓; are energy consuming processes: ✗\" aria-pressed=\"false\">C</button></th><td>✗</td><td>✓</td><td>✗</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: require a partially permeable membrane: ✗; require a concentration gradient: ✗; are energy consuming processes: ✓\" aria-pressed=\"false\">D</button></th><td>✗</td><td>✗</td><td>✓</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Separate a shared feature from an osmosis-only feature</h3><p>Osmosis requires a partially permeable membrane. Diffusion can occur without a membrane, for example when a gas spreads through air. Therefore a membrane is <strong>not required by both</strong>.</p><h3>2. Check direction and energy</h3><p>Both processes have net movement down a gradient. They are passive and do not use energy supplied by respiration. The shared pattern is therefore <strong>no, yes, no</strong>.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-468-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-468-source.png\" alt=\"Original A–D table comparing membrane requirement, concentration gradient and energy consumption for both osmosis and diffusion.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original answer table retained as source support; the selectable table reproduces its entries. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q5, printed page 3</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-468-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A wrongly says both require a partially permeable membrane.</li><li><strong>B:</strong> B wrongly requires a membrane, denies the gradient and says energy is consumed.</li><li><strong>C:</strong> C is correct: no shared membrane requirement, a gradient is required, and neither consumes metabolic energy.</li><li><strong>D:</strong> D correctly rejects a shared membrane requirement but wrongly denies the gradient and requires metabolic energy.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> For a “both” question, a feature must apply to each process. Passive particles still have kinetic energy; “no energy consumed” means no metabolic energy input is needed.</p><p class=\"relationship\">Final answer: C. ✗; ✓; ✗</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "A lack of which nutrient is most likely to cause these symptoms?",
+    "legend": "Select an answer.",
+    "options": [
+        "iron",
+        "protein",
+        "vitamin C",
+        "vitamin D"
+    ],
+    "correct": "D",
+    "answer": "D. vitamin D",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 11,
+    "context": "<p>The following symptoms can be caused by a dietary deficiency:</p><ul><li>bone pain</li><li>dental problems</li><li>fragile bones</li><li>skeletal deformities</li></ul>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Group the symptoms</h3><p>Bone pain, fragile bones and skeletal deformities point to poor bone mineralisation. The dental problems support this pattern of impaired hard-tissue development.</p><h3>2. Link the nutrient to its role</h3><p>Vitamin D helps the intestine absorb calcium. Without enough vitamin D, bones may not be mineralised properly; deficiency can cause rickets in growing children and osteomalacia in adults.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-balanced-diet.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-balanced-diet.jpg\" alt=\"A display of varied foods including fish, meat, grains, vegetables and fruit.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>General dietary context: vitamin D helps calcium absorption; this photograph is not a measured nutrient-content chart. National Cancer Institute / NIH (photographer uncredited), <a href=\"https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">public domain</a>. Existing credited raster reused unchanged. <a href=\"images/online-balanced-diet.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Iron deficiency mainly causes anaemia, not this cluster of skeletal deformities.</li><li><strong>B:</strong> Protein deficiency can impair growth and repair, but vitamin D deficiency best explains the bone-mineralisation pattern.</li><li><strong>C:</strong> Vitamin C deficiency causes scurvy, often with bleeding gums and poor wound healing; it is not the best explanation of this cluster.</li><li><strong>D:</strong> D is correct: vitamin D supports calcium absorption and normal bone and tooth mineralisation.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Use the full symptom pattern. Bone deformities and fragile bones suggest vitamin D; bleeding gums and poor healing suggest vitamin C.</p><p class=\"relationship\">Final answer: D. vitamin D</p></div>"
+},
+{
+    "title": "Which enzymes in the graph are likely to be protease enzymes?",
+    "legend": "Select an answer.",
+    "options": [
+        "X, Y and Z",
+        "X and Z only",
+        "Y and Z only",
+        "Z only"
+    ],
+    "correct": "B",
+    "answer": "B. X and Z only",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 14,
+    "context": "<p>The graph shows the effect of pH on the activity of three different enzymes.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-470-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-470-source.png\" alt=\"Original pH-activity graph with all three curves X, Y and Z and labelled axes. X peaks near pH2, Y near7 and Z near8.5.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q14, printed page 7</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-470-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p>The table shows the pH of different parts of the alimentary canal.</p><table class=\"comparison-table\"><thead><tr><th scope=\"col\">part of the alimentary canal</th><th scope=\"col\">pH</th></tr></thead><tbody><tr><th scope=\"row\">mouth</th><td>7.0</td></tr><tr><th scope=\"row\">stomach</th><td>2.0</td></tr><tr><th scope=\"row\">small intestine</th><td>8.5</td></tr></tbody></table>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Match each optimum to the organ pH</h3><p>X peaks around pH 2, matching the stomach. Y peaks around pH 7, matching the mouth. Z peaks around pH 8.5, matching the small intestine.</p><h3>2. Recall where proteases digest protein</h3><p>Protein digestion takes place in the stomach and small intestine. Acidic stomach protease corresponds to X, and alkaline intestinal proteases correspond to Z. The mouth does not normally carry out protease digestion in this syllabus context.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-470-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-470-source.png\" alt=\"Original pH-activity graph with all three curves X, Y and Z and labelled axes. X peaks near pH2, Y near7 and Z near8.5.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q14, printed page 7</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-470-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A incorrectly includes Y, whose neutral optimum matches the mouth.</li><li><strong>B:</strong> B is correct: X matches stomach protease and Z intestinal protease.</li><li><strong>C:</strong> C omits the stomach enzyme X and incorrectly includes Y.</li><li><strong>D:</strong> D correctly includes the intestinal enzyme Z but omits the stomach enzyme X.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> An enzyme name describes what it digests, not a single universal pH optimum. Different proteases are adapted to different digestive organs.</p><p class=\"relationship\">Final answer: B. X and Z only</p></div>"
+},
+{
+    "title": "Which labels are correct?",
+    "legend": "Select an answer.",
+    "options": [
+        "phloem; xylem; xylem; phloem",
+        "phloem; xylem; phloem; xylem",
+        "xylem; phloem; xylem; phloem",
+        "xylem; phloem; phloem; xylem"
+    ],
+    "correct": "B",
+    "answer": "B. phloem; xylem; phloem; xylem",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 15,
+    "context": "<p>The diagrams show cross-sections through a root and a stem.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-471-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-471-source.png\" alt=\"Original root and stem cross-sections with V, W, Y and Z leaders and the root/stem captions retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q15, printed page 8</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-471-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"energy52-options-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 471 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table energy52-answer-table\" style=\"min-width:40em\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">V</th><th scope=\"col\">W</th><th scope=\"col\">Y</th><th scope=\"col\">Z</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: V: phloem; W: xylem; Y: xylem; Z: phloem\" aria-pressed=\"false\">A</button></th><td>phloem</td><td>xylem</td><td>xylem</td><td>phloem</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: V: phloem; W: xylem; Y: phloem; Z: xylem\" aria-pressed=\"false\">B</button></th><td>phloem</td><td>xylem</td><td>phloem</td><td>xylem</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: V: xylem; W: phloem; Y: xylem; Z: phloem\" aria-pressed=\"false\">C</button></th><td>xylem</td><td>phloem</td><td>xylem</td><td>phloem</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: V: xylem; W: phloem; Y: phloem; Z: xylem\" aria-pressed=\"false\">D</button></th><td>xylem</td><td>phloem</td><td>phloem</td><td>xylem</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the root pattern</h3><p>In the root, the central star-shaped structure is <strong>xylem</strong>, labelled W. The small patches between its arms are <strong>phloem</strong>, labelled V.</p><h3>2. Identify the stem pattern</h3><p>In each stem vascular bundle, phloem lies nearer the outside and xylem nearer the centre. Y is phloem and Z is xylem. The complete pattern is phloem, xylem, phloem, xylem.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-471-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-471-source.png\" alt=\"Original root and stem cross-sections with V, W, Y and Z leaders and the root/stem captions retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q15, printed page 8</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-471-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A labels the root correctly but reverses the two stem tissues.</li><li><strong>B:</strong> B is correct: V and Y are phloem; W and Z are xylem.</li><li><strong>C:</strong> C reverses both the root and stem tissue labels.</li><li><strong>D:</strong> D labels the stem correctly but reverses the root tissues.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Determine whether the section is root or stem before using position: root central xylem star; stem xylem on the inner side of each bundle.</p><p class=\"relationship\">Final answer: B. phloem; xylem; phloem; xylem</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "Which is a function of the cartilage in the trachea?",
+    "legend": "Select an answer.",
+    "options": [
+        "gas exchange",
+        "prevents collapse of the trachea",
+        "produces mucus",
+        "traps bacteria"
+    ],
+    "correct": "B",
+    "answer": "B. prevents collapse of the trachea",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 20,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the mechanical role</h3><p>Cartilage forms supporting rings in the tracheal wall. It is firm enough to help maintain an open lumen as air pressure changes during breathing.</p><h3>2. Separate support from airway protection</h3><p>Mucus made by goblet cells traps particles and pathogens. Cilia move mucus towards the throat. Gas exchange mainly occurs across the thin walls of alveoli, not through cartilage.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-trachea-bronchi-cartilage.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-trachea-bronchi-cartilage.jpg\" alt=\"Published trachea illustration and micrograph showing cartilage and the airway lining.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Cartilage supports the airway wall; the lining carries out mucus secretion and ciliary clearance. OpenStax College, <a href=\"https://commons.wikimedia.org/wiki/File:2308_The_Trachea.jpg\" target=\"_blank\" rel=\"noopener\">2308 The Trachea</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-trachea-bronchi-cartilage.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Gas exchange occurs mainly at alveoli; cartilage is a support tissue.</li><li><strong>B:</strong> B is correct: cartilage resists collapse and keeps the airway open.</li><li><strong>C:</strong> Goblet cells and glands produce mucus; cartilage does not.</li><li><strong>D:</strong> Mucus traps bacteria; cartilage provides mechanical support.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Match each airway component to its role: cartilage supports, mucus traps, cilia move mucus, alveoli exchange gases.</p><p class=\"relationship\">Final answer: B. prevents collapse of the trachea</p></div>"
+},
+{
+    "title": "How many different kinds of cone receptor and rod receptor are there in the human retina?",
+    "legend": "Select an answer.",
+    "options": [
+        "1; 1",
+        "1; 3",
+        "3; 1",
+        "3; 3"
+    ],
+    "correct": "C",
+    "answer": "C. 3; 1",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 24,
+    "context": "<p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 473 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">types of cone receptor</th><th scope=\"col\">types of rod receptor</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: types of cone receptor: 1; types of rod receptor: 1\" aria-pressed=\"false\">A</button></th><td>1</td><td>1</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: types of cone receptor: 1; types of rod receptor: 3\" aria-pressed=\"false\">B</button></th><td>1</td><td>3</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: types of cone receptor: 3; types of rod receptor: 1\" aria-pressed=\"false\">C</button></th><td>3</td><td>1</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: types of cone receptor: 3; types of rod receptor: 3\" aria-pressed=\"false\">D</button></th><td>3</td><td>3</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Count cone types</h3><p>Humans normally have <strong>three types of cone</strong>, with different wavelength sensitivities. Comparing their responses enables colour vision.</p><h3>2. Count rod types separately</h3><p>There is <strong>one type of rod receptor</strong>. Rods are sensitive in dim light but do not provide colour discrimination. The correct pair is three cone types and one rod type.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-165-retina-distribution.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-165-retina-distribution.png\" alt=\"Retinal receptor distribution graph from a different question, with solid X and dashed Y curves and labelled region Z.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Separate supporting graph: X represents rods, Y represents cones and Z is the fovea. It illustrates receptor distribution, not the number of receptor types. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/26, Q22, printed page 12</a>. © Cambridge University Press &amp; Assessment 2026; all rights reserved. Existing credited raster reused unchanged. <a href=\"images/question-165-retina-distribution.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A gives the correct rod count but too few cone types.</li><li><strong>B:</strong> B reverses the counts: three applies to cones, not rods.</li><li><strong>C:</strong> C is correct: three cone types and one rod type.</li><li><strong>D:</strong> D gives the correct cone count but too many rod types.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> “Types” is different from the total number of cells. The retina contains many rods, but these belong to one receptor type.</p><p class=\"relationship\">Final answer: C. 3; 1</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "Which point on the graph shows a decrease in predator population?",
+    "legend": "Select an answer.",
+    "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "correct": "B",
+    "answer": "B. B",
+    "paperCode": "0610/21/M/J/17",
+    "paperSession": "May/June 2017",
+    "paperQuestion": 37,
+    "context": "<p>The graph shows the changes in the populations of predator and prey over a period of time.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-474-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-474-source.png\" alt=\"Original predator–prey population graph showing both complete curves, axes, and points A, B, C and D.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q37, printed page 14</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-474-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the predator curve</h3><p>The solid curve reaches its peaks after those of the dotted prey curve. More prey can support more predators, so the predator response lags behind the prey.</p><h3>2. Read the direction at each point</h3><p>At B the solid predator curve slopes downwards as time increases: predator numbers are decreasing. D lies on an upward section of the predator curve. A and C lie on the dotted prey curve.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-474-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open original source image at full size\"><img src=\"images/question-474-source.png\" alt=\"Original predator–prey population graph showing both complete curves, axes, and points A, B, C and D.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete original figure, including all source labels and leaders. Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/M/J/17, Q37, printed page 14</a>. © UCLES 2017; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence claimed. <a href=\"images/question-474-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A lies on the prey curve rather than the predator curve.</li><li><strong>B:</strong> B is correct: it is on a downward-sloping part of the solid predator curve.</li><li><strong>C:</strong> C lies on the prey curve rather than the predator curve.</li><li><strong>D:</strong> D is on the predator curve, but its upward slope shows an increase.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> First identify which curve represents predators using the time lag; then check whether its slope is positive or negative at the labelled point.</p><p class=\"relationship\">Final answer: B. B</p></div>"
+},
+{
+    "title": "Which kingdoms are represented by X and Y?",
+    "legend": "Select an answer.",
+    "options": [
+        "Fungus; Plant",
+        "Fungus; Protoctist",
+        "Protoctist; Fungus",
+        "Protoctist; Plant"
+    ],
+    "correct": "B",
+    "answer": "B. Fungus; Protoctist",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 2,
+    "context": "<p>Lichens are formed from two different organisms living together.</p><p>The table shows some of the characteristics of two organisms, X and Y, found in most lichens.</p><div style=\"overflow-x:auto\"><table class=\"comparison-table\"><caption>Characteristics of the two organisms</caption><thead><tr><th scope=\"col\">X</th><th scope=\"col\">Y</th></tr></thead><tbody><tr><td>made of strands called hyphae</td><td>single celled</td></tr><tr><td>hyphae have cell walls and many nuclei</td><td>cell contains a nucleus and chloroplasts</td></tr></tbody></table></div><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 475 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">X</th><th scope=\"col\">Y</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: X: Fungus; Y: Plant\" aria-pressed=\"false\">A</button></th><td>Fungus</td><td>Plant</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: X: Fungus; Y: Protoctist\" aria-pressed=\"false\">B</button></th><td>Fungus</td><td>Protoctist</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: X: Protoctist; Y: Fungus\" aria-pressed=\"false\">C</button></th><td>Protoctist</td><td>Fungus</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: X: Protoctist; Y: Plant\" aria-pressed=\"false\">D</button></th><td>Protoctist</td><td>Plant</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify X from its hyphae</h3><p>A body made of <strong>hyphae</strong> identifies the fungus partner. Its cells have walls and the hyphae can contain many nuclei. It does not photosynthesise.</p><h3>2. Identify the single-celled partner</h3><p>Y has a nucleus and chloroplasts but is <strong>single celled</strong>. In the five-kingdom classification used here, this photosynthetic partner belongs to the <strong>Protoctist</strong> kingdom, rather than the multicellular Plant kingdom.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q475-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q475-source.png\" alt=\"Complete original lichen question. X consists of hyphae with cell walls and many nuclei; Y is single celled with a nucleus and chloroplasts. All four kingdom rows A to D are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q2, printed page 2</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q475-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> X is correctly fungal, but this single-celled Y is a protoctist rather than a plant.</li><li><strong>B:</strong> Correct: hyphae identify X as Fungus, while the single-celled photosynthetic Y is a Protoctist.</li><li><strong>C:</strong> Both assignments are reversed: X has fungal hyphae, while Y has chloroplasts.</li><li><strong>D:</strong> X is fungal, not protoctist; Y is the single-celled protoctist partner, not a plant.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Use all the features together. Chloroplasts alone do not place an organism in the Plant kingdom.</p><p class=\"relationship\">Final answer: B. Fungus; Protoctist.</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "Which test-tube contains the most sugar after 20 minutes?",
+    "legend": "Select an answer.",
+    "options": [
+        "test-tube A",
+        "test-tube B",
+        "test-tube C",
+        "test-tube D"
+    ],
+    "correct": "D",
+    "answer": "D. test-tube D",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 9,
+    "context": "<p>The apparatus shown is used for an experiment on starch digestion.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q476-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q476-source.png\" alt=\"Complete original starch digestion apparatus. A has starch and salivary amylase at 15 degrees Celsius; B has starch only at 15; C has starch only at 37; D has starch and salivary amylase at 37. Original tube labels and bath borders are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q9, printed page 5</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q476-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Find the tubes containing enzyme</h3><p>Salivary <strong>amylase breaks starch down into reducing sugar, mainly maltose</strong>. Only A and D contain both starch and salivary amylase; B and C lack the enzyme.</p><h3>2. Compare their temperatures</h3><p>A is kept at 15 °C and D at 37 °C. At the warmer, suitable temperature, amylase and substrate particles move faster and successful collisions are more frequent. D therefore produces the most sugar in the stated time.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q476-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q476-source.png\" alt=\"Complete original starch digestion apparatus. A has starch and salivary amylase at 15 degrees Celsius; B has starch only at 15; C has starch only at 37; D has starch and salivary amylase at 37. Original tube labels and bath borders are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q9, printed page 5</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q476-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A contains amylase, but the lower temperature gives slower digestion than in D.</li><li><strong>B:</strong> B has starch but no salivary amylase, so the required digestion is not catalysed.</li><li><strong>C:</strong> C is warm but lacks amylase; temperature alone does not digest the starch.</li><li><strong>D:</strong> Correct: D combines starch, salivary amylase and the more suitable 37 °C temperature.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Check the contents before comparing temperatures. A warm tube without enzyme is a control, not the fastest reaction.</p><p class=\"relationship\">Final answer: D. test-tube D.</p></div>"
+},
+{
+    "title": "What type of cells are they?",
+    "legend": "Select an answer.",
+    "options": [
+        "epidermal cells",
+        "guard cells",
+        "palisade cells",
+        "spongy cells"
+    ],
+    "correct": "A",
+    "answer": "A. epidermal cells",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 12,
+    "context": "<p>The diagram shows the structure of cells from the leaf of a plant.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q477-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q477-source.png\" alt=\"Complete original leaf-cell question: three rectangular cells touch in a single row. Each has a nucleus and large vacuole; chloroplasts are absent. Options A epidermal, B guard, C palisade and D spongy cells.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q12, printed page 6</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q477-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Read the arrangement and contents</h3><p>The cells form a <strong>closely packed, continuous row</strong>. They have cell walls, large vacuoles and nuclei, but no visible chloroplasts. These are typical leaf epidermal cells.</p><h3>2. Link the structure to its role</h3><p>The epidermis forms a protective covering. Most epidermal cells are transparent and lack chloroplasts, allowing light to reach the photosynthesising mesophyll below. Guard cells are specialised epidermal cells that do contain chloroplasts.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q477-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q477-source.png\" alt=\"Complete original leaf-cell question: three rectangular cells touch in a single row. Each has a nucleus and large vacuole; chloroplasts are absent. Options A epidermal, B guard, C palisade and D spongy cells.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q12, printed page 6</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q477-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Correct: a continuous row of cells without chloroplasts is characteristic of the epidermis shown.</li><li><strong>B:</strong> Guard cells occur as a specialised pair around a stoma and usually contain chloroplasts; that pattern is absent.</li><li><strong>C:</strong> Palisade cells are usually elongated, tightly packed photosynthesising cells with many chloroplasts.</li><li><strong>D:</strong> Spongy mesophyll cells are more irregularly arranged with large air spaces and contain chloroplasts.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Identify the tissue from the arrangement as well as from organelles. A cell wall alone only establishes that these are plant cells.</p><p class=\"relationship\">Final answer: A. epidermal cells.</p></div>"
+},
+{
+    "title": "At which point in the year are the roots most active as a source?",
+    "legend": "Select an answer.",
+    "options": [
+        "spring — new leaves start to grow",
+        "summer — leaves are mature",
+        "autumn — leaves die and fall",
+        "winter — no leaves are present"
+    ],
+    "correct": "A",
+    "answer": "A. spring — new leaves start to grow",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 16,
+    "context": "<p>Roots and leaves both act as a source and a sink for sucrose and amino acids at different times during the year.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q478-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q478-source.png\" alt=\"Complete original seasonal cycle: A spring, new leaves start to grow; B summer, leaves are mature; C autumn, leaves die and fall; D winter, no leaves are present. All four circles and directional arrows are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q16, printed page 8</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q478-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Define a source</h3><p>A <strong>source exports sucrose and amino acids</strong> through the phloem. A sink receives these substances for growth, use or storage. Storage roots can change roles during the year.</p><h3>2. Apply this to new spring growth</h3><p>In spring, stored reserves in the roots are mobilised and exported to growing buds and young leaves. The new leaves are sinks before they have enough mature photosynthetic tissue to supply themselves. This is when the roots are most active as a source.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q478-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q478-source.png\" alt=\"Complete original seasonal cycle: A spring, new leaves start to grow; B summer, leaves are mature; C autumn, leaves die and fall; D winter, no leaves are present. All four circles and directional arrows are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q16, printed page 8</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q478-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Correct: roots release stored reserves to support the growth of new leaves in spring.</li><li><strong>B:</strong> Mature summer leaves are major sources; roots commonly receive and store assimilates as sinks.</li><li><strong>C:</strong> Before leaves are shed, some assimilates are transferred into storage organs; roots are mainly receiving reserves.</li><li><strong>D:</strong> With no leaves and little active growth, winter export is lower than the spring mobilisation of reserves.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Ask where assimilates are moving now. The same storage organ can be a sink in one season and a source in another.</p><p class=\"relationship\">Final answer: A. spring — new leaves start to grow.</p></div>"
+},
+{
+    "title": "Which graph shows changes in the volume of air in the lungs of the same person immediately after they have done five minutes of vigorous exercise?",
+    "legend": "Select an answer.",
+    "options": [
+        "graph A",
+        "graph B",
+        "graph C",
+        "graph D"
+    ],
+    "correct": "C",
+    "answer": "C. graph C",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 20,
+    "context": "<p>The graph shows changes in the volume of air in the lungs of a person at rest, over a period of 30 seconds.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q479-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q479-source.png\" alt=\"Complete original breathing graphs with all axes and A to D labels. Compared with the resting trace, A has more cycles of similar height, B has fewer taller cycles, C has more taller cycles, and D has roughly the same number of taller cycles. Both axes retain their units.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q20, printed page 10</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q479-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Read frequency from the horizontal axis</h3><p>Every trace covers <strong>30 seconds</strong>. More complete waves in the same time mean a greater breathing rate. Immediately after vigorous exercise, the breathing rate is higher than at rest.</p><h3>2. Read depth from the vertical axis</h3><p>The peak-to-trough difference shows the volume moved per breath. After vigorous exercise, breathing is also deeper. The taller, more frequent oscillations in <strong>graph C</strong> meet both requirements, supplying more oxygen and removing more carbon dioxide.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q479-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q479-source.png\" alt=\"Complete original breathing graphs with all axes and A to D labels. Compared with the resting trace, A has more cycles of similar height, B has fewer taller cycles, C has more taller cycles, and D has roughly the same number of taller cycles. Both axes retain their units.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q20, printed page 10</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q479-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> A shows a faster rate, but the shallow waves do not show the required increase in depth.</li><li><strong>B:</strong> B shows deeper breaths but fewer cycles in 30 seconds, so breathing rate is reduced.</li><li><strong>C:</strong> Correct: C has both more cycles per 30 seconds and a larger peak-to-trough volume change.</li><li><strong>D:</strong> D shows deeper breaths, but its cycle count is similar to the resting trace rather than increased.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Count cycles and compare peak-to-trough height separately. Graph height at a single point does not measure breathing depth.</p><p class=\"relationship\">Final answer: C. graph C.</p></div>"
+},
+{
+    "title": "What would happen to the concentration and volume of the person’s urine immediately after exercise?",
+    "legend": "Select an answer.",
+    "options": [
+        "decrease; decrease",
+        "decrease; increase",
+        "increase; decrease",
+        "increase; increase"
+    ],
+    "correct": "C",
+    "answer": "C. increase; decrease",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 22,
+    "context": "<p>A person carries out vigorous exercise without drinking any water.</p><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 480 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">urine concentration</th><th scope=\"col\">urine volume</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: urine concentration: decrease; urine volume: decrease\" aria-pressed=\"false\">A</button></th><td>decrease</td><td>decrease</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: urine concentration: decrease; urine volume: increase\" aria-pressed=\"false\">B</button></th><td>decrease</td><td>increase</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: urine concentration: increase; urine volume: decrease\" aria-pressed=\"false\">C</button></th><td>increase</td><td>decrease</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: urine concentration: increase; urine volume: increase\" aria-pressed=\"false\">D</button></th><td>increase</td><td>increase</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Account for water lost during exercise</h3><p>Vigorous exercise increases sweating. With no water drunk, the body loses water and the blood becomes more concentrated. The kidneys must help conserve water.</p><h3>2. Follow water reabsorption</h3><p>More ADH promotes greater water reabsorption by the kidneys. <strong>Less water leaves in urine</strong>, so urine volume decreases and the remaining urine is more concentrated. This combination is row C.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q480-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q480-source.png\" alt=\"Complete original urine table. Rows A concentration decreases and volume decreases; B concentration decreases and volume increases; C concentration increases and volume decreases; D both increase.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q22, printed page 11</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q480-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Urine volume decreases, but conserving water makes it more concentrated rather than less concentrated.</li><li><strong>B:</strong> Both changes oppose water conservation: a larger volume of dilute urine would lose more water.</li><li><strong>C:</strong> Correct: water conservation produces a smaller volume of more concentrated urine.</li><li><strong>D:</strong> The increase in concentration is right, but urine volume decreases rather than increases.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Keep concentration and volume separate. More concentrated urine generally means less water is being excreted for a given solute load.</p><p class=\"relationship\">Final answer: C. increase; decrease.</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "What does the central nervous system consist of?",
+    "legend": "Select an answer.",
+    "options": [
+        "brain, spinal cord and peripheral nerves",
+        "brain and spinal cord only",
+        "brain only",
+        "spinal cord and peripheral nerves only"
+    ],
+    "correct": "B",
+    "answer": "B. brain and spinal cord only",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 23,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Name the central structures</h3><p>The <strong>brain and spinal cord</strong> together form the central nervous system (CNS). They process information and coordinate responses.</p><h3>2. Separate the connecting nerves</h3><p>Peripheral nerves connect receptors and effectors to the CNS. They belong to the <strong>peripheral nervous system</strong>, so they are excluded when the question asks for the central nervous system only.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-104-reflex-arc.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-104-reflex-arc.png\" alt=\"Original supporting reflex-arc diagram with receptor, effector and P, Q and R labels retained; the central cross-section represents the spinal cord.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>A separate reflex-arc illustration places the spinal cord centrally, with neurones connecting the receptor and effector. The brain is not shown; it is the other CNS structure. Original source: <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/25, Q23, printed page 10</a>. © UCLES 2025; all rights reserved. Existing source crop reused unchanged. Its P/Q/R labels belong to that separate question. <a href=\"images/question-104-reflex-arc.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The brain and spinal cord are correct, but adding peripheral nerves makes the list too broad.</li><li><strong>B:</strong> Correct: the CNS consists of the brain and spinal cord only.</li><li><strong>C:</strong> The brain is part of the CNS, but this leaves out the spinal cord.</li><li><strong>D:</strong> This leaves out the brain and wrongly includes peripheral nerves.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> “Central” means brain plus spinal cord. “Peripheral” describes the nerves connecting them with the rest of the body.</p><p class=\"relationship\">Final answer: B. brain and spinal cord only.</p></div>"
+},
+{
+    "title": "Between which years was the greatest change in the number of cases of MRSA seen?",
+    "legend": "Select an answer.",
+    "options": [
+        "2002 and 2003",
+        "2003 and 2004",
+        "2004 and 2005",
+        "2005 and 2006"
+    ],
+    "correct": "D",
+    "answer": "D. 2005 and 2006",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 26,
+    "context": "<p>The graph shows the number of cases of MRSA in one country between 2001 and 2006.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q482-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q482-source.png\" alt=\"Original MRSA graph with year on the horizontal axis and number of cases on the vertical axis. Approximate readings: 2001 about 7300; 2002 about 7450; 2003 about 7700; 2004 about 7250; 2005 about 7100; 2006 about 6400. These are estimates from the line, not exact labelled data. All original scale marks and choices are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q26, printed page 13</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q482-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Compare equal time intervals</h3><p>All options span one year, so compare the <strong>magnitude of the vertical difference</strong> between each pair of endpoints. A change can be an increase or a decrease.</p><h3>2. Locate the largest difference</h3><p>The line falls most sharply from <strong>2005 to 2006</strong>. This drop is greater than the rise from 2002 to 2003 or either earlier fall, so D is correct. The graph alone does not explain why cases changed.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q482-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q482-source.png\" alt=\"Original MRSA graph with year on the horizontal axis and number of cases on the vertical axis. Approximate readings: 2001 about 7300; 2002 about 7450; 2003 about 7700; 2004 about 7250; 2005 about 7100; 2006 about 6400. These are estimates from the line, not exact labelled data. All original scale marks and choices are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q26, printed page 13</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q482-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The rise from 2002 to 2003 is smaller than the final fall.</li><li><strong>B:</strong> Cases fall from 2003 to 2004, but the vertical difference is smaller than from 2005 to 2006.</li><li><strong>C:</strong> The line drops only slightly between 2004 and 2005.</li><li><strong>D:</strong> Correct: the largest absolute year-to-year change is the fall from 2005 to 2006.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> For “greatest change”, compare the size of increases and decreases. The year with most cases is not necessarily the interval with greatest change.</p><p class=\"relationship\">Final answer: D. 2005 and 2006.</p></div>"
+},
+{
+    "title": "What is a function of the part labelled X?",
+    "legend": "Select an answer.",
+    "options": [
+        "add oxygen to the solution",
+        "maintain an even temperature throughout the solution",
+        "record the pH of the solution",
+        "sterilise the solution"
+    ],
+    "correct": "B",
+    "answer": "B. maintain an even temperature throughout the solution",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 37,
+    "context": "<p>The diagram shows an industrial fermenter used to produce penicillin.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q483-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q483-source.png\" alt=\"Complete original fermenter diagram with X and its three leaders pointing to stirring paddles on the central shaft. The vessel, pipes and full A to D choices remain unaltered.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q37, printed page 17</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q483-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Follow all the X leaders</h3><p>X points to the <strong>stirring paddles</strong> on the central shaft, rather than to an inlet pipe or a measuring probe.</p><h3>2. Link mixing to temperature control</h3><p>Stirring circulates the culture medium, distributing heat so that the solution has a more even temperature. It also distributes nutrients and dissolved gases. Cooling equipment controls heat removal; the paddles help prevent local hot spots.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/q483-source.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/q483-source.png\" alt=\"Complete original fermenter diagram with X and its three leaders pointing to stirring paddles on the central shaft. The vessel, pipes and full A to D choices remain unaltered.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Complete unannotated original question, including all source labels and answer choices. Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">0610/22/O/N/18, Q37, printed page 17</a>. © UCLES 2018; all rights reserved. Direct PDF crop; no Creative Commons licence is claimed. <a href=\"images/q483-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Oxygen is supplied through an air inlet or sparger. Stirring distributes dissolved oxygen but does not itself add oxygen to the vessel.</li><li><strong>B:</strong> Correct: mixing spreads heat through the medium, helping maintain an even temperature.</li><li><strong>C:</strong> A pH probe records pH; stirring paddles do not measure it.</li><li><strong>D:</strong> Sterilisation requires suitable treatment, such as heat, before use. Stirring does not sterilise the medium.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Follow the label leader to the actual component. A fermenter has several devices with distinct jobs.</p><p class=\"relationship\">Final answer: B. maintain an even temperature throughout the solution.</p></div>"
+},
+{
+    "title": "What is directly responsible for the increase in bacteria?",
+    "legend": "Select an answer.",
+    "options": [
+        "a decrease in dissolved oxygen concentration",
+        "an increase in nitrate concentration",
+        "an increase in the population of algae",
+        "an increase in the death of producers"
+    ],
+    "correct": "D",
+    "answer": "D. an increase in the death of producers",
+    "paperCode": "0610/22/O/N/18",
+    "paperSession": "October/November 2018",
+    "paperQuestion": 39,
+    "context": "<p>The statements describe some of the events that occur during eutrophication.</p>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Find the bacteria’s immediate food supply</h3><p>During eutrophication, dead algae and other dead producers provide <strong>organic material for decomposer bacteria</strong>. More dead material supports an increase in these bacteria.</p><h3>2. Separate the cause from later effects</h3><p>Extra nitrates can first stimulate algal growth. Shading and subsequent death increase decomposable material. Aerobic respiration by the increased bacterial population then uses dissolved oxygen; falling oxygen is largely an effect of this respiration, not the immediate food source.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-34-spirogyra.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-34-spirogyra.jpg\" alt=\"Microscope photograph of filaments of the freshwater green alga Spirogyra.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Freshwater algae are producers. When producers die, decomposers can use their organic matter. This is a separate example, not a photograph of the eutrophication event. Wiedehopf20, <a href=\"https://commons.wikimedia.org/wiki/File:The_freshwater_alga_Spirogyra.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons source</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Existing credited raster reused unchanged. <a href=\"images/question-34-spirogyra.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Decreasing dissolved oxygen is a consequence of aerobic decomposition and does not supply the bacteria with organic food.</li><li><strong>B:</strong> Nitrates stimulate producer growth earlier in the sequence; they are not the direct organic food supply for these decomposers.</li><li><strong>C:</strong> More living algae occur earlier. Their death supplies the decomposable material that directly supports bacterial increase.</li><li><strong>D:</strong> Correct: increased producer death supplies more dead organic matter for decomposer bacteria.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> When asked for a direct cause, choose the immediately preceding link in the chain, rather than an earlier trigger or a later consequence.</p><p class=\"relationship\">Final answer: D. an increase in the death of producers.</p></div>"
+},
+{
+    "title": "Which process causes this change?",
+    "legend": "Select an answer.",
+    "options": [
+        "growth",
+        "reproduction",
+        "respiration",
+        "sensitivity"
+    ],
+    "correct": "C",
+    "answer": "C. respiration",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 1,
+    "context": "<p>Some yeast, sugar and water are mixed in a test-tube. The diagrams show the test-tube at the start and after one hour.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-485-yeast.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-485-yeast.png\" alt=\"Original test-tubes at start and after one hour: the later tube has bubbles of gas; yeast, sugar and water labels and both complete tube outlines are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Gas accumulates in the yeast mixture over time. Original Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/16, Q1, printed page 2</a>. © UCLES 2016; all rights reserved. Direct unannotated PDF crop; all original labels retained. No Creative Commons licence is claimed. <a href=\"images/question-485-yeast.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the observed change</h3><p>The later test-tube has <strong>bubbles of gas</strong>. Yeast uses sugar as a respiratory substrate and releases carbon dioxide.</p><h3>2. Link the gas to its process</h3><p>During <strong>respiration</strong>, yeast releases energy from sugar. Anaerobic respiration in yeast produces ethanol and carbon dioxide; the carbon dioxide forms bubbles. The bubbles identify respiration without showing whether the number or size of cells has increased.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-485-yeast.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-485-yeast.png\" alt=\"Original test-tubes at start and after one hour: the later tube has bubbles of gas; yeast, sugar and water labels and both complete tube outlines are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Gas accumulates in the yeast mixture over time. Original Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/16, Q1, printed page 2</a>. © UCLES 2016; all rights reserved. Direct unannotated PDF crop; all original labels retained. No Creative Commons licence is claimed. <a href=\"images/question-485-yeast.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Growth means a permanent increase in size and dry mass. Bubbles do not measure growth.</li><li><strong>B:</strong> Reproduction increases the number of organisms. No cell counts are shown.</li><li><strong>C — correct:</strong> Respiration in yeast releases carbon dioxide from sugar, producing gas bubbles.</li><li><strong>D:</strong> Sensitivity is detecting and responding to a stimulus; it does not explain the gas produced here.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Name the process responsible for the observation actually shown: gas production is evidence of respiration.</p><p class=\"relationship\">Final answer: C — respiration.</p></div>"
+},
+{
+    "title": "Which other substances do plants and animals need to absorb during this process?",
+    "legend": "Select an answer.",
+    "options": [
+        "plants: carbon dioxide; animals: inorganic compounds",
+        "plants: carbon dioxide; animals: organic compounds",
+        "plants: oxygen; animals: inorganic compounds",
+        "plants: oxygen; animals: organic compounds"
+    ],
+    "correct": "B",
+    "answer": "B. plants: carbon dioxide; animals: organic compounds",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 2,
+    "context": "<p>During the process of nutrition, all organisms need to absorb mineral ions and water from their environment.</p><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 486 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">plants</th><th scope=\"col\">animals</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: plants: carbon dioxide; animals: inorganic compounds\" aria-pressed=\"false\">A</button></th><td>carbon dioxide</td><td>inorganic compounds</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: plants: carbon dioxide; animals: organic compounds\" aria-pressed=\"false\">B</button></th><td>carbon dioxide</td><td>organic compounds</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: plants: oxygen; animals: inorganic compounds\" aria-pressed=\"false\">C</button></th><td>oxygen</td><td>inorganic compounds</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: plants: oxygen; animals: organic compounds\" aria-pressed=\"false\">D</button></th><td>oxygen</td><td>organic compounds</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the plant carbon source</h3><p>Green plants absorb <strong>carbon dioxide</strong> and use its carbon to make glucose during photosynthesis. Water and mineral ions are already included in the stem.</p><h3>2. Identify the animal food source</h3><p>Animals obtain <strong>organic compounds</strong> such as carbohydrates, lipids and proteins from food. Oxygen is used in aerobic respiration, rather than being the extra nutritional substance being compared.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-486-nutrition-options.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-486-nutrition-options.png\" alt=\"Complete source table: A plants carbon dioxide, animals inorganic compounds; B carbon dioxide, organic compounds; C oxygen, inorganic compounds; D oxygen, organic compounds.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Compare nutritional raw materials: plants build organic molecules using carbon dioxide, while animals obtain organic compounds ready-made. Original Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/16, Q2, printed page 2</a>. © UCLES 2016; all rights reserved. Direct unannotated PDF crop; all original labels retained. No Creative Commons licence is claimed. <a href=\"images/question-486-nutrition-options.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The plant entry is correct, but animals need organic food compounds; inorganic compounds alone are insufficient.</li><li><strong>B — correct:</strong> Plants take in carbon dioxide for photosynthesis; animals take in organic compounds as food.</li><li><strong>C:</strong> Both entries fail: plants need carbon dioxide for carbon nutrition, and animals need organic food.</li><li><strong>D:</strong> Organic compounds is correct for animals, but oxygen does not replace carbon dioxide as the plant carbon source.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Read the named process. Plants also use oxygen in respiration, but the question asks about nutrition.</p><p class=\"relationship\">Final answer: B — plants: carbon dioxide; animals: organic compounds.</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "What is the correct order of increasing size of the following structures, from smallest to largest?",
+    "legend": "Select an answer.",
+    "options": [
+        "chromosome → liver → white blood cell",
+        "chromosome → white blood cell → liver",
+        "liver → chromosome → white blood cell",
+        "white blood cell → liver → chromosome"
+    ],
+    "correct": "B",
+    "answer": "B. chromosome → white blood cell → liver",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 4,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Place the chromosome inside the cell</h3><p>A <strong>chromosome</strong> is a DNA-containing structure inside the nucleus of a white blood cell. It is smaller than the whole cell.</p><h3>2. Place the cell within a larger level of organisation</h3><p>A <strong>liver</strong> is an organ made from tissues containing very many cells. The order is therefore <strong>chromosome → white blood cell → liver</strong>.</p><p>The labelled liver in this anatomy illustration is a whole organ made of many cells; the illustration is not a common-scale size comparison.</p><figure class=\"explanation-photo explanation-visual\" data-explanation-visual=\"18\">\n            <a href=\"images/online-hepatic-portal-vein.jpg\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Open the downloaded explanation image at full size\">\n                <img src=\"images/online-hepatic-portal-vein.jpg\" width=\"960\" height=\"619\" alt=\"Labelled hepatic portal vein system connecting veins around the intestines with the liver\" loading=\"lazy\" decoding=\"async\">\n            </a>\n            <figcaption>The hepatic portal system carries blood from the digestive organs to the liver. <span class=\"image-credit\">Image: OpenStax College, via <a href=\"https://commons.wikimedia.org/wiki/File:2138_Hepatic_Portal_Vein_System.jpg\" target=\"_blank\" rel=\"noreferrer\">source</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noreferrer\">CC BY 3.0</a>.</span> <a href=\"images/online-hepatic-portal-vein.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption>\n        </figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The liver is much larger than a single white blood cell, so the final two entries are reversed.</li><li><strong>B — correct:</strong> A chromosome is smaller than the white blood cell, and the whole organ is largest.</li><li><strong>C:</strong> The liver cannot be first in an increasing-size order because it is the largest structure.</li><li><strong>D:</strong> A chromosome cannot be the largest: it fits inside a nucleus within a cell.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Use the containment hierarchy: a structure inside a cell is smaller than the cell; an organ contains many cells.</p><p class=\"relationship\">Final answer: B — chromosome → white blood cell → liver.</p></div>"
+},
+{
+    "title": "In which parts of the alimentary canal are P and Q found?",
+    "legend": "Select an answer.",
+    "options": [
+        "P: duodenum; Q: stomach",
+        "P: ileum; Q: oesophagus",
+        "P: oesophagus; Q: ileum",
+        "P: rectum; Q: ileum"
+    ],
+    "correct": "C",
+    "answer": "C. P: oesophagus; Q: ileum",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 14,
+    "context": "<p>The diagram shows a fat globule (P) in one part of the alimentary canal and the same globule (Q) as it appears in another part of the alimentary canal.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-488-fat-globules.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-488-fat-globules.png\" alt=\"Original globule P and globule Q; complete boundaries and original labels are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption> Original Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/16, Q14, printed page 7</a>. © UCLES 2016; all rights reserved. Direct unannotated PDF crop; all original labels retained. No Creative Commons licence is claimed. <a href=\"images/question-488-fat-globules.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 488 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">P</th><th scope=\"col\">Q</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: P: duodenum; Q: stomach\" aria-pressed=\"false\">A</button></th><td>duodenum</td><td>stomach</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: P: ileum; Q: oesophagus\" aria-pressed=\"false\">B</button></th><td>ileum</td><td>oesophagus</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: P: oesophagus; Q: ileum\" aria-pressed=\"false\">C</button></th><td>oesophagus</td><td>ileum</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: P: rectum; Q: ileum\" aria-pressed=\"false\">D</button></th><td>rectum</td><td>ileum</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify emulsification</h3><p>P is one large fat globule. Q has been divided into smaller droplets by <strong>emulsification</strong>. Bile enters the duodenum, the first part of the small intestine, and emulsifies fat.</p><h3>2. Put the locations in digestive order</h3><p>The oesophagus is before the stomach and duodenum, so P can represent fat before bile acts. The ileum is later in the small intestine, so Q can represent the smaller droplets after emulsification. Emulsification increases surface area for lipase; it does not itself split fat molecules.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-488-fat-globules.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-488-fat-globules.png\" alt=\"Original fat globule P is one large drop; Q shows several smaller droplets. Both original labels and complete globule boundaries are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Bile emulsifies a large fat globule into small droplets after food enters the small intestine. Original Cambridge IGCSE Biology <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_23.pdf\" target=\"_blank\" rel=\"noopener\">0610/23/M/J/16, Q14, printed page 7</a>. © UCLES 2016; all rights reserved. Direct unannotated PDF crop; all original labels retained. No Creative Commons licence is claimed. <a href=\"images/question-488-fat-globules.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The duodenum receives bile, while the stomach is earlier in the canal. This reverses the required before-and-after order.</li><li><strong>B:</strong> The ileum is after bile has entered, while the oesophagus is before it, so the order is reversed.</li><li><strong>C — correct:</strong> The oesophagus is before bile acts; the ileum is after bile has entered the small intestine.</li><li><strong>D:</strong> The rectum is after the ileum, and large unprocessed fat globules in the rectum do not explain normal emulsification.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Locate where bile enters, then compare positions before and after that point. Smaller droplets do not mean smaller fat molecules.</p><p class=\"relationship\">Final answer: C — P: oesophagus; Q: ileum.</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "What is an example of excretion in mammals?",
+    "legend": "Select an answer.",
+    "options": [
+        "the release of hormones from glands",
+        "the release of saliva into the mouth",
+        "the removal of undigested food through the anus",
+        "the removal of urea by the kidneys"
+    ],
+    "correct": "D",
+    "answer": "D. the removal of urea by the kidneys",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 23,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Define excretion</h3><p><strong>Excretion</strong> removes waste products of metabolism and substances present in excess. Urea is a metabolic waste produced in the liver during the processing of excess amino acids.</p><h3>2. Follow the waste out of the body</h3><p>Blood carries urea to the kidneys, which remove it in urine. Hormones and saliva are useful secretions. Undigested food has not become metabolic waste: removing it is <strong>egestion</strong>.</p><p>A glomerulus and its capsule illustrate part of a kidney nephron. Urea enters the filtrate and is ultimately removed in urine; the figure is anatomical support.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-glomerulus.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-glomerulus.jpg\" alt=\"Labelled light micrograph of a glomerulus and nearby kidney tubules.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Glomerulus anatomy. Image: OpenStax Anatomy and Physiology, <a href=\"https://commons.wikimedia.org/wiki/File:2616_Glomerulus.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>. Image unchanged. <a href=\"images/online-glomerulus.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Hormones are useful chemical messengers released by secretion, not metabolic waste products being excreted.</li><li><strong>B:</strong> Saliva is a useful digestive secretion containing water, mucus and enzymes.</li><li><strong>C:</strong> Removing undigested food is egestion, not excretion of a metabolic waste.</li><li><strong>D — correct:</strong> Urea is metabolic waste; kidneys remove it from blood for elimination in urine.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Classify the substance, not just the act of releasing it. Useful products are secreted; undigested food is egested; metabolic wastes are excreted.</p><p class=\"relationship\">Final answer: D — the removal of urea by the kidneys.</p></div>"
+},
+{
+    "title": "What is a method of reducing the risk of coronary heart disease?",
+    "legend": "Select an answer.",
+    "options": [
+        "angioplasty",
+        "‘by-pass’ surgery",
+        "controlled exercise",
+        "inserting a stent"
+    ],
+    "correct": "C",
+    "answer": "C. controlled exercise",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 18,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Distinguish risk reduction from a procedure</h3><p>Coronary heart disease reduces the blood supply to heart muscle when coronary arteries narrow or become blocked. <strong>Controlled, regular exercise</strong> is a lifestyle measure that helps reduce the risk of developing it.</p><h3>2. Recognise the three treatments</h3><p>Angioplasty widens a narrowed artery, a stent helps keep it open, and by-pass surgery supplies a route around a blockage. These are procedures used to treat existing arterial disease.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-atherosclerosis.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-atherosclerosis.jpg\" alt=\"Comparison of a normal artery and an artery with plaque narrowing its lumen, beside a labelled tissue micrograph.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Coronary heart disease involves plaque narrowing the arteries supplying heart muscle. OpenStax College, <a href=\"https://commons.wikimedia.org/wiki/File:2113ab_Atherosclerosis.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-atherosclerosis.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Angioplasty widens an already narrowed coronary artery, so it is a treatment procedure.</li><li><strong>B:</strong> By-pass surgery redirects blood around an existing obstruction.</li><li><strong>C — correct:</strong> Controlled exercise is the preventive lifestyle measure listed.</li><li><strong>D:</strong> A stent holds open an artery affected by narrowing; it is a treatment device.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> A question about reducing the risk of developing a disease usually asks for a preventive behaviour rather than a treatment for established disease.</p><p class=\"relationship\">Final answer: C — controlled exercise.</p></div>"
+},
+{
+    "title": "What are the groups of cells?",
+    "legend": "Select an answer.",
+    "options": [
+        "animal and plant cells",
+        "male and female gametes",
+        "red and white blood cells",
+        "xylem and phloem cells"
+    ],
+    "correct": "B",
+    "answer": "B. male and female gametes",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 27,
+    "context": "<p>A teacher said a way to remember the difference between two groups of cells is ‘many, minute and motile’ or ‘few, fat and fixed’</p>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Decode the male description</h3><p><strong>Many, minute and motile</strong> describes sperm cells: they are produced in large numbers, are small, and can swim using a flagellum.</p><h3>2. Compare the female description</h3><p>Egg cells are produced in much smaller numbers, are larger and contain more cytoplasm and reserves, and do not swim. Here <strong>fixed</strong> is a mnemonic for non-motile, not a claim that an egg never changes position: it can be moved along an oviduct.</p><p>This separate original examination table supplies sperm-structure context. Its percentages are unrelated to the mnemonic in this question.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-120-sperm-abnormalities.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-120-sperm-abnormalities.png\" width=\"1200\" height=\"435\" alt=\"Separate source table lists sperm abnormalities including absence of an acrosome, deformed flagellum and few mitochondria.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>This separate examination table names important sperm structures. The acrosome helps penetration at fertilisation; the flagellum provides movement. Its percentages are not data for the current question. © UCLES 2024 / Cambridge University Press &amp; Assessment; all rights reserved. Existing original table crop from <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s24_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/24, Q31, page 12</a>; no Creative Commons licence is claimed. <a href=\"images/question-120-sperm-abnormalities.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Animal and plant cells as broad groups do not consistently match these number, size and movement contrasts.</li><li><strong>B — correct:</strong> The two descriptions compare male gametes (sperm) with female gametes (eggs).</li><li><strong>C:</strong> Red and white blood cells are transported in blood; the descriptions do not distinguish them as motile versus fixed gametes.</li><li><strong>D:</strong> Xylem and phloem cells form plant transport tissues and do not match the sperm–egg contrast.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Translate mnemonic words into biology: minute means small, motile means able to move itself, and fixed here means non-motile.</p><p class=\"relationship\">Final answer: B — male and female gametes.</p></div>"
+},
+{
+    "title": "How does a young race horse inherit its characteristics?",
+    "legend": "Select an answer.",
+    "options": [
+        "equally from its mother and father",
+        "mainly from its father",
+        "mainly from its mother",
+        "passed across the placenta"
+    ],
+    "correct": "A",
+    "answer": "A. equally from its mother and father",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 30,
+    "context": "<p>Owners of successful race horses hope that the horses’ offspring will be like their parents.</p>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the genetic contributions</h3><p>In sexual reproduction, an egg from the mother and a sperm from the father fuse at fertilisation. Each contributes <strong>one set of chromosomes</strong> to the offspring’s nucleus.</p><h3>2. Separate inheritance from development</h3><p>The young horse receives half its nuclear chromosomes from each parent. The placenta exchanges substances during pregnancy; it is not the route by which parental alleles are inherited. Training and environment also affect performance, so successful parents do not guarantee identical performance.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-roan-shorthorn.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"images/online-roan-shorthorn.jpg\" alt=\"A roan Shorthorn heifer with red-brown and white hairs.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Another mammal illustrates an inherited characteristic: coat colour. This is a cattle photograph, not a racehorse or evidence that every characteristic has equal visible contributions from both parents. Robert Scarth, <a href=\"https://commons.wikimedia.org/wiki/File:Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg\" target=\"_blank\" rel=\"noopener\">source</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 2.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-roan-shorthorn.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> Each parent contributes one set of nuclear chromosomes through a gamete. This is the equal genetic contribution intended by the question.</li><li><strong>B:</strong> The father supplies one chromosome set, not most of the offspring’s nuclear inheritance.</li><li><strong>C:</strong> The mother supplies one chromosome set, rather than most of the nuclear inheritance.</li><li><strong>D:</strong> The placenta supplies nutrients and oxygen and removes wastes; inheritance occurs through gametes at fertilisation.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Separate the source of alleles from influences on the final phenotype: equal nuclear inheritance does not mean every visible feature is an exact blend.</p><p class=\"relationship\">Final answer: A — equally from its mother and father.</p></div>"
+},
+{
+    "title": "Which process is not part of the water cycle?",
+    "legend": "Select an answer.",
+    "options": [
+        "condensation",
+        "fossilisation",
+        "precipitation",
+        "transpiration"
+    ],
+    "correct": "B",
+    "answer": "B. fossilisation",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 36,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Trace water through the atmosphere</h3><p><strong>Condensation</strong> changes water vapour into liquid droplets. <strong>Precipitation</strong> returns water from clouds to the Earth’s surface, for example as rain.</p><h3>2. Separate water transfer from preservation</h3><p><strong>Transpiration</strong> is loss of water vapour from plant leaves. <strong>Fossilisation</strong> preserves remains or traces of organisms over long periods; it is not a water-cycle transfer process.</p><p>This separate source figure shows water moving between water bodies, plants, atmosphere and rain. Its numbers belong to the earlier paper and are not answer choices here.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-382-water-cycle.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-382-water-cycle.png\" width=\"828\" height=\"669\" alt=\"Original water-cycle figure showing clouds, falling rain, evaporation from surface water and transpiration from a tree, with numbers 1 to 4 retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s22_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">0610/21/M/J/22 Q35, printed page 12</a>. © UCLES 2022; all rights reserved. Direct unannotated PDF crop; no Creative Commons licence is claimed. <a href=\"images/question-382-water-cycle.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Condensation forms water droplets from water vapour and is part of the water cycle.</li><li><strong>B — correct:</strong> Fossilisation is the exception; it concerns preserved remains or traces rather than cycling water.</li><li><strong>C:</strong> Precipitation transfers water from the atmosphere to the surface.</li><li><strong>D:</strong> Transpiration transfers water from plants into the atmosphere as vapour.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Notice the word “not”. Trace the substance being cycled: each water-cycle process must involve water moving or changing state.</p><p class=\"relationship\">Final answer: B — fossilisation.</p></div>"
+},
+{
+    "title": "Which process is carried out by bacteria in the root nodules of leguminous plants?",
+    "legend": "Select an answer.",
+    "options": [
+        "decomposition",
+        "denitrification",
+        "nitrification",
+        "nitrogen fixation"
+    ],
+    "correct": "D",
+    "answer": "D. nitrogen fixation",
+    "paperCode": "0610/23/M/J/16",
+    "paperSession": "May/June 2016",
+    "paperQuestion": 37,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Recognise the location</h3><p>Leguminous plants, such as peas and beans, have root nodules containing symbiotic <strong>nitrogen-fixing bacteria</strong>. The plant supplies the bacteria with organic nutrients.</p><h3>2. Identify the nitrogen conversion</h3><p>The bacteria convert <strong>nitrogen gas</strong> from the atmosphere into ammonia/ammonium compounds. The nitrogen can then be used to make amino acids and proteins. This process is <strong>nitrogen fixation</strong>.</p><p>This separate source cycle shows plants using mineral ions to build organic molecules. It does not itself show the atmospheric nitrogen-fixation step; the teaching diagram supplies that step.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-423-nitrogen-cycle.png\" target=\"_blank\" rel=\"noopener\"><img src=\"images/question-423-nitrogen-cycle.png\" width=\"816\" height=\"387\" alt=\"Original cycle shows mineral ions leading to plants, plants to animals, plants and animals to decomposers, and decomposers to mineral ions. All arrows and labels are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Source detail used in the reasoning. Original unannotated PDF crop, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w19_qp_21.pdf\" target=\"_blank\" rel=\"noopener\">Cambridge IGCSE Biology 0610/21/O/N/19, Q36, printed page 14</a>. © UCLES 2019; all rights reserved. <a href=\"images/question-423-nitrogen-cycle.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Decomposition breaks down dead organic material; it is not the characteristic atmospheric-nitrogen conversion in nodules.</li><li><strong>B:</strong> Denitrification converts nitrates into nitrogen gas, returning nitrogen to the atmosphere.</li><li><strong>C:</strong> Nitrification converts ammonium compounds into nitrites and then nitrates.</li><li><strong>D — correct:</strong> Nitrogen fixation converts nitrogen gas into nitrogen compounds in legume root nodules.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Keep the starting substance clear: fixation starts with nitrogen gas; nitrification starts with ammonium; denitrification starts with nitrate.</p><p class=\"relationship\">Final answer: D — nitrogen fixation.</p></div>"
+},
+{
+    "title": "What is a characteristic of amphibians but not of reptiles?",
+    "legend": "Select an answer.",
+    "options": [
+        "four limbs",
+        "laying eggs in water",
+        "scaly skin",
+        "using lungs for breathing"
+    ],
+    "correct": "B",
+    "answer": "B. laying eggs in water",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 2,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Compare vertebrate reproduction</h3><p>Most amphibians lay jelly-coated eggs in water. Reptile eggs have protective coverings and are usually laid on land. This is the distinguishing feature among these choices.</p><h3>2. Compare every feature</h3><p>Both groups include four-limbed animals and use lungs as adults. Scaly skin is a reptile feature, not an amphibian feature.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-common-frog.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-common-frog.jpg\" width=\"1280\" height=\"800\" alt=\"Common frog, an amphibian; the photograph supplies organism context and does not show its eggs.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Common frog, an amphibian; the photograph supplies organism context and does not show its eggs. Richard Bartz, <a href=\"https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://creativecommons.org/licenses/by-sa/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 2.5</a>. Existing credited raster reused unchanged. <a href=\"images/online-common-frog.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Both amphibians and reptiles commonly have four limbs.</li><li><strong>B — correct:</strong> Amphibians typically lay their eggs in water.</li><li><strong>C:</strong> Amphibian skin is generally moist and lacks scales; reptiles have dry scales.</li><li><strong>D:</strong> Adult amphibians and reptiles both use lungs.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> For classification, look for a feature that separates the two groups, rather than a feature shared by both.</p><p class=\"relationship\">Final answer: B. laying eggs in water</p></div>"
+},
+{
+    "title": "How does the ice keep the fish fresh?",
+    "legend": "Select an answer.",
+    "options": [
+        "Cells denature.",
+        "Decomposer activity decreases.",
+        "Decomposer activity increases.",
+        "Proteins denature."
+    ],
+    "correct": "B",
+    "answer": "B. Decomposer activity decreases.",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 7,
+    "context": "<p>Commercial fishermen use ice to store the fish that they catch.</p>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Cooling slows decomposition</h3><p>Decomposers use enzyme-controlled reactions to break down the fish. Low temperature reduces molecular movement and the frequency of successful enzyme–substrate collisions, slowing these reactions.</p><h3>2. Distinguish slowing from denaturing</h3><p>Ice reduces decomposer activity, so the fish spoils more slowly. Cooling does not normally denature proteins; denaturation changes protein shape and is associated with excessive heat or unsuitable pH.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-cholera-bacterium.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-cholera-bacterium.jpg\" width=\"700\" height=\"723\" alt=\"A bacterium shown for microbial context. This is Vibrio cholerae, not a claim about the species decomposing the fish.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>A bacterium shown for microbial context. This is Vibrio cholerae, not a claim about the species decomposing the fish. CDC, <a href=\"https://commons.wikimedia.org/wiki/File:Vibrio_cholerae_gram_stain_CDC.jpg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://commons.wikimedia.org/wiki/Commons:Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain, US federal government work</a>. Existing credited raster reused unchanged. <a href=\"images/online-cholera-bacterium.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Denaturation describes a change in protein shape, not whole cells.</li><li><strong>B — correct:</strong> Lower temperature slows enzyme-controlled activity in decomposers.</li><li><strong>C:</strong> Increased decomposer activity would make the fish spoil faster.</li><li><strong>D:</strong> Ice normally slows reactions without denaturing proteins.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Low temperature usually slows enzyme activity; high temperature can denature an enzyme.</p><p class=\"relationship\">Final answer: B. Decomposer activity decreases.</p></div>"
+},
+{
+    "title": "What are P and Q compared with?",
+    "legend": "Select an answer.",
+    "options": [
+        "aorta; pulmonary artery",
+        "pulmonary artery; vena cava",
+        "pulmonary vein; vena cava",
+        "vena cava; aorta"
+    ],
+    "correct": "B",
+    "answer": "B. pulmonary artery; vena cava",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 18,
+    "context": "<p>The diagram shows a garden pond with a fountain worked by a pump. The fountain brings oxygen from the air to fish in the pond.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-497-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-497-source.png\" width=\"951\" height=\"450\" alt=\"Pond and oxygenating fountain: Q marks water entering the pump from the pond; P marks the outlet towards the fountain. All original arrows and labels are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original examination figure, © UCLES 2016. 0610/21/O/N/16 Q18, page 8. All rights reserved. <a href=\"images/question-497-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><p>The system can be compared with part of the human circulatory system. The pump is compared with the heart.</p><p class=\"energy52-scroll-hint\">Select a row. Scroll inside the table if needed.</p><div class=\"breath65-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Question 497 answer rows; scroll horizontally if needed\"><table class=\"comparison-table answer-selection-table breath65-options\"><caption>Select the correct row</caption><colgroup><col style=\"width:70px\"><col><col></colgroup><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">P</th><th scope=\"col\">Q</th></tr></thead><tbody><tr data-answer-choice=\"A\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"A\" aria-label=\"Select A: P: aorta; Q: pulmonary artery\" aria-pressed=\"false\">A</button></th><td>aorta</td><td>pulmonary artery</td></tr><tr data-answer-choice=\"B\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"B\" aria-label=\"Select B: P: pulmonary artery; Q: vena cava\" aria-pressed=\"false\">B</button></th><td>pulmonary artery</td><td>vena cava</td></tr><tr data-answer-choice=\"C\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"C\" aria-label=\"Select C: P: pulmonary vein; Q: vena cava\" aria-pressed=\"false\">C</button></th><td>pulmonary vein</td><td>vena cava</td></tr><tr data-answer-choice=\"D\"><th scope=\"row\"><button class=\"answer-table-choice\" type=\"button\" data-answer-choice=\"D\" aria-label=\"Select D: P: vena cava; Q: aorta\" aria-pressed=\"false\">D</button></th><td>vena cava</td><td>aorta</td></tr></tbody></table></div>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Follow the direction of flow</h3><p>Q brings water from the pond into the pump. It represents the vena cava, which returns blood from body tissues to the heart. P carries water away from the pump towards the oxygenating fountain.</p><h3>2. Match the oxygenation stage</h3><p>Blood travels from the heart to the lungs for oxygenation through the pulmonary artery. P therefore represents the pulmonary artery, while Q represents the vena cava.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-497-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-497-source.png\" width=\"951\" height=\"450\" alt=\"Pond and oxygenating fountain: Q marks water entering the pump from the pond; P marks the outlet towards the fountain. All original arrows and labels are retained.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original examination figure, © UCLES 2016. 0610/21/O/N/16 Q18, page 8. All rights reserved. <a href=\"images/question-497-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> The aorta carries blood from the heart to body tissues, whereas P leads towards oxygenation. Q is an inlet, not the pulmonary artery.</li><li><strong>B — correct:</strong> P leads away from the pump towards oxygenation; Q returns water from the pond to the pump.</li><li><strong>C:</strong> The pulmonary vein returns oxygenated blood from the lungs to the heart. P instead leaves the pump towards oxygenation.</li><li><strong>D:</strong> The vena cava enters the heart, but P leaves the pump. The aorta leaves the heart, but Q enters the pump.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> An artery carries blood away from the heart; identify where it goes before deciding whether it is oxygenated.</p><p class=\"relationship\">Final answer: B. pulmonary artery; vena cava</p></div>",
+    "hideAnswerOptions": true
+},
+{
+    "title": "What is not a consequence of vaccination?",
+    "legend": "Select an answer.",
+    "options": [
+        "Antigens trigger an immune response.",
+        "Antibodies lock onto antigens.",
+        "Memory cells are produced.",
+        "Phagocytes produce antibodies."
+    ],
+    "correct": "D",
+    "answer": "D. Phagocytes produce antibodies.",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 21,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Recall the vaccination response</h3><p>Vaccine antigens stimulate specific lymphocytes. Some become cells that secrete antibodies that bind to those antigens; others form memory cells that allow a faster response on later exposure.</p><h3>2. Identify the incorrect cell function</h3><p>Antibody secretion is a lymphocyte function. Phagocytes defend the body by engulfing and digesting pathogens, so the claim that phagocytes produce antibodies is false.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-phagocytosis.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-phagocytosis.png\" width=\"375\" height=\"485\" alt=\"Phagocytosis engulfs a particle; antibody production is a different immune-cell function.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Phagocytosis engulfs a particle; antibody production is a different immune-cell function. OpenStax, <a href=\"https://commons.wikimedia.org/wiki/File:0309_Phagocytosis.png\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-phagocytosis.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Vaccine antigens do trigger an immune response, so this is a consequence.</li><li><strong>B:</strong> Specific antibodies bind to antigens, so this statement is true.</li><li><strong>C:</strong> Memory cells are formed and contribute to longer-term protection.</li><li><strong>D — correct:</strong> Phagocytes engulf pathogens; antibody secretion is performed by lymphocytes that differentiate into plasma cells.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Underline words such as “not”: select the false statement here, even though the other three statements are true.</p><p class=\"relationship\">Final answer: D. Phagocytes produce antibodies.</p></div>"
+},
+{
+    "title": "What happens as a result of deamination in the liver?",
+    "legend": "Select an answer.",
+    "options": [
+        "Alcohol is broken down.",
+        "Glycogen is stored.",
+        "Glucose is produced.",
+        "Urea is produced."
+    ],
+    "correct": "D",
+    "answer": "D. Urea is produced.",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 24,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Remove excess amino nitrogen</h3><p>Excess amino acids cannot be stored as amino acids. The liver removes their nitrogen-containing amino groups by deamination, producing ammonia.</p><h3>2. Convert nitrogen to urea</h3><p>Ammonia is toxic and is converted to urea in the liver. The blood carries urea to the kidneys for excretion. Urea production is therefore the result required here.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-hepatic-portal-vein.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-hepatic-portal-vein.jpg\" width=\"960\" height=\"619\" alt=\"The liver lies above the digestive organs; this anatomy image locates the organ and does not directly show deamination.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>The liver lies above the digestive organs; this anatomy image locates the organ and does not directly show deamination. OpenStax College, <a href=\"https://commons.wikimedia.org/wiki/File:2138_Hepatic_Portal_Vein_System.jpg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-hepatic-portal-vein.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Alcohol breakdown is detoxification, a different liver function.</li><li><strong>B:</strong> Glycogen storage regulates blood glucose; it is not the nitrogen-removal process.</li><li><strong>C:</strong> Carbon skeletons can enter other metabolic pathways, but glucose production does not identify the nitrogenous-waste outcome of deamination.</li><li><strong>D — correct:</strong> Removed amino nitrogen is converted into urea in the liver.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Distinguish production from excretion: the liver produces urea and the kidneys excrete it.</p><p class=\"relationship\">Final answer: D. Urea is produced.</p></div>"
+},
+{
+    "title": "When does fertilisation occur in humans?",
+    "legend": "Select an answer.",
+    "options": [
+        "when an egg is released",
+        "when implantation occurs",
+        "when sperm and egg nuclei fuse",
+        "when sperm are released"
+    ],
+    "correct": "C",
+    "answer": "C. when sperm and egg nuclei fuse",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 28,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify the fusion event</h3><p>A sperm cell and an egg cell each contain a haploid nucleus. Fertilisation occurs when these nuclei fuse, bringing together the two sets of chromosomes to form a diploid zygote.</p><h3>2. Separate nearby reproductive events</h3><p>Egg release is ovulation. Sperm release precedes the journey to the egg. Implantation occurs later when the developing embryo attaches to the uterine lining.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-female-reproductive-anatomy.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-female-reproductive-anatomy.jpg\" width=\"2264\" height=\"1800\" alt=\"Labelled female reproductive anatomy; fertilisation usually occurs in an oviduct, while implantation occurs in the uterus.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Labelled female reproductive anatomy; fertilisation usually occurs in an oviduct, while implantation occurs in the uterus. National Cancer Institute / National Institutes of Health, <a href=\"https://commons.wikimedia.org/wiki/File:Reproductive_(female).jpg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://commons.wikimedia.org/wiki/Commons:Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain, US federal government work</a>. Existing credited raster reused unchanged. <a href=\"images/online-female-reproductive-anatomy.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Egg release from an ovary is ovulation.</li><li><strong>B:</strong> Implantation follows fertilisation and early embryo development.</li><li><strong>C — correct:</strong> Fusion of the sperm and egg nuclei is fertilisation.</li><li><strong>D:</strong> Sperm release is ejaculation, which does not itself fuse the gamete nuclei.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Fertilisation means nuclear fusion; implantation means attachment to the uterus lining.</p><p class=\"relationship\">Final answer: C. when sperm and egg nuclei fuse</p></div>"
+},
+{
+    "title": "What is the function of the many mitochondria in a sperm cell?",
+    "legend": "Select an answer.",
+    "options": [
+        "to help penetrate the egg cell",
+        "to provide energy for movement",
+        "to store food molecules",
+        "to synthesise enzymes"
+    ],
+    "correct": "B",
+    "answer": "B. to provide energy for movement",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 29,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Connect mitochondria to respiration</h3><p>Mitochondria are sites of aerobic respiration. They supply ATP, which transfers energy for the processes of the cell.</p><h3>2. Apply this to sperm movement</h3><p>A sperm must swim using its flagellum. The many mitochondria in its midpiece supply the energy needed for this movement towards the egg.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-mitochondrion-structure.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-mitochondrion-structure.png\" width=\"1280\" height=\"878\" alt=\"A general mitochondrion cutaway. Sperm midpiece mitochondria supply energy through respiration.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>A general mitochondrion cutaway. Sperm midpiece mitochondria supply energy through respiration. Mariana Ruiz Villarreal (LadyofHats), <a href=\"https://commons.wikimedia.org/wiki/File:Animal_mitochondrion_diagram_en.svg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a>. Existing credited raster reused unchanged. <a href=\"images/online-mitochondrion-structure.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Acrosomal enzymes help a sperm penetrate the egg coverings; this is not the main function of its mitochondria.</li><li><strong>B — correct:</strong> Respiration in mitochondria supplies energy for flagellum movement.</li><li><strong>C:</strong> Mitochondria release usable energy; they are not food-storage structures.</li><li><strong>D:</strong> Proteins, including enzymes, are synthesised at ribosomes, rather than being the function of the many sperm mitochondria.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Link the adaptation to its demand: many mitochondria support a process requiring much energy.</p><p class=\"relationship\">Final answer: B. to provide energy for movement</p></div>"
+},
+{
+    "title": "How much energy is transferred to the bird?",
+    "legend": "Select an answer.",
+    "options": [
+        "8 J",
+        "42 J",
+        "50 J",
+        "240 J"
+    ],
+    "correct": "C",
+    "answer": "C. 50 J",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 34,
+    "context": "<p>The diagram shows a food chain.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-502-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-502-source.png\" width=\"1080\" height=\"455\" alt=\"Food chain: 240 J eaten by caterpillar, which egests 120 J and loses 70 J in respiration; bird egests 22 J and loses 20 J in respiration. Arrows show each transfer.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original examination figure, © UCLES 2016. 0610/21/O/N/16 Q34, page 14. All rights reserved. <a href=\"images/question-502-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure>",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Account for caterpillar losses</h3><p>The caterpillar eats 240 J. It egests 120 J and loses 70 J in respiration. The energy remaining in the caterpillar is 240 − 120 − 70 = 50 J.</p><h3>2. Stop at the transfer asked for</h3><p>That 50 J is transferred to the bird when it eats the caterpillar. The bird’s own 22 J egestion loss and 20 J respiration loss occur after this transfer, so they are not subtracted.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-502-source.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-502-source.png\" width=\"1080\" height=\"455\" alt=\"Food chain: 240 J eaten by caterpillar, which egests 120 J and loses 70 J in respiration; bird egests 22 J and loses 20 J in respiration. Arrows show each transfer.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Original examination figure, © UCLES 2016. 0610/21/O/N/16 Q34, page 14. All rights reserved. <a href=\"images/question-502-source.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> 8 J is 50 − 22 − 20: energy remaining after the bird’s losses, rather than energy transferred to it.</li><li><strong>B:</strong> 42 J is the sum of the bird’s two losses, 22 + 20.</li><li><strong>C — correct:</strong> 240 − 120 − 70 = 50 J reaches the bird.</li><li><strong>D:</strong> 240 J enters the caterpillar; some is lost before transfer to the bird.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> Trace the arrow named in the question. Subtract losses before that arrow, then stop.</p><p class=\"relationship\">Final answer: C. 50 J</p></div>"
+},
+{
+    "title": "Which statement describes the effect of predation and disease on a population?",
+    "legend": "Select an answer.",
+    "options": [
+        "They cause an exponential (log) increase in the population size.",
+        "They control the rate of growth of the population.",
+        "They decrease the food supply available to the population.",
+        "They reduce the lag phase of the population."
+    ],
+    "correct": "B",
+    "answer": "B. They control the rate of growth of the population.",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 36,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Consider births and deaths</h3><p>Population growth depends on the balance between additions, such as births, and losses, such as deaths. Predation kills prey and disease can increase mortality or reduce successful reproduction.</p><h3>2. Recognise population regulation</h3><p>These factors can slow population increase and help limit population size. They therefore control the rate of population growth, rather than causing unrestricted exponential increase.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/question-107-population-growth.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/question-107-population-growth.png\" width=\"1144\" height=\"628\" alt=\"A schematic population curve from a different examination question, used to illustrate growth phases. It supplies no measurements for the present question.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>A schematic population curve from a different examination question, used to illustrate growth phases. It supplies no measurements for the present question. © Cambridge University Press & Assessment 2026, <a href=\"https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_qp_22.pdf\" target=\"_blank\" rel=\"noopener\">source</a>. All rights reserved; original Q34, page 14. Existing credited raster reused unchanged. <a href=\"images/question-107-population-growth.png\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A:</strong> Predation and disease tend to limit growth rather than cause exponential increase.</li><li><strong>B — correct:</strong> Both can affect survival and reproduction, changing the rate of population growth.</li><li><strong>C:</strong> Their direct effects are on organisms’ survival and reproduction; reducing food supply is not their defining effect.</li><li><strong>D:</strong> A shorter lag phase is not a general consequence of predation or disease.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> For population questions, connect a factor to its effect on birth rate, death rate or survival.</p><p class=\"relationship\">Final answer: B. They control the rate of growth of the population.</p></div>"
+},
+{
+    "title": "What is not a reason for having conservation programmes?",
+    "legend": "Select an answer.",
+    "options": [
+        "introducing species to new environments",
+        "maintaining resources",
+        "protecting vulnerable environments",
+        "reducing extinction"
+    ],
+    "correct": "A",
+    "answer": "A. introducing species to new environments",
+    "paperCode": "0610/21/O/N/16",
+    "paperSession": "October/November 2016",
+    "paperQuestion": 40,
+    "context": "",
+    "explanation": "<div style=\"overflow-wrap:anywhere\"><h3>1. Identify conservation aims</h3><p>Conservation programmes protect biodiversity, reduce the risk of extinction and preserve vulnerable habitats. Sustainable management also maintains resources for future generations.</p><h3>2. Recognise the exception</h3><p>Introducing species into new environments is not a general conservation aim. An introduced species can disrupt food webs or compete with native organisms. Carefully planned reintroduction to a former native range is a different situation.</p><figure class=\"explanation-photo explanation-visual\"><a href=\"images/online-tropical-forest.jpg\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open image at full size\"><img src=\"images/online-tropical-forest.jpg\" width=\"4032\" height=\"2688\" alt=\"Tropical forest habitat context; this photograph does not measure conservation outcomes.\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Tropical forest habitat context; this photograph does not measure conservation outcomes. Vyacheslav Argenberg, <a href=\"https://commons.wikimedia.org/wiki/File:Mount_Lempuyang,_Tropical_forest,_Bali,_Indonesia.jpg\" target=\"_blank\" rel=\"noopener\">source</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>. Existing credited raster reused unchanged. <a href=\"images/online-tropical-forest.jpg\" target=\"_blank\" rel=\"noopener\">Open full size (new tab)</a>.</figcaption></figure><h3>Check the options</h3><ul class=\"option-explanations\"><li><strong>A — correct:</strong> Introducing species into new environments is not a general reason for conservation programmes and may harm native biodiversity.</li><li><strong>B:</strong> Maintaining resources supports their continued availability.</li><li><strong>C:</strong> Protecting vulnerable habitats helps preserve their organisms and ecological relationships.</li><li><strong>D:</strong> Reducing extinction preserves species and biodiversity.</li></ul><p class=\"exam-tip\"><strong>Exam tip:</strong> When asked for an exception, test every option against the stated aim: conserving existing biodiversity and resources.</p><p class=\"relationship\">Final answer: A. introducing species to new environments</p></div>"
 }
 		];
 		const questionStates = questions.map(() => ({ selected: null, checked: false }));
@@ -14348,6 +15208,163 @@
     ],
     "454": [
         18
+    ],
+    "455": [
+        1
+    ],
+    "456": [
+        2
+    ],
+    "457": [
+        2,
+        6
+    ],
+    "458": [
+        7
+    ],
+    "459": [
+        9
+    ],
+    "460": [
+        10
+    ],
+    "461": [
+        11
+    ],
+    "462": [
+        16
+    ],
+    "463": [
+        16
+    ],
+    "464": [
+        18
+    ],
+    "465": [
+        2
+    ],
+    "466": [
+        2
+    ],
+    "467": [
+        2
+    ],
+    "468": [
+        3
+    ],
+    "469": [
+        7
+    ],
+    "470": [
+        5,
+        7
+    ],
+    "471": [
+        8
+    ],
+    "472": [
+        11
+    ],
+    "473": [
+        12
+    ],
+    "474": [
+        18
+    ],
+    "475": [
+        1
+    ],
+    "476": [
+        5,
+        7
+    ],
+    "477": [
+        2,
+        6
+    ],
+    "478": [
+        8
+    ],
+    "479": [
+        11
+    ],
+    "480": [
+        13
+    ],
+    "481": [
+        12
+    ],
+    "482": [
+        10
+    ],
+    "483": [
+        20
+    ],
+    "484": [
+        19
+    ],
+    "485": [
+        11
+    ],
+    "486": [
+        1,
+        6
+    ],
+    "487": [
+        2
+    ],
+    "488": [
+        7
+    ],
+    "489": [
+        13
+    ],
+    "490": [
+        9
+    ],
+    "491": [
+        15
+    ],
+    "492": [
+        16
+    ],
+    "493": [
+        18
+    ],
+    "494": [
+        18
+    ],
+    "495": [
+        1
+    ],
+    "496": [
+        5,
+        18
+    ],
+    "497": [
+        9
+    ],
+    "498": [
+        10
+    ],
+    "499": [
+        13
+    ],
+    "500": [
+        15
+    ],
+    "501": [
+        15,
+        11
+    ],
+    "502": [
+        18
+    ],
+    "503": [
+        18
+    ],
+    "504": [
+        19
     ]
 };
         let selectedChapter = "all";
@@ -14866,7 +15883,57 @@
             "451": "Follow the secretion route",
             "452": "Check both the flower part and its function",
             "453": "Diploid means two complete chromosome sets",
-            "454": "Build a community from populations"
+            "454": "Build a community from populations",
+            "455": "Shared skeleton, different leg counts",
+            "456": "Convert units before calculating magnification",
+            "457": "Palisade cells capture light",
+            "458": "Malnutrition includes deficiency and excess",
+            "459": "The heart separates the two circuits",
+            "460": "Active immunity makes antibodies and memory cells",
+            "461": "One glucose gives two ethanol molecules",
+            "462": "From gene to mRNA to protein",
+            "463": "Sickling shows that an S allele is present",
+            "464": "Count trophic levels from the producer",
+            "465": "Two neighbouring animal-cell membranes",
+            "466": "Prokaryotic cytoplasm contains free DNA and ribosomes",
+            "467": "Cells form tissues, and tissues form a root organ",
+            "468": "What osmosis and diffusion have in common",
+            "469": "Vitamin D helps mineralise bones and teeth",
+            "470": "Proteases work at different pH values in different organs",
+            "471": "Root and stem vascular tissues have different patterns",
+            "472": "Cartilage supports the trachea during ventilation",
+            "473": "Three cone types and one rod type",
+            "474": "Predator peaks follow prey peaks",
+            "475": "Two partners in a lichen",
+            "476": "Amylase, temperature and sugar production",
+            "477": "Recognising the leaf epidermis",
+            "478": "Source and sink change with the season",
+            "479": "Read breathing rate and depth separately",
+            "480": "Conserving water after exercise",
+            "481": "Central and peripheral nervous systems",
+            "482": "Largest change means largest vertical difference",
+            "483": "Stirring distributes heat through a fermenter",
+            "484": "Dead producers feed decomposer bacteria",
+            "485": "Yeast respiration produces gas",
+            "486": "Different routes supply carbon",
+            "487": "Size follows the level of organisation",
+            "488": "Bile acts after food reaches the small intestine",
+            "489": "Excretion removes a metabolic waste",
+            "490": "Prevention and treatment act at different stages",
+            "491": "Gametes differ in number, size and movement",
+            "492": "Fertilisation combines two parental sets",
+            "493": "Follow water around the cycle",
+            "494": "Root nodules bring nitrogen into living systems",
+            "495": "Amphibian eggs and reptile eggs",
+            "496": "Cooling slows decomposer reactions",
+            "497": "Follow the circulatory flow",
+            "498": "Antibody secretion and phagocytosis",
+            "499": "From amino nitrogen to urea",
+            "500": "Fertilisation restores the diploid number",
+            "501": "Mitochondria power sperm movement",
+            "502": "Account for energy before the bird",
+            "503": "Factors that limit population growth",
+            "504": "Conservation protects habitats and species"
 };
 
         function addExplanationDiagram(questionNumber) {

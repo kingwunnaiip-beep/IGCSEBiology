@@ -1,9 +1,9 @@
-# IGCSE Biology 0610 Practice — 754 Paper 2 MCQs and 13 Paper 4 papers
+# IGCSE Biology 0610 Practice — native question display update
 
-This release adds 50 verified Paper 2 questions (705–754), 10 each from 0610/22/M/J/24, 0610/23/M/J/24, 0610/21/O/N/24, 0610/22/O/N/24 and 0610/23/O/N/24. Each retains the original answer order, original paper question number, source PDF links and published mark-scheme key. Each includes explanations for all four options, an exam tip, a credited original task image and an accessible teaching diagram.
+The collection remains 754 Paper 2 MCQs and 13 Paper 4 papers. This update rebuilds the recent 200 Paper 2 questions (555–754) as native question text, data and answer tables. There are 52 selectable answer tables using the same click and keyboard behaviour as Question 30. Whole-question screenshots and duplicated choice lists are removed; genuine diagrams and graphs remain as tightly cropped figures. Original paper codes, printed question numbers and published answer keys are retained.
 
-Install the incremental 754 update over the current 704-question version: replace the included files and merge images/ into the existing folder. Do not delete existing images. Hard-refresh after updating. The combined Paper 4 update ZIP also includes the latest shared navigation, styles and all 13 Paper 4 papers; it can be installed over the 504-question version.
+Examples: Q686 and Q694 are clickable tables; Q692 is text only; Q693 has selectable sequence rows; Q702 has a flower-only diagram followed by native numbered statements. Q596’s transcribed row text and explanation are corrected to match the original D row: glucose transport and osmosis. Its published key D is unchanged.
 
-Paper 2 has 20 chapter filters and a Past paper filter; both filters work together. Four-column navigation, both Next question buttons, independent scrolling, text controls, sound and answer cues are retained. All previous 704 question objects and 1344 image files are unchanged. Question 51 keeps its intentionally blank source tag.
+Install biology-quiz-754-native-display-update.zip over the current754 version: replace the included files and merge images/ into your existing images folder. Keep the earlier images and user uploads. Hard-refresh the page. The question count, chapter and paper filters, four-column navigator, both Next buttons, sound, text controls and all13 Paper4 papers remain intact.
 
-Paper 4 retains all 13 papers, 427 assessable parts and 1037 marks. Its answer storage, navigation, all-papers option, sidebar menu and withdrawn-question handling are unchanged. Original source provenance is recorded in IMAGE-CREDITS.md.
+Future questions must follow QUESTION-DISPLAY-GUIDE.md: native prose/tables; images only for actual figures. Sources and image provenance are recorded in IMAGE-CREDITS.md.

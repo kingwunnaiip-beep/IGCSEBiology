@@ -2782,3 +2782,119 @@ Original Cambridge question tasks are reproduced as credited source crops, prese
 - `q752-source.png`: © UCLES 2024, [0610/23/O/N/24, Q26, page 11](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_23.pdf). Original question crop; footer/blank-page removal only. `q752-explanation.svg`: original accessible teaching diagram created for this practice site; title and text description included.
 - `q753-source.png`: © UCLES 2024, [0610/23/O/N/24, Q31, page 12](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_23.pdf). Original question crop; footer/blank-page removal only. `q753-explanation.svg`: original accessible teaching diagram created for this practice site; title and text description included.
 - `q754-source.png`: © UCLES 2024, [0610/23/O/N/24, Q40, page 15](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_23.pdf). Original question crop; footer/blank-page removal only. `q754-explanation.svg`: original accessible teaching diagram created for this practice site; title and text description included.
+
+
+## Native display correction: questions555–754
+
+Whole-question screenshots are no longer displayed in these questions or their explanations. New figure-only source crops retain original diagrams, graphs, labels, keys and axes. Prose, data tables and answer tables are native HTML. Original Cambridge copyrights remain as credited in each question and in the original source section above. All old images are retained on disk for installation compatibility. The original teaching SVG for Q596 was corrected to include the solvent role in both glucose transport and osmosis.
+
+- `q555-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question3; ©UCLES2018.
+- `q556-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question6; ©UCLES2018.
+- `q558-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question9; ©UCLES2018.
+- `q560-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question34; ©UCLES2018.
+- `q561-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question17; ©UCLES2018.
+- `q562-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question21; ©UCLES2018.
+- `q563-native-figure.png`: figure-only source crop(s) for 0610/22/F/M/18, original question28; ©UCLES2018.
+- `q566-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question6; ©UCLES2016.
+- `q568-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question11; ©UCLES2016.
+- `q569-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question13; ©UCLES2016.
+- `q570-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question17; ©UCLES2016.
+- `q571-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question25; ©UCLES2016.
+- `q572-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/16, original question30; ©UCLES2016.
+- `q577-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/17, original question13; ©UCLES2017.
+- `q579-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/17, original question15; ©UCLES2017.
+- `q581-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/17, original question22; ©UCLES2017.
+- `q582-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/17, original question35; ©UCLES2017.
+- `q584-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/17, original question36; ©UCLES2017.
+- `q585-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question7; ©UCLES2017.
+- `q586-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question14; ©UCLES2017.
+- `q587-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question15; ©UCLES2017.
+- `q588-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question18; ©UCLES2017.
+- `q590-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question21; ©UCLES2017.
+- `q591-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question22; ©UCLES2017.
+- `q592-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/17, original question26; ©UCLES2017.
+- `q595-native-figure.png`, `q595-native-shape-A.png`, `q595-native-shape-B.png`, `q595-native-shape-C.png`, `q595-native-shape-D.png`: figure-only source crop(s) for 0610/23/O/N/18, original question19; ©UCLES2018.
+- `q597-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/18, original question23; ©UCLES2018.
+- `q598-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/18, original question11; ©UCLES2018.
+- `q603-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/18, original question28; ©UCLES2018.
+- `q604-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/18, original question36; ©UCLES2018.
+- `q605-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question2; ©UCLES2017.
+- `q607-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question4; ©UCLES2017.
+- `q609-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question7; ©UCLES2017.
+- `q610-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question13; ©UCLES2017.
+- `q612-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question19; ©UCLES2017.
+- `q613-native-figure1.png`: figure-only source crop(s) for 0610/22/F/M/17, original question24; ©UCLES2017.
+- `q615-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question1; ©UCLES2020.
+- `q616-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question4; ©UCLES2020.
+- `q618-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question10; ©UCLES2020.
+- `q619-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question18; ©UCLES2020.
+- `q620-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question21; ©UCLES2020.
+- `q621-native-figure1.png`: figure-only source crop(s) for 0610/21/M/J/20, original question24; ©UCLES2020.
+- `q623-native-figure1.png`, `q623-native-figure2.png`: figure-only source crop(s) for 0610/21/M/J/20, original question31; ©UCLES2020.
+- `q627-native-figure1.png`: figure-only source crop(s) for 0610/22/M/J/22, original question16; ©UCLES2022.
+- `q628-native-figure1.png`: figure-only source crop(s) for 0610/22/M/J/22, original question17; ©UCLES2022.
+- `q631-native-figure1.png`: figure-only source crop(s) for 0610/22/M/J/22, original question26; ©UCLES2022.
+- `q632-native-figure1.png`: figure-only source crop(s) for 0610/22/M/J/22, original question29; ©UCLES2022.
+- `q634-native-figure1.png`: figure-only source crop(s) for 0610/22/M/J/22, original question32; ©UCLES2022.
+- `q635-native-figure1.png`: figure-only source crop(s) for 0610/23/O/N/20, original question1; ©UCLES2020.
+- `q637-native-figure1.png`: figure-only source crop(s) for 0610/23/O/N/20, original question6; ©UCLES2020.
+- `q638-native-figure1.png`: figure-only source crop(s) for 0610/23/O/N/20, original question10; ©UCLES2020.
+- `q640-native-figure1.png`: figure-only source crop(s) for 0610/23/O/N/20, original question25; ©UCLES2020.
+- `q644-native-figure1.png`: figure-only source crop(s) for 0610/23/O/N/20, original question40; ©UCLES2020.
+- `q645-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question3; ©UCLES2021.
+- `q646-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question5; ©UCLES2021.
+- `q647-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question7; ©UCLES2021.
+- `q648-native-figure1.png`, `q648-native-figure2.png`: figure-only source crop(s) for 0610/22/O/N/21, original question9; ©UCLES2021.
+- `q649-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question13; ©UCLES2021.
+- `q651-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question20; ©UCLES2021.
+- `q652-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question22; ©UCLES2021.
+- `q653-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question24; ©UCLES2021.
+- `q654-native-figure1.png`: figure-only source crop(s) for 0610/22/O/N/21, original question32; ©UCLES2021.
+- `q657-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/25, original question12; ©UCLES2025.
+- `q661-native-figure-choices.png`, `q661-native-figure-parent.png`: figure-only source crop(s) for 0610/21/M/J/25, original question29; ©UCLES2025.
+- `q664-native-figure.png`: figure-only source crop(s) for 0610/21/M/J/25, original question35; ©UCLES2025.
+- `q671-native-figure.png`: figure-only source crop(s) for 0610/22/M/J/25, original question24; ©UCLES2025.
+- `q673-native-figure.png`: figure-only source crop(s) for 0610/22/M/J/25, original question31; ©UCLES2025.
+- `q674-native-figure.png`: figure-only source crop(s) for 0610/22/M/J/25, original question38; ©UCLES2025.
+- `q675-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question1; ©UCLES2025.
+- `q677-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question12; ©UCLES2025.
+- `q678-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question13; ©UCLES2025.
+- `q679-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question16; ©UCLES2025.
+- `q681-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question27; ©UCLES2025.
+- `q682-native-figure.png`: figure-only source crop(s) for 0610/23/M/J/25, original question32; ©UCLES2025.
+- `q685-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/25, original question5; ©UCLES2025.
+- `q687-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/25, original question8; ©UCLES2025.
+- `q689-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/25, original question22; ©UCLES2025.
+- `q690-native-figure.png`: figure-only source crop(s) for 0610/21/O/N/25, original question25; ©UCLES2025.
+- `q696-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/25, original question7; ©UCLES2025.
+- `q700-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/25, original question23; ©UCLES2025.
+- `q702-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/25, original question27; ©UCLES2025.
+- `q703-native-figure.png`: figure-only source crop(s) for 0610/23/O/N/25, original question37; ©UCLES2025.
+- `q705-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question4; ©UCLES2024.
+- `q706-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question6; ©UCLES2024.
+- `q707-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question8; ©UCLES2024.
+- `q709-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question14; ©UCLES2024.
+- `q712-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question31; ©UCLES2024.
+- `q713-native-figure-1.png`: figure-only source crop(s) for 0610/22/M/J/24, original question32; ©UCLES2024.
+- `q715-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question4; ©UCLES2024.
+- `q716-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question7; ©UCLES2024.
+- `q719-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question16; ©UCLES2024.
+- `q721-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question21; ©UCLES2024.
+- `q722-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question25; ©UCLES2024.
+- `q723-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question30; ©UCLES2024.
+- `q724-native-figure-1.png`: figure-only source crop(s) for 0610/23/M/J/24, original question33; ©UCLES2024.
+- `q725-native-figure-1.png`, `q725-native-figure-2.png`: figure-only source crop(s) for 0610/21/O/N/24, original question2; ©UCLES2024.
+- `q726-native-figure-1.png`: figure-only source crop(s) for 0610/21/O/N/24, original question7; ©UCLES2024.
+- `q727-native-figure-1.png`: figure-only source crop(s) for 0610/21/O/N/24, original question9; ©UCLES2024.
+- `q728-native-figure-1.png`: figure-only source crop(s) for 0610/21/O/N/24, original question12; ©UCLES2024.
+- `q732-native-figure-1.png`: figure-only source crop(s) for 0610/21/O/N/24, original question35; ©UCLES2024.
+- `q735-native-figure-1.png`, `q735-native-figure-2.png`: figure-only source crop(s) for 0610/22/O/N/24, original question3; ©UCLES2024.
+- `q737-native-figure-1.png`: figure-only source crop(s) for 0610/22/O/N/24, original question10; ©UCLES2024.
+- `q740-native-figure-1.png`: figure-only source crop(s) for 0610/22/O/N/24, original question18; ©UCLES2024.
+- `q743-native-figure-1.png`: figure-only source crop(s) for 0610/22/O/N/24, original question32; ©UCLES2024.
+- `q744-native-figure-1.png`: figure-only source crop(s) for 0610/22/O/N/24, original question38; ©UCLES2024.
+- `q745-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question3; ©UCLES2024.
+- `q746-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question5; ©UCLES2024.
+- `q749-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question14; ©UCLES2024.
+- `q751-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question23; ©UCLES2024.
+- `q752-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question26; ©UCLES2024.

@@ -6,6 +6,7 @@
 	<meta name="theme-color" content="#f4f6ef">
 	<title>IGCSE Biology 0610 Paper 2 Practice</title>
 	<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="practice-sections.css">
 </head>
 <body>
 	<div class="page">
@@ -14,7 +15,7 @@
 				<img class="brand-logo" src="images/dr-king-wunna-logo.png" alt="Dr King Wunna logo">
 				<span>IGCSE Biology 0610</span>
 			</div>
-			<span class="topic">Paper 2 Practice</span>
+			<select class="practice-section-select" id="practice-section" aria-label="Practice paper"><option value="index.html" selected>Paper 2 Practice</option><option value="paper4.html">Paper 4 Practice</option></select>
 		</header>
 
 		<main>
@@ -23,9 +24,9 @@
             <section class="chapter-filter-panel" id="chapter-filter-panel" aria-label="Chapter practice filter">
                 <label for="chapter-filter">Practise by chapter</label>
                 <select id="chapter-filter" aria-describedby="chapter-filter-summary chapter-filter-note">
-                    <option value="all">All chapters (504)</option>
+                    <option value="all">All chapters (554)</option>
                 </select>
-                <p id="chapter-filter-summary" class="chapter-filter-summary" role="status" aria-live="polite">1 of 504 questions · 0 answered</p>
+                <p id="chapter-filter-summary" class="chapter-filter-summary" role="status" aria-live="polite">1 of 554 questions · 0 answered</p>
                 <p id="chapter-filter-note" class="chapter-filter-note">Mixed-topic questions appear in each relevant chapter.</p>
             </section>
 					<div class="text-size-controls" role="group" aria-label="Quiz text size">
@@ -44,7 +45,7 @@
 				<section class="quiz" aria-labelledby="question-title">
 				<div class="question-header">
 					<div class="question-info-row" tabindex="0" role="group" aria-label="Question number and past-paper source">
-						<span id="question-count">Question 1 of 504</span>
+						<span id="question-count">Question 1 of 554</span>
 						<div class="question-paper" id="question-paper" hidden>
 							<span class="paper-label visually-hidden">Past paper</span>
 							<a class="paper-code" id="paper-code" target="_blank" rel="noopener noreferrer"></a>
@@ -55,8 +56,8 @@
 						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
 					</button>
 				</div>
-				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="504" aria-valuenow="1">
-					<div class="progress-value" id="progress-value" style="width: 0.20%"></div>
+				<div class="progress-track" id="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="554" aria-valuenow="1">
+					<div class="progress-value" id="progress-value" style="width: 0.18%"></div>
 				</div>
 				<p class="question-chapter" id="question-chapter"></p>
 				<h2 id="question-title" tabindex="-1"></h2>
@@ -91,5 +92,5 @@
 	</div>
 
 	<script src="script.js"></script>
-</body>
+<script src="practice-navigation.js"></script></body>
 </html>

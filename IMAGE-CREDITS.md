@@ -2313,3 +2313,230 @@ Both ©UCLES2016, all rights reserved; no Creative Commons licence claimed. [Que
 `assets/q495-explanation.svg` through `assets/q504-explanation.svg` are original accessible educational schematics authored for this group, with title/description and no external dependencies. They explain biological relationships rather than copying source figures. Schematic organisms/anatomy are not measured drawings. Q502 uses the source’s exact energy values.
 
 
+
+
+## Questions505–554
+
+# Image credits: questions505–514
+
+## Original question-paper figures
+
+All eight new PNGs below are complete unannotated source crops from Cambridge IGCSE Biology **0610/22/F/M/19**, Paper2 Multiple Choice(Extended), February/March2019. **© UCLES2019; all rights reserved.** No Creative Commons licence is claimed. The complete figure borders/outlines, labels, leaders, arrowheads and captions are retained, without answer markings.
+
+- [Original question paper](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m19_qp_22.pdf)
+- [Matching published mark scheme](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m19_ms_22.pdf)
+
+| New file | Original question / printed page | PDF crop rectangle in points | Key / MS page |
+| --- | --- | --- | --- |
+| `assets/question-505-source.png` | Q3 / p2 | [195,373,405,594] | D / p2 |
+| `assets/question-506-source.png` | Q5 / p3 | [118,343,477,536] | C / p2 |
+| `assets/question-507-source.png` | Q6 / p4 | [207,85,386,221] | B / p2 |
+| `assets/question-509-source.png` | Q10 / p5 | [112,209,477,287] | D / p2 |
+| `assets/question-511-source.png` | Q15 / p7 | [145,84,451,269] | C / p2 |
+| `assets/question-512-source.png` | Q16 / p7 | [160,426,438,617] | B / p2 |
+| `assets/question-513-source.png` | Q22 / p10 | [137,96,458,243] | D / p2 |
+| `assets/question-514-source.png` | Q27 / p12 | [75,248,530,467] | D / p2 |
+
+All crops use PyMuPDF at3×. Q514 preserves all four visual choices together, including overhead-light arrows, left/right labels and the three-line source captions; the answer controls select their original letters. Q508 and Q512 native option tables preserve original row order and every column value; both are checked against rendered source pages.
+
+## Existing credited photographs reused unchanged
+
+These are referenced at their existing runtime paths and are **not copied** into this group's assets.
+
+- **Q508**, `images/online-common-frog.jpg`: Richard Bartz, [European Common Frog Rana temporaria](https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg), [CC BY-SA2.5](https://creativecommons.org/licenses/by-sa/2.5/). Existing runtime IMAGE-CREDITS.md entry under Q191 provides original acquisition details. The caption states that the photo does not measure gas movement.
+- **Q510**, `images/root-hairs.jpg`: G Lens Microscopist / Megan Gerber, [Arabidopsis root hairs](https://commons.wikimedia.org/wiki/File:Arabidopsis_root_hairs.jpg), [CC BY4.0](https://creativecommons.org/licenses/by/4.0/). Existing runtime IMAGE-CREDITS.md documents provenance. The caption explains mineral-ion uptake and explicitly states the image does not show deficiency.
+
+## Original teaching diagrams
+
+`assets/q505-explanation.svg` through `assets/q514-explanation.svg` are original educational illustrations authored for this project using `diagrams.py`. Every SVG includes a descriptive title and description, has no external image/font dependency, scripts or foreignObject, and teaches a scientific relationship rather than displaying an answer letter. Qualitative diagrams do not claim measured anatomical sizes or experimental rates. Q507 shows proportional26mm and4mm bars and the numerical ratio. Q509 is explicitly a qualitative pH-activity model, kept at or above zero. Q513 includes carbon dioxide as a yeast-fermentation product in the explanation while preserving the original source diagram unchanged.
+
+All ten SVGs were rendered with Inkscape and visually inspected using the saved contact sheets. Source crops were also viewed against complete page renders. Corrected and re-rendered Q505 (connected protein chain), Q508 (separated right-box heading), and Q509 (nonnegative activity curve). Evidence includes PDF covers, selected full tasks, key page, source contact sheet and final SVG renders. `verification.json` records source/asset SHA-256 values and author checks; independent audit/integration are performed by the parent workflow.
+
+
+# Questions 515–524: source figures and teaching diagrams
+
+All ten original tasks come from Cambridge IGCSE Biology **0610/22/M/J/17**, Paper 2 Multiple Choice (Extended), May/June 2017. Original printed questions: **3, 7, 8, 12, 13, 18, 23, 27, 33, 40**, in that order. Original A–D ordering and matching published keys are preserved.
+
+- [Original question paper](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_qp_22.pdf)
+- [Matching published mark scheme](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s17_ms_22.pdf)
+- Copyright: **© UCLES 2017. All rights reserved.** No Creative Commons licence is claimed for examination artwork. These are unannotated crops of the supplied question paper, rendered with PyMuPDF at 3×. No labels, answer positions, curves or measurements have been changed. The question-page footers and MS read 2017; the original QP cover has an apparent ©UCLES2027 typo, retained in the cover evidence.
+
+| Quiz | Asset in `assets/` | Original source | PDF crop rectangle in points | Completeness and use |
+|---|---|---|---|---|
+| 515 | `question-515-variegated-leaf.png` | Q3, printed p2 | (185,454,411,562) | Complete leaf and stalk, both labels and both leaders. Question and explanation. |
+| 516 | `question-516-digestion-table.png` | Q7, printed p4 | (140,116,451,233) | Complete table outer border, divider, headings, units and all four observations. Question and explanation. |
+| 517 | `question-517-test-tubes.png` | Q8, printed p4 | (63,350,533,502) | All four A–D tubes and their complete outlines, organisms, labels, leaders and light arrows. Question and explanation; original letter-labelled figures remain visible. |
+| 519 | `question-519-tooth.png` | Q13, printed p6 | (120,330,470,445) | Entire original jaw, every tooth, enlargement arrow and full enlarged tooth. Question and explanation. |
+| 520 | `question-520-leaf-balances.png` | Q18, printed p9 | (108,119,488,342) | Both full balances, top suspension thread, leaves 1–4 and all covering/thread/straw/paper-clip captions and leaders. Question and explanation. |
+| 521 | `question-521-reflex-arc.png` | Q23, printed p11 | (110,82,480,294) | Entire original arc including left neurone branches, X leader, all nerve fibres, full muscle outline and “not to scale”. Question and explanation. |
+| 524 | `question-524-river-graph.png` | Q40, printed p15 | (103,110,493,302) | Both complete curves, curve labels, axes, A–D markers/dashed leaders and river-flow arrow. Question and explanation. |
+
+## Existing credited raster images reused unchanged
+
+These remain in the existing runtime `quiz-504-complete-diagrams/images/`. They have **not** been copied to the author assets folder. Feedback captions give author, linked source and licence and explain what the image does and does not show.
+
+- **518 — `question-40-intestine-villi.jpg`**: OpenStax College, [2418 Histology Small IntestinesN.jpg](https://commons.wikimedia.org/wiki/File:2418_Histology_Small_IntestinesN.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Original labelled illustration and microscopy panels retained, including scale bars. Used to locate the small-intestinal lining, not as an image of cholera or a measurement of osmotic movement.
+- **522 — `prunella-vulgaris.jpg`**: H. Zell, [Prunella vulgaris 003.jpg](https://commons.wikimedia.org/wiki/File:Prunella_vulgaris_003.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Caption explicitly identifies the species as Prunella vulgaris, not Dianthus. General flowering-plant context; does not depict the particular inheritance cross.
+- **523 — `online-dna-base-pairing.png`**: Geometry guy, [Four nucleobase pairs of DNA.svg](https://commons.wikimedia.org/wiki/File:Four_nucleobase_pairs_of_DNA.svg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Existing raster rendering retains all base-pair labels. It supplies molecular DNA context, not chromosome counts or meiotic division stages.
+
+The provenance above was checked against the existing runtime `IMAGE-CREDITS.md`.
+
+## Original teaching SVGs
+
+`q515-explanation.svg` through `q524-explanation.svg` are original project educational schematics created for this addition using `teaching.py`. Each is self-contained and accessible with an SVG title, description and `role="img"`; green/cream colours, large text and a 1000 × 600 viewBox. There are no scripts, external images, foreignObject or font dependencies. These diagrams belong only in answer feedback; the parent app appends them using `diagramTitle`.
+
+They teach, respectively: chloroplasts versus shared plant-cell structures; the observed 45–55 °C activity-loss interval; respiration and photosynthesis carbon dioxide balance; the toxin/chloride/osmosis/dehydration causal sequence; tooth-shape/function comparisons; retained leaf mass and balance tilt; receptor-to-effector signalling; the RR×WW inheritance cross; two-stage meiotic division and chromosome counting; and the downstream lag between sewage entry and oxygen minimum.
+
+The enzyme diagram explicitly labels 50 °C as an offered inference, not a measured threshold. Biological drawings are schematic. The meiosis image illustrates one pair with labels giving the actual 23-pair / 46-chromosome question counts; it does not draw 46 individual chromosomes. The oxygen teaching curve is qualitative and separate from the complete original data figure.
+
+## Evidence and checks
+
+`evidence/` contains selected source text, complete original task crops, QP/MS covers, full relevant QP pages, both MS key pages, rendered teaching SVG previews and two final contact sheets. The original source options were checked against extracted source text in A–D order; graph/tube letter labels were checked visually. `verify.py` checks schema, answer/key/page consistency, all image references, chapter IDs 1–20, accessible SVG structure, all 504 prior task objects and the 504 source records (503 tagged as verified). `verification.json` records source/asset hashes and manual semantic distinctions.
+
+Author visually inspected all 10 rendered SVGs and 7 source crops. Revisions expanded the leaf stalk/table/jaw/reflex crops and removed two teaching-label overlaps. The parent/auditor handles final independent review and runtime/browser validation.
+
+
+# Image credits: questions525–534
+
+All new scientific teaching SVGs were authored for this quiz. They are schematic explanatory artwork, not reproductions of examination diagrams. They include accessible title/description text. Original examination figures remain unannotated and are credited separately.
+
+## Source examination figures
+
+Cambridge IGCSE Biology0610/21, Paper2 Multiple Choice (Extended), October/November2018. © UCLES2018; all rights reserved. Direct raster crops of the original PDF; no Creative Commons licence claimed. Crops retain all necessary borders, captions, labels, arrows and leaders.
+
+[Original question paper](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_qp_21.pdf) · [Matching published mark scheme](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w18_ms_21.pdf)
+
+| Quiz | Original Q / printed page | New raster files |
+|---|---|---|
+| 526 | Q6 / page4 | `assets/question-526-potato.png` |
+| 527 | Q7 / page4 | `assets/question-527-options.png`, `assets/question-527-onion-data.png` |
+| 528 | Q15 / page7 | `assets/question-528-root.png` |
+| 529 | Q24 / page12 | `assets/question-529-seedlings.png` |
+| 530 | Q25 / page13 | `assets/question-530-glucagon.png` |
+| 531 | Q31 / page15 | `assets/question-531-division.png`, `assets/question-531-options.png` |
+| 532 | Q35 / page16 | `assets/question-532-options.png`, `assets/question-532-nitrogen.png` |
+| 533 | Q36 / page17 | `assets/question-533-growth.png` |
+
+Q527 includes the entire onion data table and original answer table. Q531/Q532 have original answer tables in feedback and selectable native tables in the question. Q529 retains all four before/after panels, complete light arrows, glass labels and captions. Q528 retains the full buttercup-root photograph and the entireZ leader.
+
+## Existing credited rasters reused unchanged
+
+- Q525: `images/earthworm.jpg`. Jochem Kühnen, [source](https://commons.wikimedia.org/wiki/File:Aporrectodea_rosea_(Gelderland,_Netherlands).jpg), [CC BY4.0](https://creativecommons.org/licenses/by/4.0/). Used to compare movement and sensitivity across organisms; caption explicitly identifies the earthworm and explains it is not a sundew. Existing file referenced unchanged; not copied into assets.
+- Q534: `images/question-263-sea-dragon.png`. Original marine fish photograph from [0610/21/M/J/24, Q36, printed page15](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s24_qp_21.pdf). © UCLES2024; all rights reserved. Existing unannotated crop, reused unchanged. Caption supplies ocean habitat context and explicitly states the image is not evidence of microplastic exposure in that individual. Existing file referenced unchanged; not copied into assets.
+
+## Original accessible teaching SVGs
+
+| Quiz | File | Teaching content |
+|---|---|---|
+| 525 | `assets/q525-explanation.svg` | A touch stimulus causes a movement response |
+| 526 | `assets/q526-explanation.svg` | Water loss reduces turgor and stiffness |
+| 527 | `assets/q527-explanation.svg` | Two food tests detect different molecules |
+| 528 | `assets/q528-explanation.svg` | Central xylem carries water up the plant |
+| 529 | `assets/q529-explanation.svg` | Auxin must reach the shaded elongation zone |
+| 530 | `assets/q530-explanation.svg` | Glucagon releases stored glucose during exercise |
+| 531 | `assets/q531-explanation.svg` | Copy first, then separate equal chromosome sets |
+| 532 | `assets/q532-explanation.svg` | Read each nitrogen transformation by its endpoints |
+| 533 | `assets/q533-explanation.svg` | A plateau means equal additions and losses |
+| 534 | `assets/q534-explanation.svg` | Fragmentation leaves persistent plastic particles |
+
+## Evidence and verification
+
+`evidence/` contains the source paper and mark-scheme covers, matching key pages, each selected complete source task as a PNG and extracted text, source page/crop contact sheets, and all10 rendered teaching PNGs. These files are audit evidence, not learner-facing assets. SourcePDF SHA-256 hashes and checks are recorded in `verification.json`. The final runtime appends each teaching SVG to answer feedback using `diagramTitle`; authors did not edit runtime files.
+
+
+# Image credits: questions535–544
+
+Original examination: Cambridge IGCSE Biology0610/22, Paper2 Multiple Choice (Extended), May/June2016. Printed footer0610/22/M/J/16. © UCLES2016, all rights reserved. No Creative Commons licence is claimed for examination material.
+
+- [Question paper](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_qp_22.pdf)
+- [Published matching mark scheme](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s16_ms_22.pdf)
+
+## Original source crops
+
+These unannotated PNGs are rendered directly from the cached original PDF at3 pixels per PDF point. Crops retain all meaningful outlines, original labels, leaders and arrowheads. Examination figures appear in context and feedback; teaching SVGs appear in feedback only. Q542 uses separate supplied-pyramid and answer-diagram crops, preserving both complete visuals and omitting the intervening question line cleanly.
+
+| Asset | Original task / printed page | PDF-point crop |
+| --- | --- | --- |
+| `assets/question-539-heart.png` | Q15 / p7 | `(187,238,407,432)` |
+| `assets/question-540-retina.png` | Q25 / p10 | `(145,265,445,460)` |
+| `assets/question-542-biomass.png` | Q35 / p13 | `(165,80,430,174)` |
+| `assets/question-542-pyramids.png` | Q35 / p13 | `(100,200,490,444)` |
+| `assets/question-543-food-chain.png` | Q36 / p13 | `(185,486,416,510)` |
+
+Original answer tables are recreated faithfully as native `sourceOptionTable` data for535(Q6),536(Q7),543(Q36),544(Q40). Column headings, A–D row order and values match the source. Every original graph/diagram needed to answer the selected questions is included.
+
+## Existing credited rasters reused unchanged
+
+These assets remain in `quiz-504-complete-diagrams/images`; no duplicate copies were added to this group. Provenance is also retained in that runtime's `IMAGE-CREDITS.md`. Captions identify each supporting image as a separate example or model, not source measurements or a source figure from this question.
+
+| Quiz | Existing file | Creator / source | Licence and scope |
+| --- | --- | --- | --- |
+|535|`plant-cells.jpg`|Emilio Ermini; [Leaf epithelium, stomata](https://commons.wikimedia.org/wiki/File:Leaf_epithelium,_stomata.jpg)|[CC BY4.0](https://creativecommons.org/licenses/by/4.0/). Guard-cell/stoma context; no potassium or water-potential measurement claimed.|
+|536,538|`question-270-antibody-antigen.png`|[Cambridge0610/22/O/N/23, Q20, printed p10](https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w23_qp_22.pdf); © UCLES2023|All rights reserved; no CC licence claimed. Complete separate antibody/pathogen diagram with X/Y labels retained. These labels are explicitly distinguished from the current choices.|
+|537|`online-enzyme-reaction.png`|domdomegg; [Lock and key enzyme mechanism.svg](https://commons.wikimedia.org/wiki/File:Lock_and_key_enzyme_mechanism.svg)|[CC BY4.0](https://creativecommons.org/licenses/by/4.0/). General model of enzyme action, not a molecular structure of a detergent enzyme.|
+|541|`online-abo-codominance.png`|YassineMrabet, based on NIH illustration; [ABO system codominance](https://commons.wikimedia.org/wiki/File:ABO_system_codominance.svg)|[Public domain](https://creativecommons.org/publicdomain/mark/1.0/). ABO allele/phenotype model, explicitly separate from the source's IAIA×IAIo cross.|
+|544|`question-36-oxygen-bubbles.jpg`|Rcaravit; [Photosynthesis in action](https://commons.wikimedia.org/wiki/File:Photosynthesis_in_action.jpg)|[CC BY4.0](https://creativecommons.org/licenses/by/4.0/). Aquatic vegetation context; no herbicide experiment or growth measurement claimed.|
+
+## Original teaching SVGs
+
+`assets/q535-explanation.svg` through `assets/q544-explanation.svg` are original educational schematics authored for this addition. Each contains an accessible SVG title and description, self-contained vectors, legible green/cream styling, and no scripts, foreignObject, embedded raster or external image/font dependencies. Reproduction script: `build.py`.
+
+The ten diagrams teach potassium-driven water uptake and guard-cell turgor; molecular sequence/shape specificity; enzyme matching for protein and lipid breakdown; foreign-antigen recognition in graft rejection; atrium-to-ventricle valve anatomy; the receptor-free optic-nerve exit; the exact ABO cross; organism-size/parasitism effects on number pyramids; trophic consequences of halving snakes; and herbicide runoff exposure. Schematic sizes/counts are identified where relevant. Protein residues are conserved in the illustrative breakdown, and the ABO grid uses the actual source alleles. Graft rejection is qualified as also involving other immune mechanisms.
+
+## Evidence and checks
+
+`evidence/` includes QP/MS cover text and images, the complete published key page, selected source text and complete-task crops, source-page renders, teaching SVG renders, and raster/contact sheets. All10 SVGs and all5 new source crops were visually inspected after rendering. The Q542 source split was inspected at full size after correction. `verification.json` records source hashes, exact selected keys/pages, duplicate comparisons, file hashes, source-crop coordinates, schema/assets/chapter checks and the limits of author verification. Parent performs runtime integration and browser tests; independent review is not claimed here.
+
+
+# Image credits: questions545–554
+
+Question paper: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w16_qp_23.pdf
+Mark scheme: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w16_ms_23.pdf
+
+All source PNGs are direct unannotated PDF crops from Cambridge IGCSE Biology0610/23, Paper2 Multiple Choice(Extended), October/November2016. © UCLES2016; all rights reserved. No Creative Commons licence is claimed. Crops retain complete figures and their original labels, leaders, axes and borders. The Q549 table is shown as a native selectable table in the question and its original crop is included in feedback.
+
+- `assets/q545-source.png`: original Q3, printed page2; used in question and/or feedback.
+- `assets/q546-source.png`: original Q5, printed page3; used in question and/or feedback.
+- `assets/q547-source.png`: original Q6, printed page3; used in question and/or feedback.
+- `assets/q548-source.png`: original Q8, printed page4; used in question and/or feedback.
+- `assets/q549-source.png`: original Q9, printed page4; used in question and/or feedback.
+- `assets/q550-source.png`: original Q19, printed page8; used in question and/or feedback.
+- `assets/q551-source.png`: original Q25, printed page10; used in question and/or feedback.
+- `assets/q552-source.png`: original Q27, printed page11; used in question and/or feedback.
+- `assets/q553-source.png`: original Q30, printed page12; used in question and/or feedback.
+- `assets/q554-source.png`: original Q36, printed page14; used in question and/or feedback.
+
+All ten `assets/qNNN-explanation.svg` files are original scientific teaching schematics created for this quiz. They are not exam diagrams. Each has a title and description, green/cream styling, no scripts, no foreignObject and no external resources. Original source figures provide the credited raster support in every explanation.
+
+Evidence contains original cover/page renders, matching published MS keys, extracted selected text, and rendered SVG/source contact sheets. Source and asset SHA256 values are in verification.json. No runtime files were edited.
+
+
+
+
+## Paper 4 — February/March 2026, 0610/42
+
+The 11 files named `paper4-fm26-*.png` are original question figures/tables cropped from Cambridge IGCSE Biology 0610/42/F/M/26, © Cambridge University Press & Assessment 2026. The full source is linked in the Paper 4 page: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m26_qp_42.pdf . Source crops retain the required labels and data; the page includes descriptive alternative text and full-size image links. Criteria were checked against the matching official mark scheme at https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_m26_ms_42.pdf .
+
+
+## Paper 4 — May/June 2026, 0610/41
+
+Seven files named `paper4-mj26-41-*.png` are source figure/table crops from Cambridge IGCSE Biology 0610/41/M/J/26, © Cambridge University Press & Assessment 2026. They retain the original data, labels and complete diagrams. Source: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_qp_41.pdf . Criteria were checked against the matching mark scheme: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_ms_41.pdf . All crops include descriptive alternative text and full-size links in the practice page.
+
+
+## Paper 4 — May/June 2026, 0610/42
+
+Eight files named `paper4-mj26-42-*.png` are original figure/table crops from Cambridge IGCSE Biology 0610/42/M/J/26, © Cambridge University Press & Assessment 2026. The potometer, results table, reproductive-system diagram and table, body-organ diagram, glucose graph, onion-cell micrographs and heart-lung machine retain their required labels and data. Each has descriptive alternative text and a full-size link. Source: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_qp_42.pdf . Criteria: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_ms_42.pdf .
+
+
+## Paper 4 — May/June 2026, 0610/43
+
+Fourteen files named `paper4-mj26-43-*.png` reproduce original source figures, tables and blank drawing grids from Cambridge IGCSE Biology 0610/43/M/J/26, © Cambridge University Press & Assessment 2026. Required labels, arrows, borders and data are retained, with alternative text and full-size links. Source: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_qp_43.pdf . Criteria: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s26_ms_43.pdf . The official scheme on page 13 withdraws Question 5(a). Its food web is retained solely for reference; no answer key or self-mark is provided.
+
+
+## Paper 4 — October/November 2025, components 41, 42 and 43
+
+The 35 files named `paper4-on25-41-*.png`, `paper4-on25-42-*.png` and `paper4-on25-43-*.png` are original source figures, identification keys, tables and drawing grids from Cambridge IGCSE Biology 0610/41/O/N/25, 0610/42/O/N/25 and 0610/43/O/N/25, © Cambridge University Press & Assessment / UCLES 2025. Complete outlines, labels, borders, axes, keys and data are retained. Each image has descriptive alternative text and a full-size link. Both source identities, every allocation, criteria/guidance and all crops were independently audited. The harmless official MS 41 question 2(a)(i) figure-number typo is noted in that part’s revealed criteria.
+
+- Component 41: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_41.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_41.pdf .
+- Component 42: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_42.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_42.pdf .
+- Component 43: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_43.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_43.pdf .

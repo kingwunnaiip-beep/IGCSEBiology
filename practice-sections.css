@@ -1,0 +1,59 @@
+.practice-section-select {
+ display:block; flex:0 1 auto; max-width:100%; min-width:0; min-height:44px;
+ padding:10px 12px; border:1px solid #b6c9b8; border-radius:8px;
+ color:var(--green-dark); background:var(--white); font:inherit;
+ font-size:14px; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+ cursor:pointer;
+}
+.practice-section-select:focus-visible { outline:3px solid #91a944; outline-offset:3px; }
+.practice-section-select option { letter-spacing:normal; text-transform:none; }
+@media(max-width:420px) { .practice-section-select { font-size:12px; letter-spacing:.04em; } }
+.theory-layout { display:grid; grid-template-columns:minmax(0,1fr) 260px; gap:28px; align-items:start; }
+.theory-main { min-width:0; overflow-wrap:anywhere; font-size:calc(16px * var(--theory-scale,1)); }
+.theory-main h1 { font-size:1.6em; }
+.theory-main p { line-height:1.65; white-space:pre-line; }
+.theory-panel { position:sticky; top:20px; max-height:calc(100dvh - 40px); overflow:auto; padding:16px; border:1px solid var(--line); border-radius:10px; background:var(--white); }
+.theory-panel select,.theory-answer,.theory-score { width:100%; max-width:100%; padding:12px; border:1px solid #b6c9b8; border-radius:7px; color:var(--ink); background:var(--white); font:inherit; }
+.theory-panel label { display:block; margin:0 0 7px; font-weight:700; }
+.theory-paper-detail { color:var(--muted); line-height:1.6; }
+.theory-part { margin:22px 0; padding:20px; border:1px solid var(--line); border-radius:10px; background:rgba(255,254,250,.85); }
+.theory-part h3 { margin:0 0 12px; }
+.theory-answer { display:block; min-height:160px; resize:vertical; margin:8px 0 12px; line-height:1.6; }
+.theory-original { margin:16px 0; }
+.theory-original img { display:block; width:100%; height:auto; background:white; border:1px solid var(--line); }
+.theory-original figcaption { margin-top:7px; font-size:.85em; color:var(--muted); }
+.theory-reference-links { display:flex; flex-wrap:wrap; gap:10px 20px; }
+.theory-marking { margin-top:18px; padding:18px; border-left:4px solid var(--green); background:#eaf4e8; border-radius:6px; }
+.theory-marking[hidden] { display:none; }
+.theory-marking li { margin:8px 0; line-height:1.6; }
+.theory-score { width:auto; min-width:90px; margin:8px 12px; }
+.theory-question-nav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:16px 0; }
+.theory-question-nav button { min-width:0; padding:10px 4px; }
+.theory-question-nav button[aria-current="step"] { background:var(--green-dark); box-shadow:0 0 0 2px #91a944; }
+.theory-question-nav button.is-marked { border:2px solid #91a944; }
+.theory-bottom { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:24px 0; }
+.theory-status { min-height:1.5em; color:var(--muted); }
+.theory-score-total { font-weight:700; line-height:1.6; }
+@media(max-width:680px) { .theory-layout { grid-template-columns:minmax(0,1fr); gap:16px; }.theory-panel { position:static; grid-row:1; max-height:none; }.theory-part { padding:14px; }.theory-bottom button { width:100%; } }
+
+.theory-bottom[hidden] { display:none; }
+.theory-panel select { min-width:0; }
+.theory-source-note { font-size:.8em; color:var(--muted); }
+.theory-choices { display:grid; gap:10px; margin:12px 0 18px; }
+.theory-choice { display:flex; align-items:flex-start; gap:10px; padding:10px; border:1px solid var(--line); border-radius:7px; }
+.theory-choice input { flex:0 0 auto; width:20px; height:20px; margin:3px 0; accent-color:var(--green); }
+.theory-part details { margin:12px 0; }
+.theory-part summary { cursor:pointer; color:var(--green-dark); font-weight:700; }
+
+.theory-panel[hidden],.theory-panel-controls[hidden] { display:none; }
+.theory-layout.is-panel-hidden { grid-template-columns:minmax(0,1fr); }
+.theory-panel-controls { display:flex; justify-content:flex-end; margin-bottom:12px; }
+.theory-panel-controls button { min-height:44px; max-width:100%; }
+
+.theory-panel-controls .theory-menu-button { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; padding:10px; }
+.theory-menu-icon { display:flex; flex-direction:column; gap:4px; width:22px; }
+.theory-menu-icon span { display:block; height:2px; width:100%; border-radius:1px; background:currentColor; }
+
+.theory-nav-paper { grid-column:1 / -1; margin:8px 0 0; font-size:.85em; font-weight:700; overflow-wrap:anywhere; }
+
+.theory-withdrawal { padding:12px; border-left:4px solid #a18425; background:#fff8dd; }

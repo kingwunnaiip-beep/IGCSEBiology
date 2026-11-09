@@ -2540,3 +2540,21 @@ The 35 files named `paper4-on25-41-*.png`, `paper4-on25-42-*.png` and `paper4-on
 - Component 41: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_41.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_41.pdf .
 - Component 42: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_42.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_42.pdf .
 - Component 43: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_qp_43.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w25_ms_43.pdf .
+
+
+## Paper 4 — May/June 2025, components 41, 42 and 43
+
+The 31 files named `paper4-mj25-41-*.png`, `paper4-mj25-42-*.png` and `paper4-mj25-43-*.png` are original source figures, tables and a blank genetic diagram from Cambridge IGCSE Biology 0610/41/M/J/25, 0610/42/M/J/25 and 0610/43/M/J/25, © Cambridge University Press & Assessment / UCLES 2025. Complete outlines, labels, borders, axes, keys and data are retained, with descriptive alternative text and full-size links.
+
+- Component 41: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_41.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_41.pdf .
+- Component 42: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_42.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_42.pdf .
+- Component 43: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_43.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_43.pdf .
+
+
+## Paper 4 — October/November 2024, components 41, 42 and 43
+
+The 32 files named `paper4-on24-41-*.png`, `paper4-on24-42-*.png` and `paper4-on24-43-*.png` are original source figures,tables and blank genetic/reflex templates from Cambridge IGCSE Biology 0610/41/O/N/24,0610/42/O/N/24 and0610/43/O/N/24, © Cambridge University Press & Assessment / UCLES2024. Complete source evidence is retained with descriptive alternative text and full-size links. All96 printed QP allocations and all96 MS row allocations were checked directly; the complete QP/MS content and all crops were reviewed by the primary assistant.
+
+- Component 41: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_41.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_41.pdf .
+- Component 42: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_42.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_42.pdf .
+- Component 43: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_43.pdf ; matching mark scheme https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_43.pdf .

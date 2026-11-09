@@ -5314,5 +5314,4263 @@ window.paper4Papers = [
         ]
       }
     ]
+  },
+  {
+    "id": "0610-mj25-41",
+    "code": "0610/41/M/J/25",
+    "session": "May/June 2025",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_41.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_41.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Energy flow and population growth",
+        "chapterIds": [
+          18
+        ],
+        "context": "Figure 1.1 shows a pyramid of energy for an ecosystem. A new species was introduced to an ecosystem; Figure 1.2 shows its population changes as it became established.",
+        "parts": [
+          {
+            "id": "mj25-41-1(a)(i)",
+            "label": "1(a)(i)",
+            "marks": 1,
+            "prompt": "State where the organisms in trophic level 1 in Figure 1.1 get their energy from.",
+            "markScheme": [
+              "The Sun."
+            ],
+            "guidance": [
+              "Trophic level 1 consists of producers, which capture light energy."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original pyramid of energy with complete outlines, energy / J heading and trophic-level heading. Trophic levels 1, 2, 3 and 4 have respectively 11 212 J, 9804 J, 822 J and 98 J.",
+                "caption": "Figure 1.1 · 0610/41/M/J/25, printed page 2. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-1(a)(ii)",
+            "label": "1(a)(ii)",
+            "marks": 2,
+            "prompt": "Calculate the percentage of energy transferred between trophic levels 2 and 3 in Figure 1.1. Give your answer to one significant figure.",
+            "markScheme": [
+              "Percentage = 822 ÷ 9804 × 100 = 8.384…% (one mark for the correct calculation to any number of significant figures).",
+              "Rounded to one significant figure: 8% (one mark). Error carried forward is allowed for rounding an earlier calculated value."
+            ],
+            "guidance": [
+              "Divide the energy at the receiving level by the energy at the preceding level, then multiply by 100. Round the percentage only at the end."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original pyramid of energy with complete outlines, energy / J heading and trophic-level heading. Trophic levels 1, 2, 3 and 4 have respectively 11 212 J, 9804 J, 822 J and 98 J.",
+                "caption": "Figure 1.1 · 0610/41/M/J/25, printed page 2. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-1(a)(iii)",
+            "label": "1(a)(iii)",
+            "marks": 2,
+            "prompt": "State two reasons why energy decreases between trophic levels 1 and 4, as shown in Figure 1.1.",
+            "markScheme": [
+              "Any two: energy dissipates as heat during respiration; another named metabolic process; movement/muscle contraction; not all parts of an organism are eaten; not all eaten material is digested, so energy remains in faeces/egested material; not every organism in a trophic level is eaten. Maximum two marks."
+            ],
+            "guidance": [
+              "Identify two distinct routes by which energy is unavailable to the next trophic level. Energy is transferred or dissipated; it is not destroyed."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original pyramid of energy with complete outlines, energy / J heading and trophic-level heading. Trophic levels 1, 2, 3 and 4 have respectively 11 212 J, 9804 J, 822 J and 98 J.",
+                "caption": "Figure 1.1 · 0610/41/M/J/25, printed page 2. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-1(a)(iv)",
+            "label": "1(a)(iv)",
+            "marks": 2,
+            "prompt": "Describe the advantages of representing food chains using a pyramid of energy compared with a pyramid of biomass.",
+            "markScheme": [
+              "Any two: more accurate representation of energy transfer/loss; accounts for differing reproduction rates; accounts for different life spans; accounts for different body sizes/body composition; accounts for time/seasonal variation; allows better comparisons between ecosystems. Maximum two marks."
+            ],
+            "guidance": [
+              "A biomass pyramid measures the standing mass at a particular time. Energy flow over a period accounts for turnover, including rapid producer reproduction, and supports comparisons between ecosystems."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-41-1(b)(i)",
+            "label": "1(b)(i)",
+            "marks": 1,
+            "prompt": "Complete the sentence: A population is a group of organisms of one species living in the same ______ at the same ______.",
+            "markScheme": [
+              "In order: area; time. Both required for one mark."
+            ],
+            "guidance": [
+              "A population definition combines the species with a shared location and time."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig1-2.png",
+                "label": "Figure 1.2",
+                "alt": "Original population-size graph showing the complete curve, both arrowed axes labelled population size of the new species and time, and the full bracket labelled X above a section of the curve.",
+                "caption": "Figure 1.2 · 0610/41/M/J/25, printed page 3. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-1(b)(ii)",
+            "label": "1(b)(ii)",
+            "marks": 5,
+            "prompt": "Describe and explain the reasons for the shape of the graph at X in Figure 1.2.",
+            "markScheme": [
+              "Any five: population increases and then plateaus; birth rate initially exceeds mortality rate; plenty of resources/no competition for resources/little predation; population growth then slows; resources become limited, competition increases, predation increases or a new disease occurs; birth and mortality rates become more equal; another valid point. Maximum five marks."
+            ],
+            "guidance": [
+              "Describe the rise and levelling in the bracketed region, then relate each stage to birth and death rates and changing limiting factors. A plateau means approximately equal birth and death rates, rather than reproduction stopping."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig1-2.png",
+                "label": "Figure 1.2",
+                "alt": "Original population-size graph showing the complete curve, both arrowed axes labelled population size of the new species and time, and the full bracket labelled X above a section of the curve.",
+                "caption": "Figure 1.2 · 0610/41/M/J/25, printed page 3. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Receptors, the pupil reflex and synapses",
+        "chapterIds": [
+          12,
+          3
+        ],
+        "context": "The human retina contains receptor cells called rods and cones. Figure 2.1 shows their distribution. The optic nerve contains many neurones; Figure 2.2 shows a synapse between two neurones.",
+        "parts": [
+          {
+            "id": "mj25-41-2(a)",
+            "label": "2(a)",
+            "marks": 4,
+            "prompt": "Using Figure 2.1, describe the differences in the distribution of rods and cones in a human retina.",
+            "markScheme": [
+              "Any four: overall there are more rods than cones; cones peak/are more numerous at the fovea (0 arbitrary units); rods peak on either side of the fovea or increase as the fovea is approached; no rods occur at the fovea; cone numbers outside the fovea are approximately constant; rod numbers are greater on the left-hand side of the fovea. Reverse comparisons are accepted. Maximum four marks."
+            ],
+            "guidance": [
+              "Make comparisons using both curve types and their positions relative to the fovea. Keep the fovea distinct from the blind spot, where neither receptor type is present."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig2-1.png",
+                "label": "Figure 2.1",
+                "alt": "Original retinal receptor-distribution graph. Full grid and both curves are retained: solid line for rods and dashed line for cones. The vertical axis is number of receptors per mm², with 0, 50 000, 100 000 and 150 000 marked. The horizontal axis is distance from the fovea in arbitrary units, labelled 80 to 0 to 80 in steps of 20. Fovea, blind spot and complete key are shown.",
+                "caption": "Figure 2.1 · 0610/41/M/J/25, printed page 4. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-2(b)",
+            "label": "2(b)",
+            "marks": 2,
+            "prompt": "Nocturnal animals are active at night. Suggest how the number of receptor cells in a nocturnal animal’s retina differs from that in an animal active in the day. Explain your suggestion.",
+            "markScheme": [
+              "More rods/a greater proportion of rods (one mark), linked to greater sensitivity in low-light conditions/night vision (one mark).",
+              "Alternatively: fewer cones (one mark), linked to colour vision being less important (one mark). The explanation must match the stated difference. Maximum two marks."
+            ],
+            "guidance": [
+              "Choose a difference in receptor numbers and explain why it benefits vision at night. Rods are more sensitive in dim light; cones support colour vision."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-41-2(c)(i)",
+            "label": "2(c)(i)",
+            "marks": 1,
+            "prompt": "In humans, the size of the iris increases in bright light. During this response one effector in the iris contracts and one relaxes. State the name of this response.",
+            "markScheme": [
+              "Pupil reflex."
+            ],
+            "guidance": [
+              "Bright light triggers a reflex that makes the pupil smaller, reducing light entering the eye."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-41-2(c)(ii)",
+            "label": "2(c)(ii)",
+            "marks": 1,
+            "prompt": "State the name of the effector that contracts during the bright-light response described in 2(c)(i).",
+            "markScheme": [
+              "Circular muscle of the iris."
+            ],
+            "guidance": [
+              "Contraction of circular muscle constricts the pupil; radial muscle relaxes."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-41-2(c)(iii)",
+            "label": "2(c)(iii)",
+            "marks": 1,
+            "prompt": "State the name of the type of action shown by the paired effectors during the bright-light response.",
+            "markScheme": [
+              "Antagonistic. “Involuntary” is also accepted by the published scheme."
+            ],
+            "guidance": [
+              "Antagonistic muscles act in opposition: one contracts as the other relaxes."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-41-2(d)(i)",
+            "label": "2(d)(i)",
+            "marks": 3,
+            "prompt": "State the names of parts A, B and C in the synapse shown in Figure 2.2.",
+            "markScheme": [
+              "A: vesicle.",
+              "B: receptor (protein).",
+              "C: neurotransmitter; an appropriate named neurotransmitter is accepted."
+            ],
+            "guidance": [
+              "Trace each leader line. Distinguish the storage vesicle from the chemical it releases and from the receptor on the next neurone."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig2-2.png",
+                "label": "Figure 2.2",
+                "alt": "Original synapse diagram with neurones 1 and 2, synaptic-gap bracket, full direction-of-impulse arrow, labels A, B and C and complete leader lines. All small internal structures are retained.",
+                "caption": "Figure 2.2 · 0610/41/M/J/25, printed page 6. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-2(d)(ii)",
+            "label": "2(d)(ii)",
+            "marks": 2,
+            "prompt": "Explain how part C in Figure 2.2 moves across the synaptic gap.",
+            "markScheme": [
+              "Diffusion (one mark).",
+              "Particles move randomly, or there is net movement from higher to lower concentration/down a concentration gradient (one mark)."
+            ],
+            "guidance": [
+              "Explain how neurotransmitter molecules move through the gap. Electrical impulses do not jump directly across a chemical synapse."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig2-2.png",
+                "label": "Figure 2.2",
+                "alt": "Original synapse diagram with neurones 1 and 2, synaptic-gap bracket, full direction-of-impulse arrow, labels A, B and C and complete leader lines. All small internal structures are retained.",
+                "caption": "Figure 2.2 · 0610/41/M/J/25, printed page 6. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Plant reproduction, variation and mitosis",
+        "chapterIds": [
+          14,
+          16,
+          17
+        ],
+        "context": "Figure 3.1 shows a stage in plant reproduction after pollination.",
+        "parts": [
+          {
+            "id": "mj25-41-3(a)(i)",
+            "label": "3(a)(i)",
+            "marks": 1,
+            "prompt": "State the name of part X in Figure 3.1.",
+            "markScheme": [
+              "Pollen tube."
+            ],
+            "guidance": [
+              "Identify the structure growing from the pollen grain down into the carpel."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original carpel diagram after pollination, with stigma and pollen-grain labels, carpel bracket, label X and all leader lines. The complete ovary outline and its internal structures are visible.",
+                "caption": "Figure 3.1 · 0610/41/M/J/25, printed page 8. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-3(a)(ii)",
+            "label": "3(a)(ii)",
+            "marks": 3,
+            "prompt": "Describe the events after the stage shown in Figure 3.1 that result in fertilisation.",
+            "markScheme": [
+              "Any three: pollen tube grows (entry into the ovary/ovule may be described); the male nucleus travels down the pollen tube/style; male and female nuclei fuse; reference to the ovule. Maximum three marks.",
+              "“X” is accepted for the pollen tube; error carried forward from 3(a)(i) is allowed."
+            ],
+            "guidance": [
+              "Continue from the tube already shown. Explain its growth towards the ovule, movement of the male nucleus and fusion with the female nucleus."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original carpel diagram after pollination, with stigma and pollen-grain labels, carpel bracket, label X and all leader lines. The complete ovary outline and its internal structures are visible.",
+                "caption": "Figure 3.1 · 0610/41/M/J/25, printed page 8. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-3(b)(i)",
+            "label": "3(b)(i)",
+            "marks": 3,
+            "prompt": "A species of plant can use self-pollination and cross-pollination. Suggest reasons for this species to use self-pollination rather than cross-pollination.",
+            "markScheme": [
+              "Any three: lack of pollinators; the plant is isolated; less pollen/energy is required; an increased chance of pollination/fertilisation/offspring; reduced genetic diversity can be beneficial when the plant is already well adapted to its environment; another valid point. Maximum three marks."
+            ],
+            "guidance": [
+              "Explain conditions in which transfer of pollen within the same plant improves reproductive success, including pollinator shortage or isolation."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "mj25-41-3(b)(ii)",
+            "label": "3(b)(ii)",
+            "marks": 3,
+            "prompt": "Discuss the potential effects of only using self-pollination in a population of plants.",
+            "markScheme": [
+              "Any three: less/no genetic variation; reduced ability to survive/adapt to environmental change; reduced disease resilience or faster disease spread; increased extinction risk; increased likelihood of genetic disease. Maximum three marks."
+            ],
+            "guidance": [
+              "Link reduced mixing of alleles to population consequences. Self-pollination is still sexual reproduction; it does not necessarily make genetically identical offspring. Recessive harmful alleles can become expressed more often."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-41-3(c)",
+            "label": "3(c)",
+            "marks": 2,
+            "prompt": "Meiosis produces gametes and is a source of genetic variation. State two other sources of genetic variation in populations.",
+            "markScheme": [
+              "Any two: mutation; random mating/pollination; random fertilisation; another valid point. Maximum two marks."
+            ],
+            "guidance": [
+              "Give sources other than meiosis. Mutation creates new alleles, while random combinations of gametes generate new combinations of alleles."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-41-3(d)",
+            "label": "3(d)",
+            "marks": 4,
+            "prompt": "Describe mitosis and its roles in organisms.",
+            "markScheme": [
+              "Any four: nuclear division; production of genetically identical cells; replicated chromosome copies separate; chromosome number is maintained in each daughter cell; a named role of mitosis; a second distinct named role.",
+              "Up to two marks for distinct roles, such as growth, repair of damaged tissues, cell replacement, asexual reproduction or production of organs/tissues. Maximum four marks overall."
+            ],
+            "guidance": [
+              "Include what happens to chromosomes and the resulting cells, then name roles. Mitosis maintains chromosome number; it does not halve it. Distinguish repair of tissues from the repair of an individual damaged cell."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-41-3(e)",
+            "label": "3(e)",
+            "marks": 1,
+            "prompt": "State the name of the unspecialised cells that divide by mitosis.",
+            "markScheme": [
+              "Stem cells."
+            ],
+            "guidance": [
+              "These unspecialised cells can divide and provide cells that differentiate into specialised types."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 11,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Excretion, kidneys and amino acids",
+        "chapterIds": [
+          13,
+          7
+        ],
+        "context": "The kidney is an organ in the excretory system. Figure 4.1 shows a simplified kidney cross-section and Figure 4.2 shows a kidney nephron.",
+        "parts": [
+          {
+            "id": "mj25-41-4(a)",
+            "label": "4(a)",
+            "marks": 2,
+            "prompt": "Describe what is meant by excretion.",
+            "markScheme": [
+              "Removal of waste products of metabolism (one mark).",
+              "Removal of substances in excess of requirements (one mark)."
+            ],
+            "guidance": [
+              "Include both metabolic waste and excess substances. Egestion of undigested food is a different process."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-41-4(b)",
+            "label": "4(b)",
+            "marks": 1,
+            "prompt": "State the name of the substance excreted by the lungs.",
+            "markScheme": [
+              "Carbon dioxide; water/water vapour also accepted."
+            ],
+            "guidance": [
+              "Give a substance removed from the body through the lungs."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-41-4(c)",
+            "label": "4(c)",
+            "marks": 3,
+            "prompt": "State the names of parts P, Q and R in the kidney cross-section in Figure 4.1.",
+            "markScheme": [
+              "P: cortex.",
+              "Q: ureter.",
+              "R: medulla."
+            ],
+            "guidance": [
+              "Follow each line to the outer region, the tube leaving the kidney or the inner region. Distinguish the ureter from the urethra."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig4-1.png",
+                "label": "Figure 4.1",
+                "alt": "Original kidney cross-section, including the complete outer outline, shaded internal regions and full descending tube. Labels P, Q and R and all leader lines are retained.",
+                "caption": "Figure 4.1 · 0610/41/M/J/25, printed page 11. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-4(d)",
+            "label": "4(d)",
+            "marks": 6,
+            "prompt": "Describe and explain the differences in the composition of the fluids in structures X, Y and Z in the nephron shown in Figure 4.2.",
+            "markScheme": [
+              "Any six: X contains blood; filtration occurs between X and Y; proteins/blood cells/large molecules are too large to be filtered into Y; Y contains glucose, water, urea and ions; Z contains no glucose; all glucose has been reabsorbed into blood; Z contains excess water/ions; some water/ions have been reabsorbed into blood; Z has a higher urea concentration; Z contains urine. Maximum six marks."
+            ],
+            "guidance": [
+              "Compare blood entering filtration, the initial filtrate and the final urine. Explain filtration by size and selective reabsorption of useful substances. Urea remains in the tubule while water is reabsorbed, increasing its concentration."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig4-2.png",
+                "label": "Figure 4.2",
+                "alt": "Original complete kidney-nephron diagram, retaining the full blood-vessel paths and all flow arrowheads, capsule, coiled tubule, loop and collecting tube. Labels X, Y and Z, the direction-of-flow key and the arrow labelled to structure Q in Figure 4.1 are included.",
+                "caption": "Figure 4.2 · 0610/41/M/J/25, printed page 12. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-4(e)",
+            "label": "4(e)",
+            "marks": 2,
+            "prompt": "The liver is also involved in excretion. Describe two ways that amino acids are processed in the liver.",
+            "markScheme": [
+              "Deamination: removal of the nitrogen-containing part, leading to urea formation (one mark).",
+              "Assimilation: conversion into/synthesis of proteins (one mark). Other valid processing points may be accepted by the scheme; maximum two marks."
+            ],
+            "guidance": [
+              "Describe one route using amino acids to build proteins and one route dealing with excess amino acids. Urea is made in the liver and excreted by the kidneys."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 12,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Evolutionary relationships and DNA",
+        "chapterIds": [
+          1,
+          16,
+          17
+        ],
+        "context": "Organisms can be classified by their features and DNA base sequences. Figure 5.1 shows evolutionary relationships. Each branch marks the development of new features and starts at a common ancestor shared by the new groups.",
+        "parts": [
+          {
+            "id": "mj25-41-5(a)(i)",
+            "label": "5(a)(i)",
+            "marks": 2,
+            "prompt": "Suggest which visible features developed at A and B in Figure 5.1.",
+            "markScheme": [
+              "A: hair or external ears (one mark).",
+              "B: wings or feathers (one mark)."
+            ],
+            "guidance": [
+              "Use the groups descending from each labelled branch and identify a visible feature they share."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original evolutionary-tree diagram with all branches and organism drawings. Groups from left to right are sharks, bony fish, apes, rodents, crocodiles and birds. A and B label branches; the complete upward time arrow is labelled millions of years ago at the bottom and today at the top.",
+                "caption": "Figure 5.1 · 0610/41/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-5(a)(ii)",
+            "label": "5(a)(ii)",
+            "marks": 1,
+            "prompt": "Identify the two groups sharing the most recent common ancestor in Figure 5.1.",
+            "markScheme": [
+              "Apes and rodents. Both required for one mark."
+            ],
+            "guidance": [
+              "Use the branch junction nearest the present on the time axis, rather than simply selecting neighbouring labels."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original evolutionary-tree diagram with all branches and organism drawings. Groups from left to right are sharks, bony fish, apes, rodents, crocodiles and birds. A and B label branches; the complete upward time arrow is labelled millions of years ago at the bottom and today at the top.",
+                "caption": "Figure 5.1 · 0610/41/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-5(a)(iii)",
+            "label": "5(a)(iii)",
+            "marks": 2,
+            "prompt": "Suggest the groups with (1) the most similar and (2) the least similar DNA base sequences to crocodiles in Figure 5.1.",
+            "markScheme": [
+              "Most similar: birds (one mark).",
+              "Least similar: sharks (one mark)."
+            ],
+            "guidance": [
+              "A more recent common ancestor generally implies more similar DNA base sequences. Trace the shared branch points."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original evolutionary-tree diagram with all branches and organism drawings. Groups from left to right are sharks, bony fish, apes, rodents, crocodiles and birds. A and B label branches; the complete upward time arrow is labelled millions of years ago at the bottom and today at the top.",
+                "caption": "Figure 5.1 · 0610/41/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-5(b)",
+            "label": "5(b)",
+            "marks": 4,
+            "prompt": "Describe the structure of a DNA molecule.",
+            "markScheme": [
+              "Any four: two strands/chains; double helix; four bases/A, T, C and G; A pairs with T and C pairs with G; bonds between paired bases. Maximum four marks.",
+              "An accurately annotated diagram is accepted. If drawing, work on paper and record notes here, then assess the drawing manually against the criteria."
+            ],
+            "guidance": [
+              "Describe two strands coiled into a double helix, joined through complementary base pairs. Base pairs are A–T and C–G."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-41-5(c)",
+            "label": "5(c)",
+            "marks": 3,
+            "prompt": "Outline how base sequences in DNA control cell function.",
+            "markScheme": [
+              "Any three: DNA/mRNA base sequence determines amino-acid sequence; amino acids form proteins/protein synthesis occurs; a named protein example; amino-acid sequence determines protein shape. Maximum three marks.",
+              "The published scheme gives enzymes and neurotransmitters as examples. Enzymes are a clear protein example; only peptide/protein neurotransmitters fit the protein criterion, since many neurotransmitters are small non-protein molecules."
+            ],
+            "guidance": [
+              "Link base order to amino-acid order, then protein shape and function. Enzymes control chemical reactions in cells; use a definite protein example rather than implying all neurotransmitters are proteins."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 13,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Auxin, tropisms and wilting",
+        "chapterIds": [
+          12,
+          3,
+          8
+        ],
+        "context": "Maize seeds were pinned to a board and supplied with light from all directions. The board was rotated continuously by a clinostat as the seeds germinated and their roots grew. Figure 6.1 shows the apparatus and results after five days.",
+        "parts": [
+          {
+            "id": "mj25-41-6(a)(i)",
+            "label": "6(a)(i)",
+            "marks": 5,
+            "prompt": "Complete the five blanks in order to explain root growth in Figure 6.1.\n\nAuxin is produced in shoot and root ______. The auxin travels down the root by the process of ______.\n\nAs the clinostat rotates, the effect of ______ on all sides of the root is equal. This causes the distribution of auxin in the root to be ______.\n\nAuxin stimulates cell ______ causing the roots to grow horizontally.",
+            "markScheme": [
+              "In order: tips; diffusion; gravity; equal/even/uniform; elongation. One mark per blank."
+            ],
+            "guidance": [
+              "Continuous rotation prevents a persistent lower side, so there is no sustained unequal distribution of auxin across the root. Equal growth on both sides means the root does not bend downwards. A clinostat does not remove gravity."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 13,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original complete clinostat apparatus drawing showing the board, all maize seeds pinned to it and their roots, rotation arrow and base. All supplied labels, brackets and leader lines are retained.",
+                "caption": "Figure 6.1 · 0610/41/M/J/25, printed page 16. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-6(a)(ii)",
+            "label": "6(a)(ii)",
+            "marks": 1,
+            "prompt": "The clinostat rotation is stopped. Predict the change in growth that will occur in the germinating maize seeds in Figure 6.1.",
+            "markScheme": [
+              "Roots grow downwards/towards gravity."
+            ],
+            "guidance": [
+              "The roots become positively gravitropic once rotation stops. Describe the direction of new growth rather than movement of the whole seed."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 13,
+            "images": [
+              {
+                "src": "images/paper4-mj25-41-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original complete clinostat apparatus drawing showing the board, all maize seeds pinned to it and their roots, rotation arrow and base. All supplied labels, brackets and leader lines are retained.",
+                "caption": "Figure 6.1 · 0610/41/M/J/25, printed page 16. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-41-6(a)(iii)",
+            "label": "6(a)(iii)",
+            "marks": 1,
+            "prompt": "State the name of the tropic response to light.",
+            "markScheme": [
+              "Phototropism."
+            ],
+            "guidance": [
+              "Name the directional growth response to light."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 13,
+            "images": []
+          },
+          {
+            "id": "mj25-41-6(b)",
+            "label": "6(b)",
+            "marks": 3,
+            "prompt": "A student observes cells from a plant that has wilted. State and explain the expected appearance of the cells.",
+            "markScheme": [
+              "Any three: flaccid/no longer turgid; reference to plasmolysis; lack of turgor pressure; decreased cytoplasm/vacuole volume; decreased/low water potential inside plant cells; lack/loss of water. Maximum three marks."
+            ],
+            "guidance": [
+              "Water loss reduces vacuole volume and turgor, so cells become flaccid. Severe water loss can cause plasmolysis, where the membrane pulls away from the wall, but ordinary wilting does not require every cell to be plasmolysed. The cell wall itself does not shrink away from the cell."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 13,
+            "images": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0610-mj25-42",
+    "code": "0610/42/M/J/25",
+    "session": "May/June 2025",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_42.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_42.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Gas exchange, cystic fibrosis and inheritance",
+        "chapterIds": [
+          11,
+          10,
+          16
+        ],
+        "context": "Figure 1.1 shows part of the human gas exchange system. Cystic fibrosis affects the lungs: mucus in the airways is thicker and stickier than usual. It is an inherited condition caused by a recessive allele. F represents the allele for no cystic fibrosis and f the allele for cystic fibrosis. Two heterozygous parents want to have a child.",
+        "parts": [
+          {
+            "id": "mj25-42-1(a)(i)",
+            "label": "1(a)(i)",
+            "marks": 3,
+            "prompt": "Identify structures A, B and C in Figure 1.1.",
+            "markScheme": [
+              "A: trachea.",
+              "B: bronchus/bronchi.",
+              "C: bronchiole(s)."
+            ],
+            "guidance": [
+              "Follow the leader lines to distinguish the main airway from its large and small branches."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original part of the human gas exchange system with labels A, B, C and cartilage; complete leader lines and lung outline are retained.",
+                "caption": "Figure 1.1 · 0610/42/M/J/25, printed page 2. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-1(a)(ii)",
+            "label": "1(a)(ii)",
+            "marks": 1,
+            "prompt": "State the function of the cartilage shown in Figure 1.1.",
+            "markScheme": [
+              "Keeps the airway open/prevents the airway collapsing."
+            ],
+            "guidance": [
+              "Cartilage provides support so air can pass through the airway."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original part of the human gas exchange system with labels A, B, C and cartilage; complete leader lines and lung outline are retained.",
+                "caption": "Figure 1.1 · 0610/42/M/J/25, printed page 2. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-1(a)(iii)",
+            "label": "1(a)(iii)",
+            "marks": 4,
+            "prompt": "Explain how inspiration occurs.",
+            "markScheme": [
+              "Any four: diaphragm contracts/flattens/lowers; external intercostal muscles contract (and internal intercostals relax); ribs/ribcage move up/out/forwards; volume of the thorax/lungs/chest increases; pressure in the thorax/lungs/chest decreases; air is drawn in to equalise atmospheric and lung pressure.",
+              "Accept lung air pressure lower than atmospheric pressure, or air moving in down a pressure gradient."
+            ],
+            "guidance": [
+              "Connect muscle contraction to a larger thoracic volume, lower pressure and inward movement of air."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-42-1(b)(i)",
+            "label": "1(b)(i)",
+            "marks": 3,
+            "prompt": "Two types of cells lining the airways protect the body against pathogens and particles. State the names of these two types of cell and describe how they protect the body.",
+            "markScheme": [
+              "One mark for naming any two of: goblet cells, ciliated cells, lymphocytes, phagocytes.",
+              "Plus any two matching descriptions: goblet cells secrete mucus that traps particles/pathogens; cilia move mucus up/out/away; lymphocytes produce antibodies; phagocytes carry out phagocytosis/engulf pathogens or particles."
+            ],
+            "guidance": [
+              "The usual airway lining examples are goblet cells and ciliated cells. Name both and link each to its protective action. The published scheme also accepts the named immune cells with their correct functions."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-42-1(b)(ii)",
+            "label": "1(b)(ii)",
+            "marks": 4,
+            "prompt": "Suggest how having thicker and stickier mucus in the airways affects a person’s ability to do exercise.",
+            "markScheme": [
+              "Any four: airways/lumens become blocked or narrower; reduced diffusion/surface area for gas exchange (increased diffusion distance also accepted); less/slower oxygen delivery, carbon dioxide removal or gas exchange; this affects blood/muscle; less aerobic respiration/more anaerobic respiration; less energy released/less ATP produced; less energy for muscle contraction. Reverse arguments are accepted where appropriate."
+            ],
+            "guidance": [
+              "Trace the effect from obstructed airways to reduced oxygen reaching muscle, reduced aerobic respiration and less energy for contraction. Avoid saying energy is produced: it is released by respiration."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-42-1(c)",
+            "label": "1(c)",
+            "marks": 5,
+            "prompt": "Complete the original genetic diagram to predict the probability that two heterozygous parents have a child with cystic fibrosis. Use F for no cystic fibrosis and f for cystic fibrosis. Give parental genotypes, gametes, offspring genotypes, matching offspring phenotypes and the probability. Draw the diagram on paper or in your notes.",
+            "markScheme": [
+              "Parental genotypes: Ff × Ff.",
+              "Gametes: F and f from each parent.",
+              "Offspring genotypes: FF, Ff, Ff, ff, in any order.",
+              "Matching phenotypes: no cystic fibrosis for FF and Ff; cystic fibrosis for ff. Phenotypes must follow the same order as genotypes.",
+              "Probability: 0.25, 25% or 1 out of 4. The published scheme also accepts 1:3 (affected:unaffected). Allow error carried forward from the preceding stage."
+            ],
+            "guidance": [
+              "Each child has a 1 in 4 probability of ff. Show all four equally likely combinations and align phenotypes with the genotypes you write. A probability of 1/4 is clearer than an affected-to-unaffected ratio."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-genetic-diagram.png",
+                "label": "Genetic diagram for 1(c)",
+                "alt": "Original incomplete genetic diagram with parental phenotypes, blank parental genotypes and gametes, offspring genotype and phenotype spaces, and probability space.",
+                "caption": "Genetic diagram for 1(c) · 0610/42/M/J/25, printed page 4. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Blood, pathogen transmission and immunity",
+        "chapterIds": [
+          9,
+          10
+        ],
+        "context": "Figure 2.1 is a photomicrograph of human blood. Table 2.1 has missing component names, identifying letters and functions. Some diseases are transmissible.",
+        "parts": [
+          {
+            "id": "mj25-42-2(a)",
+            "label": "2(a)",
+            "marks": 5,
+            "prompt": "Use Figure 2.1 to complete all missing cells of Table 2.1.",
+            "markScheme": [
+              "One mark per completely correct row.",
+              "Red blood cell: F; transports/carries oxygen.",
+              "Lymphocyte: G; production of antibodies (given).",
+              "Plasma: H (given); transports/carries/contains/holds blood cells, ions, nutrients, hormones, proteins, antibodies, carbon dioxide, urea, wastes or heat. Also accept solvent, or maintenance of blood pressure, pH or osmotic balance.",
+              "Phagocyte: E; phagocytosis (given).",
+              "Platelet: J (given); blood clotting/prevents blood loss/releases fibrin."
+            ],
+            "guidance": [
+              "Supply every blank in each row; all missing entries in a row must be correct for its mark. Identify cells using the original leader lines rather than their position alone."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig2-1.png",
+                "label": "Figure 2.1",
+                "alt": "Original human blood photomicrograph with complete labels E, F, G, H and J and all their leader lines.",
+                "caption": "Figure 2.1 · 0610/42/M/J/25, printed page 5. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-mj25-42-table2-1.png",
+                "label": "Table 2.1",
+                "alt": "Original incomplete blood table with component, letter and function columns. Given entries include red blood cell, production of antibodies, H, phagocytosis, platelet and J. All blank cells and borders are retained.",
+                "caption": "Table 2.1 · 0610/42/M/J/25, printed page 5. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-2(b)(i)",
+            "label": "2(b)(i)",
+            "marks": 1,
+            "prompt": "State the name of a pathogen transmitted by direct contact with blood.",
+            "markScheme": [
+              "HIV/human immunodeficiency virus, or another valid pathogen."
+            ],
+            "guidance": [
+              "Name the pathogen itself: HIV is a virus, whereas AIDS is the condition it causes."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "mj25-42-2(b)(ii)",
+            "label": "2(b)(ii)",
+            "marks": 2,
+            "prompt": "State two ways a pathogen can be transmitted indirectly.",
+            "markScheme": [
+              "Any two: contaminated surfaces/objects; food; water; faeces/sewage; soil; air; animals/vectors (including named examples)."
+            ],
+            "guidance": [
+              "Give two distinct routes or vehicles of indirect transmission."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "mj25-42-2(c)",
+            "label": "2(c)",
+            "marks": 3,
+            "prompt": "Describe the role of antibodies in defence against pathogens.",
+            "markScheme": [
+              "Any three: specificity/antibody shape complementary to an antigen or pathogen; antibodies fit/bind to specific antigens; mark/clump/immobilise/neutralise/inactivate pathogens or toxins; enable pathogen destruction/phagocytosis; another valid role such as preventing a pathogen entering a cell."
+            ],
+            "guidance": [
+              "Explain specific binding and how this helps disable pathogens or allows their destruction by other immune cells."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-42-2(d)",
+            "label": "2(d)",
+            "marks": 3,
+            "prompt": "Explain how active immunity differs from passive immunity.",
+            "markScheme": [
+              "Any three comparisons, stated from either perspective: active immunity follows infection/vaccination, whereas passive immunity involves antibodies received in breast milk, through the placenta or by injection; active immunity involves the person’s own antibody production, whereas passive antibodies come from another source; active immunity produces memory cells/a secondary immune response, whereas passive immunity does not; active immunity is long term/permanent whereas passive immunity is temporary; active immunity develops more slowly whereas passive protection is immediate/faster."
+            ],
+            "guidance": [
+              "Make three distinct contrasts. Memory cells explain why active protection lasts longer and why later responses are faster."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 11,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Genetically modified crops and gene transfer",
+        "chapterIds": [
+          20,
+          16,
+          14,
+          19
+        ],
+        "context": "Scientists developed genetically modified (GM) maize. Figure 3.1 shows the mass grown in one country from 2000 to 2015. A gene for a natural insecticide was taken from a bacterium and transferred into maize plant cells. Human proteins can also be made using genetically modified bacteria.",
+        "parts": [
+          {
+            "id": "mj25-42-3(a)",
+            "label": "3(a)",
+            "marks": 3,
+            "prompt": "Calculate the percentage increase in the mass of GM maize grown between 2000 and 2015 using Figure 3.1. Give your answer to two significant figures.",
+            "markScheme": [
+              "310%.",
+              "Marking stages: correct graph readings, 80 and 325 ± 2 million tonnes; correct calculation to any number of significant figures, for example (325 − 80) ÷ 80 × 100 = 306.25%; correct rounding of the calculated value to two significant figures. Allow error carried forward from the preceding stage."
+            ],
+            "guidance": [
+              "Use the original 2000 mass as the denominator. The unrounded increase is about 306%, which rounds to 310% (3.1 × 10²%) to two significant figures."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original bar chart of mass of genetically modified maize in one country from 2000 to 2015, retaining all bars, both complete axes, all year labels and grid.",
+                "caption": "Figure 3.1 · 0610/42/M/J/25, printed page 7. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-3(b)(i)",
+            "label": "3(b)(i)",
+            "marks": 1,
+            "prompt": "Genes are found at specific positions on a biological molecule. State the name of this molecule.",
+            "markScheme": [
+              "DNA."
+            ],
+            "guidance": [
+              "A gene is a section of DNA."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "mj25-42-3(b)(ii)",
+            "label": "3(b)(ii)",
+            "marks": 2,
+            "prompt": "Scientists breed GM crop plants for many generations before allowing farmers to grow them. Suggest why.",
+            "markScheme": [
+              "Any two: check that the gene/allele is inherited/present/expressed and offspring show insect resistance; check adequate yield/good product quality; check growth in intended/different environments; check for unexpected/unwanted effects of the gene or modification; build a large quantity of seed/plants/crops to sell to farmers."
+            ],
+            "guidance": [
+              "Consider stability of inheritance and expression, crop performance, unintended effects and seed supply."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-42-3(b)(iii)",
+            "label": "3(b)(iii)",
+            "marks": 6,
+            "prompt": "Describe how a gene can be transferred from one organism to another using genetic modification. Human proteins can be made using genetically modified bacteria.",
+            "markScheme": [
+              "Any six: isolate/cut the required DNA section/gene/allele from one organism; use restriction enzymes to cut/isolate DNA; cut the bacterial plasmid and donor DNA with the same restriction enzyme; sticky ends form; sticky ends/base pairs are complementary; insert the gene into a bacterial plasmid; use DNA ligase to join DNA; a recombinant plasmid/DNA is formed; insert this DNA into bacteria/another cell or organism; a valid subsequent step such as multiplication of GM bacteria, a fermenter for bacterial growth, or expression of the donor gene to make its protein."
+            ],
+            "guidance": [
+              "Describe the sequence from gene isolation to a recombinant plasmid inside the recipient cell. Restriction enzymes cut DNA; ligase joins the DNA backbone."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-42-3(c)(i)",
+            "label": "3(c)(i)",
+            "marks": 1,
+            "prompt": "Some people are worried that GM crops could pollinate wild plants. Suggest how this pollination could be prevented.",
+            "markScheme": [
+              "Any one: isolate/separate GM crops and wild plants; grow GM crops in glasshouses; cover GM flowers; remove stamens/anthers/pollen; use sterile GM crops; plant another species around the GM crop."
+            ],
+            "guidance": [
+              "Choose a method that prevents pollen production, release or transfer to wild plants."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 13,
+            "images": []
+          },
+          {
+            "id": "mj25-42-3(c)(ii)",
+            "label": "3(c)(ii)",
+            "marks": 2,
+            "prompt": "State two advantages of GM crops other than insect resistance.",
+            "markScheme": [
+              "Any two: resistance to herbicides/pesticides, disease, salinity, cold, heat, drought, wind (for example thicker stems) or heavy metals (two distinct resistance advantages may earn both marks); additional nutrients for humans; improved yield, shelf life, flavour/taste, quantity, appearance or faster growth; reduced pollution or reduced fertiliser/pesticide use."
+            ],
+            "guidance": [
+              "Give two distinct advantages and do not repeat insect resistance. Different examples within one general product-quality point are alternatives rather than automatically separate marks."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 13,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Xerophyte adaptations",
+        "chapterIds": [
+          17,
+          8,
+          2,
+          4
+        ],
+        "context": "Xerophytes show adaptive features for dry habitats. Marram grass is a xerophytic plant; Figure 4.1 shows a cross-section of its leaf at magnification ×10. Figure 4.2 shows root systems of two different xerophyte species.",
+        "parts": [
+          {
+            "id": "mj25-42-4(a)",
+            "label": "4(a)",
+            "marks": 2,
+            "prompt": "Complete the definition: An adaptive feature is an ___ feature that helps an organism to ___ and ___ in its environment.",
+            "markScheme": [
+              "Inherited (one mark).",
+              "Survive and reproduce/breed/produce offspring, in either order (one mark for both)."
+            ],
+            "guidance": [
+              "An adaptive feature is inherited and contributes to both survival and reproduction in a particular environment."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 13,
+            "images": []
+          },
+          {
+            "id": "mj25-42-4(b)",
+            "label": "4(b)",
+            "marks": 2,
+            "prompt": "Using Figure 4.1, describe visible features that identify this as a xerophyte leaf.",
+            "markScheme": [
+              "Any two: curled/rolled leaf; folded inner surface; hairs; few/sunken stomata or stomata in pits; thick cuticle."
+            ],
+            "guidance": [
+              "Describe features visible in the cross-section. This question asks for observations rather than explanations of reduced transpiration."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 13,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig4-1.png",
+                "label": "Figure 4.1",
+                "alt": "Original photomicrograph of a cross-section of a marram grass leaf, with the complete image and magnification ×10.",
+                "caption": "Figure 4.1 · 0610/42/M/J/25, printed page 10. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-4(c)(i)",
+            "label": "4(c)(i)",
+            "marks": 1,
+            "prompt": "The mean cell wall thickness of an epidermal cell in one xerophyte species is 1.276 μm. Convert 1.276 μm to mm.",
+            "markScheme": [
+              "0.001276 mm, or 1.276 × 10⁻³ mm."
+            ],
+            "guidance": [
+              "Divide micrometres by 1000 to obtain millimetres."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 13,
+            "images": []
+          },
+          {
+            "id": "mj25-42-4(c)(ii)",
+            "label": "4(c)(ii)",
+            "marks": 1,
+            "prompt": "State the carbohydrate molecule used to build cell walls in xerophytes.",
+            "markScheme": [
+              "Cellulose."
+            ],
+            "guidance": [
+              "Cellulose forms plant cell walls."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 13,
+            "images": []
+          },
+          {
+            "id": "mj25-42-4(c)(iii)",
+            "label": "4(c)(iii)",
+            "marks": 1,
+            "prompt": "Suggest one way the stem of a xerophyte is adapted for dry habitats.",
+            "markScheme": [
+              "Any one: swollen/thick/wide stem or water-storage/succulent stem; contains chloroplasts/is a site of photosynthesis; thick waxy cuticle; another valid adaptation."
+            ],
+            "guidance": [
+              "For example, a succulent stem stores water for periods when the soil is dry."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 14,
+            "images": []
+          },
+          {
+            "id": "mj25-42-4(d)",
+            "label": "4(d)",
+            "marks": 3,
+            "prompt": "Describe the two root systems in Figure 4.2 and suggest how each is an adaptation for living in a dry environment.",
+            "markScheme": [
+              "Any three: species 1 has shallow roots close to the surface and/or spread over a wide area; these absorb water immediately after rainfall/from the soil surface; species 2 has a deep/long vertical root; this absorbs groundwater/deep water in the soil."
+            ],
+            "guidance": [
+              "Identify each species explicitly and link its root distribution to the water source it can reach. The depth indicator in the original diagram is 15 m."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 14,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig4-2.png",
+                "label": "Figure 4.2",
+                "alt": "Original paired xerophyte root systems labelled species 1 and species 2, with complete soil surface, roots and 15 m depth indicator.",
+                "caption": "Figure 4.2 · 0610/42/M/J/25, printed page 11. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Root hair cells, transport and nitrogen",
+        "chapterIds": [
+          3,
+          2,
+          18
+        ],
+        "context": "Figure 5.1 is a diagram of a plant root hair cell. Its key distinguishes nitrate ions from water molecules inside and outside the cell.",
+        "parts": [
+          {
+            "id": "mj25-42-5(a)(i)",
+            "label": "5(a)(i)",
+            "marks": 4,
+            "prompt": "Using Figure 5.1, explain how nitrate ions are transported into the root hair cell.",
+            "markScheme": [
+              "Any four: active transport; movement from lower to higher concentration/against the concentration gradient, or more nitrate ions inside the cell than in the soil; movement across the cell/partially permeable membrane; carrier proteins; energy from respiration is used.",
+              "For the membrane-related marking point, a large root-hair surface area is also accepted."
+            ],
+            "guidance": [
+              "Use the ion distribution shown to explain why energy and membrane carrier proteins are needed. Active transport can concentrate nitrate ions inside the cell."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 14,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original plant root hair cell diagram with all cell outlines, nitrate-ion and water-molecule symbols inside and outside the cell, and complete key.",
+                "caption": "Figure 5.1 · 0610/42/M/J/25, printed page 12. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-5(a)(ii)",
+            "label": "5(a)(ii)",
+            "marks": 1,
+            "prompt": "State two ways that nitrogen fixation occurs.",
+            "markScheme": [
+              "Lightning and nitrogen-fixing bacteria; both required for one mark."
+            ],
+            "guidance": [
+              "Nitrogen fixation makes atmospheric nitrogen available in combined forms. Nitrification is a different process."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 14,
+            "images": []
+          },
+          {
+            "id": "mj25-42-5(b)",
+            "label": "5(b)",
+            "marks": 1,
+            "prompt": "State the process that moves water molecules into root hair cells.",
+            "markScheme": [
+              "Osmosis."
+            ],
+            "guidance": [
+              "Water moves across a partially permeable membrane down a water-potential gradient."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 14,
+            "images": []
+          },
+          {
+            "id": "mj25-42-5(c)",
+            "label": "5(c)",
+            "marks": 5,
+            "prompt": "Describe differences and similarities between the structure of a plant root hair cell and a bacterial cell.",
+            "markScheme": [
+              "Award five marks in total, with a maximum of three for differences and three for similarities.",
+              "Differences: root hair cells have a nucleus/nuclear membrane; mitochondria or another correctly named membrane-bound organelle; a large permanent vacuole; a cellulose cell wall/a wall made of a different substance; linear DNA (bacterial DNA is circular/a loop); no plasmids; another valid structural difference. Reverse comparisons stated correctly for bacteria are accepted.",
+              "Similarities: both have a cell wall; cell membrane; cytoplasm; DNA/genetic material; ribosomes; another valid shared structure."
+            ],
+            "guidance": [
+              "Include both similarities and differences: five differences alone cannot earn full marks. A root hair cell normally lacks chloroplasts, so do not claim chloroplasts as its distinguishing feature. State what each cell has when making comparisons."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 15,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Protease activity at different pH values",
+        "chapterIds": [
+          5,
+          7
+        ],
+        "context": "A scientist investigated pH and the activity of two proteases, L and M. Each enzyme solution was placed in a hole in the centre of a protein jelly layer in a Petri dish, as in Figure 6.1. At a range of pH values, the area of jelly broken down by each enzyme after 60 minutes was recorded. Figure 6.2 shows the results.",
+        "parts": [
+          {
+            "id": "mj25-42-6(a)",
+            "label": "6(a)",
+            "marks": 5,
+            "prompt": "Using Figure 6.2, describe the results of this investigation.",
+            "markScheme": [
+              "Any five: activity increases then decreases/reaches a peak; maximum area digested is at pH 2 for L and pH 10 for M; L has its steepest increase from pH 1 to 2, or M increases most gradually from pH 3 to 10/as pH increases; L has greater activity than M at their optimum pH values (or reverse comparison); both are active between pH 3 and 5; L has no activity at/from pH 5 onwards or M has no activity at/before pH 3 (denatured accepted for no activity); M is active over a wider pH range than L; M shows no change from pH 7 to 8; a correct active-enzyme data quotation including pH and area with units.",
+              "Accepted data examples: at pH 2, L digests 160 mm²; at pH 10, M digests 140 mm²; at pH 7 or 8, M digests 80 mm²."
+            ],
+            "guidance": [
+              "Compare peaks, ranges and patterns, supported by an accurate pH-and-area quotation. Area after the same 60 minutes is the measure of activity."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 16,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original Petri dish with protein jelly and central hole containing enzyme L or M, retaining all apparatus labels and complete outlines.",
+                "caption": "Figure 6.1 · 0610/42/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-mj25-42-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original graph of jelly area broken down against pH for enzymes L and M, retaining complete axes, grid, both plotted lines and line-style key.",
+                "caption": "Figure 6.2 · 0610/42/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-6(b)",
+            "label": "6(b)",
+            "marks": 3,
+            "prompt": "Explain the result for enzyme M at pH 2 in Figure 6.2.",
+            "markScheme": [
+              "Any three: no jelly is broken down/no enzyme activity; M/its active site is denatured; its shape changes; its active site no longer fits/binds/is complementary to the protein substrate in the jelly."
+            ],
+            "guidance": [
+              "The very acidic conditions alter the enzyme’s active site, preventing enzyme–substrate complexes from forming."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 16,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original graph of jelly area broken down against pH for enzymes L and M, retaining complete axes, grid, both plotted lines and line-style key.",
+                "caption": "Figure 6.2 · 0610/42/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-42-6(c)",
+            "label": "6(c)",
+            "marks": 2,
+            "prompt": "Suggest the name of enzyme L and state its location in the human digestive system.",
+            "markScheme": [
+              "Enzyme L: pepsin.",
+              "Location: stomach."
+            ],
+            "guidance": [
+              "Use its protease activity and strongly acidic optimum to identify a digestive enzyme and its organ."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 16,
+            "images": [
+              {
+                "src": "images/paper4-mj25-42-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original graph of jelly area broken down against pH for enzymes L and M, retaining complete axes, grid, both plotted lines and line-style key.",
+                "caption": "Figure 6.2 · 0610/42/M/J/25, printed page 14. © UCLES 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0610-mj25-43",
+    "code": "0610/43/M/J/25",
+    "session": "May/June 2025",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_qp_43.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_s25_ms_43.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Human digestion and enzyme activity",
+        "chapterIds": [
+          7,
+          5,
+          4
+        ],
+        "context": "Figure 1.1 shows the human digestive system. Table 1.1 gives incomplete information about some labelled structures.",
+        "parts": [
+          {
+            "id": "mj25-43-1(a)",
+            "label": "1(a)",
+            "marks": 4,
+            "prompt": "Complete Table 1.1 using Figure 1.1. Give both missing entries in each of the four rows.",
+            "markScheme": [
+              "One mark per completely correct row; both missing entries must be correct.",
+              "G: anus; egestion/removal of undigested food/faeces.",
+              "Produces amylase: salivary glands, M; OR pancreas, D. Use a matching name-letter pair.",
+              "Gall bladder: stores bile; L.",
+              "Transports food to the stomach: oesophagus; B."
+            ],
+            "guidance": [
+              "Follow the diagram leader lines and match each structure with its function. Self-mark each row as a whole."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original diagram of the human digestive system with labels A, B, C, D, E, F, G, H, J, K, L and M. Complete body and digestive-system outlines and all label leader lines retained.",
+                "caption": "Figure 1.1 · 0610/43/M/J/25, printed page 2. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-mj25-43-table1-1.png",
+                "label": "Table 1.1",
+                "alt": "Original incomplete table of structure name, function and letter in Figure 1.1. The four rows supply respectively G; produces amylase; gall bladder; transports food to the stomach. Remaining cells are blank.",
+                "caption": "Table 1.1 · 0610/43/M/J/25, printed page 2. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-1(b)(i)",
+            "label": "1(b)(i)",
+            "marks": 3,
+            "prompt": "Describe the role of chemical digestion.",
+            "markScheme": [
+              "Breaks large molecules into small molecules (one mark).",
+              "Small molecules can be absorbed (one mark).",
+              "Changes insoluble molecules into soluble molecules (one mark)."
+            ],
+            "guidance": [
+              "Describe the changes in size and solubility, then why they are needed for absorption."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-43-1(b)(ii)",
+            "label": "1(b)(ii)",
+            "marks": 1,
+            "prompt": "Maltose is digested by maltase. State the name of the product of this reaction.",
+            "markScheme": [
+              "Glucose."
+            ],
+            "guidance": [
+              "Name the product rather than another enzyme."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-43-1(b)(iii)",
+            "label": "1(b)(iii)",
+            "marks": 1,
+            "prompt": "Describe where maltose is digested in the small intestine.",
+            "markScheme": [
+              "At the epithelial lining/epithelial cells of the small intestine or villi, including their membranes."
+            ],
+            "guidance": [
+              "Give the location on the intestinal epithelium; repeating only “small intestine” is insufficient."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "mj25-43-1(b)(iv)",
+            "label": "1(b)(iv)",
+            "marks": 6,
+            "prompt": "Explain why amylase digests starch in the small intestine but does not digest starch in the stomach.",
+            "markScheme": [
+              "Any six: the stomach produces/contains gastric juice or hydrochloric acid; stomach conditions are acidic/low pH; acid denatures amylase; the active site changes shape; it is no longer complementary to starch; enzyme-substrate complexes cannot form; bile (or pancreatic juice) is released into the small intestine/duodenum; bile is alkaline; it neutralises the acidic mixture; a suitable pH for amylase is established in the small intestine."
+            ],
+            "guidance": [
+              "Explain the effect of low pH on the active site and then how intestinal conditions permit enzyme activity. Maximum six marks."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 8,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Gas exchange, breathing and respiration",
+        "chapterIds": [
+          11,
+          12
+        ],
+        "context": "Alveoli are the gas exchange surface in humans. Figure 2.1 shows the human breathing system, including muscles P, Q and S.",
+        "parts": [
+          {
+            "id": "mj25-43-2(a)",
+            "label": "2(a)",
+            "marks": 3,
+            "prompt": "State three features of alveoli that make them an effective gas exchange surface.",
+            "markScheme": [
+              "Any three: large surface area; thin wall/surface, one-cell thickness or short diffusion distance; good blood supply/network of capillaries; good ventilation with air."
+            ],
+            "guidance": [
+              "Give three distinct structural or functional features from the gas exchange surface."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-43-2(b)(i)",
+            "label": "2(b)(i)",
+            "marks": 1,
+            "prompt": "Three muscles involved in inspiration are labelled P, Q and S in Figure 2.1. Identify the letters that label the muscles which contract during inspiration.",
+            "markScheme": [
+              "P AND S (both required for one mark)."
+            ],
+            "guidance": [
+              "Use the labels for the external intercostal muscles and diaphragm."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig2-1.png",
+                "label": "Figure 2.1",
+                "alt": "Original human breathing-system diagram with cartilage and rib labels, and muscle labels P, Q and S. Complete trachea, lung, rib-cage and diaphragm outlines and label leader lines retained.",
+                "caption": "Figure 2.1 · 0610/43/M/J/25, printed page 6. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-2(b)(ii)",
+            "label": "2(b)(ii)",
+            "marks": 1,
+            "prompt": "State the function of cartilage in the breathing system.",
+            "markScheme": [
+              "Keeps the trachea/bronchi/airway open, or prevents their collapse."
+            ],
+            "guidance": [
+              "Relate cartilage support to maintaining an open airway."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig2-1.png",
+                "label": "Figure 2.1",
+                "alt": "Original human breathing-system diagram with cartilage and rib labels, and muscle labels P, Q and S. Complete trachea, lung, rib-cage and diaphragm outlines and label leader lines retained.",
+                "caption": "Figure 2.1 · 0610/43/M/J/25, printed page 6. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-2(c)(i)",
+            "label": "2(c)(i)",
+            "marks": 2,
+            "prompt": "State the balanced chemical equation for aerobic respiration.",
+            "markScheme": [
+              "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O.",
+              "One mark for correct reactant and product molecules; one for balancing the correct equation."
+            ],
+            "guidance": [
+              "Use chemical formulae and check that each element has equal numbers of atoms on both sides."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-43-2(c)(ii)",
+            "label": "2(c)(ii)",
+            "marks": 3,
+            "prompt": "During physical activity breathing changes. Explain the mechanism that links increased physical activity to the changes in breathing.",
+            "markScheme": [
+              "Any three: increased carbon dioxide in the blood; the brain detects the higher blood carbon dioxide; increased impulses to breathing muscles; increased contraction of breathing muscles; adrenaline is released; breathing rate and depth increase."
+            ],
+            "guidance": [
+              "Connect the change in blood carbon dioxide to detection, nervous impulses and breathing-muscle activity. Maximum three marks."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 9,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Blood glucose control and adrenaline",
+        "chapterIds": [
+          13,
+          12,
+          11
+        ],
+        "context": "Blood glucose concentration increases after a carbohydrate-containing meal. A scientist also investigated glucose injection in healthy people; the injection was given at 0 minutes and Figure 3.1 shows the results.",
+        "parts": [
+          {
+            "id": "mj25-43-3(a)",
+            "label": "3(a)",
+            "marks": 4,
+            "prompt": "Complete the four blanks in order: Blood glucose concentration increases after a person eats a meal containing carbohydrates. This causes the _____ to release insulin. Insulin causes the _____ to remove glucose from the blood and convert it into _____. The control of blood glucose concentration is an example of _____.",
+            "markScheme": [
+              "One mark per blank, in order: pancreas; liver; glycogen; negative feedback/homeostasis."
+            ],
+            "guidance": [
+              "Distinguish the hormone-producing organ, target organ, storage carbohydrate and control principle."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "mj25-43-3(b)",
+            "label": "3(b)",
+            "marks": 2,
+            "prompt": "Outline the treatment of type 1 diabetes.",
+            "markScheme": [
+              "Any two: monitor blood glucose; insulin injections/pump; artificial pancreas; count dietary carbohydrates; match food/carbohydrate intake to activity; maintain a healthy weight; pancreas/islet-cell transplant; another valid point such as consuming glucose/sugar if blood glucose is low."
+            ],
+            "guidance": [
+              "Give two distinct measures. For insulin treatment, state how it is delivered."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "mj25-43-3(c)",
+            "label": "3(c)",
+            "marks": 3,
+            "prompt": "Using Figure 3.1, calculate the percentage change in blood glucose concentration from 5 minutes after the injection to 30 minutes after the injection. Give your answer to two significant figures.",
+            "markScheme": [
+              "(−)43%. The published scheme accepts the magnitude with or without the minus sign.",
+              "Three stages: read 210 and 120 mg per 100 cm³ from the graph; calculate ((120 − 210) ÷ 210) × 100 = −42.857…%; round correctly to two significant figures.",
+              "Allow error carried forward from the preceding marking stage. A correct final answer receives full credit."
+            ],
+            "guidance": [
+              "Use the 5-minute concentration as the original value. The concentration decreases."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original graph of blood glucose concentration in mg per 100 cubic centimetres against time after injection in minutes. Vertical scale 0 to 300 and horizontal scale 0 to 70, grid, plotted curve and all axes and labels retained.",
+                "caption": "Figure 3.1 · 0610/43/M/J/25, printed page 9. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-3(d)",
+            "label": "3(d)",
+            "marks": 3,
+            "prompt": "Adrenaline also affects blood glucose concentration. Suggest how this is an advantage for the “fight or flight” response.",
+            "markScheme": [
+              "Any three: adrenaline causes breakdown/conversion of glycogen/stored carbohydrate; blood glucose concentration rises; glucose is used in respiration to release energy; energy is used for muscle contraction; another valid point such as increased glucose uptake by cells."
+            ],
+            "guidance": [
+              "Link mobilisation of the glucose store to energy release and muscle activity. Maximum three marks."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 10,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Hydrophytes, leaf structure and mineral nutrition",
+        "chapterIds": [
+          6,
+          8,
+          3,
+          1,
+          11,
+          4
+        ],
+        "context": "Figure 4.1 shows a water lily, Nymphaea alba, in a lake. Figure 4.2 is a cross-section of part of its leaf. Table 4.1 compares stomatal density and habitat in two hydrophytes. Figure 4.3 shows rice, Oryza sativa, a monocotyledonous crop grown in flooded fields in waterlogged soil.",
+        "parts": [
+          {
+            "id": "mj25-43-4(a)(i)",
+            "label": "4(a)(i)",
+            "marks": 2,
+            "prompt": "Identify tissue B and tissue C labelled in Figure 4.2.",
+            "markScheme": [
+              "B: palisade mesophyll (one mark).",
+              "C: lower epidermis (one mark)."
+            ],
+            "guidance": [
+              "Use the labelled tissue brackets in the original photomicrograph."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig4-1.png",
+                "label": "Figure 4.1",
+                "alt": "Original photograph of a water lily, Nymphaea alba, in a lake. Complete photograph and figure label retained.",
+                "caption": "Figure 4.1 · 0610/43/M/J/25, printed page 10. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-mj25-43-fig4-2.png",
+                "label": "Figure 4.2",
+                "alt": "Original photomicrograph of part of a water lily leaf in cross-section. Complete photograph, labels A, B, C and D, brackets and leader lines retained.",
+                "caption": "Figure 4.2 · 0610/43/M/J/25, printed page 10. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(a)(ii)",
+            "label": "4(a)(ii)",
+            "marks": 2,
+            "prompt": "Describe two functions in water lilies of the area labelled D in Figure 4.2.",
+            "markScheme": [
+              "Any two: diffusion of gases for photosynthesis/respiration; diffusion of water vapour for transpiration; buoyancy/allowing the leaf to float to obtain more light."
+            ],
+            "guidance": [
+              "Describe functions of the air space rather than naming an adjacent tissue."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig4-2.png",
+                "label": "Figure 4.2",
+                "alt": "Original photomicrograph of part of a water lily leaf in cross-section. Complete photograph, labels A, B, C and D, brackets and leader lines retained.",
+                "caption": "Figure 4.2 · 0610/43/M/J/25, printed page 10. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(a)(iii)",
+            "label": "4(a)(iii)",
+            "marks": 2,
+            "prompt": "A green pigment is found in tissue B in Figure 4.2. Describe the function of this pigment.",
+            "markScheme": [
+              "Any two: traps light energy; transfers energy from light into chemical energy; provides energy for carbohydrate synthesis."
+            ],
+            "guidance": [
+              "Explain what chlorophyll does with energy rather than only naming photosynthesis."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig4-2.png",
+                "label": "Figure 4.2",
+                "alt": "Original photomicrograph of part of a water lily leaf in cross-section. Complete photograph, labels A, B, C and D, brackets and leader lines retained.",
+                "caption": "Figure 4.2 · 0610/43/M/J/25, printed page 10. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(a)(iv)",
+            "label": "4(a)(iv)",
+            "marks": 2,
+            "prompt": "Water lilies have a very thin cuticle compared with a plant growing on land. Explain how this is an adaptation for water lilies.",
+            "markScheme": [
+              "Any two: little need to prevent water loss; carbon dioxide uptake is less restricted; fewer resources are used to make the cuticle; more light penetrates; light reaches the palisade mesophyll; another valid point such as less need for leaf rigidity."
+            ],
+            "guidance": [
+              "Relate the thin cuticle to the aquatic habitat and its effects on resource use, light or gas movement."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig4-1.png",
+                "label": "Figure 4.1",
+                "alt": "Original photograph of a water lily, Nymphaea alba, in a lake. Complete photograph and figure label retained.",
+                "caption": "Figure 4.1 · 0610/43/M/J/25, printed page 10. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(b)(i)",
+            "label": "4(b)(i)",
+            "marks": 1,
+            "prompt": "Convert the stomatal density of the upper leaf surface of the water lily in Table 4.1 to stomata per cm².",
+            "markScheme": [
+              "57 300 stomata per cm²."
+            ],
+            "guidance": [
+              "One square centimetre contains 100 square millimetres, so multiply 573 by 100."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-table4-1.png",
+                "label": "Table 4.1",
+                "alt": "Original hydrophyte table: pondweed lives under water and has zero stomata per square millimetre on both leaf surfaces. Water lily leaves are on the water surface; stomatal density is 573 per square millimetre on the upper surface and zero on the lower surface.",
+                "caption": "Table 4.1 · 0610/43/M/J/25, printed page 12. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(b)(ii)",
+            "label": "4(b)(ii)",
+            "marks": 4,
+            "prompt": "Using the data in Table 4.1, explain the stomatal density found in the two different hydrophytes.",
+            "markScheme": [
+              "Any four: submerged pondweed has no need for stomata to admit air; oxygen and carbon dioxide diffuse into its leaves/cells from the water; water lily has stomata only on the upper surface; its lower surface is on/under the water; water lily has a constant water supply/no risk of wilting."
+            ],
+            "guidance": [
+              "Explain both the absence of stomata in submerged pondweed and their distribution in the floating water-lily leaf."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-table4-1.png",
+                "label": "Table 4.1",
+                "alt": "Original hydrophyte table: pondweed lives under water and has zero stomata per square millimetre on both leaf surfaces. Water lily leaves are on the water surface; stomatal density is 573 per square millimetre on the upper surface and zero on the lower surface.",
+                "caption": "Table 4.1 · 0610/43/M/J/25, printed page 12. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(c)(i)",
+            "label": "4(c)(i)",
+            "marks": 1,
+            "prompt": "Identify a characteristic visible in Figure 4.3 that can be used to classify rice as a monocotyledonous plant.",
+            "markScheme": [
+              "Any one: thin/strap-shaped leaves; parallel veins."
+            ],
+            "guidance": [
+              "Use a visible leaf characteristic from the photograph."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig4-3.png",
+                "label": "Figure 4.3",
+                "alt": "Original photograph of rice, Oryza sativa, grown in flooded fields in waterlogged soil. Complete photograph and figure label retained.",
+                "caption": "Figure 4.3 · 0610/43/M/J/25, printed page 13. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-4(c)(ii)",
+            "label": "4(c)(ii)",
+            "marks": 3,
+            "prompt": "Waterlogged soil contains very low concentrations of oxygen. Suggest how this limits the amount of proteins a plant can make.",
+            "markScheme": [
+              "Any three: reduced aerobic respiration; less energy for active transport; fewer nitrate ions absorbed; fewer amino acids available to make protein; less energy for protein synthesis; more denitrifying bacteria; fewer nitrogen-fixing bacteria; fewer nitrate ions in the soil."
+            ],
+            "guidance": [
+              "Explain a chain from limited oxygen to respiration, mineral uptake or soil nitrogen availability and then protein production. Maximum three marks."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Antibiotics, fungi and fermentation",
+        "chapterIds": [
+          10,
+          1,
+          20,
+          11,
+          5
+        ],
+        "context": "Penicillin is an antibiotic produced by Penicillium chrysogenum, shown in Figure 5.1. Penicillin can be made in a fermenter such as the one in Figure 5.2.",
+        "parts": [
+          {
+            "id": "mj25-43-5(a)(i)",
+            "label": "5(a)(i)",
+            "marks": 1,
+            "prompt": "State the type of organism that antibiotics are used to kill.",
+            "markScheme": [
+              "Bacteria/prokaryotes."
+            ],
+            "guidance": [
+              "Identify the cellular group targeted by antibiotics."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-43-5(a)(ii)",
+            "label": "5(a)(ii)",
+            "marks": 2,
+            "prompt": "It is important to try to limit the development of antibiotic resistance. Describe ways of limiting its development.",
+            "markScheme": [
+              "Any two: use antibiotics only for bacterial infections/when essential; use an appropriate antibiotic; another valid measure.",
+              "The published scheme gives examples including completing the course, a shorter course, reducing livestock use, taking the full dose and not sharing antibiotics. Course length and dose should follow the prescription. Maximum two marks."
+            ],
+            "guidance": [
+              "Give two distinct ways to reduce unnecessary or inappropriate antibiotic exposure."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-43-5(b)(i)",
+            "label": "5(b)(i)",
+            "marks": 1,
+            "prompt": "State what Penicillium in the scientific name Penicillium chrysogenum represents in the binomial system.",
+            "markScheme": [
+              "Genus."
+            ],
+            "guidance": [
+              "The first word in a binomial name gives its genus."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-43-5(b)(ii)",
+            "label": "5(b)(ii)",
+            "marks": 1,
+            "prompt": "Using Figure 5.1, identify the kingdom that contains Penicillium chrysogenum.",
+            "markScheme": [
+              "Fungus/fungi."
+            ],
+            "guidance": [
+              "Use the hyphae and chitin-containing cell wall as evidence for the kingdom."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original diagram of Penicillium chrysogenum labelled spore, cell wall made of chitin, and hypha. Complete diagram and label leader lines retained.",
+                "caption": "Figure 5.1 · 0610/43/M/J/25, printed page 15. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-5(c)(i)",
+            "label": "5(c)(i)",
+            "marks": 1,
+            "prompt": "State the name of one other product made in a fermenter.",
+            "markScheme": [
+              "Any one: insulin; mycoprotein; ethanol or another named alcohol; carbon dioxide; amino acids; hormones; proteins; factor VIII; another valid fermentation product."
+            ],
+            "guidance": [
+              "Give a product other than penicillin."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "mj25-43-5(c)(ii)",
+            "label": "5(c)(ii)",
+            "marks": 1,
+            "prompt": "Gas X in Figure 5.2 is needed for producing penicillin. State the name of gas X.",
+            "markScheme": [
+              "Oxygen."
+            ],
+            "guidance": [
+              "Identify the gas needed for aerobic respiration by the microorganism."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig5-2.png",
+                "label": "Figure 5.2",
+                "alt": "Original fermenter diagram labelled Penicillium, amino acids and carbohydrates; water at inlet and outlet; thermometer; gas X; stirrer. Complete vessel, pipes, arrows and labels retained.",
+                "caption": "Figure 5.2 · 0610/43/M/J/25, printed page 16. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-5(c)(iii)",
+            "label": "5(c)(iii)",
+            "marks": 5,
+            "prompt": "The concentration of gas X is one condition that must be controlled to ensure penicillin is produced. State the other conditions required and describe how they are controlled in the fermenter.",
+            "markScheme": [
+              "Any five distinct marking points: monitoring; temperature; water jacket/water bath; pH; carbon dioxide can reduce pH; buffer to control pH; keep pH/temperature suitable for enzyme activity; nutrient supply; removal of carbon dioxide/waste products; stirrer distributes temperature/pH/nutrients/oxygen/microorganisms evenly; regulation of gas pressure; vent/exhaust; sealed vessel prevents contamination.",
+              "Each listed semicolon-separated point corresponds to one possible mark, maximum five. Different substances or conditions distributed by the stirrer form a single stirring point."
+            ],
+            "guidance": [
+              "Connect conditions to control methods, for example temperature to a water jacket and pH to a buffer. The question asks for conditions other than gas X concentration."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 13,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig5-2.png",
+                "label": "Figure 5.2",
+                "alt": "Original fermenter diagram labelled Penicillium, amino acids and carbohydrates; water at inlet and outlet; thermometer; gas X; stirrer. Complete vessel, pipes, arrows and labels retained.",
+                "caption": "Figure 5.2 · 0610/43/M/J/25, printed page 16. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-5(d)",
+            "label": "5(d)",
+            "marks": 1,
+            "prompt": "State the name of the organism used in bread-making and biofuel production.",
+            "markScheme": [
+              "Yeast."
+            ],
+            "guidance": [
+              "Name the microorganism used for alcoholic fermentation."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 13,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Deforestation and the carbon cycle",
+        "chapterIds": [
+          19,
+          18
+        ],
+        "context": "Figure 6.1 compares forest cover on an island in 1982 and 2013. Figure 6.2 shows the carbon cycle, including three labelled processes.",
+        "parts": [
+          {
+            "id": "mj25-43-6(a)(i)",
+            "label": "6(a)(i)",
+            "marks": 2,
+            "prompt": "Describe the change in land covered by forest between 1982 and 2013 in Figure 6.1.",
+            "markScheme": [
+              "Any two: less land covered by forest; forest is more fragmented; less forest around the coast."
+            ],
+            "guidance": [
+              "Compare the amount and distribution of shaded forest in the two maps."
+            ],
+            "sourcePage": 18,
+            "markSchemePage": 14,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original diagrams of an island in 1982 and 2013 with the key for land covered by forest. Complete island outlines, shaded regions, dates and key retained.",
+                "caption": "Figure 6.1 · 0610/43/M/J/25, printed page 18. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-6(a)(ii)",
+            "label": "6(a)(ii)",
+            "marks": 2,
+            "prompt": "State two possible causes for the change in land covered by forest in Figure 6.1.",
+            "markScheme": [
+              "Any two: housing/urbanisation/industrialisation; agriculture; logging for timber/fuel/paper; extracting natural resources; wildfires; climate change/global warming/drought; disease/invasive species."
+            ],
+            "guidance": [
+              "Give two distinct possible causes of forest loss."
+            ],
+            "sourcePage": 19,
+            "markSchemePage": 14,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original diagrams of an island in 1982 and 2013 with the key for land covered by forest. Complete island outlines, shaded regions, dates and key retained.",
+                "caption": "Figure 6.1 · 0610/43/M/J/25, printed page 18. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-6(b)",
+            "label": "6(b)",
+            "marks": 3,
+            "prompt": "State the names of the processes labelled T, U and V in Figure 6.2.",
+            "markScheme": [
+              "T: photosynthesis (one mark).",
+              "U: respiration / aerobic respiration (one mark).",
+              "V: combustion (one mark)."
+            ],
+            "guidance": [
+              "Follow each labelled arrow and identify the process moving carbon between those stores."
+            ],
+            "sourcePage": 19,
+            "markSchemePage": 14,
+            "images": [
+              {
+                "src": "images/paper4-mj25-43-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original carbon-cycle diagram containing atmospheric carbon dioxide, plants, animals, decomposers and fossil fuels, with process labels T, U and V. All boxes, connecting arrows and arrowheads retained.",
+                "caption": "Figure 6.2 · 0610/43/M/J/25, printed page 19. © Cambridge University Press & Assessment 2025. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "mj25-43-6(c)(i)",
+            "label": "6(c)(i)",
+            "marks": 3,
+            "prompt": "Deforestation is linked to an increase in global temperatures. Explain how deforestation can contribute to this increase.",
+            "markScheme": [
+              "Any three: less photosynthesis removes less atmospheric carbon dioxide; decomposition of felled trees adds carbon dioxide; combustion of felled trees adds carbon dioxide; carbon dioxide traps infrared/long-wavelength radiation emitted from the ground; enhanced greenhouse effect."
+            ],
+            "guidance": [
+              "Connect a change in atmospheric carbon dioxide to retention of outgoing infrared radiation and increased warming."
+            ],
+            "sourcePage": 20,
+            "markSchemePage": 14,
+            "images": []
+          },
+          {
+            "id": "mj25-43-6(c)(ii)",
+            "label": "6(c)(ii)",
+            "marks": 3,
+            "prompt": "Describe other undesirable effects of deforestation.",
+            "markScheme": [
+              "Any three: habitat loss; species extinction; reduced biodiversity; disrupted nutrient cycling; disrupted energy flow/food webs/food chains; loss of possible fuels/crop plants/drugs/genes; soil erosion/infertile land; more runoff/flooding; less transpiration/less atmospheric water vapour; less rainfall/drought/desertification; another valid effect such as loss of tourism or natural beauty."
+            ],
+            "guidance": [
+              "Give effects other than the global temperature increase already covered in 6(c)(i). Maximum three marks."
+            ],
+            "sourcePage": 20,
+            "markSchemePage": 15,
+            "images": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0610-on24-41",
+    "code": "0610/41/O/N/24",
+    "session": "October/November 2024",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_41.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_41.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Leaf structure and water transport",
+        "chapterIds": [
+          6,
+          8,
+          3
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-41-1(a)(i)",
+            "label": "1(a)(i)",
+            "marks": 3,
+            "prompt": "Use Figure 1.1 to identify the letter where (1) gas exchange is controlled, (2) most photosynthesis occurs and (3) spongy mesophyll cells are found.",
+            "markScheme": [
+              "In order: L; N; M. One mark each."
+            ],
+            "guidance": [
+              "Identify stomata/guard cells, palisade mesophyll and spongy mesophyll in the original photomicrograph."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original leaf cross-section photomicrograph retaining all label letters J, K, L, M and N and their leader lines.",
+                "caption": "Figure 1.1 · 0610/41/O/N/24, printed page 2. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-1(a)(ii)",
+            "label": "1(a)(ii)",
+            "marks": 1,
+            "prompt": "Draw a circle on Figure 1.1 around a vascular bundle. Work on a printout or paper, then record placement notes here.",
+            "markScheme": [
+              "A circle correctly encloses a vascular bundle. One mark, assessed manually."
+            ],
+            "guidance": [
+              "Locate the vein containing xylem and phloem rather than circling mesophyll or the whole leaf."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig1-1.png",
+                "label": "Figure 1.1",
+                "alt": "Original leaf cross-section photomicrograph retaining all label letters J, K, L, M and N and their leader lines.",
+                "caption": "Figure 1.1 · 0610/41/O/N/24, printed page 2. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-41-1(a)(iii)",
+            "label": "1(a)(iii)",
+            "marks": 2,
+            "prompt": "Name two substances moved only by translocation in the vascular bundle.",
+            "markScheme": [
+              "Sucrose; amino acids."
+            ],
+            "guidance": [
+              "Name the phloem-transported organic solutes, not water or mineral ions."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-41-1(b)",
+            "label": "1(b)",
+            "marks": 3,
+            "prompt": "Explain how xylem vessels are adapted to their functions.",
+            "markScheme": [
+              "Any three: thick walls; lignin; lignin supports the vessel; no cell contents; cells join end to end as long continuous tubes/no cross-walls; transport water; pits allow sideways movement or bypass blockages; narrow vessels help maintain the water column."
+            ],
+            "guidance": [
+              "Link structure to support or uninterrupted water flow. Lignin strengthens the walls while the lumen remains hollow."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-41-1(c)",
+            "label": "1(c)",
+            "marks": 4,
+            "prompt": "Describe water movement from the soil to the air spaces in a leaf.",
+            "markScheme": [
+              "Any four: water enters root hair cells by osmosis; crosses root cortex; enters root xylem; a water column moves up stem xylem; cohesion holds molecules together; water moves from leaf xylem into mesophyll cells; it evaporates from mesophyll surfaces into air spaces."
+            ],
+            "guidance": [
+              "Follow the entire pathway and distinguish osmosis of liquid water from evaporation into leaf air spaces."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-41-1(d)",
+            "label": "1(d)",
+            "marks": 2,
+            "prompt": "Explain why plants need nitrate ions.",
+            "markScheme": [
+              "Any two: to make amino acids; amino acids form proteins; proteins are needed for growth."
+            ],
+            "guidance": [
+              "Connect the nitrogen supply to synthesis of amino acids and proteins, then growth."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 6,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "STIs, puberty and genetic variation",
+        "chapterIds": [
+          10,
+          15,
+          16,
+          17
+        ],
+        "context": "Chlamydia is a sexually transmitted infection caused by a bacterium. Figure 2.1 gives cases in a country in 2018.",
+        "parts": [
+          {
+            "id": "on24-41-2(a)(i)",
+            "label": "2(a)(i)",
+            "marks": 3,
+            "prompt": "Use Figure 2.1 to calculate the percentage decrease in chlamydia cases between ages 20–24 and 25–29. Give two significant figures.",
+            "markScheme": [
+              "Read 3900 and 1600 cases per 100000.",
+              "(3900−1600)÷3900×100 =58.974…%.",
+              "59% decrease, to two significant figures. One mark per stage; error carried forward applies."
+            ],
+            "guidance": [
+              "Divide the change by the original younger-group value, not by the later value."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 7,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig2-1.png",
+                "label": "Figure 2.1",
+                "alt": "Original chlamydia bar chart, with complete age-group and cases-per-100000 axes, all bars and the scale.",
+                "caption": "Figure 2.1 · 0610/41/O/N/24, printed page 4. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-2(a)(ii)",
+            "label": "2(a)(ii)",
+            "marks": 4,
+            "prompt": "Describe ways to control the spread of STIs such as chlamydia.",
+            "markScheme": [
+              "Any four: abstain from sexual contact; use condoms; testing/screening; contact tracing; education about transmission/prevention; antibiotics for bacterial infection; avoid sharing needles; screened transfusion blood. The scheme also accepts vaccination as a general STI control where an appropriate vaccine exists."
+            ],
+            "guidance": [
+              "Give distinct control measures. Chlamydia is bacterial; vaccination is not a routine chlamydia-specific control, although vaccines exist for some other sexually transmitted infections."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-41-2(b)(i)",
+            "label": "2(b)(i)",
+            "marks": 1,
+            "prompt": "Name the female reproductive organ that produces oestrogen.",
+            "markScheme": [
+              "Ovary."
+            ],
+            "guidance": [
+              "Name the hormone-producing organ rather than the uterus."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-41-2(b)(ii)",
+            "label": "2(b)(ii)",
+            "marks": 3,
+            "prompt": "Describe the role of oestrogen at puberty.",
+            "markScheme": [
+              "Any three: development of female secondary sexual characteristics; start of menstrual cycles; wider hips; breast growth; pubic/body hair development."
+            ],
+            "guidance": [
+              "Describe changes rather than naming a different hormone."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-41-2(c)",
+            "label": "2(c)",
+            "marks": 6,
+            "prompt": "Complete in order: Bacteria can be killed by drugs called ______. Drug resistance develops by ______ selection. Gene mutations are random changes in the ______ of DNA bases and form new ______. Mutation rates can increase with ______ radiation and some chemicals. Another source of variation in animals and plants is nuclear division called ______.",
+            "markScheme": [
+              "In order: antibiotics; natural; sequence; alleles; ionising; meiosis. One mark per gap."
+            ],
+            "guidance": [
+              "Distinguish a mutation creating a new allele from selection increasing the frequency of an existing resistant allele."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 7,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Bacteria, cholera and vaccination",
+        "chapterIds": [
+          1,
+          2,
+          10,
+          3,
+          20
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-41-3(a)(i)",
+            "label": "3(a)(i)",
+            "marks": 1,
+            "prompt": "Name the kingdom containing the pathogen in Figure 3.1.",
+            "markScheme": [
+              "Prokaryote."
+            ],
+            "guidance": [
+              "The diagram shows a bacterium."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original bacterium with all eight labels A to H, complete envelope, internal structures and flagellum.",
+                "caption": "Figure 3.1 · 0610/41/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-3(a)(ii)",
+            "label": "3(a)(ii)",
+            "marks": 5,
+            "prompt": "Complete Table 3.1 using Figure 3.1. Give every row’s missing name, function/use and identifying letter.",
+            "markScheme": [
+              "One mark per complete correct row.",
+              "Flagellum: movement; B.",
+              "G: cell membrane; controls entry and exit of substances.",
+              "Protein synthesis: ribosome; D.",
+              "Cell wall: support or prevention of bursting; A.",
+              "Genetic modification: plasmid; C."
+            ],
+            "guidance": [
+              "Both missing cells in a row must be correct. Follow original label lines carefully."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig3-1.png",
+                "label": "Figure 3.1",
+                "alt": "Original bacterium with all eight labels A to H, complete envelope, internal structures and flagellum.",
+                "caption": "Figure 3.1 · 0610/41/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              },
+              {
+                "src": "images/paper4-on24-41-table3-1.png",
+                "label": "Table 3.1",
+                "alt": "Original incomplete five-row table of bacterial structures, functions or uses and letters. Given entries are flagellum, G, protein synthesis, cell wall and genetic modification; other answer cells are blank.",
+                "caption": "Table 3.1 · 0610/41/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-3(b)",
+            "label": "3(b)",
+            "marks": 1,
+            "prompt": "Describe how a person becomes infected with cholera.",
+            "markScheme": [
+              "Drinking water contaminated with the pathogen."
+            ],
+            "guidance": [
+              "Identify contaminated water as the transmission route."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-41-3(c)",
+            "label": "3(c)",
+            "marks": 4,
+            "prompt": "Explain how cholera causes dehydration.",
+            "markScheme": [
+              "Any four: bacteria produce toxin; toxin causes chloride-ion secretion; into the small-intestine lumen; cells have higher water potential than the lumen; water leaves cells/blood; it moves down a water-potential gradient; by osmosis through partially permeable membranes; watery diarrhoea occurs; water is lost from the body."
+            ],
+            "guidance": [
+              "Trace toxin to ion secretion and osmotic water loss. Do not claim the bacteria physically absorb all the water."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-41-3(d)",
+            "label": "3(d)",
+            "marks": 6,
+            "prompt": "Outline vaccination and explain how it can prevent disease spread.",
+            "markScheme": [
+              "Any six: active/long-term immunity; vaccine contains weakened/dead pathogen or its components; pathogen antigens; antigens stimulate immune response; lymphocytes make antibodies; antibodies bind antigens; complementary/specific binding; memory cells form; mass vaccination; transmission between people is interrupted."
+            ],
+            "guidance": [
+              "Describe the individual immune response and then explain the population-level reduction in transmission."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 9,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Reflexes and synapses",
+        "chapterIds": [
+          12
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-41-4(a)",
+            "label": "4(a)",
+            "marks": 1,
+            "prompt": "Complete: the ______ nervous system consists of brain and spinal cord; the ______ nervous system consists of nerves outside them.",
+            "markScheme": [
+              "Central; peripheral. Both needed for the one mark."
+            ],
+            "guidance": [
+              "Distinguish the two major divisions of the nervous system."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-41-4(b)(i)",
+            "label": "4(b)(i)",
+            "marks": 2,
+            "prompt": "Use Figure 4.1 to order the reflex arc. T is already first and R last. Give all seven letters in order.",
+            "markScheme": [
+              "T → P → S → Q → N → M → R.",
+              "One mark for P first after T and M immediately before R; one for S,Q,N in that relative order, even if P/M are misplaced."
+            ],
+            "guidance": [
+              "Follow stimulus, receptor, sensory neurone, relay neurone, motor neurone, effector, response."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-reflex4.png",
+                "label": "Figure 4.1",
+                "alt": "Original reflex-arc key: M effector, N motor neurone, P receptor cell, Q relay neurone, R response, S sensory neurone and T stimulus.",
+                "caption": "Figure 4.1 · 0610/41/O/N/24, printed page 10. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-on24-41-sequence4.png",
+                "label": "Sequence grid",
+                "alt": "Original seven-box reflex sequence with T supplied first and R supplied last.",
+                "caption": "Sequence grid · 0610/41/O/N/24, printed page 10. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-4(b)(ii)",
+            "label": "4(b)(ii)",
+            "marks": 2,
+            "prompt": "State two stimuli detected by skin.",
+            "markScheme": [
+              "Any two: touch; temperature; pressure; pain."
+            ],
+            "guidance": [
+              "Give stimuli, not the names of receptors or sense organs."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-41-4(b)(iii)",
+            "label": "4(b)(iii)",
+            "marks": 1,
+            "prompt": "Name an effector in the pupil reflex.",
+            "markScheme": [
+              "Circular or radial iris muscle; iris accepted."
+            ],
+            "guidance": [
+              "The effector is muscle tissue that changes pupil diameter."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-41-4(c)",
+            "label": "4(c)",
+            "marks": 5,
+            "prompt": "Describe and explain why impulses pass in only one direction between neurones.",
+            "markScheme": [
+              "Direction-specific points: only the first neurone releases neurotransmitter; only the next neurone has complementary receptors.",
+              "Plus general transmission points: neurotransmitter molecules; release from vesicles; into the synaptic gap; this junction is a synapse; diffusion across the gap; complementary receptor shape; binding to receptors; stimulation of a new impulse.",
+              "Maximum five in total, with at most four general transmission points. At least one direction-specific point is needed for full marks."
+            ],
+            "guidance": [
+              "Explain the unequal distribution of release machinery and receptors, not just the stages of transmission."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 10,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Sex-linked colour vision",
+        "chapterIds": [
+          16
+        ],
+        "context": "The colour-vision gene is X-linked. B denotes normal colour vision and b red-green colour blindness.",
+        "parts": [
+          {
+            "id": "on24-41-5(a)",
+            "label": "5(a)",
+            "marks": 2,
+            "prompt": "Use Figure 5.1 to explain why all male children of parents 1 and 2 are red-green colour-blind.",
+            "markScheme": [
+              "Any two: parent 2 is homozygous recessive; sons receive their X chromosome only from parent 2; a male has one X so a single recessive allele is expressed; the characteristic is sex-linked."
+            ],
+            "guidance": [
+              "A son inherits his father’s Y and mother’s X. Use the mother’s genotype in this pedigree."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig5-1.png",
+                "label": "Figure 5.1",
+                "alt": "Original colour-vision pedigree, individuals 1 to 15, with the complete key distinguishing sex and affected or unaffected status.",
+                "caption": "Figure 5.1 · 0610/41/O/N/24, printed page 12. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-5(b)",
+            "label": "5(b)",
+            "marks": 5,
+            "prompt": "Parent 3 is colour-blind and parent 4 has normal colour vision but is heterozygous. Complete the genetic diagram, offspring genotypes/phenotypes and probability of colour blindness.",
+            "markScheme": [
+              "Parents: XᵇY × XᴮXᵇ.",
+              "Gametes: Xᵇ,Y and Xᴮ,Xᵇ.",
+              "Offspring: XᴮXᵇ, XᴮY, XᵇXᵇ, XᵇY.",
+              "Phenotypes: normal female, normal male, colour-blind female, colour-blind male, matching the genotypes.",
+              "Probability:0.5 or 50%. One mark per stage."
+            ],
+            "guidance": [
+              "Use sex chromosomes in every genotype and include both sex and colour-vision phenotype."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 11,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-genetic5-top.png",
+                "label": "Genetic diagram — parents and gametes",
+                "alt": "Original parent labels 3 and 4, given phenotypes, blank genotype lines and gamete circles.",
+                "caption": "Genetic diagram — parents and gametes · 0610/41/O/N/24, printed page 13. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-on24-41-genetic5-bottom.png",
+                "label": "Genetic diagram — offspring",
+                "alt": "Original blank offspring genotype and phenotype table with four offspring columns and probability line.",
+                "caption": "Genetic diagram — offspring · 0610/41/O/N/24, printed page 13. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Penicillin fermentation",
+        "chapterIds": [
+          20,
+          18,
+          5,
+          11
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-41-6(a)",
+            "label": "6(a)",
+            "marks": 1,
+            "prompt": "Name the type of organism producing penicillin.",
+            "markScheme": [
+              "Fungus; Penicillium accepted."
+            ],
+            "guidance": [
+              "Penicillin is an antibiotic produced by a fungus."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "on24-41-6(b)",
+            "label": "6(b)",
+            "marks": 3,
+            "prompt": "Name growth phases X,Y and Z in Figure 6.1.",
+            "markScheme": [
+              "X:lag; Y:exponential/log; Z:stationary. One mark each."
+            ],
+            "guidance": [
+              "Match slow initial growth, rapid increase and the plateau to the phases."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig6-1.png",
+                "label": "Figure 6.1",
+                "alt": "Original fermenter biomass graph from 0 to100 hours, complete axes, plotted curve and labels X, Y and Z.",
+                "caption": "Figure 6.1 · 0610/41/O/N/24, printed page 14. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-6(c)(i)",
+            "label": "6(c)(i)",
+            "marks": 2,
+            "prompt": "Explain why air is supplied to the fermenter in Figure 6.2.",
+            "markScheme": [
+              "Microorganisms need oxygen.",
+              "For aerobic respiration."
+            ],
+            "guidance": [
+              "Link the gas to the process releasing energy."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original fermenter showing motor, paddles, water jacket and flow, temperature recorder, air filter and airflow, product outlet and tap.",
+                "caption": "Figure 6.2 · 0610/41/O/N/24, printed page 15. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-41-6(c)(ii)",
+            "label": "6(c)(ii)",
+            "marks": 3,
+            "prompt": "Explain why fermenter temperature must be controlled.",
+            "markScheme": [
+              "Any three: respiration releases heat; microbial enzymes are involved; excess heat denatures enzymes; optimum temperature is maintained; maximum product yield is obtained; overheating can kill microorganisms."
+            ],
+            "guidance": [
+              "Explain heat production, enzyme action and maintaining productive conditions."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 12,
+            "images": [
+              {
+                "src": "images/paper4-on24-41-fig6-2.png",
+                "label": "Figure 6.2",
+                "alt": "Original fermenter showing motor, paddles, water jacket and flow, temperature recorder, air filter and airflow, product outlet and tap.",
+                "caption": "Figure 6.2 · 0610/41/O/N/24, printed page 15. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-41-6(c)(iii)",
+            "label": "6(c)(iii)",
+            "marks": 2,
+            "prompt": "State the role of paddles in a fermenter.",
+            "markScheme": [
+              "Any two: mixing/stirring; uniform distribution of oxygen,nutrients or organisms; even temperature or pH."
+            ],
+            "guidance": [
+              "Mixing prevents different parts of the vessel having unsuitable conditions."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 12,
+            "images": []
+          },
+          {
+            "id": "on24-41-6(c)(iv)",
+            "label": "6(c)(iv)",
+            "marks": 2,
+            "prompt": "Name two commercial products, other than penicillin, made using fermenters.",
+            "markScheme": [
+              "Insulin; mycoprotein. Other valid commercial fermentation products are accepted."
+            ],
+            "guidance": [
+              "Give product names, not names of microorganisms or enzymes unless a valid commercial product."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 12,
+            "images": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0610-on24-42",
+    "code": "0610/42/O/N/24",
+    "session": "October/November 2024",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_42.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_42.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Chlorella, nutrition and cell transport",
+        "chapterIds": [
+          1,
+          2,
+          4,
+          7,
+          3
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-1(a)",
+            "label": "1(a)",
+            "marks": 1,
+            "prompt": "Chlorella is a genus of protoctists. What additional information is needed for its binomial name?",
+            "markScheme": [
+              "Species name."
+            ],
+            "guidance": [
+              "A binomial combines genus and species."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-42-1(b)(i)",
+            "label": "1(b)(i)",
+            "marks": 2,
+            "prompt": "Identify two structures in Figure 1.1 showing that Chlorella is not a prokaryote.",
+            "markScheme": [
+              "Nucleus; chloroplast."
+            ],
+            "guidance": [
+              "Choose membrane-bound structures absent from prokaryotic cells."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig1-1.png",
+                "label": "Figure1.1",
+                "alt": "Original Chlorella diagram with nucleus, cytoplasm, cell wall, cell membrane and chloroplast labels.",
+                "caption": "Figure1.1 · 0610/42/O/N/24, printed page 2. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-1(b)(ii)",
+            "label": "1(b)(ii)",
+            "marks": 2,
+            "prompt": "Identify two structures in Figure 1.1 found in both fungi and protoctists.",
+            "markScheme": [
+              "Any two:cytoplasm;cell wall;cell membrane;nucleus."
+            ],
+            "guidance": [
+              "Use shared structures shown in the diagram, not chloroplasts."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig1-1.png",
+                "label": "Figure1.1",
+                "alt": "Original Chlorella diagram with nucleus, cytoplasm, cell wall, cell membrane and chloroplast labels.",
+                "caption": "Figure1.1 · 0610/42/O/N/24, printed page 2. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-42-1(b)(iii)",
+            "label": "1(b)(iii)",
+            "marks": 1,
+            "prompt": "Name the two kingdoms other than fungus,prokaryote and protoctist.",
+            "markScheme": [
+              "Animal and plant; both required."
+            ],
+            "guidance": [
+              "Complete the five-kingdom classification."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-42-1(c)(i)",
+            "label": "1(c)(i)",
+            "marks": 3,
+            "prompt": "A tablet contains 5 g of Chlorella supplement. Use Table 1.1 to calculate tablets needed for the recommended daily iron intake. Give one decimal place.",
+            "markScheme": [
+              "Use 37 mg iron per 100 g and 12 mg daily intake; each 5 g tablet contains 1.85 mg.",
+              "12÷1.85=6.486… tablets.",
+              "6.5 tablets, to one decimal place. One mark per stage."
+            ],
+            "guidance": [
+              "Scale the supplement concentration to one tablet, then divide the daily requirement by the amount per tablet. Give the numerical answer requested, rather than rounding to a whole tablet."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-table1-1.png",
+                "label": "Table1.1",
+                "alt": "Original table comparing vitaminC,calcium and iron in Chlorella and Spirulina supplements, and recommended adult daily intake. All units and values retained.",
+                "caption": "Table1.1 · 0610/42/O/N/24, printed page 3. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-1(c)(ii)",
+            "label": "1(c)(ii)",
+            "marks": 4,
+            "prompt": "Explain advantages of Chlorella over Spirulina as a supplement. Use Table 1.1 data to justify your answer.",
+            "markScheme": [
+              "Any four:Chlorella contains vitaminC; vitaminC supports wound healing or immunity/prevents scurvy or bleeding gums; Chlorella contains more calcium; calcium strengthens bones/teeth or prevents rickets; correct manipulation of calcium or vitaminC data.",
+              "For example,calcium is 120 mg versus 5.10 mg per 100 g:114.9 mg more, or about 23.5 times as much."
+            ],
+            "guidance": [
+              "Link a nutrient comparison to its biological role. The table does not show Chlorella having more iron."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-table1-1.png",
+                "label": "Table1.1",
+                "alt": "Original table comparing vitaminC,calcium and iron in Chlorella and Spirulina supplements, and recommended adult daily intake. All units and values retained.",
+                "caption": "Table1.1 · 0610/42/O/N/24, printed page 3. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-42-1(c)(iii)",
+            "label": "1(c)(iii)",
+            "marks": 1,
+            "prompt": "Name a principal dietary source of vitaminC.",
+            "markScheme": [
+              "A named citrus fruit,other fruit or vegetable; for example an orange."
+            ],
+            "guidance": [
+              "Name a food rather than a nutrient or supplement brand."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-42-1(d)(i)",
+            "label": "1(d)(i)",
+            "marks": 2,
+            "prompt": "State the importance of proteins in active transport.",
+            "markScheme": [
+              "Carrier proteins are present in membranes.",
+              "They move molecules/ions from low to high concentration,using energy."
+            ],
+            "guidance": [
+              "Connect membrane carriers to movement against a concentration gradient."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-42-1(d)(ii)",
+            "label": "1(d)(ii)",
+            "marks": 1,
+            "prompt": "Name the smaller molecules that make proteins.",
+            "markScheme": [
+              "Amino acids."
+            ],
+            "guidance": [
+              "Proteins are chains of amino-acid units."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 6,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Breathing and ventilation",
+        "chapterIds": [
+          11,
+          12
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-2(a)(i)",
+            "label": "2(a)(i)",
+            "marks": 3,
+            "prompt": "Name structures X,Y and Z in Figure 2.1.",
+            "markScheme": [
+              "X:external intercostal muscle; Y:bronchiole; Z:diaphragm. One mark each."
+            ],
+            "guidance": [
+              "Follow each original label line."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 6,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig2-1.png",
+                "label": "Figure2.1",
+                "alt": "Original human gas-exchange-system diagram retaining trachea label, full lungs, ribs and labels X,Y,Z.",
+                "caption": "Figure2.1 · 0610/42/O/N/24, printed page 5. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-2(a)(ii)",
+            "label": "2(a)(ii)",
+            "marks": 2,
+            "prompt": "Name the tissue forming rings in the tracheal wall and describe its function.",
+            "markScheme": [
+              "Cartilage.",
+              "Supports the trachea/prevents its collapse."
+            ],
+            "guidance": [
+              "Identify both tissue and its supporting role."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 6,
+            "images": []
+          },
+          {
+            "id": "on24-42-2(a)(iii)",
+            "label": "2(a)(iii)",
+            "marks": 2,
+            "prompt": "Name two cell types that protect the breathing system from particles.",
+            "markScheme": [
+              "Ciliated cells; goblet cells."
+            ],
+            "guidance": [
+              "Goblet cells produce mucus and cilia move it away from the lungs."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 6,
+            "images": []
+          },
+          {
+            "id": "on24-42-2(b)",
+            "label": "2(b)",
+            "marks": 5,
+            "prompt": "Describe and explain changes during section A only of Figure 2.2.",
+            "markScheme": [
+              "Any five:thoracic pressure decreases then increases; air volume increases (a brief preceding decrease also accepted); inspiration occurs; diaphragm contracts/flattens; external intercostals contract or internal intercostals relax; ribs move up/out."
+            ],
+            "guidance": [
+              "Describe the traces during A and link the increase in volume to muscle action and falling pressure. Do not describe section B as the main answer."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 6,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig2-2.png",
+                "label": "Figure2.2",
+                "alt": "Original pressure and air-volume traces during one breath, including bracket, section labels A and B and time axis.",
+                "caption": "Figure2.2 · 0610/42/O/N/24, printed page 6. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-2(c)",
+            "label": "2(c)",
+            "marks": 3,
+            "prompt": "Complete: during physical activity,blood carbon dioxide concentration ______. This is detected by the ______. Breathing rate and ______ then increase.",
+            "markScheme": [
+              "Increases;brain;depth. One mark each."
+            ],
+            "guidance": [
+              "Identify the chemical change,its detecting organ and the ventilation response."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 6,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Kidney fluids and glucose homeostasis",
+        "chapterIds": [
+          13,
+          9,
+          16
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-3(a)(i)",
+            "label": "3(a)(i)",
+            "marks": 2,
+            "prompt": "Name fluids A and C in Figure 3.1.",
+            "markScheme": [
+              "A:blood/plasma; C:urine."
+            ],
+            "guidance": [
+              "Use the vessels,nephron and flow direction to distinguish blood from urine."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 7,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig3-1.png",
+                "label": "Figure3.1",
+                "alt": "Original nephron and associated vessels, with glomerulus, fluid labels A,B,C and flow-arrow key.",
+                "caption": "Figure3.1 · 0610/42/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-on24-42-table3-1.png",
+                "label": "Table3.1",
+                "alt": "Original percentages of water,glucose,protein,urea and ions in fluids A,B,C, retaining every value and column heading.",
+                "caption": "Table3.1 · 0610/42/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-3(a)(ii)",
+            "label": "3(a)(ii)",
+            "marks": 5,
+            "prompt": "Use Figure 3.1 and Table 3.1 to describe and explain differences between fluids A,B and C.",
+            "markScheme": [
+              "Any five:protein is only in A; filtration occurs; protein molecules are too large to enter the nephron; C has no glucose; all glucose is reabsorbed; water,urea or ion percentages are higher in C; only some water/ions are reabsorbed so excess leaves in C; urea passes into C."
+            ],
+            "guidance": [
+              "Compare the supplied percentages accurately,then explain filtration and selective reabsorption. A greater percentage of water in urine does not mean the kidney has added more total water."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 7,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig3-1.png",
+                "label": "Figure3.1",
+                "alt": "Original nephron and associated vessels, with glomerulus, fluid labels A,B,C and flow-arrow key.",
+                "caption": "Figure3.1 · 0610/42/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              },
+              {
+                "src": "images/paper4-on24-42-table3-1.png",
+                "label": "Table3.1",
+                "alt": "Original percentages of water,glucose,protein,urea and ions in fluids A,B,C, retaining every value and column heading.",
+                "caption": "Table3.1 · 0610/42/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-3(b)",
+            "label": "3(b)",
+            "marks": 6,
+            "prompt": "Outline control of blood glucose concentration.",
+            "markScheme": [
+              "Any six:negative feedback/homeostasis; pancreas detects a change; pancreas secretes insulin/glucagon; insulin lowers glucose; stimulates glucose-to-glycogen conversion; glycogen is stored in liver cells; insulin promotes cellular respiration; glucagon raises glucose; stimulates glycogen-to-glucose conversion."
+            ],
+            "guidance": [
+              "Describe the two opposite responses to high and low blood glucose and how they restore a controlled level."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-42-3(c)(i)",
+            "label": "3(c)(i)",
+            "marks": 2,
+            "prompt": "Describe a gene mutation.",
+            "markScheme": [
+              "A random change in base sequence.",
+              "In DNA."
+            ],
+            "guidance": [
+              "Specify the genetic molecule and what changes in it."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-42-3(c)(ii)",
+            "label": "3(c)(ii)",
+            "marks": 3,
+            "prompt": "Outline treatment for type 1 diabetes.",
+            "markScheme": [
+              "Any three:insulin injections/pump; monitor blood or urine glucose; control carbohydrate intake; exercise after eating; another valid treatment measure."
+            ],
+            "guidance": [
+              "Include insulin administration and monitoring,rather than simply naming insulin."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 8,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Pollination and sexual reproduction",
+        "chapterIds": [
+          14,
+          16,
+          8
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-4(a)(i)",
+            "label": "4(a)(i)",
+            "marks": 2,
+            "prompt": "Describe the term species.",
+            "markScheme": [
+              "A group of organisms that can reproduce together.",
+              "They produce fertile offspring."
+            ],
+            "guidance": [
+              "Both reproduction and offspring fertility are required."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-42-4(a)(ii)",
+            "label": "4(a)(ii)",
+            "marks": 3,
+            "prompt": "Complete Figure 4.1 on paper: draw and label one self-pollination arrow and one cross-pollination arrow,then label the structures involved.",
+            "markScheme": [
+              "Self-pollination:labelled arrow from anther to stigma on the same flower.",
+              "Cross-pollination:labelled arrow from anther of one flower to stigma of the other.",
+              "Both anther and stigma correctly labelled. One mark per criterion."
+            ],
+            "guidance": [
+              "Arrows show movement of pollen,not seeds or gamete nuclei. Record notes here and self-assess the drawing."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig4-1.png",
+                "label": "Figure4.1",
+                "alt": "Original two flowers on different plants of the same species; unlabelled pollination pathways and label lines X,Y retained.",
+                "caption": "Figure4.1 · 0610/42/O/N/24, printed page 12. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-4(a)(iii)",
+            "label": "4(a)(iii)",
+            "marks": 2,
+            "prompt": "State the functions of X and Y in Figure 4.1.",
+            "markScheme": [
+              "X:contains ovules/female gametes,site of fertilisation or seed formation,or forms fruit.",
+              "Y:protects the flower in bud."
+            ],
+            "guidance": [
+              "Follow label lines to the ovary and sepal."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig4-1.png",
+                "label": "Figure4.1",
+                "alt": "Original two flowers on different plants of the same species; unlabelled pollination pathways and label lines X,Y retained.",
+                "caption": "Figure4.1 · 0610/42/O/N/24, printed page 12. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-42-4(b)",
+            "label": "4(b)",
+            "marks": 3,
+            "prompt": "Explain why self-pollination producing offspring is sexual reproduction rather than asexual reproduction.",
+            "markScheme": [
+              "Any three:gametes/pollen and ovules are involved; haploid cells; meiosis/reduction division; fertilisation/fusion of nuclei/zygote formation; offspring can show genetic variation."
+            ],
+            "guidance": [
+              "The number of parent plants does not define sexual reproduction; fusion of gamete nuclei does."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-42-4(c)",
+            "label": "4(c)",
+            "marks": 1,
+            "prompt": "What environmental conditions are hydrophytes adapted to?",
+            "markScheme": [
+              "Aquatic/water."
+            ],
+            "guidance": [
+              "Hydrophytes live in water."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 8,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Blood groups and variation",
+        "chapterIds": [
+          16,
+          17
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-5(a)",
+            "label": "5(a)",
+            "marks": 2,
+            "prompt": "Use Figure 5.1 to state how many people have (1) XY chromosomes and (2) only one Iᴬ allele.",
+            "markScheme": [
+              "XY:4 (individuals 1,4,5,7).",
+              "Only one Iᴬ:3 (individuals 2,4,5)."
+            ],
+            "guidance": [
+              "Use both sex symbols and the inherited blood-group information in the pedigree."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig5-1.png",
+                "label": "Figure5.1",
+                "alt": "Original blood-group pedigree with nine numbered individuals, ABO phenotypes and complete male/female key.",
+                "caption": "Figure5.1 · 0610/42/O/N/24, printed page 14. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-5(b)",
+            "label": "5(b)",
+            "marks": 2,
+            "prompt": "Explain how Figure 5.1 demonstrates discontinuous variation in blood group.",
+            "markScheme": [
+              "A limited number of distinct phenotypes.",
+              "No intermediate phenotypes."
+            ],
+            "guidance": [
+              "ABO groups are separate categories rather than a continuous range."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig5-1.png",
+                "label": "Figure5.1",
+                "alt": "Original blood-group pedigree with nine numbered individuals, ABO phenotypes and complete male/female key.",
+                "caption": "Figure5.1 · 0610/42/O/N/24, printed page 14. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-42-5(c)",
+            "label": "5(c)",
+            "marks": 1,
+            "prompt": "Give one example of discontinuous variation in plants.",
+            "markScheme": [
+              "Seed shape or seed colour; another valid example accepted."
+            ],
+            "guidance": [
+              "Choose distinct categories rather than a continuously varying measurement."
+            ],
+            "sourcePage": 14,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "on24-42-5(d)",
+            "label": "5(d)",
+            "marks": 2,
+            "prompt": "Explain why blood-group inheritance shows codominance.",
+            "markScheme": [
+              "Iᴬ and Iᴮ alleles are involved.",
+              "Both contribute to the phenotype in groupAB."
+            ],
+            "guidance": [
+              "In AB,both alleles are expressed rather than one masking the other."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "on24-42-5(e)",
+            "label": "5(e)",
+            "marks": 4,
+            "prompt": "Cross IᴬIᵒ with IᴮIᵒ. Complete the genetic diagram and give the probability of an AB child.",
+            "markScheme": [
+              "Gametes:Iᴬ,Iᵒ and Iᴮ,Iᵒ.",
+              "Genotypes:IᴬIᵒ,IᴬIᴮ,IᴮIᵒ,IᵒIᵒ.",
+              "Phenotypes:A,AB,B,O,matched correctly.",
+              "Probability:0.25/25%/1 in 4. One mark per stage; error carried forward applies."
+            ],
+            "guidance": [
+              "Combine one allele from each parent in every offspring genotype."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-genetic5-top.png",
+                "label": "Genetic diagram — parents",
+                "alt": "Original A and B parental phenotypes, IᴬIᵒ and IᴮIᵒ genotypes and blank gamete circles.",
+                "caption": "Genetic diagram — parents · 0610/42/O/N/24, printed page 15. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              },
+              {
+                "src": "images/paper4-on24-42-genetic5-bottom.png",
+                "label": "Genetic diagram — offspring",
+                "alt": "Original blank offspring-genotype and phenotype cells with four columns and probability line.",
+                "caption": "Genetic diagram — offspring · 0610/42/O/N/24, printed page 15. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Nitrogen cycling",
+        "chapterIds": [
+          18,
+          13
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-42-6(a)",
+            "label": "6(a)",
+            "marks": 5,
+            "prompt": "Complete the five blanks in Figure 6.1 in pathway order,starting with nitrogen fixation.",
+            "markScheme": [
+              "Lightning or root nodules; nitrate; urea; nitrate; denitrification. One mark each."
+            ],
+            "guidance": [
+              "Read the direction arrows. Distinguish deamination in animals,nitrification and return of nitrogen gas to the atmosphere."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-42-fig6-1.png",
+                "label": "Figure6.1",
+                "alt": "Original nitrogen-cycle flow chart with all five blank entries, complete labelled boxes and connecting arrows.",
+                "caption": "Figure6.1 · 0610/42/O/N/24, printed page 16. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-42-6(b)",
+            "label": "6(b)",
+            "marks": 2,
+            "prompt": "Name two processes occurring in both carbon and nitrogen cycles.",
+            "markScheme": [
+              "Any two:decomposition/decay;feeding;excretion;other valid common process."
+            ],
+            "guidance": [
+              "Choose processes transferring both carbon- and nitrogen-containing substances."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "on24-42-6(c)",
+            "label": "6(c)",
+            "marks": 1,
+            "prompt": "State the principal energy source for biological systems.",
+            "markScheme": [
+              "The Sun."
+            ],
+            "guidance": [
+              "Sunlight supplies energy to producers and hence food webs."
+            ],
+            "sourcePage": 16,
+            "markSchemePage": 9,
+            "images": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0610-on24-43",
+    "code": "0610/43/O/N/24",
+    "session": "October/November 2024",
+    "minutes": 75,
+    "totalMarks": 80,
+    "questionPaperUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_qp_43.pdf",
+    "markSchemeUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0610_w24_ms_43.pdf",
+    "questions": [
+      {
+        "number": 1,
+        "title": "Digestion and bile",
+        "chapterIds": [
+          7,
+          5,
+          4
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-43-1(a)(i)",
+            "label": "1(a)(i)",
+            "marks": 2,
+            "prompt": "On Figure 1.1,draw label lines to the organ producing bile (A) and the organ storing bile (B). Work on paper and record placement notes.",
+            "markScheme": [
+              "A correctly labels liver; B correctly labels gall bladder. One mark each."
+            ],
+            "guidance": [
+              "The liver produces bile and the gall bladder stores it."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig1-1.png",
+                "label": "Figure1.1",
+                "alt": "Original unlabelled human digestive-organ diagram with complete organ outlines for adding two labels on paper.",
+                "caption": "Figure1.1 · 0610/43/O/N/24, printed page 2. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-1(a)(ii)",
+            "label": "1(a)(ii)",
+            "marks": 2,
+            "prompt": "Describe physical digestion.",
+            "markScheme": [
+              "Food is broken into smaller pieces.",
+              "There is no chemical change to the food molecules."
+            ],
+            "guidance": [
+              "Distinguish a change in particle size from chemical breakdown of molecules."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-43-1(a)(iii)",
+            "label": "1(a)(iii)",
+            "marks": 2,
+            "prompt": "Name two places where physical digestion occurs.",
+            "markScheme": [
+              "Any two:mouth;stomach;small intestine/duodenum."
+            ],
+            "guidance": [
+              "Think of chewing,churning and emulsification."
+            ],
+            "sourcePage": 2,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-43-1(b)(i)",
+            "label": "1(b)(i)",
+            "marks": 4,
+            "prompt": "Complete: bile enters the ______. Its increase of fat/oil surface area is called ______. This speeds ______ digestion by the enzyme ______.",
+            "markScheme": [
+              "Small intestine/duodenum;emulsification;chemical;lipase. One mark each."
+            ],
+            "guidance": [
+              "Emulsification creates smaller droplets and a larger enzyme-accessible surface."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-43-1(b)(ii)",
+            "label": "1(b)(ii)",
+            "marks": 1,
+            "prompt": "Name the products of fat digestion.",
+            "markScheme": [
+              "Fatty acids and glycerol;both required."
+            ],
+            "guidance": [
+              "Lipase hydrolyses lipids into these products."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-43-1(c)",
+            "label": "1(c)",
+            "marks": 2,
+            "prompt": "Explain bile’s role in protein breakdown by trypsin.",
+            "markScheme": [
+              "Alkaline bile neutralises the acidic mixture from the stomach.",
+              "This provides a suitable/optimum pH for trypsin."
+            ],
+            "guidance": [
+              "Bile supports the enzyme’s conditions;it does not itself hydrolyse protein."
+            ],
+            "sourcePage": 3,
+            "markSchemePage": 5,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Aphids and translocation",
+        "chapterIds": [
+          1,
+          8,
+          14
+        ],
+        "context": "Aphids insert mouthpieces into phloem to feed. The investigation considers translocation and seasonal growth in potatoes.",
+        "parts": [
+          {
+            "id": "on24-43-2(a)(i)",
+            "label": "2(a)(i)",
+            "marks": 2,
+            "prompt": "Identify two visible features in Figure 2.1 classifying the aphid as an insect.",
+            "markScheme": [
+              "Any two:three pairs of legs;three body parts (head,thorax,abdomen);one pair of antennae."
+            ],
+            "guidance": [
+              "Use visible diagnostic insect features,not simply small size."
+            ],
+            "sourcePage": 4,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig2-1.png",
+                "label": "Figure2.1",
+                "alt": "Original aphid photomicrograph,including the complete body,legs,antennae and magnification×22 note.",
+                "caption": "Figure2.1 · 0610/43/O/N/24, printed page 4. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-2(a)(ii)",
+            "label": "2(a)(ii)",
+            "marks": 1,
+            "prompt": "Which letter in Figure 2.2 labels the tissue from which aphids feed?",
+            "markScheme": [
+              "M."
+            ],
+            "guidance": [
+              "Aphids feed from phloem."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 5,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig2-2.png",
+                "label": "Figure2.2",
+                "alt": "Original dicot stem cross-section with all four labels J,L,M,N and complete leader lines.",
+                "caption": "Figure2.2 · 0610/43/O/N/24, printed page 5. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-2(a)(iii)",
+            "label": "2(a)(iii)",
+            "marks": 1,
+            "prompt": "Name two nutrients transported in phloem.",
+            "markScheme": [
+              "Amino acids and sucrose;both required."
+            ],
+            "guidance": [
+              "Name the organic solutes used in translocation."
+            ],
+            "sourcePage": 5,
+            "markSchemePage": 5,
+            "images": []
+          },
+          {
+            "id": "on24-43-2(b)",
+            "label": "2(b)",
+            "marks": 3,
+            "prompt": "Use Table 2.1 to calculate percentage change in translocation rate between 15°C and 30°C. Give three significant figures.",
+            "markScheme": [
+              "Select 7.3 and 17.1 cm per hour.",
+              "(17.1−7.3)÷7.3×100=134.246…%.",
+              "134% increase,to three significant figures. One mark per stage;error carried forward applies."
+            ],
+            "guidance": [
+              "Use the original 15°C rate as the denominator."
+            ],
+            "sourcePage": 6,
+            "markSchemePage": 6,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-table2-1.png",
+                "label": "Table2.1",
+                "alt": "Original temperatures15,20,25,30°C and translocation rates7.3,13.8,16.7,17.1cm per hour.",
+                "caption": "Table2.1 · 0610/43/O/N/24, printed page 6. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-2(c)(i)",
+            "label": "2(c)(i)",
+            "marks": 4,
+            "prompt": "Use source and sink to explain changing translocation between spring and summer in Figure 2.3.",
+            "markScheme": [
+              "Any four:spring tuber is source and growing shoot sink;shoot uses sugar for respiration/growth or amino acids for growth;summer leaves are source and tubers sinks;leaves photosynthesise to form organic material;source releases solutes;sink uses/stores them;source/sink locations change between seasons."
+            ],
+            "guidance": [
+              "Explain both seasons rather than assuming transport is always downwards."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 6,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig2-3.png",
+                "label": "Figure2.3",
+                "alt": "Original potato plant in spring and summer,with growing-shoot and potato-tuber labels,complete roots,leaves and tubers.",
+                "caption": "Figure2.3 · 0610/43/O/N/24, printed page 6. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-2(c)(ii)",
+            "label": "2(c)(ii)",
+            "marks": 1,
+            "prompt": "New summer tubers are genetically identical. Identify the type of reproduction.",
+            "markScheme": [
+              "Asexual reproduction."
+            ],
+            "guidance": [
+              "Vegetative growth forms genetically identical offspring without fertilisation."
+            ],
+            "sourcePage": 7,
+            "markSchemePage": 6,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "HIV,breastfeeding and immunity",
+        "chapterIds": [
+          10,
+          15
+        ],
+        "context": "",
+        "parts": [
+          {
+            "id": "on24-43-3(a)",
+            "label": "3(a)",
+            "marks": 2,
+            "prompt": "Describe how mother-to-infant HIV transmission risk can be reduced.",
+            "markScheme": [
+              "Any two source-scheme measures:mother takes HIV medication;reduce/avoid breastfeeding;Caesarean delivery;prevent the mother acquiring HIV during pregnancy/breastfeeding;screen pregnant mothers."
+            ],
+            "guidance": [
+              "Identify different stages of transmission and the relevant exam-scheme control measures."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-43-3(b)(i)",
+            "label": "3(b)(i)",
+            "marks": 2,
+            "prompt": "Use Table 3.1 to describe how breastfeeding affects the chance of infection in the two groups of 100 infants.",
+            "markScheme": [
+              "Any two:lower gastroenteritis/bronchitis counts in breastfed infants;little or no change for influenza/conjunctivitis/bronchitis;similar or slightly fewer infections overall;correct data manipulation.",
+              "For example,gastroenteritis is 4 versus 8 cases,50%lower in the breastfed group;influenza is 5 versus 4 and conjunctivitis 12 versus 10,so not every infection is reduced."
+            ],
+            "guidance": [
+              "Describe the supplied data and exceptions;do not claim breastfeeding eliminates infections."
+            ],
+            "sourcePage": 8,
+            "markSchemePage": 7,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-table3-1.png",
+                "label": "Table3.1",
+                "alt": "Original infection counts in two groups of100 infants: breastfed versus not breastfed,for gastroenteritis,influenza,bronchitis and conjunctivitis.",
+                "caption": "Table3.1 · 0610/43/O/N/24, printed page 8. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-3(b)(ii)",
+            "label": "3(b)(ii)",
+            "marks": 1,
+            "prompt": "Name a blood cell involved in the immune response.",
+            "markScheme": [
+              "White blood cell,phagocyte or lymphocyte."
+            ],
+            "guidance": [
+              "Name an immune cell rather than a red blood cell."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-43-3(b)(iii)",
+            "label": "3(b)(iii)",
+            "marks": 4,
+            "prompt": "Describe how infants acquire passive immunity.",
+            "markScheme": [
+              "Any four:antibodies come from another individual;transfer in breast milk;transfer across placenta;regular maternal antibodies maintain protection;only pathogens matching maternal antibodies are covered;injected antibodies/antiserum can also provide passive immunity."
+            ],
+            "guidance": [
+              "Passive immunity transfers ready-made antibodies rather than stimulating the infant to make them."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 7,
+            "images": []
+          },
+          {
+            "id": "on24-43-3(b)(iv)",
+            "label": "3(b)(iv)",
+            "marks": 3,
+            "prompt": "How does vaccination-induced immunity differ from passive immunity?",
+            "markScheme": [
+              "Any three:vaccination causes active immunity;the person makes antibodies;antigens stimulate an immune response;memory cells form;protection is longer lasting;onset is slower than immediate passive protection."
+            ],
+            "guidance": [
+              "Contrast the person’s own response with receiving ready-made antibodies."
+            ],
+            "sourcePage": 9,
+            "markSchemePage": 8,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Respiration and exercise recovery",
+        "chapterIds": [
+          11,
+          9,
+          12
+        ],
+        "context": "An athlete runs a 60-second race. Figure 4.1 shows heart and breathing rates during and after it.",
+        "parts": [
+          {
+            "id": "on24-43-4(a)(i)",
+            "label": "4(a)(i)",
+            "marks": 1,
+            "prompt": "State the word equation for anaerobic respiration in human muscle.",
+            "markScheme": [
+              "Glucose → lactic acid."
+            ],
+            "guidance": [
+              "Do not give yeast fermentation products."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-43-4(a)(ii)",
+            "label": "4(a)(ii)",
+            "marks": 3,
+            "prompt": "Compare anaerobic and aerobic respiration in human muscle.",
+            "markScheme": [
+              "Any three:anaerobic uses no oxygen;releases less energy per glucose;forms lactic acid whereas aerobic forms carbon dioxide and water;anaerobic does not occur in mitochondria;both use glucose."
+            ],
+            "guidance": [
+              "Make explicit comparisons and distinguish products,oxygen requirement and energy yield."
+            ],
+            "sourcePage": 10,
+            "markSchemePage": 8,
+            "images": []
+          },
+          {
+            "id": "on24-43-4(b)(i)",
+            "label": "4(b)(i)",
+            "marks": 2,
+            "prompt": "Breathing increases during the race. Identify the detected stimulus and the detecting organ.",
+            "markScheme": [
+              "Increased blood carbon dioxide concentration.",
+              "Brain."
+            ],
+            "guidance": [
+              "Identify the chemical stimulus rather than exercise itself."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig4-1.png",
+                "label": "Figure4.1",
+                "alt": "Original athlete heart-rate and breathing-rate recovery graph,retaining both vertical scales,full curves and labels,and time axis0–450seconds.",
+                "caption": "Figure4.1 · 0610/43/O/N/24, printed page 10. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-4(b)(ii)",
+            "label": "4(b)(ii)",
+            "marks": 2,
+            "prompt": "Calculate the rate of decrease in heart rate between 125 s and 260 s in Figure 4.1.",
+            "markScheme": [
+              "Read 180±2 and 108±2 beats per minute.",
+              "(180−108)÷(260−125)=0.5333… beats per minute per second;approximately 0.53. One mark for readings and one for calculation;error carried forward applies."
+            ],
+            "guidance": [
+              "Use the heart-rate scale,not the breathing-rate scale. Divide the fall in heart rate by elapsed seconds."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 8,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig4-1.png",
+                "label": "Figure4.1",
+                "alt": "Original athlete heart-rate and breathing-rate recovery graph,retaining both vertical scales,full curves and labels,and time axis0–450seconds.",
+                "caption": "Figure4.1 · 0610/43/O/N/24, printed page 10. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-43-4(b)(iii)",
+            "label": "4(b)(iii)",
+            "marks": 6,
+            "prompt": "Explain Figure 4.1 results from the race ending at 60 s until 420 s.",
+            "markScheme": [
+              "Any six:rates peak near the end of the race;anaerobic respiration is no longer required;less muscle contraction;lower energy demand;less oxygen/glucose delivery or carbon dioxide removal needed;less adrenaline;heart rate returns to rest by 420 s;oxygen supply was insufficient during the race;oxygen debt remains;lactic acid accumulated;it is aerobically broken down/converted to glucose;in the liver;extra oxygen is required;breathing therefore remains elevated after the race."
+            ],
+            "guidance": [
+              "Explain both the decline in demand and the continued oxygen need to remove lactic acid,using the different recovery traces."
+            ],
+            "sourcePage": 11,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig4-1.png",
+                "label": "Figure4.1",
+                "alt": "Original athlete heart-rate and breathing-rate recovery graph,retaining both vertical scales,full curves and labels,and time axis0–450seconds.",
+                "caption": "Figure4.1 · 0610/43/O/N/24, printed page 10. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Codominant feather colour",
+        "chapterIds": [
+          16,
+          17
+        ],
+        "context": "Fᴮ denotes black feathers and Fᵂ white feathers. Heterozygotes express both colours.",
+        "parts": [
+          {
+            "id": "on24-43-5(a)",
+            "label": "5(a)",
+            "marks": 1,
+            "prompt": "Name the type of variation caused by genes only.",
+            "markScheme": [
+              "Discontinuous variation."
+            ],
+            "guidance": [
+              "Use the syllabus term requested."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 9,
+            "images": []
+          },
+          {
+            "id": "on24-43-5(b)",
+            "label": "5(b)",
+            "marks": 2,
+            "prompt": "Use Figure 5.1 to give all possible genotypes for chickens 2 and 7.",
+            "markScheme": [
+              "Chicken 2:FᴮFᴮ or FᴮFᵂ (both possibilities required).",
+              "Chicken 7:FᵂFᵂ,FᴮFᵂ or FᴮFᴮ (all three required)."
+            ],
+            "guidance": [
+              "Use the phenotype and family information without assuming an unknown phenotype is heterozygous."
+            ],
+            "sourcePage": 12,
+            "markSchemePage": 9,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig5-1.png",
+                "label": "Figure5.1",
+                "alt": "Original chicken feather-colour pedigree,individuals1–9 with unknown phenotypes2 and7,complete sex and feather-colour key.",
+                "caption": "Figure5.1 · 0610/43/O/N/24, printed page 12. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-5(c)",
+            "label": "5(c)",
+            "marks": 5,
+            "prompt": "Complete the genetic diagram for a cross between chickens 5 and 6,including offspring phenotype percentages.",
+            "markScheme": [
+              "Parents:male black-and-white × female black.",
+              "Genotypes:FᴮFᵂ × FᴮFᴮ.",
+              "Gametes:Fᴮ,Fᵂ and Fᴮ,Fᴮ.",
+              "Offspring:FᴮFᵂ and FᴮFᴮ,each repeated twice in a four-cell cross.",
+              "50% black-and-white and 50% black. One mark per stage;error carried forward applies."
+            ],
+            "guidance": [
+              "Both alleles are expressed in a heterozygote. Match each phenotype percentage to its genotype."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-genetic5.png",
+                "label": "Genetic diagram",
+                "alt": "Original blank cross for chickens5 and6,with parental phenotype/genotype,gamete,offspring and expected phenotype-percentage spaces.",
+                "caption": "Genetic diagram · 0610/43/O/N/24, printed page 13. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-5(d)",
+            "label": "5(d)",
+            "marks": 1,
+            "prompt": "Give one example of codominance in humans.",
+            "markScheme": [
+              "ABO blood groups,especially groupAB."
+            ],
+            "guidance": [
+              "Both Iᴬ and Iᴮ are expressed in groupAB."
+            ],
+            "sourcePage": 13,
+            "markSchemePage": 10,
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Clotting and genetic modification",
+        "chapterIds": [
+          9,
+          16,
+          20,
+          19
+        ],
+        "context": "Genetically modified bacteria can produce human factorVIIa to treat some clotting disorders. Figure 6.1 shows part of the process.",
+        "parts": [
+          {
+            "id": "on24-43-6(a)(i)",
+            "label": "6(a)(i)",
+            "marks": 2,
+            "prompt": "Describe inheritance.",
+            "markScheme": [
+              "Transmission of genetic information.",
+              "From generation to generation."
+            ],
+            "guidance": [
+              "Explain what is passed on and between whom."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-43-6(a)(ii)",
+            "label": "6(a)(ii)",
+            "marks": 4,
+            "prompt": "Describe blood clotting.",
+            "markScheme": [
+              "Any four:platelets involved;fibrinogen converts to fibrin;soluble fibrinogen becomes insoluble fibrin;fibrin forms a mesh;blood cells are trapped."
+            ],
+            "guidance": [
+              "Link the soluble-to-insoluble change to the mesh forming a clot."
+            ],
+            "sourcePage": 15,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-43-6(b)(i)",
+            "label": "6(b)(i)",
+            "marks": 2,
+            "prompt": "Name enzymes A and B in Figure 6.1.",
+            "markScheme": [
+              "A:restriction enzyme; B:DNA ligase."
+            ],
+            "guidance": [
+              "Restriction enzymes cut DNA;ligase joins DNA fragments."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig6-1.png",
+                "label": "Figure6.1",
+                "alt": "Original gene-transfer flow chart from human DNA and bacterial plasmid through enzymes A and B,product C and bacteria producing factorVIIa in a fermenter.",
+                "caption": "Figure6.1 · 0610/43/O/N/24, printed page 16. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": false
+              }
+            ]
+          },
+          {
+            "id": "on24-43-6(b)(ii)",
+            "label": "6(b)(ii)",
+            "marks": 2,
+            "prompt": "Why must enzyme A cut both human DNA and plasmid?",
+            "markScheme": [
+              "It creates sticky ends.",
+              "The ends are complementary."
+            ],
+            "guidance": [
+              "Matching sticky ends allow the fragment and plasmid to pair before ligase seals them."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig6-1.png",
+                "label": "Figure6.1",
+                "alt": "Original gene-transfer flow chart from human DNA and bacterial plasmid through enzymes A and B,product C and bacteria producing factorVIIa in a fermenter.",
+                "caption": "Figure6.1 · 0610/43/O/N/24, printed page 16. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-43-6(b)(iii)",
+            "label": "6(b)(iii)",
+            "marks": 1,
+            "prompt": "What is C in Figure 6.1?",
+            "markScheme": [
+              "Recombinant plasmid."
+            ],
+            "guidance": [
+              "The plasmid now carries inserted human DNA."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 10,
+            "images": [
+              {
+                "src": "images/paper4-on24-43-fig6-1.png",
+                "label": "Figure6.1",
+                "alt": "Original gene-transfer flow chart from human DNA and bacterial plasmid through enzymes A and B,product C and bacteria producing factorVIIa in a fermenter.",
+                "caption": "Figure6.1 · 0610/43/O/N/24, printed page 16. © UCLES 2024. Original source crop; open image for full size.",
+                "collapsed": true
+              }
+            ]
+          },
+          {
+            "id": "on24-43-6(b)(iv)",
+            "label": "6(b)(iv)",
+            "marks": 1,
+            "prompt": "Why is the fermenter stirred constantly?",
+            "markScheme": [
+              "To ensure uniform distribution of its contents."
+            ],
+            "guidance": [
+              "Mixing evens out nutrients,oxygen and organisms."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 10,
+            "images": []
+          },
+          {
+            "id": "on24-43-6(b)(v)",
+            "label": "6(b)(v)",
+            "marks": 2,
+            "prompt": "Apart from making complex molecules,give two reasons bacteria are useful in biotechnology.",
+            "markScheme": [
+              "Any two:plasmids;few ethical concerns;rapid reproduction;asexual reproduction gives identical offspring;small space requirements;simple growth requirements;shared genetic code."
+            ],
+            "guidance": [
+              "Give two distinct advantages rather than repeating the stated ability to make complex molecules."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "on24-43-6(b)(vi)",
+            "label": "6(b)(vi)",
+            "marks": 2,
+            "prompt": "Describe two differences between animal and bacterial cells.",
+            "markScheme": [
+              "Any two comparisons:animal cells have nucleus,mitochondria or linear DNA;animal cells lack a cell wall or plasmids."
+            ],
+            "guidance": [
+              "State clearly which cell type has each feature."
+            ],
+            "sourcePage": 17,
+            "markSchemePage": 11,
+            "images": []
+          },
+          {
+            "id": "on24-43-6(c)",
+            "label": "6(c)",
+            "marks": 4,
+            "prompt": "Discuss advantages and disadvantages of genetically modified crop plants such as soya.",
+            "markScheme": [
+              "Maximum four marks,with at most three advantages and three disadvantages.",
+              "Advantages include higher yield/nutritional content,reduced fertiliser needs,less pest damage/insecticide use,herbicide or disease resistance,tolerance of drought/salinity/cold.",
+              "Disadvantages include greater seed cost;some systems require seed purchase each season;gene transfer to nearby plants by cross-pollination;ethical/religious concerns;food-web disruption;reduced crop genetic diversity and adaptability."
+            ],
+            "guidance": [
+              "Give both benefits and drawbacks. Not all GM crops are sterile or have every listed trait;describe potential consequences rather than universal claims."
+            ],
+            "sourcePage": 18,
+            "markSchemePage": 12,
+            "images": []
+          }
+        ]
+      }
+    ]
   }
 ];

@@ -22,6 +22,7 @@
         const explanationNextQuestionButton = document.querySelector("#explanation-next-question-button");
         const chapterFilterPanel = document.querySelector("#chapter-filter-panel");
         const chapterFilter = document.querySelector("#chapter-filter");
+        const paperFilter = document.querySelector("#paper-filter");
         const chapterFilterSummary = document.querySelector("#chapter-filter-summary");
         const questionChapter = document.querySelector("#question-chapter");
 		const graphMeasurements = [
@@ -16393,10 +16394,56 @@
     ]
 };
         let selectedChapter = "all";
+        let selectedPaper = "all";
+
+        function getQuestionPaperKey(question) {
+            return question.paperCode || "untagged";
+        }
+
+        function matchesPaper(question) {
+            return selectedPaper === "all" || getQuestionPaperKey(question) === selectedPaper;
+        }
+
+        function getPaperLabel(code) {
+            if (code === "untagged") return "Source not listed";
+            const match = code.match(/^0610\/(\d{2})\/(F\/M|M\/J|O\/N)\/(\d{2})$/);
+            return match ? `${match[1]}/${match[2].replace("/", "")}/20${match[3]}` : code;
+        }
+
+        function renderPaperFilter() {
+            const counts = new Map();
+            questions.forEach((question) => {
+                const code = getQuestionPaperKey(question);
+                counts.set(code, (counts.get(code) || 0) + 1);
+            });
+            const dateKey = (code) => {
+                const match = code.match(/^(\d+)\/(\d+)\/(F\/M|M\/J|O\/N)\/(\d{2})$/);
+                return match ? Number(match[4]) * 100 + { "F/M": 3, "M/J": 6, "O/N": 11 }[match[3]] : -1;
+            };
+            const codes = [...counts.keys()].sort((a, b) => dateKey(b) - dateKey(a) || a.localeCompare(b));
+            paperFilter.replaceChildren();
+            for (const [value, label] of [["all", `All past papers (${questions.length})`], ...codes.map((code) => [code, `${getPaperLabel(code)} (${counts.get(code)})`])]) {
+                const option = document.createElement("option");
+                option.value = value;
+                option.textContent = label;
+                paperFilter.append(option);
+            }
+            paperFilter.value = selectedPaper;
+        }
+
+        function getScopeName() {
+            if (selectedPaper !== "all") return selectedChapter === "all" ? "paper" : "selection";
+            return selectedChapter === "all" ? "quiz" : "chapter";
+        }
+
+        function getScopeDescription() {
+            if (selectedPaper !== "all") return selectedChapter === "all" ? "in this paper" : "matching questions";
+            return selectedChapter === "all" ? "questions" : "in this chapter";
+        }
 
         function getFilteredQuestionIndexes() {
             return questions.reduce((indexes, question, index) => {
-                if (selectedChapter === "all" || (questionChapterMap[index + 1] || []).includes(Number(selectedChapter))) indexes.push(index);
+                if (matchesPaper(question) && (selectedChapter === "all" || (questionChapterMap[index + 1] || []).includes(Number(selectedChapter)))) indexes.push(index);
                 return indexes;
             }, []);
         }
@@ -16406,16 +16453,18 @@
         }
 
         function renderChapterFilter() {
-            chapterFilter.innerHTML = `<option value="all">All chapters (${questions.length})</option>` + quizChapters.map((chapter) => {
-                const count = Object.values(questionChapterMap).filter((ids) => ids.includes(chapter.id)).length;
+            const paperCount = questions.filter(matchesPaper).length;
+            chapterFilter.innerHTML = `<option value="all">All chapters (${paperCount})</option>` + quizChapters.map((chapter) => {
+                const count = questions.reduce((total, question, index) => total + (matchesPaper(question) && (questionChapterMap[index + 1] || []).includes(chapter.id) ? 1 : 0), 0);
                 return `<option value="${chapter.id}"${count ? "" : " disabled"}>${chapter.id}. ${chapter.title} (${count})</option>`;
             }).join("");
+            chapterFilter.value = selectedChapter;
         }
 
         function updateChapterFilterSummary(indexes = getFilteredQuestionIndexes()) {
             const position = indexes.indexOf(currentQuestionIndex) + 1;
             const answered = indexes.filter((index) => questionStates[index].checked).length;
-            const scope = selectedChapter === "all" ? "questions" : "in this chapter";
+            const scope = getScopeDescription();
             chapterFilterSummary.textContent = `${position} of ${indexes.length} ${scope} · ${answered} answered`;
             questionChapter.textContent = (questionChapterMap[currentQuestionIndex + 1] || []).map((id) => {
                 const chapter = quizChapters.find((item) => item.id === id);
@@ -16427,7 +16476,7 @@
             const indexes = getFilteredQuestionIndexes();
             const isLast = currentQuestionIndex === indexes[indexes.length - 1];
             nextQuestionButton.textContent = isLast
-                ? (isCurrentScopeComplete(indexes) ? (selectedChapter === "all" ? "Restart quiz" : "Restart chapter") : "Review unanswered")
+                ? (isCurrentScopeComplete(indexes) ? `Restart ${getScopeName()}` : "Review unanswered")
                 : "Next question";
             explanationNextQuestionButton.textContent = nextQuestionButton.textContent;
             explanationNextQuestionButton.hidden = !questionStates[currentQuestionIndex].checked;
@@ -17135,10 +17184,10 @@
 			}
             const filteredIndexes = getFilteredQuestionIndexes();
             const filteredPosition = filteredIndexes.indexOf(currentQuestionIndex) + 1;
-            progressTrack.setAttribute("aria-label", selectedChapter === "all" ? "Quiz progress" : "Chapter progress");
+            progressTrack.setAttribute("aria-label", `${getScopeName()} progress`);
             progressTrack.setAttribute("aria-valuemax", filteredIndexes.length);
             progressTrack.setAttribute("aria-valuenow", filteredPosition);
-            progressTrack.setAttribute("aria-valuetext", `${filteredPosition} of ${filteredIndexes.length}${selectedChapter === "all" ? " questions" : " in this chapter"}; quiz question ${currentQuestionIndex + 1} of ${questions.length}`);
+            progressTrack.setAttribute("aria-valuetext", `${filteredPosition} of ${filteredIndexes.length} ${getScopeDescription()}; quiz question ${currentQuestionIndex + 1} of ${questions.length}`);
             progressValue.style.width = `${(filteredPosition / filteredIndexes.length) * 100}%`;
 			questionTitle.innerHTML = question.title;
 			questionContext.innerHTML = question.context || "";
@@ -17190,21 +17239,35 @@
 			updateTextSize();
 		});
 
+        renderPaperFilter();
         renderChapterFilter();
 		updateTextSize();
 		renderQuestion();
 
-        chapterFilter.addEventListener("change", () => {
-            selectedChapter = chapterFilter.value;
+        function applyQuestionFilters() {
             let indexes = getFilteredQuestionIndexes();
             if (!indexes.length) {
                 selectedChapter = "all";
-                chapterFilter.value = "all";
                 indexes = getFilteredQuestionIndexes();
             }
+            if (!indexes.length) {
+                selectedPaper = "all";
+                paperFilter.value = "all";
+                indexes = getFilteredQuestionIndexes();
+            }
+            renderChapterFilter();
             currentQuestionIndex = indexes[0];
             questionNavList.parentElement.scrollTop = 0;
             renderQuestion();
+        }
+
+        chapterFilter.addEventListener("change", () => {
+            selectedChapter = chapterFilter.value;
+            applyQuestionFilters();
+        });
+        paperFilter.addEventListener("change", () => {
+            selectedPaper = paperFilter.value;
+            applyQuestionFilters();
         });
 
 		navigatorToggle.addEventListener("click", () => {
@@ -17264,7 +17327,7 @@
 			showQuestionFeedback(question, state);
 			const isCorrect = selected === question.correct;
 			answerAnnouncement.textContent = `${isCorrect ? "Correct." : "Incorrect."} ${feedback.querySelector(".feedback-answer-line").textContent}`;
-            if (isCurrentScopeComplete()) selectionHint.textContent = `${selectedChapter === "all" ? "Quiz" : "Chapter"} complete · ${isCorrect ? "✓ Correct" : "✕ Incorrect"}`;
+            if (isCurrentScopeComplete()) selectionHint.textContent = `${getScopeName()[0].toUpperCase() + getScopeName().slice(1)} complete · ${isCorrect ? "✓ Correct" : "✕ Incorrect"}`;
 			showAnswerCue(isCorrect);
 			checkButton.disabled = true;
 			nextQuestionButton.hidden = false;

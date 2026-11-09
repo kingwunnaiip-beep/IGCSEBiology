@@ -21,13 +21,17 @@
 		<main>
 			<div class="quiz-layout" id="quiz-layout">
 				<aside class="question-navigator" id="question-navigator" aria-label="Question navigator">
-            <section class="chapter-filter-panel" id="chapter-filter-panel" aria-label="Chapter practice filter">
+            <section class="chapter-filter-panel" id="chapter-filter-panel" aria-label="Practice filters">
+                <label for="paper-filter">Past paper</label>
+                <select id="paper-filter" aria-describedby="chapter-filter-summary chapter-filter-note">
+                    <option value="all">All past papers (554)</option>
+                </select>
                 <label for="chapter-filter">Practise by chapter</label>
                 <select id="chapter-filter" aria-describedby="chapter-filter-summary chapter-filter-note">
                     <option value="all">All chapters (554)</option>
                 </select>
                 <p id="chapter-filter-summary" class="chapter-filter-summary" role="status" aria-live="polite">1 of 554 questions · 0 answered</p>
-                <p id="chapter-filter-note" class="chapter-filter-note">Mixed-topic questions appear in each relevant chapter.</p>
+                <p id="chapter-filter-note" class="chapter-filter-note">Paper and chapter filters work together. Mixed-topic questions appear in each relevant chapter.</p>
             </section>
 					<div class="text-size-controls" role="group" aria-label="Quiz text size">
 						<span>Text size</span>

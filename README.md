@@ -1,9 +1,11 @@
-# IGCSE Biology 0610 Practice — native question display update
+# IGCSE Biology 0610 Practice — reviewed explanation diagrams
 
-The collection remains 754 Paper 2 MCQs and 13 Paper 4 papers. This update rebuilds the recent 200 Paper 2 questions (555–754) as native question text, data and answer tables. There are 52 selectable answer tables using the same click and keyboard behaviour as Question 30. Whole-question screenshots and duplicated choice lists are removed; genuine diagrams and graphs remain as tightly cropped figures. Original paper codes, printed question numbers and published answer keys are retained.
+The collection remains 754 Paper 2 MCQs and 13 Paper 4 papers. All 200 recent explanation diagrams (questions 555–754) have been reviewed against the question, answer and source context. 89 diagrams are revised; 111 accurate diagrams are retained. Revisions fix misleading arrows between independent facts, causal ordering, missing answer distinctions, original event numbering and labels. Diagrams remain diagrams/graphs rather than whole-question screenshots.
 
-Examples: Q686 and Q694 are clickable tables; Q692 is text only; Q693 has selectable sequence rows; Q702 has a flower-only diagram followed by native numbered statements. Q596’s transcribed row text and explanation are corrected to match the original D row: glucose transport and osmosis. Its published key D is unchanged.
+Three written explanations are corrected or clarified: Q644 fish stocks stay roughly level after the quota and recover after the ban; Q657 option B does not identify the central lacteal; Q736 explicitly separates the cell wall’s support role from membrane active transport. All source codes, original question numbers, option order and published answer keys stay unchanged. Q596 continues to select glucose transport AND osmosis (D).
 
-Install biology-quiz-754-native-display-update.zip over the current754 version: replace the included files and merge images/ into your existing images folder. Keep the earlier images and user uploads. Hard-refresh the page. The question count, chapter and paper filters, four-column navigator, both Next buttons, sound, text controls and all13 Paper4 papers remain intact.
+The reviewed diagrams retain a readable width, scroll within their own panel and enlarge with the text-size control. The full-size link remains available. Questions 1–554, all 13 Paper 4 papers, native clickable answer tables, paper/chapter filters, the four-column navigator and both Next buttons are retained.
 
-Future questions must follow QUESTION-DISPLAY-GUIDE.md: native prose/tables; images only for actual figures. Sources and image provenance are recorded in IMAGE-CREDITS.md.
+Install biology-quiz-754-reviewed-explanations-update.zip over your current 754 version: replace supplied files, merge images/ and keep earlier assets/user uploads. This patch also includes the preceding native-question conversion, so it can be installed directly over the original 754 release or the native-display update. Hard-refresh after installing. The cumulative biology-quiz-754-reviewed-paper4-update.zip can instead be installed over 504.
+
+See EXPLANATION-REVIEW.md for the review summary, QUESTION-DISPLAY-GUIDE.md for future authoring, and IMAGE-CREDITS.md for source-image provenance.

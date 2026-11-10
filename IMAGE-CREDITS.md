@@ -2898,3 +2898,10 @@ Whole-question screenshots are no longer displayed in these questions or their e
 - `q749-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question14; ©UCLES2024.
 - `q751-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question23; ©UCLES2024.
 - `q752-native-figure-1.png`: figure-only source crop(s) for 0610/23/O/N/24, original question26; ©UCLES2024.
+
+
+## Explanation-diagram review — 10 November 2026
+
+All 200 teaching SVGs q555-explanation.svg through q754-explanation.svg were reviewed. 89 authored SVGs were revised for scientific relationships, complete labels/answer distinctions, event numbering and text layout; 111 retained. These are explanatory schematics, not reproductions of full question pages. Source diagram crops and credits above remain unchanged. Revised question IDs: 557, 558, 561, 564, 565, 566, 567, 572, 573, 577, 578, 579, 581, 583, 584, 588, 589, 590, 595, 596, 597, 600, 601, 603, 605, 606, 608, 612, 621, 622, 626, 627, 628, 629, 630, 634, 635, 636, 639, 641, 642, 643, 644, 648, 653, 655, 657, 659, 660, 665, 669, 670, 673, 674, 678, 682, 683, 686, 688, 689, 691, 692, 694, 696, 697, 699, 702, 704, 705, 706, 709, 715, 716, 721, 722, 723, 727, 728, 730, 731, 732, 734, 736, 739, 741, 745, 746, 747, 748.
+
+Q644’s plotted trend, Q657’s option-B description and Q736’s cell-wall wording are corrected/clarified in the native explanation prose. Keys and source identities are unchanged. The Q596 diagram now branches to the two solvent roles, glucose transport and osmosis, preserving published answer D.

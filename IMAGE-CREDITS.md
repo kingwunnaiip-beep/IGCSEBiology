@@ -2905,3 +2905,136 @@ Whole-question screenshots are no longer displayed in these questions or their e
 All 200 teaching SVGs q555-explanation.svg through q754-explanation.svg were reviewed. 89 authored SVGs were revised for scientific relationships, complete labels/answer distinctions, event numbering and text layout; 111 retained. These are explanatory schematics, not reproductions of full question pages. Source diagram crops and credits above remain unchanged. Revised question IDs: 557, 558, 561, 564, 565, 566, 567, 572, 573, 577, 578, 579, 581, 583, 584, 588, 589, 590, 595, 596, 597, 600, 601, 603, 605, 606, 608, 612, 621, 622, 626, 627, 628, 629, 630, 634, 635, 636, 639, 641, 642, 643, 644, 648, 653, 655, 657, 659, 660, 665, 669, 670, 673, 674, 678, 682, 683, 686, 688, 689, 691, 692, 694, 696, 697, 699, 702, 704, 705, 706, 709, 715, 716, 721, 722, 723, 727, 728, 730, 731, 732, 734, 736, 739, 741, 745, 746, 747, 748.
 
 Q644’s plotted trend, Q657’s option-B description and Q736’s cell-wall wording are corrected/clarified in the native explanation prose. Keys and source identities are unchanged. The Q596 diagram now branches to the two solvent roles, glucose transport and osmosis, preserving published answer D.
+
+
+## Illustrated explanations 555–754 — latest update
+
+All 200 teaching SVGs in this range are now subject illustrations rather than text-card summaries, following Q453. They were authored for this quiz and checked against the preserved questions/answers. Each explanation also includes a source-credited online image. Existing relevant teaching images are reused unchanged; 18 additions are listed below. Their source images retain their original labels and scale bars.
+
+### images/online-simple-diffusion.jpg
+
+- Author: OpenStax
+- [Source](https://commons.wikimedia.org/wiki/File:0305_Simple_Diffusion_Across_Plasma_Membrane_labeled.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-active-transport-pump.jpg
+
+- Author: OpenStax
+- [Source](https://commons.wikimedia.org/wiki/File:0308_Sodium_Potassium_Pump_labeled.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-eye-anatomy.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:1413_Structure_of_the_Eye.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-lymphatic-system.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-breathing-mechanics.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:2316_Inspiration_and_Expiration.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-kidney-anatomy.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:2610_The_Kidney.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-placenta-exchange.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:2910_The_Placenta-02.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-fetal-circulation.jpg
+
+- Author: OpenStax College
+- [Source](https://commons.wikimedia.org/wiki/File:2916_Fetal_Circulatory_System-02.jpg)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-eutrophic-lake.jpg
+
+- Author: USGS
+- [Source](https://commons.wikimedia.org/wiki/File:A_eutrophic_lake,_with_excess_algal_growth.jpg)
+- [Public domain](https://commons.wikimedia.org/wiki/Commons:Public_domain)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-diving-bell-spider.jpg
+
+- Author: bykovskii
+- [Source](https://commons.wikimedia.org/wiki/File:Argyroneta_aquatica_female_with_bubble.jpeg)
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-tooth-anatomy.png
+
+- Author: BruceBlaus. When using this image in external sources it can be cited as:
+
+Blausen.com staff (2014). "Medical gallery of Blausen Medical 2014". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.
+- [Source](https://commons.wikimedia.org/wiki/File:Blausen_0863_ToothAnatomy_02.png)
+- [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-bumblebee.jpg
+
+- Author: T137
+- [Source](https://commons.wikimedia.org/wiki/File:Bombus_terrestris_(1).jpg)
+- [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-meiosis-overview.jpg
+
+- Author: CNX OpenStax
+- [Source](https://commons.wikimedia.org/wiki/File:Figure_11_01_04.jpg)
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-population-growth.png
+
+- Author: Nchisick
+- [Source](https://commons.wikimedia.org/wiki/File:Logistic_Carrying_Capacity.svg)
+- [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-pollen-sem.jpg
+
+- Author: Dartmouth College Electron Microscope Facility
+- [Source](https://commons.wikimedia.org/wiki/File:Misc_pollen.jpg)
+- [Public domain](https://commons.wikimedia.org/wiki/Commons:Public_domain)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-fusarium-banana.jpg
+
+- Author: Scot Nelson from Honolulu, Hawaii, USA
+- [Source](https://commons.wikimedia.org/wiki/File:Panama_disease_Banana_2.jpg)
+- [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-rowan-leaf.jpg
+
+- Author: User:Borealis55
+- [Source](https://commons.wikimedia.org/wiki/File:Sorbus_aucuparia_leaf_fall_colour.jpg)
+- [Public domain](https://commons.wikimedia.org/wiki/Commons:Public_domain)
+- Downloaded source/thumbnail retained unchanged.
+
+### images/online-water-cycle.png
+
+- Author: John M. Even / USGS
+- [Source](https://commons.wikimedia.org/wiki/File:Water_cycle.png)
+- [Public domain](https://commons.wikimedia.org/wiki/Commons:Public_domain)
+- Downloaded source/thumbnail retained unchanged.

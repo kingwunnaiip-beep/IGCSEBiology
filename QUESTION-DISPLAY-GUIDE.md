@@ -1,6 +1,6 @@
 # Question display rules
 
-Start future additions from `quiz-754-reviewed-explanations/` or its successor.
+Start future additions from `quiz-754-illustrated-explanations/` or its successor.
 
 - Write the question stem, introductory facts, numbered statements and data tables as HTML text.
 - Render answer-comparison tables as native selectable A–D rows with the existing `answer-selection-table`, `data-answer-choice` and `answer-table-choice` controls. Set `hideAnswerOptions: true` so there is only one set of choices.
@@ -23,3 +23,11 @@ Q596 is a documented correction in this release: original row D selects glucose 
 - Check scientific labels and the accessible title/description; render the SVG and check text against both the canvas and panels, including overlaps.
 - Keep reviewed diagrams readable on narrow screens through local scrolling; support the text-size control and retain the full-size link. Check correct and incorrect feedback and both Next controls.
 - Document source-based corrections to prose. Preserve published keys and source identities unless a separate verified correction requires a change.
+
+## Required illustrated explanation style
+
+Follow Q453’s illustrated approach: draw the scientific subject itself, using SVG geometry for cells, structures, chromosomes, molecules, experimental arrangements, graphs, measured lengths or genetic crosses. A few words in three large cards do not satisfy this requirement. Labels and arrows must point to the corresponding structures and represent the correct relationships.
+
+For the recent 200 questions, every explanation has both an authored illustrated SVG and a credited online supporting image. Preserve that pairing in future additions. Existing relevant online assets may be reused with an appropriate caption; avoid unrelated filler. Include source, author, licence and full-size links. Clarify when the image is a supporting example rather than the question’s specimen, measured data or genetic cross. Keep downloaded images unchanged and retain scale bars/labels.
+
+Use the actual question key in any displayed answer footer, separately from anatomical labels and names such as Graph A or Pyramid A. Check plots against marked points and axes, and check source/figure labels at full resolution. Render and inspect the actual illustration; a title and a successful SVG load alone do not establish that it teaches the requested concept.
